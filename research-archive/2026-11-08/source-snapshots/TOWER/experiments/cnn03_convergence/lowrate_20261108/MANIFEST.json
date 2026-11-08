@@ -1,0 +1,69 @@
+{
+  "role": "study-only pin for the low fixed-LR warm start",
+  "not_a_production_pin": true,
+  "production_PINNED_sha256": "cdfcf1222835f5826796a95c20deff2a8c90435fda4df65a74338dc5410166cb",
+  "production_fp64_harness_sha256": "515c91bc176b3e10e65e314afadbb20d66a21b015f2c2c98c391759d549edae2",
+  "production_policy": "not modified, not monkeypatched, not pointed at these runs",
+  "protocol_sha256": "03d141087ac950e8026ebaeb6afcc4f0b83371508beee0961ecd993cc9f9e8f3",
+  "current_best_zip_sha256": "dcb8a564fed79eae008766a5213b967926a7d7671e80d8ac4b3be3b98d9ced29",
+  "current_best_csv_sha256": "9bae92ea78b4f865caac0847cd9ff01415c18db96df9d8ac888cbf5de1db75e6",
+  "fallback_zip_sha256": "61bbac853e53fc03ecfa9ca9dead96d282e1b51da19442ea8f9425a4a50f5599",
+  "fallback_csv_sha256": "08ee9e0e02dc3e6800be3083cc0b920e79f012da2e3c1776b05ac0ccd8042b1d",
+  "known_primary_tune_R": 0.30980333573689856,
+  "known_control_s2_tune_R": 0.3334821793902223,
+  "comparison_bar": "current best primary tune R, not the old canonical 0.33206398205344967",
+  "sources": {
+    "experiments/cnn03_convergence/source/base_cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+    "experiments/cnn03_convergence/source/conv_train.py": "bd269f926a83d9b736c50cf4f0131fcd979c75a7630d4221e11bdf49828b2e14",
+    "experiments/cnn_runtime/fresh_fp64_cnn03_1956/model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+    "experiments/cnn_runtime/fresh_fp64_cnn03_1956/data.py": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+    "src/house_edge/data.py": "5cde790750b3b69187f6b92c2da949ca6e11de8d750e6b8a4959131da89c5c7f",
+    "src/house_edge/scoring.py": "ee6cea92f103d8a987a4d8c7eb59e8e0df94c23b7829d0852185f9cbfe365f4a",
+    "kit/slot_forecasting/scoring.py": "477c66c6c5449ca65f77ec4867a9b80934a52c892b045abe32e6471d2c8d4edd",
+    "runs/splits.json": "8f266f53f5da262c3141e57ea780668b552dc5608b63c2eaeee667cad79891cb"
+  },
+  "checkpoints": {
+    "curve_C_lr003_s0": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s0/checkpoint.pt",
+      "sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+      "lr": 0.003,
+      "seed": 0
+    },
+    "curve_C_lr003_s1": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s1/checkpoint.pt",
+      "sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+      "lr": 0.003,
+      "seed": 1
+    },
+    "curve_C_lr003_s2": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt",
+      "sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+      "lr": 0.003,
+      "seed": 2
+    },
+    "curve_control_s0": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s0/checkpoint.pt",
+      "sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b",
+      "lr": 0.00197,
+      "seed": 0
+    },
+    "curve_control_s1": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s1/checkpoint.pt",
+      "sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05",
+      "lr": 0.00197,
+      "seed": 1
+    },
+    "curve_control_s2": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s2/checkpoint.pt",
+      "sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9",
+      "lr": 0.00197,
+      "seed": 2
+    }
+  },
+  "jobs": {
+    "server_primary": {"host": "server", "arm": "primary", "parent": "curve_C_lr003_s2", "train_lr": 2e-5},
+    "server_control": {"host": "server", "arm": "control", "parent": "curve_control_s2", "train_lr": 2e-5},
+    "tower_primary": {"host": "tower", "arm": "primary", "parent": "curve_C_lr003_s2", "train_lr": 5e-5},
+    "tower_control": {"host": "tower", "arm": "control", "parent": "curve_control_s2", "train_lr": 5e-5}
+  }
+}

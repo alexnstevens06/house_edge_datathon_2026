@@ -1,0 +1,1 @@
+LIVE public guide verified this session still80/20and Python3.13stdlib/offlinewheels; fetched via public challenge linked GoogleDoc1CqNLjCiojRxKkZopoxBeilkke6Y4yCuz7FYSuefvCMo/export?format=txt. See LIVE_PARTICIPANT_GUIDE.txt. Conflicts unresolved against kit requirements preprovision text.

@@ -1,0 +1,56 @@
+{
+  "family": "gradual_drift",
+  "eligibility": "RESEARCH_ONLY",
+  "real_only_fallback": true,
+  "organizer_rule": "Use organizer-released data. No verified synthetic exception. Do not replace real train, validation, or test with this output.",
+  "parameters": "Invented toy logits and priors. Not fit to public, train, validation, or test logs.",
+  "default_settings": {
+    "seed": 0,
+    "n_episodes": 8,
+    "n_ticks": 96,
+    "n_machines": 8,
+    "n_records": 6144,
+    "max_records": 8192
+  },
+  "probability_kinds": {
+    "probabilities": "latent_oracle",
+    "observable_probabilities": "observable_history"
+  },
+  "payout_slot_index": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "5": 3,
+    "20": 4
+  },
+  "missing_policy": "omit unobserved ticks; do not impute payout 0",
+  "causal_policy": "tick t uses only spins at ticks < t; no contemporaneous cross-machine outcomes",
+  "signal_policy": "signal is null and exists only on the query at cutoff; no historical signal is invented",
+  "source_hashes": {
+    "README.md": "b58630f831916302732382c84caf4298934eb24314a9b96f645b7e302e5ce603",
+    "generate.py": "86e4df42a42bdb7bc17838af6a1466d45f661eedaae2fc0200e55ccfb329eec2",
+    "test_generator.py": "cefac7be71a4f1ce8f274f0eb2c16d3d888edaee36009fb5dc2f7081f066f0f0"
+  },
+  "sample_cli": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 1 --ticks 16 --machines 4 --out sample_out",
+    "seed": 0,
+    "settings": {
+      "n_episodes": 1,
+      "n_ticks": 16,
+      "n_machines": 4
+    },
+    "n_records": 64,
+    "output_hashes": {
+      "queries.jsonl": "a3909cb78bb197dcb3569bbfcd309d804632d59ce5ceea7b06e9e71f8dc6e3c9",
+      "records.jsonl": "881708552e8acadcd9030797ad4a9a4102d77fd36e798daa855fd86ba596f503",
+      "truth.jsonl": "19c934f27ce67682a7b0c4334a5b2d0822808740f379a889501ebe9ebf772d2d"
+    }
+  },
+  "tests": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py -v",
+    "exit_code": 0,
+    "result": "OK",
+    "tests_run": 9,
+    "summary": "Ran 9 tests in 0.035s OK"
+  }
+}

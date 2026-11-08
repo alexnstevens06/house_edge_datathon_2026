@@ -1,0 +1,107 @@
+{
+ "lams": {
+  "0.003": {
+   "tune_R": 0.9411265655329683,
+   "fit_s": 50.70512008666992
+  },
+  "0.01": {
+   "tune_R": 0.9426757919455717,
+   "fit_s": 41.50312948226929
+  },
+  "0.03": {
+   "tune_R": 0.9428332622861509,
+   "fit_s": 35.73454451560974
+  }
+ },
+ "best_lam": 0.003,
+ "tune": {
+  "R": 0.9411265655329683,
+  "points_60": 30.90988556097887,
+  "points_80": 41.213180747971826,
+  "probability_error": {
+   "stable": 0.20256391814716332,
+   "short_history": 0.16711470737970613,
+   "drift": 0.19529575543427868,
+   "shared_change": 0.16520751070860665
+  },
+  "reference_error": {
+   "stable": 0.1992189824404176,
+   "short_history": 0.16991611383668068,
+   "drift": 0.19955286084293322,
+   "shared_change": 0.21031176333020085
+  },
+  "loss_ratio_by_condition": {
+   "stable": 1.0167902459181877,
+   "short_history": 0.9835130030123735,
+   "drift": 0.978666778363026,
+   "shared_change": 0.7855362348382858
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ },
+ "confirm": {
+  "R": 0.9294363282336958,
+  "points_60": 31.097165074593082,
+  "points_80": 41.462886766124115,
+  "probability_error": {
+   "stable": 0.17685764350230493,
+   "short_history": 0.18015631394165899,
+   "drift": 0.17885719016547788,
+   "shared_change": 0.16761116119759803
+  },
+  "reference_error": {
+   "stable": 0.19328262334538623,
+   "short_history": 0.18476678213905293,
+   "drift": 0.18011500044066506,
+   "shared_change": 0.2008135358294755
+  },
+  "loss_ratio_by_condition": {
+   "stable": 0.9150209182864272,
+   "short_history": 0.9750470937252987,
+   "drift": 0.9930166267545187,
+   "shared_change": 0.8346606741685387
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ },
+ "full": {
+  "R": 0.9351958394935882,
+  "points_60": 31.004613990747885,
+  "points_80": 41.33948532099718,
+  "probability_error": {
+   "stable": 0.18971078082473414,
+   "short_history": 0.17363551066068253,
+   "drift": 0.1870764727998783,
+   "shared_change": 0.16640933595310234
+  },
+  "reference_error": {
+   "stable": 0.19625080289290195,
+   "short_history": 0.1773414479878668,
+   "drift": 0.18983393064179913,
+   "shared_change": 0.20556264957983816
+  },
+  "loss_ratio_by_condition": {
+   "stable": 0.9666751831240312,
+   "short_history": 0.9791028134187907,
+   "drift": 0.9854743678719695,
+   "shared_change": 0.8095309935595614
+  },
+  "episodes": {
+   "stable": 24,
+   "short_history": 24,
+   "drift": 24,
+   "shared_change": 24
+  }
+ },
+ "n_train": 131050,
+ "n_feat": 676,
+ "test_pred_s": 0.06980323791503906
+}

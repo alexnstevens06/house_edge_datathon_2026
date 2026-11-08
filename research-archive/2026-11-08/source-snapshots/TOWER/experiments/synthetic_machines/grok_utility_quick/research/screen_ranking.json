@@ -1,0 +1,19 @@
+{
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "new_information_claim": false,
+ "note": "Frozen before promote metrics. Lower official R is better. This is not a significance test.",
+ "promote_families": [
+  "abrupt_changepoints"
+ ],
+ "ranking": [
+  {
+   "family": "abrupt_changepoints",
+   "mix": 0.25,
+   "train_loss_mean": 1.139977858463923,
+   "tune_R": 1.0093277493540138
+  }
+ ],
+ "rule": "lowest tune_R, then lowest train_loss_mean, then family name",
+ "submission_export": false
+}

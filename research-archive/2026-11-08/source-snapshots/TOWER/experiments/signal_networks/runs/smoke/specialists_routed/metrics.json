@@ -1,0 +1,104 @@
+{
+  "system": "specialists_routed",
+  "tune": {
+    "R": 0.9457058734153749,
+    "points_60": 30.83713772970198,
+    "points_80": 41.11618363960264,
+    "probability_error": {
+      "stable": 0.1843487109562724,
+      "short_history": 0.1735980673071896,
+      "drift": 0.19240177243269732,
+      "shared_change": 0.1833146006348818
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9253571557188702,
+      "short_history": 1.0216692424713052,
+      "drift": 0.9641644405395697,
+      "shared_change": 0.8716326549317547
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9860409276586323,
+    "points_60": 30.210857774585104,
+    "points_80": 40.28114369944681,
+    "probability_error": {
+      "stable": 0.1976611723950372,
+      "short_history": 0.188187463551576,
+      "drift": 0.17880980700139826,
+      "shared_change": 0.18278912284681492
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0226536093822916,
+      "short_history": 1.0185135086129753,
+      "drift": 0.9927535550283233,
+      "shared_change": 0.910243037610939
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9653784784428083,
+    "points_60": 30.52847105944636,
+    "points_80": 40.704628079261816,
+    "probability_error": {
+      "stable": 0.19100494167565477,
+      "short_history": 0.18089276542938282,
+      "drift": 0.18560578971704778,
+      "shared_change": 0.1830518617408484
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9732696063408721,
+      "short_history": 1.0200253098292003,
+      "drift": 0.9777271591519142,
+      "shared_change": 0.8904918384492468
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "window": 64,
+  "device": "cpu",
+  "route_counts_val": {
+    "specialist_signal_+0": 259,
+    "specialist_signal_-1": 247,
+    "specialist_signal_+1": 262
+  },
+  "specialists": {
+    "specialist_signal_-1": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke/specialist_signal_-1/best.pt",
+    "specialist_signal_+0": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke/specialist_signal_+0/best.pt",
+    "specialist_signal_+1": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke/specialist_signal_+1/best.pt"
+  }
+}

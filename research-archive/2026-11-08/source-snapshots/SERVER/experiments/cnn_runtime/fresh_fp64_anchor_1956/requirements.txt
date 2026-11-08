@@ -1,0 +1,13 @@
+# Kit route: organizers preprovision these pins, then the rerun is offline.
+# Live participant guide also describes a Python 3.13 standard library, an
+# offered environment, and offline wheels. Those statements conflict. This
+# package does not choose a winner. No wheels are bundled. Archive stays
+# under 100 MB.
+#
+# Target CPU wheel, not downloaded by this package:
+# https://download-r2.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+# sha256 45025d7752dbc6b4c784c03afaee9c5f19730ce084b2e43fc9a2fe1677d9ff86
+# Interpreter target: CPython 3.13. The 11-package server freeze file was not
+# present in this workspace, so transitive pins are not copied here.
+numpy==2.5.4
+torch==2.11.0+cpu

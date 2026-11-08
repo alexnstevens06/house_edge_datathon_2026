@@ -1,0 +1,254 @@
+[
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.8347333592423589
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.8497385508040777
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.8413486870052385
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8568818047272813
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.8637152827083262
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8791951041223153
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.7872998668082777
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.8086906778874774
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.7959003329844276
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8176879365724585
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.8223938908199788
+ },
+ {
+  "min_samples_leaf": 20,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8437200691642769
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.8555318973413988
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.8623998738200231
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.8604192014284748
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8685603547939119
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.8800471657286493
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8892814283681904
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.8083688847099273
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.821383612592681
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.8145572400613335
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8289569671058503
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.8375598020908434
+ },
+ {
+  "min_samples_leaf": 50,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8529176645654889
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.868164143365886
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.870265963675307
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.872597654288595
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8765339386726189
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.891207665743018
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.2,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8970437103616358
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 1.0,
+  "R_tune": 0.8378187452739594
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.0,
+  "temp": 0.8,
+  "R_tune": 0.8440524302994905
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 1.0,
+  "R_tune": 0.8421203388475981
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.1,
+  "temp": 0.8,
+  "R_tune": 0.8502175315835037
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 1.0,
+  "R_tune": 0.861851831427692
+ },
+ {
+  "min_samples_leaf": 150,
+  "max_features": 0.5,
+  "alpha": 0.25,
+  "temp": 0.8,
+  "R_tune": 0.8717080873071059
+ }
+]

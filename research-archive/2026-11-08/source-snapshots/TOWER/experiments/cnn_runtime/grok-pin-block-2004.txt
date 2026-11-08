@@ -1,0 +1,387 @@
+## User
+
+Authorized existing-subscription Grok Build runtime packaging. Own ONLY experiments/cnn_runtime in project root /home/alexn/Documents/code/datathon_2026/house-edge. No shared edits/git/install/newtraining/GPU/downloads/credentials/messages/upload/submission. CPU2. CREATE executable package NOW, no repeated contract research. Parent single uploader owns uploads. First usable anchor19:25CST; verified package19:30-45.
+Exact clean anchor source+checkpoint+CPU references already here: experiments/cnn_runtime/reference/{experiments/cnn/{source,runs/g_nosignal},src}. USE exact reference source not stale tower sharedsource. Checkpoint SHA43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80. Test CPU refsha9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9. Valsha50efa7cb18f6c6a925b0259ac3177136789893dc16f82a2075cc3b4afe903c1d. Anchor no_signalTrueR.4031 contaminatedoriginalg.378EXCLUDED. No modelchange/ensemble/seedselection. HPOCNN03 separate later onlyafter reviewedsource/checkpointmanifest; do not waitHPO.
+CREATE entry with minimal predict.py/model.py/data.py copied exactforward/preprocessing fromreference. Root README.md/reproduce.json/requirements.txt/checkpoint.pt/config/provenance. reproduce.json exactkeys image=python and command=[python,predict.py,--data,/data,--out,/output/submission.csv]. Testonly history/queries inputs; no train/val labels/conditions/signal/network/checkpointwrites. Exact fp32CPUeval and originalexportformat. Failclosed unclean config/anchorhash. Standalone accepts actualpaths. Run immediately existing .venv/bin/python entry/predict.py --data kit/public --out experiments/cnn_runtime/first.csv. Compare all1536IDs/header/finitesimplex/normalizeddiff<=1e-8 versusreference ideallybitwise. ServerCPU9950X vs tower3700X measureportability. If mismatch report, do not silentlychange precision. RepeatCPU2 exactCSV and freshZIPextraction; official kit/check_submission.py, kit/build_entry.py and inspect_archive. ZIPoutsideentry below100MB, rootREADME/reproducejson, no venv/git/trainingdata/logs. Pinnedrequirements exactversions/provenance. Existing envPython3.12.3 Torch2.9.1+rocm6.4 NumPy2.5.4; no installs. CPUtorch2.9.1requirements withofficialcpuindex may be viable but label distributionuntested.
+Actual model inference offline sandbox proof required, not merely/bin/true. Dockerworks existingubuntu24.04 (--pull=never); readonlybindexistinghostPython/venv/libs/neededROCm libs WITHOUTGPUdevices forlocalproof. --networknone --readonly --cpus2 --memory16g readonlysubmission/data, tmpfs/tmp128MiB /output32MiB. Currentpublic readonly/data; entry readonly/submission; writes/output/submission.csv. Retaincontainer tocopyCSVout or limitedownoutputmountwithhonestlimitations. No pulls/installs/hostnetworkchanges. This host3.12libs proofNOTorganizer3.13proof. SANDBOX_AVAILABLE.md hasprovenpreflightcommand. Measureinference runtime/RSS andoutputsize. Negative tests tampercheckpoint/signalmode/missingdata; tests causality/missingvs0/slotmapping exactsource. Testscriptoutsideentry. Separate reviewer follows.
+Contract alreadyresearched: CONTRACT.md LIVE_PARTICIPANT_GUIDE.txt. KitRULES55/SUBMISSION_README23 explicitly organizers preprovisionrootpinnedrequirements thenoffline. LiveguidePython3.13stdlib/offeredenv/offlinewheels contradicts; score80/20vs60/40,sizes128MiBvs100MB. Noinventedresolution/noorganizerreadyclaim. Rootrequirements viableunderkitrouteonly; cp313CPUtorch2.9.1wheel exists184380800bytes,nobundling/downloadsnow. Artifactsmallfitsbothsizes. Final REPORT.md paths/hashes/commands/tests/runtime/size/unverifieditems. No externalcontacts. Startentryfiles beforelengthyplanning.
+
+## Assistant
+
+I'll package only `experiments/cnn_runtime` from the clean anchor reference and start the entry files immediately.
+
+## Tools
+
+- ListDir: experiments/cnn_runtime
+- ListDir: .
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/source/cnn.py
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/source/predict_cpu.py
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/config.json
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/SANDBOX_AVAILABLE.md
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/src/house_edge/data.py (1-121)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/public/test/sample_submission.csv (1-5)
+- Search: def write_submission_csv|def check|inspect_archive|SUBMISSION
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_cpu_a.csv (1-3)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/SUBMISSION_README.md (1-52)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/src/house_edge/scoring.py (1-69)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/slot_forecasting/submission_contract.py
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/build_entry.py (1-66)
+- Search: PROBABILITY_COLUMNS
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/public/metadata.json (1-24)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/check_submission.py (1-46)
+- Execute: sha256sum experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/checkpoint.pt experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_cpu_*.csv experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_predictions.csv experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/validation_cpu_*.csv experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/config.json; .venv/bin/python -c 'import sys,torch,numpy; print(sys.version); print(torch.__version__); print(numpy.__version__); print("threads", torch.get_num_threads())'; stat -c '%s' experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/checkpoint.pt; command -v time; ls -ld .venv /usr/bin/python3.12; readlink -f .venv/bin/python; python3 -c 'import pathlib; p=pathlib.Path(".venv/bin/python"); print(p.resolve())' (Hash anchor artifacts and print env versions)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/PUBLIC_DEPENDENCY_EVIDENCE.md (1-2)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/metrics.json (1-30)
+- Search: "R"
+- Execute: head -1 kit/public/test/queries.csv kit/public/test/history.csv; .venv/bin/python -c 'import torch,os; print(torch.__file__); print(os.cpu_count())'; ldd .venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so 2>/dev/null | head -40; echo '---'; ls .venv/lib/python3.12/site-packages/torch/lib | head -50 (Inspect data headers and torch library deps)
+- Execute: env | grep -Ei 'OMP|MKL|THREAD|OPENBLAS|CUDA|HIP|ROCR' || true; .venv/bin/python - <<'PY'
+import os, torch
+print("omp", os.environ.get("OMP_NUM_THREADS"))
+print("num", torch.get_num_threads(), "interop", torch.get_num_interop_threads())
+print("mkldnn", torch.backends.mkldnn.enabled, "cpu_cap", torch.backends.cpu.get_cpu_capability() if hasattr(torch.backends,"cpu") else None)
+PY
+sha256sum experiments/cnn_runtime/reference/experiments/cnn/source/cnn.py experiments/cnn_runtime/reference/experiments/cnn/source/predict_cpu.py experiments/cnn_runtime/reference/src/house_edge/data.py experiments/cnn_runtime/reference/src/house_edge/scoring.py
+ldd /usr/bin/python3.12
+# numpy libs
+find .venv/lib/python3.12/site-packages/numpy -name '*.so' | head -5 | while read f; do echo "== $f"; ldd "$f" | awk '/not found|{print}' ; done
+uname -m; lscpu | awk -F: '/Model name|CPU\(s\)|Thread|Vendor/ {print}' (Check thread env, source hashes, loader deps)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/REFERENCE_READY.md (1-1)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_timing.json
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/.venv/pyvenv.cfg
+- Execute: ls -l .venv/bin/python .venv/bin/python3 .venv/bin/python3.12; # stdlib size hint
+du -sh /usr/lib/python3.12 .venv/lib/python3.12/site-packages/torch .venv/lib/python3.12/site-packages/numpy 2>/dev/null | head (Check venv python links and library sizes)
+
+## Assistant
+
+The checkpoint hash matches the anchor. I'll add a self-contained CPU entry that uses that checkpoint and the reference forward pass.
+
+## Tools
+
+- Execute: mkdir -p experiments/cnn_runtime/entry/config experiments/cnn_runtime/entry/provenance && cp -a experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/checkpoint.pt experiments/cnn_runtime/entry/checkpoint.pt && cp -a experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/config.json experiments/cnn_runtime/entry/config/config.json && sha256sum experiments/cnn_runtime/entry/checkpoint.pt experiments/cnn_runtime/entry/config/config.json && python3 -c 'import json; print(json.load(open("experiments/cnn_runtime/entry/config/config.json")))' (Copy anchor checkpoint and config into entry)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/data.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/model.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/predict.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/reproduce.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/requirements.txt
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/provenance/provenance.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/README.md
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/predict.py
+- Execute: chmod +x experiments/cnn_runtime/entry/predict.py && PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/entry/predict.py --data kit/public --out experiments/cnn_runtime/first.csv (Run CPU anchor inference to first.csv)
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/entry/predict.py --data kit/public --out experiments/cnn_runtime/second.csv && .venv/bin/python - <<'PY'
+import csv, hashlib, math
+from pathlib import Path
+ref = Path("experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_cpu_a.csv")
+ours = Path("experiments/cnn_runtime/first.csv")
+second = Path("experiments/cnn_runtime/second.csv")
+def load(p):
+    text = p.read_bytes()
+    rows = list(csv.reader(text.decode().splitlines()))
+    return text, rows[0], rows[1:]
+for label, path in (("first", ours), ("second", second), ("ref", ref)):
+    b = path.read_bytes()
+    print(label, len(b), hashlib.sha256(b).hexdigest())
+bt, ht, rt = load(ours)
+bs, hs, rs = load(second)
+br, hr, rr = load(ref)
+print("header", ht, "match_ref", ht==hr, "match_second", ht==hs)
+print("nrows", len(rt), len(rr), "ids_equal_order", [r[0] for r in rt]==[r[0] for r in rr])
+print("repeat_bitwise", bt==bs)
+max_abs = 0.0
+max_norm = 0.0
+n_diff = 0
+nonfinite = 0
+simplex_bad = 0
+for a,b in zip(rt, rr):
+    if a[0]!=b[0] or len(a)!=6:
+        print("row mismatch", a[0], b[0]); break
+    av=[float(x) for x in a[1:]]; bv=[float(x) for x in b[1:]]
+    if any(not math.isfinite(x) for x in av):
+        nonfinite += 1
+    s=sum(av)
+    if abs(s-1.0)>1e-12:
+        simplex_bad += 1
+    for x,y in zip(av,bv):
+        d=abs(x-y)
+        if d:
+            n_diff += 1
+        if d>max_abs:
+            max_abs=d
+        denom=max(abs(y), 1e-12)
+        max_norm=max(max_norm, d/denom)
+print("cells_differ", n_diff, "max_abs", max_abs, "max_rel", max_norm, "nonfinite", nonfinite, "simplex_bad", simplex_bad)
+print("bitwise_vs_ref", bt==br)
+PY (Repeat inference and compare CSV to CPU reference)
+
+## User
+
+Continue SAME runtime session; preserve entry and anchor unchanged. Coordinator packaged your exact entry on SERVER via official kit/build_entry as experiments/cnn_runtime/anchor_1929.zip SHA474978a3076b5583e644f5527dcac02e6f0fd29e4dc313c4becc4b145f87c2f0 size1375077bytes. Actual strict serverDocker no-network readonlycode/data2CPU16GiB/tmp128MiB/output32MiB inference produced1536rows, CSVexactoriginalsha9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9,1.54s total904236KBmaxRSS. Server paritynote staged SERVER_PARITY.md. ActualcodeZIPservercopycoordinatorwilltransfer.
+Your last plainlog statement19:19, last tool export1926 shows inline repeat/comparison command but no second.csv8minuteslater. If any command was BLOCKED/permissiondenied, do NOT retry it or bypass/changepermission/allowrules; immediately write exact reason in REPORT.md and stop so coordinatorcanrequestapproval. Do not hide/stall. No more repeated source/contract research.
+If tools permitted, finish report/tests/ZIP immediately using existing simple standard CLI commands. Unit testcode viaEdit tool then simple fixedCLI, no broadshellscripts. Read latestscopednotes. Independent reviewer concurrently owns INDEPENDENT_REVIEW.md; do not touch it. No GPU/training/install/newspend/sharedsource/git/upload/credentials/network; CPU2.
+NEW parentinstruction19:27: candidateCNN03 per-checkpoint tests passed except crossbackendCSVparity: server/towermaxabs5.9e-7 > required1e-8; no writtenreviewyet. Preserveanchor. Need investigate numerical backend stable settings using SAMEmodel/checkpoint, no weakened tolerance. Create separate own stability diagnostic module and outputfolder only, keep entry/default/hashlockedanchor unchanged. Controls can restrict CPUISA/BLAS/oneDNN deterministically perprocess; compare FP32 outputs acrossbaseline, ATEN_CPU_CAPABILITY=avx2, ONEDNN_MAX_CPU_ISA=AVX2/DNNL_MAX_CPU_ISA=AVX2/MKL_CBWR=AVX2, optionalmkldnndisabled. Do notsetglobalenv; allprocessscoped. AllcurrentdiagnosticsToweronly; coordinator transfers exactscriptstoSERVERandruns sameCLI so include reproducible parameterizedcommand and machine-readable output/controlmanifest. All1536IDs, fixed checkpoint, exact no-signal forward/window. Measurebits/maxabs AFTERrow normalization, neverrelative-error-as-normalizedtolerance. Keep exactsourcehashes/controlversions.
+If FP32 remains unstable optional FP64 diagnostic must be EXPLICITSEPARATE artifact and labelledprecisionchange (sameexactweightvalues/architecture,no training). Never silentlyreplaceentry/default/source/CSV. Do notclaimofficialready orpromotewithoutcrosshostproof+review. Deadlinefirstdiagnostics19:40CST. Parentneedsexactpendingblockersbefore19:45; no15minsilence.
+CNN03 metadata forfutureseparatevariantONLY: tune-selectedseed0 lowesttuneR.3321vs.3465/.3334;fullR.3685official43.845081/60; checkpointSHAce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f; baseCNNSHAb4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5. Independentwrittenreviewpending; do NOTbuildpromotedCNN03releaseyet. Mainroleanchorpackage/test, candidatepreserveonlylaterverifiedsource/hash.
+
+## Assistant
+
+The last comparison command was cancelled, not permission-denied. I'll check the staged notes and current files, leave the anchor entry as it is, and finish the report plus a separate CPU stability diagnostic.
+
+## Tools
+
+- ListDir: experiments/cnn_runtime
+- Search: BLOCKED|permission denied|Permission denied
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/SERVER_PARITY.md
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/grok-progress-1926.md
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/GROK_CONTINUE_TASK.md (1-6)
+
+## Assistant
+
+The cancelled comparison was a session interrupt, not a permission block. The anchor entry stays as it is. I'll finish the repeat run, tests, and a separate CPU-stability diagnostic.
+
+## Tools
+
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/entry/predict.py --data kit/public --out experiments/cnn_runtime/second.csv (Repeat anchor CPU inference to second.csv)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/test_entry.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/diagnose.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/test_entry.py (Run anchor unit, negative, and CSV comparisons)
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/stability/diagnose.py --run-all --data kit/public --out-dir experiments/cnn_runtime/stability/out (Run FP32 ISA controls and write comparison)
+
+## User
+
+Continue the same review. Write ONLY under experiments/mlp_cnn_hpo/review/. CPU only, no training/installs/git/network. ~8 minutes.
+Task: author review/predict_fp64.py: CLI `predict_fp64.py RUN_DIR OUT_DIR` reusing the guards of review/predict_guarded.py (pins, no sig, CONTAMINATED refusal), then: torch.set_num_threads(2), torch.use_deterministic_algorithms(True), torch.backends.mkldnn.enabled=False; load checkpoint, convert model to float64 (model.double()) and run the SAME base_cnn.build_query features/query order with no autocast, computing softmax in float64; write validation/test CSVs via house_edge.scoring.write_submission_csv; also write OUT_DIR/env.json with torch version, torch.__config__.show(), platform/lscpu Model name, thread count, and sha256 of the checkpoint, script, and both CSVs. Do NOT change model math beyond dtype; the forward must be the original module in float64 (check no fp32 casts inside forward — base_cnn forward uses .float() on masks/ticks: if so, wrap or patch dtype only in your script by casting inputs after embedding, and document; the mask/tick feature construction uses x.float(), which yields float32 that then adds into float64 embeddings — verify the result dtype is float64 and report). Add review/compare_csv.py `compare_csv.py A.csv B.csv` printing max abs per probability after kit normalization (reuse kit/slot_forecasting read_submission normalization if available) and PASS if <=1e-8.
+Then run on this machine: predict_fp64.py experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0 experiments/mlp_cnn_hpo/review/fp64_tower_s0 (twice into _a/_b and compare), run kit/check_submission.py on validation (report points) and test, and compare_csv fp64 vs fp32 tower CSV to show score impact. Append results to REVIEW_GROK_BUILD.md section "FP64". Do not use heredoc python; run files. Print the exact commands for the coordinator to run the same script on the server.
+
+## Tools
+
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/diagnose_fp64.py
+- Execute: find experiments/cnn_runtime/entry -name '__pycache__' -o -name '*.pyc' | head; .venv/bin/python kit/check_submission.py experiments/cnn_runtime/first.csv --data kit/public; .venv/bin/python kit/build_entry.py --source experiments/cnn_runtime/entry --out experiments/cnn_runtime/anchor_entry.zip; sha256sum experiments/cnn_runtime/anchor_entry.zip experiments/cnn_runtime/first.csv experiments/cnn_runtime/second.csv; stat -c '%n %s' experiments/cnn_runtime/anchor_entry.zip experiments/cnn_runtime/first.csv experiments/cnn_runtime/entry/checkpoint.pt (Check CSV, build entry ZIP, print hashes)
+
+## Assistant
+
+I'll add the FP64 review scripts only under `experiments/mlp_cnn_hpo/review/`, reusing the existing guards and the original forward path.
+
+## Tools
+
+- ListDir: experiments/mlp_cnn_hpo/review
+- Search: def forward|def build_query|def predict|\.float\(
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/predict_guarded.py
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/server_snapshot/source/base_cnn.py (1-120)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/determinism_probe.py (161-240)
+- Search: fp32|tower|final_cnn03|validation_predictions
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/stability/diagnose_fp64.py --run-all --data kit/public --out-dir experiments/cnn_runtime/stability/out_fp64 (Run separate FP64 stability diagnostic)
+- Execute: .venv/bin/python -c 'import sys; sys.path.insert(0,"kit"); from pathlib import Path; from slot_forecasting.submission_contract import inspect_archive; print(inspect_archive(Path("experiments/cnn_runtime/anchor_entry.zip").read_bytes()))' (Inspect local entry ZIP with kit contract)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/slot_forecasting/io.py (61-120)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/REVIEW_GROK_BUILD.md (101-110)
+- Search: def read_submission|def normalize|PROBABILITY
+- Search: def probabilities
+- Search: re_s0_validation|fp32 tower|tmp/re_s0
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/determinism_probe.py (2-51)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/out/baseline/manifest.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/diagnose_fp64.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/stability/diagnose_fp64.py --run-all --data kit/public --out-dir experiments/cnn_runtime/stability/out_fp64 (Rerun FP64 diagnostic after import fix)
+
+## Assistant
+
+The guarded exporter and `base_cnn` forward are in place. `CNN.forward` calls `.float()` on the mask and tick features, so the FP64 script will keep that module and only fix the dtype.
+
+## Tools
+
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/predict_fp64.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/compare_csv.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/test_entry.py --extract-only && sha256sum experiments/cnn_runtime/entry/checkpoint.pt experiments/cnn_runtime/entry/config/config.json experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_cpu_a.csv && stat -c '%n %s' experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/test_cpu_a.csv experiments/cnn_runtime/extract.csv experiments/cnn_runtime/first.csv (Rerun predict from fresh ZIP extract and recheck hashes)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/predict_fp64.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/predict_fp64.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/mlp_cnn_hpo/review/predict_fp64.py experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0 experiments/mlp_cnn_hpo/review/fp64_tower_s0_a (Run FP64 s0 export into fp64_tower_s0_a)
+- Execute: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/mlp_cnn_hpo/review/predict_fp64.py experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0 experiments/mlp_cnn_hpo/review/fp64_tower_s0_b (Repeat FP64 s0 export into fp64_tower_s0_b)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/REPORT.md
+
+## Assistant
+
+The anchor entry is unchanged. The tower FP32 forecast is repeatable and still misses the server reference by more than 1e-8. Nothing was promoted.
+
+**Blockers**
+
+- Tower versus server reference, after row normalization: max abs `3.742622056712719e-07`. Threshold stays `1e-8`. Tower `first.csv`, `second.csv`, and the fresh ZIP extract are bitwise with each other (`36c6055725d470c1fc26a6bb18c80666bac2d8a80eaf51dcf7d331acbd2d7ca3`). The server run of this same entry is bitwise with `9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9`.
+- On this Ryzen 7 3700X, baseline, `ATEN_CPU_CAPABILITY=avx2`, and the oneDNN/MKL AVX2 caps are bitwise identical. PyTorch already reports AVX2, so those caps do nothing here. Turning oneDNN off moves the CSV farther away (`4.59038415612234e-07`). No FP32 control met `1e-8`.
+- FP64, labeled as a precision change under `experiments/cnn_runtime/stability/out_fp64/`, is bitwise across all four controls, including oneDNN off. Versus the server FP32 reference it is still `3.8694764875613075e-07`. It does not replace the entry.
+- The server has not run `stability/diagnose.py`. There is no cross-host proof of a pinned setting.
+- Independent review is still open. CNN03 was not packaged.
+- Local ZIP is 1375077 bytes, SHA-256 `05f1f40fcb2b0c5a2b5aa1814d71f145a313287e65b02fe8edf847c1123940b3`. The server ZIP is the same size and a different SHA. That server file is not on this host.
+- This continuation did not run local Docker. The coordinator’s server Docker result remains the offline proof: 1536 rows, reference SHA, 1.54 s, max RSS 904236 KB.
+- Python 3.13, the CPU wheel, the 80/20 versus 60/40 score split, and 128 MiB versus 100 MB are unresolved. This is not an organizer-ready claim.
+
+The earlier comparison command was a session restart, not a permission denial.
+
+Server command, from the repo root:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/cnn_runtime/stability/diagnose.py --run-all --data kit/public --out-dir experiments/cnn_runtime/stability/out
+```
+
+Details, hashes, and test results are in `experiments/cnn_runtime/REPORT.md`. Machine-readable output is `experiments/cnn_runtime/stability/out/comparison.json`.
+
+## Tools
+
+- Execute: PY=.venv/bin/python
+$PY experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/validation_predictions_cpu.csv experiments/mlp_cnn_hpo/review/fp64_tower_s0_b/validation_predictions_cpu.csv; echo VAL_AB:$?
+$PY experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/test_predictions_cpu.csv experiments/mlp_cnn_hpo/review/fp64_tower_s0_b/test_predictions_cpu.csv; echo TEST_AB:$?
+$PY experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/validation_predictions_cpu.csv experiments/mlp_cnn_hpo/review/rc_s0_run1/validation_predictions_cpu.csv; echo VAL_FP64_FP32:$?
+$PY experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/test_predictions_cpu.csv experiments/mlp_cnn_hpo/review/rc_s0_run1/test_predictions_cpu.csv; echo TEST_FP64_FP32:$?
+$PY kit/check_submission.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/validation_predictions_cpu.csv --data kit/public --split validation; echo CHK_VAL:$?
+$PY kit/check_submission.py experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/test_predictions_cpu.csv --data kit/public --split test; echo CHK_TE:$?
+$PY kit/check_submission.py experiments/mlp_cnn_hpo/review/rc_s0_run1/validation_predictions_cpu.csv --data kit/public --split validation; echo CHK_FP32:$?
+python3 -c 'import hashlib,pathlib; ps=["experiments/mlp_cnn_hpo/review/predict_fp64.py","experiments/mlp_cnn_hpo/review/compare_csv.py","experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/validation_predictions_cpu.csv","experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/test_predictions_cpu.csv","experiments/mlp_cnn_hpo/review/fp64_tower_s0_b/validation_predictions_cpu.csv","experiments/mlp_cnn_hpo/review/fp64_tower_s0_b/test_predictions_cpu.csv"];
+import os
+for p in ps:
+ b=pathlib.Path(p).read_bytes(); print(hashlib.sha256(b).hexdigest(), os.path.getsize(p), p)' (Compare FP64 repeats, score CSVs, hash outputs)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/env.json (1-40)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/REVIEW_GROK_BUILD.md
+
+## Assistant
+
+Tower float64 export of pinned `final_cnn03_s0` is in `experiments/mlp_cnn_hpo/review/fp64_tower_s0_a` and `_b`. The two runs match bitwise. This is a precision change, not a replacement for the fp32 export, and it has no cross-host proof.
+
+The stock `CNN.forward` calls `.float()` on the mask and tick features. After `model.double()`, that unpatched forward stops in the mask linear: `expected m1 and m2 to have the same dtype, but got: float != double`. The payout embedding is already float64. `predict_fp64.py` redirects `Tensor.float` to float64 only for the inference calls. With that redirect, the mask and tick inputs and outputs are float64, the logits are float64, and the softmax stays float64. Threads are 2, deterministic algorithms are on, and oneDNN is off.
+
+`compare_csv.py` of `_a` against `_b` is **PASS** (max abs 0) on validation and test. Against the fp32 tower file `review/rc_s0_run1`, it is **FAIL** versus `1e-8`:
+
+| Split | Max abs after kit normalization |
+| --- | --- |
+| Validation | `4.46579315305e-07` |
+| Test | `4.91917886147e-07` |
+
+`kit/check_submission.py` on the float64 validation CSV reports **43.845081 / 60**, the same printed points and six-decimal loss ratios as the fp32 tower validation CSV. The test file is valid (1536 queries) and is not scored. The printed score does not move. The probability rows still miss `1e-8`.
+
+Server, from the repo root, with its existing interpreter:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python experiments/mlp_cnn_hpo/review/predict_fp64.py experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0 experiments/mlp_cnn_hpo/review/fp64_server_s0
+.venv/bin/python experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_server_s0/validation_predictions_cpu.csv experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/validation_predictions_cpu.csv
+.venv/bin/python experiments/mlp_cnn_hpo/review/compare_csv.py experiments/mlp_cnn_hpo/review/fp64_server_s0/test_predictions_cpu.csv experiments/mlp_cnn_hpo/review/fp64_tower_s0_a/test_predictions_cpu.csv
+.venv/bin/python kit/check_submission.py experiments/mlp_cnn_hpo/review/fp64_server_s0/validation_predictions_cpu.csv --data kit/public --split validation
+.venv/bin/python kit/check_submission.py experiments/mlp_cnn_hpo/review/fp64_server_s0/test_predictions_cpu.csv --data kit/public --split test
+```
+
+## User
+
+Continue runtime packaging, newly explicit Alex t63/t64 requirement: train unchanged FP16/FP32, convert saved checkpoint and ALL floating forward inputs to FP64 for final CPU inference. NO training/upload. Work ONLY experiments/cnn_runtime; never edit shared source or experiments/mlp_cnn_hpo/review. Preserve ALL existing archives and folders.
+
+Parent verified reviewer diagnostic experiments/mlp_cnn_hpo/review/predict_fp64.py SHA8f6f739637841c65a93759775305073a99a8946f66dce0073aece511a61da53c on both hosts. All3CNN03 seeds val/test crosshost normalized differences4.7e-16..9.99e-16; same-host repeats exact. Tune-selected CNN03seed0 ckpt ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f, source b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5; discover exact checkpoint path via review/PINNED.json and exporter. However reviewer exporter monkeypatches Tensor.float globally. DO NOT SHIP THAT GLOBAL PATCH. Read it only as reference. Parent requires scoped explicit mask/tick casts to model dtype and softmax/logits remaining double in isolated packaged forward source, preserving trained-source pins in provenance.
+
+Resume from your existing entry/model.py and entry/predict.py. Create NEW directories fp64_anchor_entry and fp64_cnn03_entry. Anchorcheckpoint43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80; CNN03 exact tune-selected seed0 only. Copy original model/data, make minimal explicit dtype conversions: model.double(), masks/ticks/arange to embedding/model dtype; no float32 logits softmax conversion. Preserve integer categorical/embedding inputs, architecture/forward math/no_signal/preprocessing/guards; remove generic global monkeypatches. CNN03 config/architecture guards must reflect actual pinned config, not assume anchor dropout. Never alter checkpoint bytes. Each entry hard-pins its own exact checkpoint and config SHA before data access. Canonical source pin and modified source SHA both documented. Add automated final-path tests for causality (all8machines, future histories do not affect cutoff forecasts), no labels/conditions/signal dependence, missing-vs-zero semantics, machine slot mapping/all1536IDs, finite simplex, tampered checkpoint/config/signal-mode refusal. Include tests ensuring all floating model params, forward inputs, logits, softmax truly double and Tensor.float itself never monkeypatched. Fix prior harness false-success numeric compare and hardcoded3.12 subprocess interpreter ONLY in new fp64 harness; use sys.executable and nonzero fail.
+
+Runtime actual evidence: SERVER original .venv torch2.11.0+cu128, tower .venv2.9.1+rocm6.4; old torch2.9.1 requirement pin was wrong for canonical server. NEW server standalone own py313_verify_1936/env is CPython3.13.13 torch2.11.0+cpu numpy2.5.4, all11dependencies checked; server requirements_py313_cpu211_frozen.txt exact lock. Tower same scoped env install may still be running; do not kill/change others. Use this environment if ready, otherwise existing .venv for source testing with explicit actual-version evidence. Target final root requirements CPU2.11 CP313 Linux wheel https://download-r2.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl sha45025d7752dbc6b4c784c03afaee9c5f19730ce084b2e43fc9a2fe1677d9ff86 plus numpy2.5.4 and exact verified transitives from server lock. Do NOT claim py313 testing on tower until actual import works.
+
+Actual prior strict stock ubuntu24.04 network-none read-only2CPU16GiB tmp128MiB output32MiB uidgid capdrop sandbox on server with ONLY own Python3.13 env/interpreter RO binds ran unchanged FP32 model successfully1.471241sec610848KiB,1536IDs bitwisecanonical9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9. Prior corrected PROVISIONAL FP32ZIP anchor_py313_cpu211_fp32.zip sha9d9e20b231dd08a9cd4d728e1526a43c7ab4df59d336c8002fa7961c0d518c2f size1375494; NOT release becauseFP32gate and contract ambiguity. Preserve it. Existing official kit build_entry.py must build new FP64 ZIP, root README/reproduce.json keys image python and command python predict.py --data /data --out /output/submission.csv. Runtime package uses NO labels or cached forecast. README must distinguish conditional kit requirements preinstall route vs guide stdlib/offered-env/bundled-wheel conflict; no invented resolution. Package under stricter100MB/no wheels.
+
+Immediately prioritize CODE + executable tests + README/provenance/config for both separate packages, then actual tower finalentry CSV twice and officialchecker, numerical compare to reviewer FP64 diagnostic/tune selected seed0, recompute validation R via trusted official metric using final entry (if validation unsupported, add explicit --split val for verification while defaulttest stays contract). Write FP64_INTEGRATION_STATUS.md with exact paths/hashes/commands/results/pending steps within10minutes. Separate independent reviewer will assess new code; don't self-clear release. Coordinator handles server transfer and strict actualsandbox proof. CPU2 OMP2 MKL2 no GPU. No shared installs/no credential reading/export/no new spend/network-policy changes/deletions. If tool approval blocks, use proper approval mechanism or report; NEVER reshape blocked command or file-create bypass. Do not spend time on any provider/auth research.
+
+## Assistant
+
+I'll add two separate FP64 packages under `experiments/cnn_runtime` only, with explicit mask and tick casts and no global `Tensor.float` patch. Existing archives stay untouched.
+
+## Tools
+
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/review/PINNED.json
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/model.py (1-90)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/predict.py (1-80)
+- Search: final_cnn03_s0|ce831b9b
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/config.json
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/predict.py (77-160)
+- Search: requirements_py313_cpu211_frozen|py313_verify_1936
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/data.py (1-40)
+- Execute: test -x experiments/cnn_runtime/py313_verify_1936/env/bin/python && experiments/cnn_runtime/py313_verify_1936/env/bin/python -c 'import sys,torch,numpy; print(sys.version); print(torch.__version__); print(numpy.__version__)' || echo PY313_NOT_READY; sha256sum experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/config.json experiments/mlp_cnn_hpo/server_snapshot/source/base_cnn.py experiments/cnn_runtime/entry/model.py experiments/cnn_runtime/entry/data.py experiments/cnn_runtime/entry/config/config.json (Check py313 env and hash CNN03 plus entry sources)
+- Search: torch==2.11.0
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/entry/data.py (41-111)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/py313_verify_1936/install.log (1-16)
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/py313_verify_1936/install.log (2-16)
+- Execute: .venv/bin/python -c 'import torch; b=torch.load("experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt", map_location="cpu", weights_only=False); print(type(b), list(b)[:12] if isinstance(b, dict) else ""); c=b.get("config") if isinstance(b, dict) else None; print(c); print([k for k in (b.get("state") or {}) if "sig" in k][:8])' (Inspect CNN03 checkpoint config keys without writing)
+- Execute: .venv/bin/python -c '
+import json, torch
+c=json.loads(open("experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/config.json").read())
+b=torch.load("experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt", map_location="cpu", weights_only=False)["config"]
+print(set(c)==set(b))
+for k in c:
+    if c[k]!=b[k]:
+        print("DIFF", k, repr(c[k]), repr(b[k]), type(c[k]), type(b[k]))
+' (Compare CNN03 JSON config to checkpoint config)
+- Search: def score_round|mean_loss_ratio|technical_points
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/slot_forecasting/rounds.py (32-71)
+- Search: def score_contest_files
+
+## Assistant
+
+CNN03’s pinned config uses dropout 0.3 and has no `no_signal` field. I’ll pin each package to its own checkpoint and config, and cast only mask and tick features to the model dtype.
+
+## Tools
+
+- Execute: mkdir -p experiments/cnn_runtime/fp64_anchor_entry/config experiments/cnn_runtime/fp64_anchor_entry/provenance experiments/cnn_runtime/fp64_cnn03_entry/config experiments/cnn_runtime/fp64_cnn03_entry/provenance && cp -a experiments/cnn_runtime/entry/checkpoint.pt experiments/cnn_runtime/fp64_anchor_entry/checkpoint.pt && cp -a experiments/cnn_runtime/entry/config/config.json experiments/cnn_runtime/fp64_anchor_entry/config/config.json && cp -a experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt experiments/cnn_runtime/fp64_cnn03_entry/checkpoint.pt && cp -a experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/config.json experiments/cnn_runtime/fp64_cnn03_entry/config/config.json && sha256sum experiments/cnn_runtime/fp64_anchor_entry/checkpoint.pt experiments/cnn_runtime/fp64_anchor_entry/config/config.json experiments/cnn_runtime/fp64_cnn03_entry/checkpoint.pt experiments/cnn_runtime/fp64_cnn03_entry/config/config.json (Copy pinned checkpoints and configs into new FP64 entries)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/data.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/model.py
+- Execute: cp -a experiments/cnn_runtime/fp64_anchor_entry/model.py experiments/cnn_runtime/fp64_cnn03_entry/model.py && cp -a experiments/cnn_runtime/fp64_anchor_entry/data.py experiments/cnn_runtime/fp64_cnn03_entry/data.py (Copy identical FP64 model and data into CNN03 entry)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/predict.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/predict.py
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/reproduce.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/reproduce.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/requirements.txt
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/requirements.txt
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/provenance/provenance.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/provenance/provenance.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/README.md
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/README.md
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/kit/slot_forecasting/contest.py (2-46)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_harness.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python experiments/cnn_runtime/fp64_harness.py (Run FP64 package harness, exports, and compares)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_harness.py
+- Execute: PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python experiments/cnn_runtime/fp64_harness.py (Re-run FP64 harness after patch-scan fix)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/provenance/provenance.json
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/provenance/provenance.json
+- Execute: find experiments/cnn_runtime/fp64_anchor_entry experiments/cnn_runtime/fp64_cnn03_entry -name '__pycache__' -o -name '*.pyc' | head
+.venv/bin/python kit/build_entry.py --source experiments/cnn_runtime/fp64_anchor_entry --out experiments/cnn_runtime/fp64_anchor_entry.zip
+.venv/bin/python kit/build_entry.py --source experiments/cnn_runtime/fp64_cnn03_entry --out experiments/cnn_runtime/fp64_cnn03_entry.zip
+.venv/bin/python -c 'import sys; sys.path.insert(0,"kit"); from pathlib import Path; from slot_forecasting.submission_contract import inspect_archive
+for p in ["experiments/cnn_runtime/fp64_anchor_entry.zip","experiments/cnn_runtime/fp64_cnn03_entry.zip"]:
+ print(p, Path(p).stat().st_size, inspect_archive(Path(p).read_bytes()))'
+sha256sum experiments/cnn_runtime/fp64_anchor_entry.zip experiments/cnn_runtime/fp64_cnn03_entry.zip (Build and inspect both FP64 entry ZIPs)
+- Execute: .venv/bin/python -c 'import zipfile
+for p in ["experiments/cnn_runtime/fp64_anchor_entry.zip","experiments/cnn_runtime/fp64_cnn03_entry.zip"]:
+ z=zipfile.ZipFile(p); print(p, "packaged" in z.read("provenance/provenance.json").decode())' (Check whether ZIPs include updated provenance)
+- Edit: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/FP64_INTEGRATION_STATUS.md
+
+## Assistant
+
+Two separate float64 packages are in `experiments/cnn_runtime`. They are not a release. The existing FP32 entry and archives were left as they are.
+
+Each package loads its own pinned checkpoint, casts the saved weights with `model.double()`, and casts only the mask, tick, and position features to that dtype. Softmax stays float64. `Tensor.float` is not patched. CNN03 uses its real config, dropout 0.3, not the anchor's 0.2.
+
+| Package | Test CSV SHA-256 | Validation R | ZIP |
+| --- | --- | --- | --- |
+| Anchor | `02f08b8d44a2d57d798c5655f1519eae1c5c23aafd4e41bb1bd6be2b68b44710` | `0.403149380829` (42.760950/60) | `fp64_anchor_entry.zip` `f8441494…55953`, 1375476 bytes |
+| CNN03 seed 0 | `0f6243cf989d08d4410f50fd163fa962298e7eaa44d4a0bce9d7b7bd9eb9b266` | `0.368454536586` (43.845081/60) | `fp64_cnn03_entry.zip` `0ea5b0d2…cc319`, 1376720 bytes |
+
+Tower repeats are bitwise. The official checker accepts both test files (1536 ids) and both validation files. CNN03 matches the reviewer tower float64 CSVs exactly, and it is `9.99e-16` (test) and `5.00e-16` (validation) from the reviewer server CSVs, under `1e-8`.
+
+The harness also checked 8-machine causality, missing-versus-zero, slot order, no label/condition/signal use, float64 parameters and logits, and refusal of a tampered checkpoint, a tampered config, and signal mode. It uses `sys.executable` and exits nonzero on a failed numeric compare.
+
+This tower run used the existing `.venv` (CPython 3.12.3, `torch 2.9.1+rocm6.4`). `py313_verify_1936` could not import torch yet, so this is not a Python 3.13 proof. The server freeze file is not in this workspace, so transitive pins were not invented. Server sandbox of these new ZIPs and independent review are still open.
+
+Details are in `experiments/cnn_runtime/FP64_INTEGRATION_STATUS.md`.
+
+## User
+
+Small final metadata correction only; do not change ANY .py/checkpoint/config files. Your scoped FP64 code/tests succeeded. Coordinator already ran fresh snapshot ZIP entries in strict server Python3.13CPU networknone/read-only2CPU16GiB/tmp128/output32 sandbox: BOTH officialcheckerPASS1536; repeatsBITWISE; anchorR0.40314938082908086/42.760949632139464; CNN03R0.36845453658648775/43.84508099893893. Further exactZIPcrosshost/newreview in progress, not a release.
+
+The verified complete server dependency lock was COPIED to tower during your session. It NOW EXISTS at experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt SHA256 cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab. Read and verify it now; do not repeat stale report that absent. Copy exact11-package freeze into BOTH fp64_*_entry/requirements.txt (CPU Torch directofficialcp313wheel2.11.0+cpu plus numpy2.5.4 and all9verifiedtransitives). No installs. Update provenance requirements hash and README/FP64_INTEGRATION_STATUS.md accurate proof labels. Preserve old ZIPs; build NEW official ZIPs fp64_anchor_locked1959.zip and fp64_cnn03_locked1959.zip. Output exact hashes/sizes and record sourcecore hashes unchanged from successful tests. Finish promptly within3min; independent read-only reviewer starts now. Do not touch review folder or any source/weights/cfg. No network/provider/auth research, no submission.
+
+## Assistant
+
+The freeze file is on disk now. I'll verify its hash, put that exact pin list in both FP64 entries, and build new ZIPs without touching code, checkpoints, or config.
+
+## Tools
+
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/requirements.txt
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_anchor_entry/provenance/provenance.json
+- Read: /home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/fp64_cnn03_entry/provenance/provenance.json
+- Execute: sha256sum experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt && cp -a experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt experiments/cnn_runtime/fp64_anchor_entry/requirements.txt && cp -a experiments/cnn_runtime/requirements_py313_cpu211_frozen.txt experiments/cnn_runtime/fp64_cnn03_entry/requirements.txt && sha256sum experiments/cnn_runtime/fp64_anchor_entry/requirements.txt experiments/cnn_runtime/fp64_cnn03_entry/requirements.txt experiments/cnn_runtime/fp64_anchor_entry/model.py experiments/cnn_runtime/fp64_anchor_entry/data.py experiments/cnn_runtime/fp64_anchor_entry/predict.py experiments/cnn_runtime/fp64_anchor_entry/checkpoint.pt experiments/cnn_runtime/fp64_anchor_entry/config/config.json experiments/cnn_runtime/fp64_cnn03_entry/model.py experiments/cnn_runtime/fp64_cnn03_entry/data.py experiments/cnn_runtime/fp64_cnn03_entry/predict.py experiments/cnn_runtime/fp64_cnn03_entry/checkpoint.pt experiments/cnn_runtime/fp64_cnn03_entry/config/config.json

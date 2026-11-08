@@ -1,0 +1,118 @@
+{
+  "assumptions": [
+    "Toy categorical kernel invented for this family; no fit to organizer train, validation, or test.",
+    "Machine type index is the public map balanced=0, jackpot=1, steady=2. randrange(3) is that index, not a position in a display list.",
+    "Each episode has its own SHA-256 RNG stream from (family, seed, episode_index). Extending n_ticks does not move other episodes or earlier ticks.",
+    "Directed ring: the parent of machine i is (i - 1) mod n_machines. Lag is exactly 1 tick. Tick t reads only ticks < t.",
+    "P(child | parent) = 7/10 * base[child type] + 3/10 * belief(parent payout). Tick 0 uses the base.",
+    "The latent draw uses the parent's true payout. Unobserved does not change the latent payout.",
+    "Observable history uses the parent's payout only if that spin is observed; otherwise the filtered belief. Missing is not payout 0 and does not carry the last seen payout forward.",
+    "Observation mask is a deterministic function of (seed, episode, tick, machine), independent of payout. Residue 0 mod 5 is missing.",
+    "slot_index equals machine_id. Payout index order is 0,1,2,5,20.",
+    "Raw payout on an unobserved row is latent simulator state and is never a feature. as_feature_row drops payout and payout_index and sets feature_payout_index to -1.",
+    "One query per machine at cutoff = n_ticks (the first tick after the generated history). signal is the constant 0 and is ignored by the kernel.",
+    "RESEARCH_ONLY. Competition eligibility is unresolved. Real organizer-released data remains the fallback."
+  ],
+  "do_not_train": true,
+  "eligibility": "unresolved: organizer rules require organizer-released data; no verified synthetic-data exception",
+  "family": "directed_lagged_crossmachine",
+  "mappings": {
+    "base_counts": {
+      "balanced": [
+        4,
+        5,
+        6,
+        3,
+        2
+      ],
+      "jackpot": [
+        6,
+        3,
+        2,
+        3,
+        6
+      ],
+      "steady": [
+        10,
+        5,
+        3,
+        1,
+        1
+      ]
+    },
+    "base_denominator": 20,
+    "index_to_payout": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 20
+    },
+    "index_to_type": {
+      "0": "balanced",
+      "1": "jackpot",
+      "2": "steady"
+    },
+    "keep": "7/10",
+    "lag": 1,
+    "legal_history": "record.tick < prediction tick; query signal is not a history feature",
+    "missing_feature_index": -1,
+    "missing_means": "unknown, not payout 0",
+    "parent": "(machine_id - 1) mod n_machines, read at tick-1 only",
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts_ordered": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "push": "3/10",
+    "query_signal": 0,
+    "query_signal_scope": "prediction_cutoff_only",
+    "slot_index": "identity with machine_id",
+    "type_index_note": "Authoritative public mapping balanced=0, jackpot=1, steady=2. Not list order and not slot inference.",
+    "type_to_index": {
+      "balanced": 0,
+      "jackpot": 1,
+      "steady": 2
+    },
+    "unobserved_payout": "Latent simulator field only, and only meaningful as hidden state when observed is false. Never a feature. as_feature_row drops payout and payout_index and sets feature_payout_index to -1."
+  },
+  "output_files": {
+    "queries": "queries.jsonl",
+    "records": "records.jsonl",
+    "truth": "truth.jsonl"
+  },
+  "output_hashes": {
+    "queries.jsonl": "4f952e94d368a2fb960f15503fcea3b5e224b2e8c2cb0e9b3bebd4dd086e91bc",
+    "records.jsonl": "89665eeaaf4bc956d84bb366665086edbd25a9f0df075362b2a2cac17b5b595c",
+    "truth.jsonl": "23fbad9b4104f88c3f2c20dceabe9fffe81cbf9d80fe85f6edb22173966568e8"
+  },
+  "real_only_fallback": true,
+  "research_only": true,
+  "seed": 0,
+  "settings": {
+    "cutoff": 96,
+    "lag": 1,
+    "max_records": 8192,
+    "n_episodes": 8,
+    "n_machines": 8,
+    "n_ticks": 96,
+    "query_count": 64,
+    "record_count": 6144,
+    "truth_count": 6144
+  },
+  "source_hashes": {
+    "README.md": "cdc90db12abe0899e70c05905f143cce6ef8563e65e41c0231a6ae9a352e4f3f",
+    "generate.py": "bae961142cd9f678013918526ec9ba913e3225d61992f22168ef250afe30a0fe",
+    "test_generator.py": "9f82e8a455a6818d86ea37573be6722578b9f16ac7e8a2d64d4f3972fbd720d2"
+  },
+  "status": "RESEARCH_ONLY"
+}

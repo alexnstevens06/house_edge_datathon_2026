@@ -1,0 +1,2799 @@
+{
+  "scope": "Existing HouseEdge files on SERVER and TOWER only. Distinct binary SHA256 artifacts are not a count of independently trained models. model.npz linear fits included; prediction npz, raw data and environments excluded. Initializations and negative fixtures classified separately. Some search trials retain configs/metrics but no checkpoint binary.",
+  "physical_paths": 206,
+  "unique_binary_artifacts": 117,
+  "unique_original_bytes": 497184959,
+  "artifacts": [
+    {
+      "sha256": "0270003588c33511e91cfe67096e44a8b298b418050d535807cc954792b5610c",
+      "original_bytes": 4465919,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s0_plus20/checkpoint.pt",
+          "bytes": 4465919
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/0270003588c33511e91cfe67096e44a8b298b418050d535807cc954792b5610c.pt",
+        "encoding": "raw",
+        "stored_sha256": "0270003588c33511e91cfe67096e44a8b298b418050d535807cc954792b5610c",
+        "stored_bytes": 4465919,
+        "original_sha256": "0270003588c33511e91cfe67096e44a8b298b418050d535807cc954792b5610c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "04ac56c8ffbe74d3d1661b01a22ee72d8b632b46ad3b9d7ac038b09b6b6278f6",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/own_lag_lr1e3_s1_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/04ac56c8ffbe74d3d1661b01a22ee72d8b632b46ad3b9d7ac038b09b6b6278f6.pt",
+        "encoding": "raw",
+        "stored_sha256": "04ac56c8ffbe74d3d1661b01a22ee72d8b632b46ad3b9d7ac038b09b6b6278f6",
+        "stored_bytes": 571537,
+        "original_sha256": "04ac56c8ffbe74d3d1661b01a22ee72d8b632b46ad3b9d7ac038b09b6b6278f6"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "068391dc698f77e8cae8da5d8ab5305665936e0e8dbf60264d2d11c0d6581c2b",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/dense/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/068391dc698f77e8cae8da5d8ab5305665936e0e8dbf60264d2d11c0d6581c2b.pt",
+        "encoding": "raw",
+        "stored_sha256": "068391dc698f77e8cae8da5d8ab5305665936e0e8dbf60264d2d11c0d6581c2b",
+        "stored_bytes": 494231,
+        "original_sha256": "068391dc698f77e8cae8da5d8ab5305665936e0e8dbf60264d2d11c0d6581c2b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "075a4f18721b4402fedadad78d30172c4636ded5b0d735ae249d4c582aa74801",
+      "original_bytes": 390005,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/smoke/checkpoint.pt",
+          "bytes": 390005
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/075a4f18721b4402fedadad78d30172c4636ded5b0d735ae249d4c582aa74801.pt",
+        "encoding": "raw",
+        "stored_sha256": "075a4f18721b4402fedadad78d30172c4636ded5b0d735ae249d4c582aa74801",
+        "stored_bytes": 390005,
+        "original_sha256": "075a4f18721b4402fedadad78d30172c4636ded5b0d735ae249d4c582aa74801"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "08a067916071eabc716d468952b65a9c3ee0b18c27269300a711350ad856245b",
+      "original_bytes": 494103,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/signal_networks/runs/smoke/specialist_signal_+1/best.pt",
+          "bytes": 494103
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/08a067916071eabc716d468952b65a9c3ee0b18c27269300a711350ad856245b.pt",
+        "encoding": "raw",
+        "stored_sha256": "08a067916071eabc716d468952b65a9c3ee0b18c27269300a711350ad856245b",
+        "stored_bytes": 494103,
+        "original_sha256": "08a067916071eabc716d468952b65a9c3ee0b18c27269300a711350ad856245b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "0a8167ca307cfd718e0eada0f4e2087437d01e46adbf2e3e21fa336cfee67e5f",
+      "original_bytes": 362071,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/archive_sparse_v1/best.pt",
+          "bytes": 362071
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/0a8167ca307cfd718e0eada0f4e2087437d01e46adbf2e3e21fa336cfee67e5f.pt",
+        "encoding": "raw",
+        "stored_sha256": "0a8167ca307cfd718e0eada0f4e2087437d01e46adbf2e3e21fa336cfee67e5f",
+        "stored_bytes": 362071,
+        "original_sha256": "0a8167ca307cfd718e0eada0f4e2087437d01e46adbf2e3e21fa336cfee67e5f"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "0af721263b9707c8149cf9fdd0546bb67558a5c47b09aa1509c5cb84e28c70de",
+      "original_bytes": 4465855,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s1_plus20/checkpoint.pt",
+          "bytes": 4465855
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/0af721263b9707c8149cf9fdd0546bb67558a5c47b09aa1509c5cb84e28c70de.pt",
+        "encoding": "raw",
+        "stored_sha256": "0af721263b9707c8149cf9fdd0546bb67558a5c47b09aa1509c5cb84e28c70de",
+        "stored_bytes": 4465855,
+        "original_sha256": "0af721263b9707c8149cf9fdd0546bb67558a5c47b09aa1509c5cb84e28c70de"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31",
+      "original_bytes": 172984008,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/random_forest/runs/v2_nosignal/model.pkl",
+          "bytes": 172984008
+        }
+      ],
+      "storage": {
+        "encoding": "gzip_parts",
+        "stored_sha256": "f638dce62693b26d9d44b8af149a5ba005b6712d15d283ef42f834f50c27bcd4",
+        "stored_bytes": 55471759,
+        "original_sha256": "0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31",
+        "parts": [
+          {
+            "path": "models/blobs/0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31.pkl.gz.part000",
+            "bytes": 20000000,
+            "sha256": "38ee861db61b1920f776e25d99720c0ef5becde5b1871322ac80603eaea167a3"
+          },
+          {
+            "path": "models/blobs/0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31.pkl.gz.part001",
+            "bytes": 20000000,
+            "sha256": "3caaf39d83a4bcd8deb6d281fe852dec28eaff802ab4ae5796419c663b436b87"
+          },
+          {
+            "path": "models/blobs/0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31.pkl.gz.part002",
+            "bytes": 15471759,
+            "sha256": "24961044009c00d62d7053604fcffcf9907d3f12ac7108b88e3ca26ac44f5749"
+          }
+        ],
+        "reassembled_gzip_name": "0b8f1a48c45390051f75d26643e9fd287fe2da7a3c9f6bea8e30271c2023ab31.pkl.gz",
+        "restore_note": "Concatenate parts in listed order, verify stored_sha256, decompress gzip, and verify original model sha256. Do not commit the decompressed raw pickle above100MiB."
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "0db3ad9a43ffff8883dcab501394a7044083218128ba0f132a5a7e616943a742",
+      "original_bytes": 1483638,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/guard_checkpoint_1934/checkpoint.pt",
+          "bytes": 1483638
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "1407fc091fe49f30ff9e1bb8197c56aadeb7119aa7c4530254019c4f6f8a88ae",
+      "original_bytes": 4465535,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_control_lr2e-5/epoch_05/checkpoint.pt",
+          "bytes": 4465535
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/1407fc091fe49f30ff9e1bb8197c56aadeb7119aa7c4530254019c4f6f8a88ae.pt",
+        "encoding": "raw",
+        "stored_sha256": "1407fc091fe49f30ff9e1bb8197c56aadeb7119aa7c4530254019c4f6f8a88ae",
+        "stored_bytes": 4465535,
+        "original_sha256": "1407fc091fe49f30ff9e1bb8197c56aadeb7119aa7c4530254019c4f6f8a88ae"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "17d66a052d5ccdef50af14468c24a029f77fe3943bd7f991aafcf667c7faedb5",
+      "original_bytes": 4465535,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_primary_lr2e-5/epoch_03/checkpoint.pt",
+          "bytes": 4465535
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/17d66a052d5ccdef50af14468c24a029f77fe3943bd7f991aafcf667c7faedb5.pt",
+        "encoding": "raw",
+        "stored_sha256": "17d66a052d5ccdef50af14468c24a029f77fe3943bd7f991aafcf667c7faedb5",
+        "stored_bytes": 4465535,
+        "original_sha256": "17d66a052d5ccdef50af14468c24a029f77fe3943bd7f991aafcf667c7faedb5"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "1cbb815d4ff20ba936250098dfb9088d40b6736a0bd98851ad47280636650845",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/own_lag_lr1e3_s0_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/1cbb815d4ff20ba936250098dfb9088d40b6736a0bd98851ad47280636650845.pt",
+        "encoding": "raw",
+        "stored_sha256": "1cbb815d4ff20ba936250098dfb9088d40b6736a0bd98851ad47280636650845",
+        "stored_bytes": 571537,
+        "original_sha256": "1cbb815d4ff20ba936250098dfb9088d40b6736a0bd98851ad47280636650845"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "201a241ba8c64516ef615e214fde97455f34341f52cd5cf97abfdcd02c954a39",
+      "original_bytes": 495569,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/signal_networks/runs/v1/shared/best.pt",
+          "bytes": 495569
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/201a241ba8c64516ef615e214fde97455f34341f52cd5cf97abfdcd02c954a39.pt",
+        "encoding": "raw",
+        "stored_sha256": "201a241ba8c64516ef615e214fde97455f34341f52cd5cf97abfdcd02c954a39",
+        "stored_bytes": 495569,
+        "original_sha256": "201a241ba8c64516ef615e214fde97455f34341f52cd5cf97abfdcd02c954a39"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "219006617f78ae448bb303339a61feb5961a3ec86704fdafd2c28fe4501cf380",
+      "original_bytes": 61776,
+      "kind": "saved_initialization",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility_quick/research/inits/seed0.pt",
+          "bytes": 61776
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/inits/seed0.pt",
+          "bytes": 61776
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/219006617f78ae448bb303339a61feb5961a3ec86704fdafd2c28fe4501cf380.pt",
+        "encoding": "raw",
+        "stored_sha256": "219006617f78ae448bb303339a61feb5961a3ec86704fdafd2c28fe4501cf380",
+        "stored_bytes": 61776,
+        "original_sha256": "219006617f78ae448bb303339a61feb5961a3ec86704fdafd2c28fe4501cf380"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2199fe3074850cee80695988128da815a73c36d0a5181a8a79e5df984f904561",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/anchor_cnn_s0/checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2199fe3074850cee80695988128da815a73c36d0a5181a8a79e5df984f904561.pt",
+        "encoding": "raw",
+        "stored_sha256": "2199fe3074850cee80695988128da815a73c36d0a5181a8a79e5df984f904561",
+        "stored_bytes": 1483637,
+        "original_sha256": "2199fe3074850cee80695988128da815a73c36d0a5181a8a79e5df984f904561"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2274ac45c67945bccfa21846428c31e8bc58cc9ee71df95d75caa1bba3b9674b",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/min_obs/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2274ac45c67945bccfa21846428c31e8bc58cc9ee71df95d75caa1bba3b9674b.pt",
+        "encoding": "raw",
+        "stored_sha256": "2274ac45c67945bccfa21846428c31e8bc58cc9ee71df95d75caa1bba3b9674b",
+        "stored_bytes": 85695,
+        "original_sha256": "2274ac45c67945bccfa21846428c31e8bc58cc9ee71df95d75caa1bba3b9674b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "22b97309ce74e41df0c5dcdc44e8d353b1d882a8aa9e0d1a17d8c2f18142086a",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix050__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/22b97309ce74e41df0c5dcdc44e8d353b1d882a8aa9e0d1a17d8c2f18142086a.pt",
+        "encoding": "raw",
+        "stored_sha256": "22b97309ce74e41df0c5dcdc44e8d353b1d882a8aa9e0d1a17d8c2f18142086a",
+        "stored_bytes": 63733,
+        "original_sha256": "22b97309ce74e41df0c5dcdc44e8d353b1d882a8aa9e0d1a17d8c2f18142086a"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "23316edd6a31a2028b26345edf48f88a1530266b2b33fce8b5d87666e8f2596a",
+      "original_bytes": 1483125,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/mlp_cnn_hpo/review/tmp/guard_pin/final_cnn03_s0/checkpoint.pt",
+          "bytes": 1483125
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "25a0e94c4f848c6dcf9c7f48227118fe2ab110ef7f7eb49cef75b46c6fa67fd7",
+      "original_bytes": 4465919,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s0_plus20/checkpoint.pt",
+          "bytes": 4465919
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/25a0e94c4f848c6dcf9c7f48227118fe2ab110ef7f7eb49cef75b46c6fa67fd7.pt",
+        "encoding": "raw",
+        "stored_sha256": "25a0e94c4f848c6dcf9c7f48227118fe2ab110ef7f7eb49cef75b46c6fa67fd7",
+        "stored_bytes": 4465919,
+        "original_sha256": "25a0e94c4f848c6dcf9c7f48227118fe2ab110ef7f7eb49cef75b46c6fa67fd7"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "268093fdbb24c76a9418cbdc37db0ceb2b4f84020e9135991c0168ebfac16c43",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s1_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/268093fdbb24c76a9418cbdc37db0ceb2b4f84020e9135991c0168ebfac16c43.pt",
+        "encoding": "raw",
+        "stored_sha256": "268093fdbb24c76a9418cbdc37db0ceb2b4f84020e9135991c0168ebfac16c43",
+        "stored_bytes": 4465791,
+        "original_sha256": "268093fdbb24c76a9418cbdc37db0ceb2b4f84020e9135991c0168ebfac16c43"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "274f498c45fac5e53e6a6bac8940aa1690f05b3e274c2fe364081a4fae2f530d",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/lag_lr1e3_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/274f498c45fac5e53e6a6bac8940aa1690f05b3e274c2fe364081a4fae2f530d.pt",
+        "encoding": "raw",
+        "stored_sha256": "274f498c45fac5e53e6a6bac8940aa1690f05b3e274c2fe364081a4fae2f530d",
+        "stored_bytes": 571537,
+        "original_sha256": "274f498c45fac5e53e6a6bac8940aa1690f05b3e274c2fe364081a4fae2f530d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2a8f9a34a515f9bab7154c580b62dd44c823eb00b1bb90bd2fe85dad23be3db5",
+      "original_bytes": 1481909,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_experts/hard_signal/runs/s0/specialist_-1/checkpoint.pt",
+          "bytes": 1481909
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2a8f9a34a515f9bab7154c580b62dd44c823eb00b1bb90bd2fe85dad23be3db5.pt",
+        "encoding": "raw",
+        "stored_sha256": "2a8f9a34a515f9bab7154c580b62dd44c823eb00b1bb90bd2fe85dad23be3db5",
+        "stored_bytes": 1481909,
+        "original_sha256": "2a8f9a34a515f9bab7154c580b62dd44c823eb00b1bb90bd2fe85dad23be3db5"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2bb15c7871aff80d72df1a5b6a6a59da9d05255953e0e2a41d655074e5b5bedd",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/query_upweight/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2bb15c7871aff80d72df1a5b6a6a59da9d05255953e0e2a41d655074e5b5bedd.pt",
+        "encoding": "raw",
+        "stored_sha256": "2bb15c7871aff80d72df1a5b6a6a59da9d05255953e0e2a41d655074e5b5bedd",
+        "stored_bytes": 85695,
+        "original_sha256": "2bb15c7871aff80d72df1a5b6a6a59da9d05255953e0e2a41d655074e5b5bedd"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2c250ec33982b897179ff50c832a7fefe60363e540ebdd53e4ae15046db6e4fa",
+      "original_bytes": 4465535,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_control_lr2e-5/epoch_03/checkpoint.pt",
+          "bytes": 4465535
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2c250ec33982b897179ff50c832a7fefe60363e540ebdd53e4ae15046db6e4fa.pt",
+        "encoding": "raw",
+        "stored_sha256": "2c250ec33982b897179ff50c832a7fefe60363e540ebdd53e4ae15046db6e4fa",
+        "stored_bytes": 4465535,
+        "original_sha256": "2c250ec33982b897179ff50c832a7fefe60363e540ebdd53e4ae15046db6e4fa"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "2ce8dd214a1250fd26449a12479f3eb8e2030101e4da16462d6d9a04936082d4",
+      "original_bytes": 847605,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/d_h96_L4_W96_d02_e10/checkpoint.pt",
+          "bytes": 847605
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/2ce8dd214a1250fd26449a12479f3eb8e2030101e4da16462d6d9a04936082d4.pt",
+        "encoding": "raw",
+        "stored_sha256": "2ce8dd214a1250fd26449a12479f3eb8e2030101e4da16462d6d9a04936082d4",
+        "stored_bytes": 847605,
+        "original_sha256": "2ce8dd214a1250fd26449a12479f3eb8e2030101e4da16462d6d9a04936082d4"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/645ea63af8f849138e0d315bc11037c8_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b.pt",
+        "encoding": "raw",
+        "stored_sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b",
+        "stored_bytes": 1483637,
+        "original_sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "324e0a5723d30579c8470da1f15f389b64087fbacb41a32e4277a83c3f3677cf",
+      "original_bytes": 63093,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/synthetic_machines/full_budget/run_v1/tiny_seed0/checkpoint.pt",
+          "bytes": 63093
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/full_budget/pinned_server_v1/run_v1/tiny_seed0/checkpoint.pt",
+          "bytes": 63093
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/324e0a5723d30579c8470da1f15f389b64087fbacb41a32e4277a83c3f3677cf.pt",
+        "encoding": "raw",
+        "stored_sha256": "324e0a5723d30579c8470da1f15f389b64087fbacb41a32e4277a83c3f3677cf",
+        "stored_bytes": 63093,
+        "original_sha256": "324e0a5723d30579c8470da1f15f389b64087fbacb41a32e4277a83c3f3677cf"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "3b7bae6a165734a5fa65e3b3da8a55dae6085709e2a2367c3ca3dd8ca1a8bf28",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility_quick/research/screen/screen__abrupt_changepoints__mix050__seed0/checkpoint.pt",
+          "bytes": 63733
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/screen/screen__abrupt_changepoints__mix050__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/3b7bae6a165734a5fa65e3b3da8a55dae6085709e2a2367c3ca3dd8ca1a8bf28.pt",
+        "encoding": "raw",
+        "stored_sha256": "3b7bae6a165734a5fa65e3b3da8a55dae6085709e2a2367c3ca3dd8ca1a8bf28",
+        "stored_bytes": 63733,
+        "original_sha256": "3b7bae6a165734a5fa65e3b3da8a55dae6085709e2a2367c3ca3dd8ca1a8bf28"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "3d4c564e03b2c80318a49421b7f87853d520262971b2d795e30b69ea61fc5e12",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix025__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/3d4c564e03b2c80318a49421b7f87853d520262971b2d795e30b69ea61fc5e12.pt",
+        "encoding": "raw",
+        "stored_sha256": "3d4c564e03b2c80318a49421b7f87853d520262971b2d795e30b69ea61fc5e12",
+        "stored_bytes": 63733,
+        "original_sha256": "3d4c564e03b2c80318a49421b7f87853d520262971b2d795e30b69ea61fc5e12"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "3d51464816aa3eb694f7507c41520002b8237f079e3da1242fb0ba1b4cad8572",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/own_lag_lr1e3_s1_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/3d51464816aa3eb694f7507c41520002b8237f079e3da1242fb0ba1b4cad8572.pt",
+        "encoding": "raw",
+        "stored_sha256": "3d51464816aa3eb694f7507c41520002b8237f079e3da1242fb0ba1b4cad8572",
+        "stored_bytes": 571537,
+        "original_sha256": "3d51464816aa3eb694f7507c41520002b8237f079e3da1242fb0ba1b4cad8572"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "41c2ae935c63f4033f05aff097e17b089b5292c616e2dc928090e5a770a5ae75",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility_quick/research/screen/screen__real_only__mix000__seed0/checkpoint.pt",
+          "bytes": 63733
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/screen/screen__real_only__mix000__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/41c2ae935c63f4033f05aff097e17b089b5292c616e2dc928090e5a770a5ae75.pt",
+        "encoding": "raw",
+        "stored_sha256": "41c2ae935c63f4033f05aff097e17b089b5292c616e2dc928090e5a770a5ae75",
+        "stored_bytes": 63733,
+        "original_sha256": "41c2ae935c63f4033f05aff097e17b089b5292c616e2dc928090e5a770a5ae75"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/g_nosignal/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fresh_zip_1930/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fresh_fp64_anchor_1956/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fp64_anchor_entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/anchor_entry_1929/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fp64_snapshot_1955/fp64_anchor_entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/anchor_py313_cpu211_fp32_entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/guard_config_1934/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/tower_snapshot_1922/entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/fp64_server_zip_proof1959/fresh_anchor/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/fp64_anchor_entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/reviewlogs/fixtures/tamper_config/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/reviewlogs/fresh_extract/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/reference/experiments/cnn/runs/g_nosignal/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/entry/checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80.pt",
+        "encoding": "raw",
+        "stored_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+        "stored_bytes": 1483637,
+        "original_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/8f8e816104ab42ffb764e67c452d3f84_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9.pt",
+        "encoding": "raw",
+        "stored_sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9",
+        "stored_bytes": 1483637,
+        "original_sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "47ac2c962490c6da56dffb23b8f465b9c38afcd2075985875b41f1f87f51274e",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/own_lag_lr1e3_s0_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/47ac2c962490c6da56dffb23b8f465b9c38afcd2075985875b41f1f87f51274e.pt",
+        "encoding": "raw",
+        "stored_sha256": "47ac2c962490c6da56dffb23b8f465b9c38afcd2075985875b41f1f87f51274e",
+        "stored_bytes": 571537,
+        "original_sha256": "47ac2c962490c6da56dffb23b8f465b9c38afcd2075985875b41f1f87f51274e"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "485731c22ab7ffc69f8bc2ee64c5ccc440dc76284c47ef2694a1435bcb2b1094",
+      "original_bytes": 494103,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/signal_networks/runs/smoke/specialist_signal_-1/best.pt",
+          "bytes": 494103
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/485731c22ab7ffc69f8bc2ee64c5ccc440dc76284c47ef2694a1435bcb2b1094.pt",
+        "encoding": "raw",
+        "stored_sha256": "485731c22ab7ffc69f8bc2ee64c5ccc440dc76284c47ef2694a1435bcb2b1094",
+        "stored_bytes": 494103,
+        "original_sha256": "485731c22ab7ffc69f8bc2ee64c5ccc440dc76284c47ef2694a1435bcb2b1094"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "4cfa1fc052da5ddfd7c054e2b02d9c54030c1092839c0f86857acedd8510a84d",
+      "original_bytes": 1363179,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/random_forest/signal_specialists/runs/spec_v1/specialists/model.pkl",
+          "bytes": 1363179
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/4cfa1fc052da5ddfd7c054e2b02d9c54030c1092839c0f86857acedd8510a84d.pkl",
+        "encoding": "raw",
+        "stored_sha256": "4cfa1fc052da5ddfd7c054e2b02d9c54030c1092839c0f86857acedd8510a84d",
+        "stored_bytes": 1363179,
+        "original_sha256": "4cfa1fc052da5ddfd7c054e2b02d9c54030c1092839c0f86857acedd8510a84d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "4cfd88b2faede729982bbfb117731fe83479f285376c6324579afeefda3f0751",
+      "original_bytes": 1818869,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/h_h128_L5_W64_d03_e30/checkpoint.pt",
+          "bytes": 1818869
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/4cfd88b2faede729982bbfb117731fe83479f285376c6324579afeefda3f0751.pt",
+        "encoding": "raw",
+        "stored_sha256": "4cfd88b2faede729982bbfb117731fe83479f285376c6324579afeefda3f0751",
+        "stored_bytes": 1818869,
+        "original_sha256": "4cfd88b2faede729982bbfb117731fe83479f285376c6324579afeefda3f0751"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "4d441d1545aa41398caa4c6af8fdbbe98f9147ca8d05f66f02997c6841600eab",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/v2_dense/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/4d441d1545aa41398caa4c6af8fdbbe98f9147ca8d05f66f02997c6841600eab.pt",
+        "encoding": "raw",
+        "stored_sha256": "4d441d1545aa41398caa4c6af8fdbbe98f9147ca8d05f66f02997c6841600eab",
+        "stored_bytes": 494231,
+        "original_sha256": "4d441d1545aa41398caa4c6af8fdbbe98f9147ca8d05f66f02997c6841600eab"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c",
+      "original_bytes": 1481909,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/synthetic_machines/full_budget/run_v1/cnn03_seed0/checkpoint.pt",
+          "bytes": 1481909
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/full_budget/pinned_server_v1/run_v1/cnn03_seed0/checkpoint.pt",
+          "bytes": 1481909
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c.pt",
+        "encoding": "raw",
+        "stored_sha256": "5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c",
+        "stored_bytes": 1481909,
+        "original_sha256": "5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "59fe47a4b456b5af28fa7676533e994255ab531ae2765da30401c12061fb5638",
+      "original_bytes": 20018,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/linear/runs/r2/model.npz",
+          "bytes": 20018
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/linear/runs/final/model.npz",
+          "bytes": 20018
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/59fe47a4b456b5af28fa7676533e994255ab531ae2765da30401c12061fb5638.npz",
+        "encoding": "raw",
+        "stored_sha256": "59fe47a4b456b5af28fa7676533e994255ab531ae2765da30401c12061fb5638",
+        "stored_bytes": 20018,
+        "original_sha256": "59fe47a4b456b5af28fa7676533e994255ab531ae2765da30401c12061fb5638"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "5e7d76f2068c69f427a3490a1b2917c74776779f92afa7ddb4febb86cdd55b1c",
+      "original_bytes": 1481909,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_experts/hard_signal/runs/s0/specialist_+1/checkpoint.pt",
+          "bytes": 1481909
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/5e7d76f2068c69f427a3490a1b2917c74776779f92afa7ddb4febb86cdd55b1c.pt",
+        "encoding": "raw",
+        "stored_sha256": "5e7d76f2068c69f427a3490a1b2917c74776779f92afa7ddb4febb86cdd55b1c",
+        "stored_bytes": 1481909,
+        "original_sha256": "5e7d76f2068c69f427a3490a1b2917c74776779f92afa7ddb4febb86cdd55b1c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "637a2ab496c2d476394730574d3ff8acc998ded3559554410a513a0573b2f57d",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/lag_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/637a2ab496c2d476394730574d3ff8acc998ded3559554410a513a0573b2f57d.pt",
+        "encoding": "raw",
+        "stored_sha256": "637a2ab496c2d476394730574d3ff8acc998ded3559554410a513a0573b2f57d",
+        "stored_bytes": 571537,
+        "original_sha256": "637a2ab496c2d476394730574d3ff8acc998ded3559554410a513a0573b2f57d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "645fb2d12008010d798520d51866f0a718368229488dd9581d800c9f9e6b1ec0",
+      "original_bytes": 495121,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/signal_networks/runs/smoke/shared/best.pt",
+          "bytes": 495121
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/645fb2d12008010d798520d51866f0a718368229488dd9581d800c9f9e6b1ec0.pt",
+        "encoding": "raw",
+        "stored_sha256": "645fb2d12008010d798520d51866f0a718368229488dd9581d800c9f9e6b1ec0",
+        "stored_bytes": 495121,
+        "original_sha256": "645fb2d12008010d798520d51866f0a718368229488dd9581d800c9f9e6b1ec0"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "660ac33d3efc201a5a5c531c675ced7f6b934bbb62a2e5eed7f3db324ceedb44",
+      "original_bytes": 1485493,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/g_h128_L4_W64_d02_e30/checkpoint.pt",
+          "bytes": 1485493
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/660ac33d3efc201a5a5c531c675ced7f6b934bbb62a2e5eed7f3db324ceedb44.pt",
+        "encoding": "raw",
+        "stored_sha256": "660ac33d3efc201a5a5c531c675ced7f6b934bbb62a2e5eed7f3db324ceedb44",
+        "stored_bytes": 1485493,
+        "original_sha256": "660ac33d3efc201a5a5c531c675ced7f6b934bbb62a2e5eed7f3db324ceedb44"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "6b402aeaf55bdc3394931c3c9f12e0771dcdd771bb1d0d59be4938e8a5c443f0",
+      "original_bytes": 494103,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/signal_networks/runs/smoke/specialist_signal_+0/best.pt",
+          "bytes": 494103
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/6b402aeaf55bdc3394931c3c9f12e0771dcdd771bb1d0d59be4938e8a5c443f0.pt",
+        "encoding": "raw",
+        "stored_sha256": "6b402aeaf55bdc3394931c3c9f12e0771dcdd771bb1d0d59be4938e8a5c443f0",
+        "stored_bytes": 494103,
+        "original_sha256": "6b402aeaf55bdc3394931c3c9f12e0771dcdd771bb1d0d59be4938e8a5c443f0"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "6cdbec582c8d43f3729a1fabff6dd5ccb9010d0ebb4c170a7ebfaca362610ba7",
+      "original_bytes": 19682,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/linear/runs/nosig/model.npz",
+          "bytes": 19682
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/6cdbec582c8d43f3729a1fabff6dd5ccb9010d0ebb4c170a7ebfaca362610ba7.npz",
+        "encoding": "raw",
+        "stored_sha256": "6cdbec582c8d43f3729a1fabff6dd5ccb9010d0ebb4c170a7ebfaca362610ba7",
+        "stored_bytes": 19682,
+        "original_sha256": "6cdbec582c8d43f3729a1fabff6dd5ccb9010d0ebb4c170a7ebfaca362610ba7"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "6eaa012f41191723db20e3bec9903e17f69b744dfebfda0d21d19c1acafef326",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s1_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/6eaa012f41191723db20e3bec9903e17f69b744dfebfda0d21d19c1acafef326.pt",
+        "encoding": "raw",
+        "stored_sha256": "6eaa012f41191723db20e3bec9903e17f69b744dfebfda0d21d19c1acafef326",
+        "stored_bytes": 4465791,
+        "original_sha256": "6eaa012f41191723db20e3bec9903e17f69b744dfebfda0d21d19c1acafef326"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "6fea985c054638ae852b59685fdbf6e7d43c44b24fa8b1db31f46ae0a577687c",
+      "original_bytes": 4465471,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_primary_lr2e-5/epoch_01/checkpoint.pt",
+          "bytes": 4465471
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/6fea985c054638ae852b59685fdbf6e7d43c44b24fa8b1db31f46ae0a577687c.pt",
+        "encoding": "raw",
+        "stored_sha256": "6fea985c054638ae852b59685fdbf6e7d43c44b24fa8b1db31f46ae0a577687c",
+        "stored_bytes": 4465471,
+        "original_sha256": "6fea985c054638ae852b59685fdbf6e7d43c44b24fa8b1db31f46ae0a577687c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "72446c38b6937e6dd88bea18eaf1de7a5779ca3c64cdd72aa77254456a85188d",
+      "original_bytes": 4465855,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s1_plus20/checkpoint.pt",
+          "bytes": 4465855
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/72446c38b6937e6dd88bea18eaf1de7a5779ca3c64cdd72aa77254456a85188d.pt",
+        "encoding": "raw",
+        "stored_sha256": "72446c38b6937e6dd88bea18eaf1de7a5779ca3c64cdd72aa77254456a85188d",
+        "stored_bytes": 4465855,
+        "original_sha256": "72446c38b6937e6dd88bea18eaf1de7a5779ca3c64cdd72aa77254456a85188d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "750a83e8586b8989227588c61d0744391441c3e61961bf4890e2526633d4fd60",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/lag_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/750a83e8586b8989227588c61d0744391441c3e61961bf4890e2526633d4fd60.pt",
+        "encoding": "raw",
+        "stored_sha256": "750a83e8586b8989227588c61d0744391441c3e61961bf4890e2526633d4fd60",
+        "stored_bytes": 571537,
+        "original_sha256": "750a83e8586b8989227588c61d0744391441c3e61961bf4890e2526633d4fd60"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "77641438bc332d92d4901f6ac70a86f40d0b40caaf159e47854a7525298b67b2",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/v2_sparse/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/77641438bc332d92d4901f6ac70a86f40d0b40caaf159e47854a7525298b67b2.pt",
+        "encoding": "raw",
+        "stored_sha256": "77641438bc332d92d4901f6ac70a86f40d0b40caaf159e47854a7525298b67b2",
+        "stored_bytes": 494231,
+        "original_sha256": "77641438bc332d92d4901f6ac70a86f40d0b40caaf159e47854a7525298b67b2"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "777ee0a369ea8faedbfde65980900d9e5b5bfffe9d0032a623f92c77e97aa9d0",
+      "original_bytes": 1481909,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_experts/hard_signal/runs/s0/specialist_+0/checkpoint.pt",
+          "bytes": 1481909
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/777ee0a369ea8faedbfde65980900d9e5b5bfffe9d0032a623f92c77e97aa9d0.pt",
+        "encoding": "raw",
+        "stored_sha256": "777ee0a369ea8faedbfde65980900d9e5b5bfffe9d0032a623f92c77e97aa9d0",
+        "stored_bytes": 1481909,
+        "original_sha256": "777ee0a369ea8faedbfde65980900d9e5b5bfffe9d0032a623f92c77e97aa9d0"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "7b3af1754ee4e797d5af3d2f3c5f868b7322344fd7dbc0f4c0b629cd574a69ba",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/abs_lag_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/7b3af1754ee4e797d5af3d2f3c5f868b7322344fd7dbc0f4c0b629cd574a69ba.pt",
+        "encoding": "raw",
+        "stored_sha256": "7b3af1754ee4e797d5af3d2f3c5f868b7322344fd7dbc0f4c0b629cd574a69ba",
+        "stored_bytes": 571537,
+        "original_sha256": "7b3af1754ee4e797d5af3d2f3c5f868b7322344fd7dbc0f4c0b629cd574a69ba"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "7b7908dc76bf6dedec91a0b9e0e0441541d55ad852d3be539e347a9a813717b8",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility_quick/research/screen/screen__abrupt_changepoints__mix025__seed0/checkpoint.pt",
+          "bytes": 63733
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/screen/screen__abrupt_changepoints__mix025__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/7b7908dc76bf6dedec91a0b9e0e0441541d55ad852d3be539e347a9a813717b8.pt",
+        "encoding": "raw",
+        "stored_sha256": "7b7908dc76bf6dedec91a0b9e0e0441541d55ad852d3be539e347a9a813717b8",
+        "stored_bytes": 63733,
+        "original_sha256": "7b7908dc76bf6dedec91a0b9e0e0441541d55ad852d3be539e347a9a813717b8"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "7b8368b5a6684b2fbc65b97ecd70e255fd626840da03d06feb34664c50f0954e",
+      "original_bytes": 4465535,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_primary_lr2e-5/epoch_05/checkpoint.pt",
+          "bytes": 4465535
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/7b8368b5a6684b2fbc65b97ecd70e255fd626840da03d06feb34664c50f0954e.pt",
+        "encoding": "raw",
+        "stored_sha256": "7b8368b5a6684b2fbc65b97ecd70e255fd626840da03d06feb34664c50f0954e",
+        "stored_bytes": 4465535,
+        "original_sha256": "7b8368b5a6684b2fbc65b97ecd70e255fd626840da03d06feb34664c50f0954e"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "7ce9e1a6856a6d76441be6b498bbeae4faa6edf280c876cc1ef85c3a74fe9756",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/lag_lr1e3_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/7ce9e1a6856a6d76441be6b498bbeae4faa6edf280c876cc1ef85c3a74fe9756.pt",
+        "encoding": "raw",
+        "stored_sha256": "7ce9e1a6856a6d76441be6b498bbeae4faa6edf280c876cc1ef85c3a74fe9756",
+        "stored_bytes": 571537,
+        "original_sha256": "7ce9e1a6856a6d76441be6b498bbeae4faa6edf280c876cc1ef85c3a74fe9756"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "7f2679b120217bc49c6628de40720c66294d38d651d61885397358e802ced205",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s2_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/7f2679b120217bc49c6628de40720c66294d38d651d61885397358e802ced205.pt",
+        "encoding": "raw",
+        "stored_sha256": "7f2679b120217bc49c6628de40720c66294d38d651d61885397358e802ced205",
+        "stored_bytes": 4465791,
+        "original_sha256": "7f2679b120217bc49c6628de40720c66294d38d651d61885397358e802ced205"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "84fa9fa28853d0559ddc9f4c72bb6502b93af4ca7e20f8539f7ae82da1bec70d",
+      "original_bytes": 362071,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/archive_dense_v1/best.pt",
+          "bytes": 362071
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/84fa9fa28853d0559ddc9f4c72bb6502b93af4ca7e20f8539f7ae82da1bec70d.pt",
+        "encoding": "raw",
+        "stored_sha256": "84fa9fa28853d0559ddc9f4c72bb6502b93af4ca7e20f8539f7ae82da1bec70d",
+        "stored_bytes": 362071,
+        "original_sha256": "84fa9fa28853d0559ddc9f4c72bb6502b93af4ca7e20f8539f7ae82da1bec70d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "86134262d6eb75c84a1631645800f034aeed22b7f09a8de1650a2cf51d4b0712",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/abs_lag_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/86134262d6eb75c84a1631645800f034aeed22b7f09a8de1650a2cf51d4b0712.pt",
+        "encoding": "raw",
+        "stored_sha256": "86134262d6eb75c84a1631645800f034aeed22b7f09a8de1650a2cf51d4b0712",
+        "stored_bytes": 571537,
+        "original_sha256": "86134262d6eb75c84a1631645800f034aeed22b7f09a8de1650a2cf51d4b0712"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "887bdd3ba17083cd95753bae8e0981f61daf026c5a10b14c7fef0abb0dce84d6",
+      "original_bytes": 4465919,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s2_plus20/checkpoint.pt",
+          "bytes": 4465919
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/887bdd3ba17083cd95753bae8e0981f61daf026c5a10b14c7fef0abb0dce84d6.pt",
+        "encoding": "raw",
+        "stored_sha256": "887bdd3ba17083cd95753bae8e0981f61daf026c5a10b14c7fef0abb0dce84d6",
+        "stored_bytes": 4465919,
+        "original_sha256": "887bdd3ba17083cd95753bae8e0981f61daf026c5a10b14c7fef0abb0dce84d6"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "888df6f74ec662a428334ddcdcf64b77aa193d376968b6c800cbde9e8f48a2f4",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/diagnostic/runs/noshort_dense/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/888df6f74ec662a428334ddcdcf64b77aa193d376968b6c800cbde9e8f48a2f4.pt",
+        "encoding": "raw",
+        "stored_sha256": "888df6f74ec662a428334ddcdcf64b77aa193d376968b6c800cbde9e8f48a2f4",
+        "stored_bytes": 494231,
+        "original_sha256": "888df6f74ec662a428334ddcdcf64b77aa193d376968b6c800cbde9e8f48a2f4"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/800a0e9a0fa2421c99665421ec8d925d_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74.pt",
+        "encoding": "raw",
+        "stored_sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+        "stored_bytes": 1483637,
+        "original_sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "8db2bdf069e7de34b29c18b3850fbebef752d901a9549223846d3641d3949ab8",
+      "original_bytes": 1483765,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_cnn03_s2/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s2/checkpoint.pt",
+          "bytes": 1483765
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/8db2bdf069e7de34b29c18b3850fbebef752d901a9549223846d3641d3949ab8.pt",
+        "encoding": "raw",
+        "stored_sha256": "8db2bdf069e7de34b29c18b3850fbebef752d901a9549223846d3641d3949ab8",
+        "stored_bytes": 1483765,
+        "original_sha256": "8db2bdf069e7de34b29c18b3850fbebef752d901a9549223846d3641d3949ab8"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "8e0d0969cee56890684a5e18970a04cfd15039e9ecdf4e82de7e668885f5eb35",
+      "original_bytes": 494487,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/signal_networks/runs/v1/specialist_signal_+0/best.pt",
+          "bytes": 494487
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/8e0d0969cee56890684a5e18970a04cfd15039e9ecdf4e82de7e668885f5eb35.pt",
+        "encoding": "raw",
+        "stored_sha256": "8e0d0969cee56890684a5e18970a04cfd15039e9ecdf4e82de7e668885f5eb35",
+        "stored_bytes": 494487,
+        "original_sha256": "8e0d0969cee56890684a5e18970a04cfd15039e9ecdf4e82de7e668885f5eb35"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "917038facef2b7cafe67d60c1c4fa5c2b78222c21516087877681ebf14d5472b",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "runs/server_bf16_dense/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/917038facef2b7cafe67d60c1c4fa5c2b78222c21516087877681ebf14d5472b.pt",
+        "encoding": "raw",
+        "stored_sha256": "917038facef2b7cafe67d60c1c4fa5c2b78222c21516087877681ebf14d5472b",
+        "stored_bytes": 494231,
+        "original_sha256": "917038facef2b7cafe67d60c1c4fa5c2b78222c21516087877681ebf14d5472b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "92233992aeb8c007a40f925885d7f85ef260cf8584ea0cc669dcd39ce57d201f",
+      "original_bytes": 1481845,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/hard_shared_control/checkpoint.pt",
+          "bytes": 1481845
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_experts/hard_signal/runs/s0/control/checkpoint.pt",
+          "bytes": 1481845
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/hard_shared_control/checkpoint.pt",
+          "bytes": 1481845
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/92233992aeb8c007a40f925885d7f85ef260cf8584ea0cc669dcd39ce57d201f.pt",
+        "encoding": "raw",
+        "stored_sha256": "92233992aeb8c007a40f925885d7f85ef260cf8584ea0cc669dcd39ce57d201f",
+        "stored_bytes": 1481845,
+        "original_sha256": "92233992aeb8c007a40f925885d7f85ef260cf8584ea0cc669dcd39ce57d201f"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "927f4a7973f5a267231881f11077582c6bf6884884d93a49a74cb4025f567893",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/abs_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/927f4a7973f5a267231881f11077582c6bf6884884d93a49a74cb4025f567893.pt",
+        "encoding": "raw",
+        "stored_sha256": "927f4a7973f5a267231881f11077582c6bf6884884d93a49a74cb4025f567893",
+        "stored_bytes": 571537,
+        "original_sha256": "927f4a7973f5a267231881f11077582c6bf6884884d93a49a74cb4025f567893"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "952f61d2453094814ba2d3135081fde0fb44f42f839137db0994bda8d501bb1c",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix025__seed1/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/952f61d2453094814ba2d3135081fde0fb44f42f839137db0994bda8d501bb1c.pt",
+        "encoding": "raw",
+        "stored_sha256": "952f61d2453094814ba2d3135081fde0fb44f42f839137db0994bda8d501bb1c",
+        "stored_bytes": 63733,
+        "original_sha256": "952f61d2453094814ba2d3135081fde0fb44f42f839137db0994bda8d501bb1c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "97ce952a53db20265b91ebfcfd7a313f92dae10c072abc7c7b26cf44e63df676",
+      "original_bytes": 1485493,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/f_h128_L4_W64_d02_e16/checkpoint.pt",
+          "bytes": 1485493
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/97ce952a53db20265b91ebfcfd7a313f92dae10c072abc7c7b26cf44e63df676.pt",
+        "encoding": "raw",
+        "stored_sha256": "97ce952a53db20265b91ebfcfd7a313f92dae10c072abc7c7b26cf44e63df676",
+        "stored_bytes": 1485493,
+        "original_sha256": "97ce952a53db20265b91ebfcfd7a313f92dae10c072abc7c7b26cf44e63df676"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "9922225129231abb796344c950581048510711f1dfb5e2d6f7cdab9ca3f7a6ea",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s2_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/9922225129231abb796344c950581048510711f1dfb5e2d6f7cdab9ca3f7a6ea.pt",
+        "encoding": "raw",
+        "stored_sha256": "9922225129231abb796344c950581048510711f1dfb5e2d6f7cdab9ca3f7a6ea",
+        "stored_bytes": 4465791,
+        "original_sha256": "9922225129231abb796344c950581048510711f1dfb5e2d6f7cdab9ca3f7a6ea"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "9978b5f7a4d9d0cd53d696a9c67d3acfc3082bc9c8c111a79cb3ecb0dc1c5cb3",
+      "original_bytes": 1126069,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_mlp02_s1/checkpoint.pt",
+          "bytes": 1126069
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/9978b5f7a4d9d0cd53d696a9c67d3acfc3082bc9c8c111a79cb3ecb0dc1c5cb3.pt",
+        "encoding": "raw",
+        "stored_sha256": "9978b5f7a4d9d0cd53d696a9c67d3acfc3082bc9c8c111a79cb3ecb0dc1c5cb3",
+        "stored_bytes": 1126069,
+        "original_sha256": "9978b5f7a4d9d0cd53d696a9c67d3acfc3082bc9c8c111a79cb3ecb0dc1c5cb3"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "99c02591245e7e278b8cc8c696b7e78a5318733675ca8b6188bb7454244186b9",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/base_s1/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/99c02591245e7e278b8cc8c696b7e78a5318733675ca8b6188bb7454244186b9.pt",
+        "encoding": "raw",
+        "stored_sha256": "99c02591245e7e278b8cc8c696b7e78a5318733675ca8b6188bb7454244186b9",
+        "stored_bytes": 85695,
+        "original_sha256": "99c02591245e7e278b8cc8c696b7e78a5318733675ca8b6188bb7454244186b9"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "9f2fbc8a63cdf21ebb9a8fda115820cd53d9807c375a816d41f93c1b491159ef",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/diagnostic/runs/all_dense/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/9f2fbc8a63cdf21ebb9a8fda115820cd53d9807c375a816d41f93c1b491159ef.pt",
+        "encoding": "raw",
+        "stored_sha256": "9f2fbc8a63cdf21ebb9a8fda115820cd53d9807c375a816d41f93c1b491159ef",
+        "stored_bytes": 494231,
+        "original_sha256": "9f2fbc8a63cdf21ebb9a8fda115820cd53d9807c375a816d41f93c1b491159ef"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "a1442d7cb39d3282f0b68a297cfc429346e09cbd42c092e979e235d5f3fe8d03",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix050__seed1/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/a1442d7cb39d3282f0b68a297cfc429346e09cbd42c092e979e235d5f3fe8d03.pt",
+        "encoding": "raw",
+        "stored_sha256": "a1442d7cb39d3282f0b68a297cfc429346e09cbd42c092e979e235d5f3fe8d03",
+        "stored_bytes": 63733,
+        "original_sha256": "a1442d7cb39d3282f0b68a297cfc429346e09cbd42c092e979e235d5f3fe8d03"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0",
+      "original_bytes": 1481909,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/synthetic_machines/full_budget/run_v1/mix_seed0/checkpoint.pt",
+          "bytes": 1481909
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/full_budget/pinned_server_v1/run_v1/mix_seed0/checkpoint.pt",
+          "bytes": 1481909
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0.pt",
+        "encoding": "raw",
+        "stored_sha256": "a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0",
+        "stored_bytes": 1481909,
+        "original_sha256": "a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "a4285dcfcce1b36e59a7413fd42877683a075b161176e5cef9e5c05f2a36fe17",
+      "original_bytes": 1483765,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_cnn03_s1/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s1/checkpoint.pt",
+          "bytes": 1483765
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/a4285dcfcce1b36e59a7413fd42877683a075b161176e5cef9e5c05f2a36fe17.pt",
+        "encoding": "raw",
+        "stored_sha256": "a4285dcfcce1b36e59a7413fd42877683a075b161176e5cef9e5c05f2a36fe17",
+        "stored_bytes": 1483765,
+        "original_sha256": "a4285dcfcce1b36e59a7413fd42877683a075b161176e5cef9e5c05f2a36fe17"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "a5987737ed1a5b47c1a79f5e965d667b3d0f9a5f03227e74886ae087da749d41",
+      "original_bytes": 303925,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/e_h64_L3_W32_e10/checkpoint.pt",
+          "bytes": 303925
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/a5987737ed1a5b47c1a79f5e965d667b3d0f9a5f03227e74886ae087da749d41.pt",
+        "encoding": "raw",
+        "stored_sha256": "a5987737ed1a5b47c1a79f5e965d667b3d0f9a5f03227e74886ae087da749d41",
+        "stored_bytes": 303925,
+        "original_sha256": "a5987737ed1a5b47c1a79f5e965d667b3d0f9a5f03227e74886ae087da749d41"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "acb000c28ac6c9bfe265f1c6befe62377a3736e8ff30af1ed7ab2d696025abdc",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s0_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/acb000c28ac6c9bfe265f1c6befe62377a3736e8ff30af1ed7ab2d696025abdc.pt",
+        "encoding": "raw",
+        "stored_sha256": "acb000c28ac6c9bfe265f1c6befe62377a3736e8ff30af1ed7ab2d696025abdc",
+        "stored_bytes": 4465791,
+        "original_sha256": "acb000c28ac6c9bfe265f1c6befe62377a3736e8ff30af1ed7ab2d696025abdc"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "ad6651670b2557044c205668d6f11700b718df82d74d10db151219d96facf7cc",
+      "original_bytes": 4465471,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_control_lr2e-5/epoch_01/checkpoint.pt",
+          "bytes": 4465471
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/ad6651670b2557044c205668d6f11700b718df82d74d10db151219d96facf7cc.pt",
+        "encoding": "raw",
+        "stored_sha256": "ad6651670b2557044c205668d6f11700b718df82d74d10db151219d96facf7cc",
+        "stored_bytes": 4465471,
+        "original_sha256": "ad6651670b2557044c205668d6f11700b718df82d74d10db151219d96facf7cc"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "af61e9b36d042f99bb2c2b35bb63941bcfd67ca6a9d554d777c255dcd2fd4449",
+      "original_bytes": 1126069,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_mlp02_s2/checkpoint.pt",
+          "bytes": 1126069
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/af61e9b36d042f99bb2c2b35bb63941bcfd67ca6a9d554d777c255dcd2fd4449.pt",
+        "encoding": "raw",
+        "stored_sha256": "af61e9b36d042f99bb2c2b35bb63941bcfd67ca6a9d554d777c255dcd2fd4449",
+        "stored_bytes": 1126069,
+        "original_sha256": "af61e9b36d042f99bb2c2b35bb63941bcfd67ca6a9d554d777c255dcd2fd4449"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b3fca6bd068ebeda54c5b02d6b31ebea4fa63f03cebc3413cf78d08b35724941",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/base_lag_lr1e3_s1_sparse/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b3fca6bd068ebeda54c5b02d6b31ebea4fa63f03cebc3413cf78d08b35724941.pt",
+        "encoding": "raw",
+        "stored_sha256": "b3fca6bd068ebeda54c5b02d6b31ebea4fa63f03cebc3413cf78d08b35724941",
+        "stored_bytes": 571537,
+        "original_sha256": "b3fca6bd068ebeda54c5b02d6b31ebea4fa63f03cebc3413cf78d08b35724941"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "runs/server_bf16_sparse/best.pt",
+          "bytes": 494231
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/signal_networks/runs/backbone/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091.pt",
+        "encoding": "raw",
+        "stored_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+        "stored_bytes": 494231,
+        "original_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b4b0dabf34fef9afdc876f8b1fe874b815a340ecf04e353a012a1a6217acaf2c",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/diagnostic/runs/noshort_sparse/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b4b0dabf34fef9afdc876f8b1fe874b815a340ecf04e353a012a1a6217acaf2c.pt",
+        "encoding": "raw",
+        "stored_sha256": "b4b0dabf34fef9afdc876f8b1fe874b815a340ecf04e353a012a1a6217acaf2c",
+        "stored_bytes": 494231,
+        "original_sha256": "b4b0dabf34fef9afdc876f8b1fe874b815a340ecf04e353a012a1a6217acaf2c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b54755d7d35f1f7bedddd6fa2546cb18f611c38a93b248ec892a67e8a7fb2adf",
+      "original_bytes": 63093,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/full_budget/smoke/smoke/tiny_seed0/checkpoint.pt",
+          "bytes": 63093
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b54755d7d35f1f7bedddd6fa2546cb18f611c38a93b248ec892a67e8a7fb2adf.pt",
+        "encoding": "raw",
+        "stored_sha256": "b54755d7d35f1f7bedddd6fa2546cb18f611c38a93b248ec892a67e8a7fb2adf",
+        "stored_bytes": 63093,
+        "original_sha256": "b54755d7d35f1f7bedddd6fa2546cb18f611c38a93b248ec892a67e8a7fb2adf"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b68ca7ca32199cf2c59bf3190f3484098ca6dd622a744978bdd90c3b59f9e37c",
+      "original_bytes": 1126069,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_mlp02_s0/checkpoint.pt",
+          "bytes": 1126069
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b68ca7ca32199cf2c59bf3190f3484098ca6dd622a744978bdd90c3b59f9e37c.pt",
+        "encoding": "raw",
+        "stored_sha256": "b68ca7ca32199cf2c59bf3190f3484098ca6dd622a744978bdd90c3b59f9e37c",
+        "stored_bytes": 1126069,
+        "original_sha256": "b68ca7ca32199cf2c59bf3190f3484098ca6dd622a744978bdd90c3b59f9e37c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b6e8c3eb9c57486518c35731c4ffedb2b17542e064eee2ec12cbaf0775b5f7a5",
+      "original_bytes": 1482997,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/reviewlogs/fixtures/tamper_weight/checkpoint.pt",
+          "bytes": 1482997
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "b87a2afb306ec320d414a92da35e6088140e7854d0a022fe273582c588bc8c2f",
+      "original_bytes": 362071,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/pilot_dense/best.pt",
+          "bytes": 362071
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b87a2afb306ec320d414a92da35e6088140e7854d0a022fe273582c588bc8c2f.pt",
+        "encoding": "raw",
+        "stored_sha256": "b87a2afb306ec320d414a92da35e6088140e7854d0a022fe273582c588bc8c2f",
+        "stored_bytes": 362071,
+        "original_sha256": "b87a2afb306ec320d414a92da35e6088140e7854d0a022fe273582c588bc8c2f"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "b8dc6ac0689058b87a010e8f23f0bbaec1cd7d74badd611cab3a1f0552dbfccc",
+      "original_bytes": 494487,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/signal_networks/runs/v1/specialist_signal_+1/best.pt",
+          "bytes": 494487
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/b8dc6ac0689058b87a010e8f23f0bbaec1cd7d74badd611cab3a1f0552dbfccc.pt",
+        "encoding": "raw",
+        "stored_sha256": "b8dc6ac0689058b87a010e8f23f0bbaec1cd7d74badd611cab3a1f0552dbfccc",
+        "stored_bytes": 494487,
+        "original_sha256": "b8dc6ac0689058b87a010e8f23f0bbaec1cd7d74badd611cab3a1f0552dbfccc"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "bb3b4ce2befd2ad92cb3363b20a6f0191d842444cc08f2793b67de8a6595140c",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/anchor_cnn_s2/checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/bb3b4ce2befd2ad92cb3363b20a6f0191d842444cc08f2793b67de8a6595140c.pt",
+        "encoding": "raw",
+        "stored_sha256": "bb3b4ce2befd2ad92cb3363b20a6f0191d842444cc08f2793b67de8a6595140c",
+        "stored_bytes": 1483637,
+        "original_sha256": "bb3b4ce2befd2ad92cb3363b20a6f0191d842444cc08f2793b67de8a6595140c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/entry/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/retest_t150_20261108/outputs/fresh_zip/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/independent_review_20261108/t146_review/package_ensemble/candidate_t146_ensemble_s0_s2_20261108/fresh_zip/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/independent_review_20261108/candidate_review/extract/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_lr003_s2_20261108/unpacked/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_lr003_s2_20261108/entry/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_model_py_edit/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_data_py_edit/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_weights_reorder/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_s2_config_edit/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_s0_ckpt_truncate/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_stray_file/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/crosshost_lr003_s2_20261108/unpacked/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/candidate_lr003_s2_20261108/unpacked/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s2/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/f30dfe56560b418685fbb3e2a3c87953_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71.pt",
+        "encoding": "raw",
+        "stored_sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+        "stored_bytes": 1483637,
+        "original_sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "c2bcdd2c09ae77930834900a6b8d08beb35072af2170cdcec9d9c72f8c21f191",
+      "original_bytes": 1000,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_s0_ckpt_truncate/components/s0/checkpoint.pt",
+          "bytes": 1000
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "c5b113949cfb580e7fb5f05ff24baaec3f55cc7e8cc53b09d7c29a46c6ccea20",
+      "original_bytes": 1209352,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/random_forest/signal_specialists/runs/spec_v1/shared_signal/model.pkl",
+          "bytes": 1209352
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/c5b113949cfb580e7fb5f05ff24baaec3f55cc7e8cc53b09d7c29a46c6ccea20.pkl",
+        "encoding": "raw",
+        "stored_sha256": "c5b113949cfb580e7fb5f05ff24baaec3f55cc7e8cc53b09d7c29a46c6ccea20",
+        "stored_bytes": 1209352,
+        "original_sha256": "c5b113949cfb580e7fb5f05ff24baaec3f55cc7e8cc53b09d7c29a46c6ccea20"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "c8d36125939890de3b3fdde568d70033584ffddb5ed6c96eec4a690210871316",
+      "original_bytes": 494487,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/signal_networks/runs/v1/specialist_signal_-1/best.pt",
+          "bytes": 494487
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/c8d36125939890de3b3fdde568d70033584ffddb5ed6c96eec4a690210871316.pt",
+        "encoding": "raw",
+        "stored_sha256": "c8d36125939890de3b3fdde568d70033584ffddb5ed6c96eec4a690210871316",
+        "stored_bytes": 494487,
+        "original_sha256": "c8d36125939890de3b3fdde568d70033584ffddb5ed6c96eec4a690210871316"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "c988d27b96e72d08553e08bfa838f48c545f08ca424067131c96be0b2741316c",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/base/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/c988d27b96e72d08553e08bfa838f48c545f08ca424067131c96be0b2741316c.pt",
+        "encoding": "raw",
+        "stored_sha256": "c988d27b96e72d08553e08bfa838f48c545f08ca424067131c96be0b2741316c",
+        "stored_bytes": 85695,
+        "original_sha256": "c988d27b96e72d08553e08bfa838f48c545f08ca424067131c96be0b2741316c"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f",
+      "original_bytes": 1483765,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/final_cnn03_s0/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fresh_fp64_cnn03_1956/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/first_submission_fresh2029/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fp64_snapshot_1955/fp64_cnn03_entry/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_runtime/fp64_cnn03_entry/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/fp64_server_zip_proof1959/fresh_cnn03/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/fp64_cnn03_entry/checkpoint.pt",
+          "bytes": 1483765
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt",
+          "bytes": 1483765
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f.pt",
+        "encoding": "raw",
+        "stored_sha256": "ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f",
+        "stored_bytes": 1483765,
+        "original_sha256": "ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "cf696820de0cd4f3fc4707bcbd9cf59843da5e431fce349bee8e5627d93a1a66",
+      "original_bytes": 1484981,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/mlp_cnn_hpo/review/tmp/guard_sig/final_cnn03_s0/checkpoint.pt",
+          "bytes": 1484981
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "d0679a75ead3e96aacadf7400fab1a24cff54846adaa6f0dca7bd87488c061ba",
+      "original_bytes": 494231,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/diagnostic/runs/all_sparse/best.pt",
+          "bytes": 494231
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d0679a75ead3e96aacadf7400fab1a24cff54846adaa6f0dca7bd87488c061ba.pt",
+        "encoding": "raw",
+        "stored_sha256": "d0679a75ead3e96aacadf7400fab1a24cff54846adaa6f0dca7bd87488c061ba",
+        "stored_bytes": 494231,
+        "original_sha256": "d0679a75ead3e96aacadf7400fab1a24cff54846adaa6f0dca7bd87488c061ba"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "d535017829b4dd651787b8b2ddb38d76a822e79aab4845cffeec793ef5c40d11",
+      "original_bytes": 390005,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/a_h64_L4_W64_e12/checkpoint.pt",
+          "bytes": 390005
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d535017829b4dd651787b8b2ddb38d76a822e79aab4845cffeec793ef5c40d11.pt",
+        "encoding": "raw",
+        "stored_sha256": "d535017829b4dd651787b8b2ddb38d76a822e79aab4845cffeec793ef5c40d11",
+        "stored_bytes": 390005,
+        "original_sha256": "d535017829b4dd651787b8b2ddb38d76a822e79aab4845cffeec793ef5c40d11"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/entry/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/retest_t150_20261108/outputs/fresh_zip/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/independent_review_20261108/t146_review/package_ensemble/candidate_t146_ensemble_s0_s2_20261108/fresh_zip/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_model_py_edit/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_data_py_edit/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_weights_reorder/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_s2_config_edit/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_missing_s2/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/t152_codecheck_20261108/extra_work/tree_stray_file/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_C_lr003_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/candidate_t146_ensemble_s0_s2_20261108/unpacked/components/s0/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/24bbf32b239b4b3695f153bde2157783_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb.pt",
+        "encoding": "raw",
+        "stored_sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+        "stored_bytes": 1483637,
+        "original_sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "d6002295ce42a3d57582750a89c95b9985bd2cdca64af7bc27ec4485867fa1e6",
+      "original_bytes": 476149,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn/runs/c_h64_L5_W128_e10/checkpoint.pt",
+          "bytes": 476149
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d6002295ce42a3d57582750a89c95b9985bd2cdca64af7bc27ec4485867fa1e6.pt",
+        "encoding": "raw",
+        "stored_sha256": "d6002295ce42a3d57582750a89c95b9985bd2cdca64af7bc27ec4485867fa1e6",
+        "stored_bytes": 476149,
+        "original_sha256": "d6002295ce42a3d57582750a89c95b9985bd2cdca64af7bc27ec4485867fa1e6"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "d7997cac4975b4a712754716190752f1300247f175b27b42bc1df322695e4148",
+      "original_bytes": 20018,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/linear/runs/r1/model.npz",
+          "bytes": 20018
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d7997cac4975b4a712754716190752f1300247f175b27b42bc1df322695e4148.npz",
+        "encoding": "raw",
+        "stored_sha256": "d7997cac4975b4a712754716190752f1300247f175b27b42bc1df322695e4148",
+        "stored_bytes": 20018,
+        "original_sha256": "d7997cac4975b4a712754716190752f1300247f175b27b42bc1df322695e4148"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "d7af9b712941f0e5b6b0995cf24b51860c3815c77be3684d4052a388e3fb3295",
+      "original_bytes": 61776,
+      "kind": "saved_initialization",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/inits/seed1.pt",
+          "bytes": 61776
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/d7af9b712941f0e5b6b0995cf24b51860c3815c77be3684d4052a388e3fb3295.pt",
+        "encoding": "raw",
+        "stored_sha256": "d7af9b712941f0e5b6b0995cf24b51860c3815c77be3684d4052a388e3fb3295",
+        "stored_bytes": 61776,
+        "original_sha256": "d7af9b712941f0e5b6b0995cf24b51860c3815c77be3684d4052a388e3fb3295"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/ensemble_blend_20261108/inputs/curve_control_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/runs/curve_control_s1/checkpoint.pt",
+          "bytes": 1483637
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn03_convergence/lowrate_20261108/input_staging/756873c50c2c47e68c4033dd00f200a4_checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05.pt",
+        "encoding": "raw",
+        "stored_sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05",
+        "stored_bytes": 1483637,
+        "original_sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "dc7d06017c88844af3bed7906da03108a8a6afa534b832a7c7b8e5a0414c53cf",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/mlp_cnn_hpo/runs/anchor_cnn_s1/checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/dc7d06017c88844af3bed7906da03108a8a6afa534b832a7c7b8e5a0414c53cf.pt",
+        "encoding": "raw",
+        "stored_sha256": "dc7d06017c88844af3bed7906da03108a8a6afa534b832a7c7b8e5a0414c53cf",
+        "stored_bytes": 1483637,
+        "original_sha256": "dc7d06017c88844af3bed7906da03108a8a6afa534b832a7c7b8e5a0414c53cf"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "ddba33f1fee08ca174759db7c09663c0fe00cd9b860fda65641a4861393067eb",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/window32/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/ddba33f1fee08ca174759db7c09663c0fe00cd9b860fda65641a4861393067eb.pt",
+        "encoding": "raw",
+        "stored_sha256": "ddba33f1fee08ca174759db7c09663c0fe00cd9b860fda65641a4861393067eb",
+        "stored_bytes": 85695,
+        "original_sha256": "ddba33f1fee08ca174759db7c09663c0fe00cd9b860fda65641a4861393067eb"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "ddf3d498a25f8ad91ac566a319a338a0e313dc007cbae51ea232dfbbece098d1",
+      "original_bytes": 4465919,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_control_s2_plus20/checkpoint.pt",
+          "bytes": 4465919
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/ddf3d498a25f8ad91ac566a319a338a0e313dc007cbae51ea232dfbbece098d1.pt",
+        "encoding": "raw",
+        "stored_sha256": "ddf3d498a25f8ad91ac566a319a338a0e313dc007cbae51ea232dfbbece098d1",
+        "stored_bytes": 4465919,
+        "original_sha256": "ddf3d498a25f8ad91ac566a319a338a0e313dc007cbae51ea232dfbbece098d1"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "de4cf59d97e8e079fca844c6f56e7630f450a567300c1683738bb053706a62eb",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/base_lag_lr1e3_s1_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/de4cf59d97e8e079fca844c6f56e7630f450a567300c1683738bb053706a62eb.pt",
+        "encoding": "raw",
+        "stored_sha256": "de4cf59d97e8e079fca844c6f56e7630f450a567300c1683738bb053706a62eb",
+        "stored_bytes": 571537,
+        "original_sha256": "de4cf59d97e8e079fca844c6f56e7630f450a567300c1683738bb053706a62eb"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "e1e4cf9a484ddabc1b8b91c2ce96f4cab16f6af5fb797ea6be185f2ce70f923e",
+      "original_bytes": 1482997,
+      "kind": "negative_test_fixture",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_runtime/reviewlogs/fixtures/tamper_nosignal/checkpoint.pt",
+          "bytes": 1482997
+        }
+      ],
+      "storage": null,
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission.",
+      "omitted_reason": "Intentional tamper/truncation/guard fixture, not a trained model. Hash and original location retained; fixture bytes excluded."
+    },
+    {
+      "sha256": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760",
+      "original_bytes": 1482037,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn_experts/hard_signal/runs/s0/pretrain/checkpoint.pt",
+          "bytes": 1482037
+        },
+        {
+          "host": "TOWER",
+          "path": "experiments/cnn_experts/frozen_feature_heads_20261108/inputs/history_pretrain.pt",
+          "bytes": 1482037
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760.pt",
+        "encoding": "raw",
+        "stored_sha256": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760",
+        "stored_bytes": 1482037,
+        "original_sha256": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be",
+      "original_bytes": 172854424,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/random_forest/runs/v1/model.pkl",
+          "bytes": 172854424
+        }
+      ],
+      "storage": {
+        "encoding": "gzip_parts",
+        "stored_sha256": "1d335f6a0378b41d278abb42c0bb96ceaa171a5b33f02af9f5278c4608367ffa",
+        "stored_bytes": 55387837,
+        "original_sha256": "e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be",
+        "parts": [
+          {
+            "path": "models/blobs/e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be.pkl.gz.part000",
+            "bytes": 20000000,
+            "sha256": "90b5faadf182f83e86fe030d636dedec1108c8ffb038aecf603b73e5b0e26587"
+          },
+          {
+            "path": "models/blobs/e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be.pkl.gz.part001",
+            "bytes": 20000000,
+            "sha256": "154a9ea906fc1a73bb598871583790910c47367a7f59f463d1df835820f48eb0"
+          },
+          {
+            "path": "models/blobs/e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be.pkl.gz.part002",
+            "bytes": 15387837,
+            "sha256": "c3801045c07948aaa2bcc39e4403f61f548235965828778ad70d71e313c43e5a"
+          }
+        ],
+        "reassembled_gzip_name": "e62cf9c3d6f2a58ec482a655e52de5877e57d41a2f903b8eead250f0e96005be.pkl.gz",
+        "restore_note": "Concatenate parts in listed order, verify stored_sha256, decompress gzip, and verify original model sha256. Do not commit the decompressed raw pickle above100MiB."
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "e9e276e343c6b5baba186ebd2b16a0337e78b9f2250232ee01c12db47e7a441f",
+      "original_bytes": 1483637,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/runs/curve_A_pct010_s0/checkpoint.pt",
+          "bytes": 1483637
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/e9e276e343c6b5baba186ebd2b16a0337e78b9f2250232ee01c12db47e7a441f.pt",
+        "encoding": "raw",
+        "stored_sha256": "e9e276e343c6b5baba186ebd2b16a0337e78b9f2250232ee01c12db47e7a441f",
+        "stored_bytes": 1483637,
+        "original_sha256": "e9e276e343c6b5baba186ebd2b16a0337e78b9f2250232ee01c12db47e7a441f"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "ea0f5f5f5ad5b403f47751bfdfec4d3308a86ae39420f520a5326ecd24cf57b1",
+      "original_bytes": 4465791,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/cnn03_convergence/continuation_20261108/runs/curve_C_lr003_s0_plus10/checkpoint.pt",
+          "bytes": 4465791
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/ea0f5f5f5ad5b403f47751bfdfec4d3308a86ae39420f520a5326ecd24cf57b1.pt",
+        "encoding": "raw",
+        "stored_sha256": "ea0f5f5f5ad5b403f47751bfdfec4d3308a86ae39420f520a5326ecd24cf57b1",
+        "stored_bytes": 4465791,
+        "original_sha256": "ea0f5f5f5ad5b403f47751bfdfec4d3308a86ae39420f520a5326ecd24cf57b1"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "f03d0cd4f21011675fcfa9ee49583e0dec088073f320c6b97ac40d6cfd698f99",
+      "original_bytes": 571537,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "SERVER",
+          "path": "experiments/transformer_repair/runs/abs_dense/best.pt",
+          "bytes": 571537
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/f03d0cd4f21011675fcfa9ee49583e0dec088073f320c6b97ac40d6cfd698f99.pt",
+        "encoding": "raw",
+        "stored_sha256": "f03d0cd4f21011675fcfa9ee49583e0dec088073f320c6b97ac40d6cfd698f99",
+        "stored_bytes": 571537,
+        "original_sha256": "f03d0cd4f21011675fcfa9ee49583e0dec088073f320c6b97ac40d6cfd698f99"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "f332a77a897daa944dcdb4ea0df9a88a1c148928df02bf92ba1d90cf9c72ea7d",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__real_only__mix000__seed0/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/f332a77a897daa944dcdb4ea0df9a88a1c148928df02bf92ba1d90cf9c72ea7d.pt",
+        "encoding": "raw",
+        "stored_sha256": "f332a77a897daa944dcdb4ea0df9a88a1c148928df02bf92ba1d90cf9c72ea7d",
+        "stored_bytes": 63733,
+        "original_sha256": "f332a77a897daa944dcdb4ea0df9a88a1c148928df02bf92ba1d90cf9c72ea7d"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "f4b80b3dca8c677054ca5a89e33cfebc3f7936c148f4cec89af6dfdc1adec48b",
+      "original_bytes": 85695,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/small_cnn_data/runs/episode_balanced/best.pt",
+          "bytes": 85695
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/f4b80b3dca8c677054ca5a89e33cfebc3f7936c148f4cec89af6dfdc1adec48b.pt",
+        "encoding": "raw",
+        "stored_sha256": "f4b80b3dca8c677054ca5a89e33cfebc3f7936c148f4cec89af6dfdc1adec48b",
+        "stored_bytes": 85695,
+        "original_sha256": "f4b80b3dca8c677054ca5a89e33cfebc3f7936c148f4cec89af6dfdc1adec48b"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "f8948c48e075c77edf5ac16a76c4ab68acbe3246cf97ed972b73ce616cf23099",
+      "original_bytes": 63733,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "experiments/synthetic_machines/grok_utility/research/promote/promote__real_only__mix000__seed1/checkpoint.pt",
+          "bytes": 63733
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/f8948c48e075c77edf5ac16a76c4ab68acbe3246cf97ed972b73ce616cf23099.pt",
+        "encoding": "raw",
+        "stored_sha256": "f8948c48e075c77edf5ac16a76c4ab68acbe3246cf97ed972b73ce616cf23099",
+        "stored_bytes": 63733,
+        "original_sha256": "f8948c48e075c77edf5ac16a76c4ab68acbe3246cf97ed972b73ce616cf23099"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    },
+    {
+      "sha256": "fe79c8c515412324f94412b0f0f5d3aee5d33d65e79766ef921c707492cdc3d2",
+      "original_bytes": 362071,
+      "kind": "trained_checkpoint_or_fit",
+      "locations": [
+        {
+          "host": "TOWER",
+          "path": "runs/pilot_sparse/best.pt",
+          "bytes": 362071
+        }
+      ],
+      "storage": {
+        "path": "models/blobs/fe79c8c515412324f94412b0f0f5d3aee5d33d65e79766ef921c707492cdc3d2.pt",
+        "encoding": "raw",
+        "stored_sha256": "fe79c8c515412324f94412b0f0f5d3aee5d33d65e79766ef921c707492cdc3d2",
+        "stored_bytes": 362071,
+        "original_sha256": "fe79c8c515412324f94412b0f0f5d3aee5d33d65e79766ef921c707492cdc3d2"
+      },
+      "eligibility_note": "Research history only. Inclusion does not assert competition eligibility or that this was independently trained. Only the frozen final ZIP is selected for submission."
+    }
+  ]
+}

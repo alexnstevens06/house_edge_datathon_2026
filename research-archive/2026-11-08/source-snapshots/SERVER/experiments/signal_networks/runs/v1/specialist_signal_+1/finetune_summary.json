@@ -1,0 +1,20 @@
+{
+  "mode": "specialist",
+  "signal": 1,
+  "out_dir": "runs/v1/specialist_signal_+1",
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "epochs": 30,
+  "lr": 0.0001,
+  "batch_size": 16,
+  "seed": 0,
+  "train_examples": 96,
+  "steps": 180,
+  "best_epoch": 1,
+  "best_tune_R": 0.9446010330353286,
+  "tune_episodes_for_selection": 48,
+  "train_seconds": 7.12,
+  "wall_seconds": 8.96,
+  "device": "cuda",
+  "peak_vram_mb": 80.9
+}

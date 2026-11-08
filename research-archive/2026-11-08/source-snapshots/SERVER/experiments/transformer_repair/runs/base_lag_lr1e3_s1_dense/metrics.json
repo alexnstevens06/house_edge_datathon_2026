@@ -1,0 +1,126 @@
+{
+  "arch": "dense",
+  "best_epoch": 14,
+  "tune_R": 0.8481212565280617,
+  "confirm_R": 0.8709454600403607,
+  "full_val_R": 0.860155717918321,
+  "tune": {
+    "R": 0.8481212565280617,
+    "points_60": 32.4654022500222,
+    "points_80": 43.287203000029606,
+    "probability_error": {
+      "stable": 0.17600195004432742,
+      "short_history": 0.15387012515830026,
+      "drift": 0.19075017751972537,
+      "shared_change": 0.13619202878448022
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.8834597380647,
+      "short_history": 0.9055652326547238,
+      "drift": 0.9558879622871637,
+      "shared_change": 0.6475720931056593
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.8709454600403607,
+    "points_60": 32.0693474403608,
+    "points_80": 42.759129920481065,
+    "probability_error": {
+      "stable": 0.15520736760903034,
+      "short_history": 0.18735763100339617,
+      "drift": 0.16778969257700246,
+      "shared_change": 0.1476345843666503
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.8030073522526785,
+      "short_history": 1.0140222654437603,
+      "drift": 0.9315697868944408,
+      "shared_change": 0.735182435570563
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.860155717918321,
+    "points_60": 32.25536411927132,
+    "points_80": 43.00715215902843,
+    "probability_error": {
+      "stable": 0.16560465882667888,
+      "short_history": 0.17061387808084824,
+      "drift": 0.1792699350483639,
+      "shared_change": 0.14191330657556528
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.8438419429909426,
+      "short_history": 0.9620643116239874,
+      "drift": 0.9443513835607786,
+      "shared_change": 0.6903652334975756
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "config": {
+    "arch": "dense",
+    "seed": 1,
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_ff": 256,
+    "dropout": 0.1,
+    "window": 64,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "batch_size": 64,
+    "t_start": 16,
+    "epochs": 28,
+    "scheduler": "cosine",
+    "amp": "bf16",
+    "pilot": false,
+    "params": 140421,
+    "train_examples": 18567,
+    "sliding_examples": 18471,
+    "query_examples": 96,
+    "tokens_per_example": 475.38,
+    "steps_total": 8148,
+    "device": "cuda",
+    "torch_version": "2.11.0+cu128",
+    "data_sha256_kit_zip": "06b5246f5cc51db5db26e26aae3264bec7b085d756dd82e5a0577dcba8a44f8a",
+    "train_seconds": 89.59,
+    "wall_seconds": 91.39,
+    "peak_vram_mb": 242.7,
+    "throughput_examples_per_sec": 5802.6,
+    "best_epoch": 14
+  }
+}

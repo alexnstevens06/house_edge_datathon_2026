@@ -1,0 +1,59 @@
+{
+  "family": "long_lag_dependence",
+  "label": "RESEARCH_ONLY",
+  "eligibility": "unresolved",
+  "real_only_fallback": true,
+  "note": "Rules say use organizer-released data. No verified synthetic exception. Keep the real-only training fallback. This output is research-only.",
+  "assumptions": [
+    "Invented percent tables and own-machine lags 24 and 48. Not fit on organizer data.",
+    "truth probabilities are the latent-oracle conditional, including unobserved spins.",
+    "observable probabilities drop missing lags and never treat them as payout 0.",
+    "No contemporaneous cross-machine inputs.",
+    "Query signal is null. No historical signal series is invented.",
+    "Each episode has its own random stream so a longer horizon does not change earlier ticks."
+  ],
+  "mappings": {
+    "payouts_ordered": [0, 1, 2, 5, 20],
+    "payout_to_index": {"0": 0, "1": 1, "2": 2, "5": 3, "20": 4},
+    "missing_observation_index": -1,
+    "missing_means": "unknown_not_payout_0",
+    "machine_id_is_slot": true,
+    "slot_to_machine_type": {
+      "0": "steady",
+      "1": "steady",
+      "2": "balanced",
+      "3": "balanced",
+      "4": "balanced",
+      "5": "jackpot",
+      "6": "jackpot",
+      "7": "jackpot"
+    },
+    "type_to_index": {"balanced": 0, "jackpot": 1, "steady": 2},
+    "lags": [24, 48],
+    "mix_weights": {"lag_24": "1/2", "lag_48": "1/4"}
+  },
+  "source_hashes": {
+    "generate.py": "dc924859645bfcf8ec12703115d98fe1f4744ed770e83ce38b62b2f61f952821",
+    "test_generator.py": "86136d20afcc35935a48e72b6086e70b99c0eb6bb7c92e7564cceffa79af6ccc"
+  },
+  "example_cli": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 1 --ticks 64 --out OUT",
+    "seed": 0,
+    "n_episodes": 1,
+    "n_ticks": 64,
+    "record_count": 512,
+    "output_hashes": {
+      "records.jsonl": "a810ca4ef929cd0a0e8c2d4bcabeeee92c27c15adc279951916a350a2b0dcf81",
+      "truth.jsonl": "ebe8379e6bca4965b10252b9fd903e91e5e6f88e7b08c21305982aad0d767115",
+      "observable.jsonl": "3e9cb31edd88c68b33d9fdfafbe4dd3d8a599b663bd9488a4d1ba41a6f9dc383",
+      "queries.jsonl": "a045637eb0c3d35aec436051ad3fc82ffeeaeb47a8ca26b8e863154ad6a4f15f"
+    }
+  },
+  "test": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py",
+    "python": "3.12.3",
+    "result": "OK",
+    "tests_run": 7,
+    "failures": 0
+  }
+}

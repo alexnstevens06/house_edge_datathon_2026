@@ -1,0 +1,64 @@
+{
+  "study": "frozen_feature_heads_20261108",
+  "venv": "experiments/cnn_experts/frozen_feature_heads_20261108/.venv_gfx1031",
+  "python": "3.12.3",
+  "python_bin": "/usr/bin/python3",
+  "created": "2026-11-08",
+  "channel": "stable",
+  "stability": "Official TheRock stable aggregate index. Nightly was not queried. This remains a TheRock development project, not the general ROCm production matrix.",
+  "index_url": "https://stable.repo.amd.com/rocm/whl-next/",
+  "install": "python3 -m venv .venv_gfx1031 && pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-gfx1031]\" && pip install numpy pytest",
+  "numpy_pytest_index": "https://pypi.org/simple",
+  "hsa_override": null,
+  "device_name": "AMD Radeon RX 6700 XT",
+  "gcnArchName": "gfx1031",
+  "hip": "7.16.26385",
+  "arch_list_includes_gfx1031": true,
+  "torch_arch_list": ["gfx1010", "gfx1011", "gfx1012", "gfx1030", "gfx1031", "gfx1032", "gfx1033", "gfx1034", "gfx1035", "gfx1036", "gfx1100", "gfx1101", "gfx1102", "gfx1103", "gfx1200", "gfx1201", "gfx1150", "gfx1151", "gfx1152", "gfx1153", "gfx908", "gfx90a", "gfx942", "gfx950", "gfx1250"],
+  "kernel_gate": {
+    "zeros": "OK",
+    "randn": "OK",
+    "linear_backward": "OK",
+    "conv1d_backward": "OK",
+    "synchronize": "OK",
+    "pytest": "10 passed"
+  },
+  "packages": {
+    "torch": "2.14.0+rocm10.1.0",
+    "amd-torch-device-gfx1031": "2.14.0+rocm10.1.0",
+    "rocm-sdk-device-gfx1031": "10.1.0",
+    "rocm-sdk-core": "10.1.0",
+    "rocm-sdk-libraries": "10.1.0",
+    "rocm": "10.1.0",
+    "rocm-bootstrap": "0.3.0",
+    "triton": "3.8.0+git669b31ac.rocm10.1.0",
+    "numpy": "2.5.4",
+    "pytest": "9.2.0"
+  },
+  "wheel_sha256": {
+    "torch-2.14.0+rocm10.1.0-cp312-cp312-linux_x86_64.whl": "3182f6f166f42d6f186fd8c4a4ea65e1ed02fba8a98c48f977b68f15cca82636",
+    "amd_torch_device_gfx1031-2.14.0+rocm10.1.0-cp312-cp312-linux_x86_64.whl": "6965aa78eb8025473a20e167db6ab929cc4ca32d5743d61380232cf65c7cdafa",
+    "rocm_sdk_device_gfx1031-10.1.0-py3-none-linux_x86_64.whl": "ed3c38994aa4218267a3bc42706178678bee9c986085fc0c08081f35b82a1bb9",
+    "rocm_sdk_core-10.1.0-py3-none-linux_x86_64.whl": "a1a2433334ac61a526c6bae2f58f6bbc9b525f5a9e008e76a1a48d07f64f0703",
+    "rocm_sdk_libraries-10.1.0-py3-none-linux_x86_64.whl": "ffb36d5e1d97e96c191052a10c39a1a7a4ddb4da4a88d3166ab4bf7bfdb94cf6",
+    "triton-3.8.0+git669b31ac.rocm10.1.0-cp312-cp312-linux_x86_64.whl": "2f745c62aebb33167bfb6d586f569fbea67f8fc5181b03798b91a6b9187a625e",
+    "rocm-10.1.0-py3-none-any.whl": "157b2970075c81510dea9e218d8fa269f1c88090213cbc104d18bc58e57bac00",
+    "numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "fbde6962867ee75b48b0ee29b2b9372ec5d617799dbaf38e82dc0596f2f7738a",
+    "pytest-9.2.0-py3-none-any.whl": "07acdcf88ec174f907dc01af70bf52d49b014bbab03faeeade31c96b18c2e588"
+  },
+  "source_sha256_at_training": {
+    "PLAN.md": "4bf04d32a65c1cc8d56342c6feb48d80e81e32a772fabeb91d63483f21f1ace4",
+    "frozen_heads.py": "4b8ecd90f1975613d0f27e4fc5929850b8e4f0ec20bd6dc5fa7c9918352e8873",
+    "train.py": "d2fa036d12ddd9d11d49014d0a5ec55110ca920ab8cfea6b38d2a86d2434d560",
+    "test_frozen_heads.py": "bb77ff0b8e3479e1d4713ed0d748bb1da86f151fc0c37ea99fe58ceb3a76c633",
+    "history_pretrain.pt": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760",
+    "runs/splits.json": "8f266f53f5da262c3141e57ea780668b552dc5608b63c2eaeee667cad79891cb"
+  },
+  "recorded_trainer_pid": 33141,
+  "tune_R": {
+    "baseline": 0.35898058946101286,
+    "shared": 0.3509713468721206,
+    "routed": 0.36566085303001133
+  },
+  "repo_venv_torch_untouched": "2.9.1+rocm6.4"
+}

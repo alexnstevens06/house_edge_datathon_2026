@@ -1,0 +1,148 @@
+{
+  "assumptions": [
+    "Toy order-2 Markov kernel with hand-written integer weights, not fit to organizer data.",
+    "Machines are independent. Cross-machine outcomes are not inputs, including earlier ticks.",
+    "State updates are synchronous: tick t uses only latent payouts at ticks < t on the same machine.",
+    "Observation masks are MCAR given machine type and are not payout 0.",
+    "probabilities are latent-oracle conditionals. observable_probabilities marginalize gaps.",
+    "None / unobserved is unknown. Payout index 0 means category payout 0 only.",
+    "No synthetic signal series. Real query signals exist only at the organizer prediction cutoff.",
+    "RESEARCH_ONLY: synthetic_exception_verified is false; competition fallback is organizer-released real data."
+  ],
+  "eligibility": "RESEARCH_ONLY",
+  "family": "finite_order_markov",
+  "output_hashes": {
+    "records.jsonl": "2cc6c6f64ea2469605d09987be36bc6b18179e7a0c3eb167a70cea5f5ee77ad5",
+    "truth.jsonl": "9c27f7ab7fb0ff0a4f7a58c5ff4e73c3da69e588479e518e4a4af6e1e30606d4"
+  },
+  "real_only_fallback": true,
+  "record_count": 128,
+  "seed": 0,
+  "settings": {
+    "base_weights": {
+      "balanced": [
+        28,
+        26,
+        24,
+        16,
+        6
+      ],
+      "jackpot": [
+        72,
+        10,
+        6,
+        6,
+        6
+      ],
+      "steady": [
+        70,
+        22,
+        5,
+        2,
+        1
+      ]
+    },
+    "index_to_payout": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 20
+    },
+    "lag1_five_bonus": {
+      "balanced": 8,
+      "jackpot": 14,
+      "steady": 6
+    },
+    "lag1_jackpot_bonus_p5_p20": {
+      "balanced": [
+        6,
+        8
+      ],
+      "jackpot": [
+        10,
+        36
+      ],
+      "steady": [
+        2,
+        2
+      ]
+    },
+    "lag1_persist": {
+      "balanced": 18,
+      "jackpot": 10,
+      "steady": 48
+    },
+    "lag2_five_bonus": {
+      "balanced": 3,
+      "jackpot": 6,
+      "steady": 2
+    },
+    "lag2_jackpot_bonus_p5_p20": {
+      "balanced": [
+        3,
+        4
+      ],
+      "jackpot": [
+        6,
+        18
+      ],
+      "steady": [
+        1,
+        1
+      ]
+    },
+    "lag2_persist": {
+      "balanced": 6,
+      "jackpot": 4,
+      "steady": 16
+    },
+    "machine_types_by_id": [
+      "steady",
+      "steady",
+      "steady",
+      "balanced",
+      "balanced",
+      "balanced",
+      "jackpot",
+      "jackpot"
+    ],
+    "max_records": 8192,
+    "missing_policy": "unobserved is unknown, not payout 0",
+    "n_episodes": 1,
+    "n_machines": 8,
+    "n_ticks": 16,
+    "order": 2,
+    "p_observe": {
+      "balanced": 0.84,
+      "jackpot": 0.7,
+      "steady": 0.92
+    },
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "probability_kinds": {
+      "observable_probabilities": "observable_history",
+      "probabilities": "latent_oracle"
+    },
+    "rng_order": "per-episode sha256 stream, then tick, machine, payout draw, observation draw",
+    "signal_policy": "no synthetic signal; real signal exists only at the organizer prediction cutoff"
+  },
+  "source_hashes": {
+    "README.md": "904925a0f7af2ebccd080df0f9b86a79cf69c86f4223fc64e8cebccf7c92d0e9",
+    "generate.py": "3683360edb6810ad583b00cb3d329e318b56465b34238041cd981be012ac30ac",
+    "test_generator.py": "de2b68a001a77460af0934be304c32d68166ba8d3f84f6d4cde6fe46e212c0df"
+  },
+  "synthetic_exception_verified": false
+}

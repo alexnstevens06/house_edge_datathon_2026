@@ -1,0 +1,788 @@
+{
+  "method": "Descriptive algebraic decomposition of the SAME prespecified canonical R differences on saved sufficient statistics; fixed full-sample denominator sum_reference_by_condition, per episode delta=(error_left-error_right)/(4*sum_reference_in_condition). Sums validated against official R difference within1e-12. No new model/pair/data/bootstrap. Distinct from raw-error concentration shares in original REPORT.",
+  "comparisons": {
+    "pair02_minus_s2": {
+      "full_delta_R": -0.025121576527708394,
+      "top1": {
+        "episodes": [
+          "main-validation-e00009"
+        ],
+        "gross_share": 0.11283640730147655,
+        "net_share": 0.17442956377779967
+      },
+      "top3": {
+        "episodes": [
+          "main-validation-e00009",
+          "main-validation-e00091",
+          "main-validation-e00008"
+        ],
+        "gross_share": 0.3242654654323968,
+        "net_share": 0.5012698032157037
+      },
+      "rows": [
+        {
+          "episode_id": "main-validation-e00009",
+          "condition": "stable",
+          "delta_R_contribution": -0.004381945635138786
+        },
+        {
+          "episode_id": "main-validation-e00091",
+          "condition": "drift",
+          "delta_R_contribution": -0.004322227560970635
+        },
+        {
+          "episode_id": "main-validation-e00008",
+          "condition": "short_history",
+          "delta_R_contribution": -0.003888514526403206
+        },
+        {
+          "episode_id": "main-validation-e00041",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0024294706056723144
+        },
+        {
+          "episode_id": "main-validation-e00034",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0023026215973181744
+        },
+        {
+          "episode_id": "main-validation-e00019",
+          "condition": "short_history",
+          "delta_R_contribution": -0.002294197576391892
+        },
+        {
+          "episode_id": "main-validation-e00081",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.00208795829601623
+        },
+        {
+          "episode_id": "main-validation-e00042",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.001704370839825444
+        },
+        {
+          "episode_id": "main-validation-e00074",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.001540969579166558
+        },
+        {
+          "episode_id": "main-validation-e00048",
+          "condition": "drift",
+          "delta_R_contribution": -0.0012586333494553324
+        },
+        {
+          "episode_id": "main-validation-e00045",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0011196000672923682
+        },
+        {
+          "episode_id": "main-validation-e00095",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0011091713417854957
+        },
+        {
+          "episode_id": "main-validation-e00090",
+          "condition": "stable",
+          "delta_R_contribution": -0.0010504536800944027
+        },
+        {
+          "episode_id": "main-validation-e00055",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0009962243094775133
+        },
+        {
+          "episode_id": "main-validation-e00059",
+          "condition": "stable",
+          "delta_R_contribution": -0.0008731432936463986
+        },
+        {
+          "episode_id": "main-validation-e00033",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0008189253167507378
+        },
+        {
+          "episode_id": "main-validation-e00035",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0007962600727814336
+        },
+        {
+          "episode_id": "main-validation-e00017",
+          "condition": "stable",
+          "delta_R_contribution": -0.0006954154544147808
+        },
+        {
+          "episode_id": "main-validation-e00030",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0006716740471810066
+        },
+        {
+          "episode_id": "main-validation-e00025",
+          "condition": "drift",
+          "delta_R_contribution": -0.0005979486229975044
+        },
+        {
+          "episode_id": "main-validation-e00026",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0005582910036501338
+        },
+        {
+          "episode_id": "main-validation-e00039",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0005277288123828856
+        },
+        {
+          "episode_id": "main-validation-e00085",
+          "condition": "drift",
+          "delta_R_contribution": -0.0005074195126208567
+        },
+        {
+          "episode_id": "main-validation-e00082",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.00040866221659739357
+        },
+        {
+          "episode_id": "main-validation-e00094",
+          "condition": "stable",
+          "delta_R_contribution": -0.00039876377685509377
+        },
+        {
+          "episode_id": "main-validation-e00014",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0003934906891806232
+        },
+        {
+          "episode_id": "main-validation-e00067",
+          "condition": "stable",
+          "delta_R_contribution": -0.0003707438753645623
+        },
+        {
+          "episode_id": "main-validation-e00066",
+          "condition": "stable",
+          "delta_R_contribution": -0.0003558110345628815
+        },
+        {
+          "episode_id": "main-validation-e00023",
+          "condition": "stable",
+          "delta_R_contribution": -0.00026426451181720375
+        },
+        {
+          "episode_id": "main-validation-e00062",
+          "condition": "drift",
+          "delta_R_contribution": -0.00010960035210371361
+        },
+        {
+          "episode_id": "main-validation-e00006",
+          "condition": "drift",
+          "delta_R_contribution": 2.648569623885035e-05
+        },
+        {
+          "episode_id": "main-validation-e00076",
+          "condition": "stable",
+          "delta_R_contribution": 6.928557437840564e-05
+        },
+        {
+          "episode_id": "main-validation-e00032",
+          "condition": "stable",
+          "delta_R_contribution": 0.00011774662260988565
+        },
+        {
+          "episode_id": "main-validation-e00024",
+          "condition": "drift",
+          "delta_R_contribution": 0.0003313786498825025
+        },
+        {
+          "episode_id": "main-validation-e00020",
+          "condition": "drift",
+          "delta_R_contribution": 0.0003364206866517901
+        },
+        {
+          "episode_id": "main-validation-e00089",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0003400639517704481
+        },
+        {
+          "episode_id": "main-validation-e00013",
+          "condition": "stable",
+          "delta_R_contribution": 0.0005024964911975228
+        },
+        {
+          "episode_id": "main-validation-e00052",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0006754368186362808
+        },
+        {
+          "episode_id": "main-validation-e00015",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0006851671628807851
+        },
+        {
+          "episode_id": "main-validation-e00002",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0007381393810258661
+        },
+        {
+          "episode_id": "main-validation-e00056",
+          "condition": "drift",
+          "delta_R_contribution": 0.0007585505145087352
+        },
+        {
+          "episode_id": "main-validation-e00072",
+          "condition": "drift",
+          "delta_R_contribution": 0.000861435994951211
+        },
+        {
+          "episode_id": "main-validation-e00005",
+          "condition": "stable",
+          "delta_R_contribution": 0.0009105547126349534
+        },
+        {
+          "episode_id": "main-validation-e00011",
+          "condition": "short_history",
+          "delta_R_contribution": 0.001038071059548861
+        },
+        {
+          "episode_id": "main-validation-e00003",
+          "condition": "drift",
+          "delta_R_contribution": 0.0011646333508713515
+        },
+        {
+          "episode_id": "main-validation-e00051",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.001460674619177426
+        },
+        {
+          "episode_id": "main-validation-e00000",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0016133546940540599
+        },
+        {
+          "episode_id": "main-validation-e00080",
+          "condition": "drift",
+          "delta_R_contribution": 0.002083029049188233
+        }
+      ]
+    },
+    "equal3_minus_s2": {
+      "full_delta_R": -0.02005330966389599,
+      "top1": {
+        "episodes": [
+          "main-validation-e00009"
+        ],
+        "gross_share": 0.11110988623836529,
+        "net_share": 0.24026542935229372
+      },
+      "top3": {
+        "episodes": [
+          "main-validation-e00009",
+          "main-validation-e00091",
+          "main-validation-e00008"
+        ],
+        "gross_share": 0.3227268971076195,
+        "net_share": 0.697868741677478
+      },
+      "rows": [
+        {
+          "episode_id": "main-validation-e00009",
+          "condition": "stable",
+          "delta_R_contribution": -0.004818117056330471
+        },
+        {
+          "episode_id": "main-validation-e00091",
+          "condition": "drift",
+          "delta_R_contribution": -0.004700370006844065
+        },
+        {
+          "episode_id": "main-validation-e00008",
+          "condition": "short_history",
+          "delta_R_contribution": -0.004476090918437368
+        },
+        {
+          "episode_id": "main-validation-e00074",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0031565658691690367
+        },
+        {
+          "episode_id": "main-validation-e00034",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0023989312818904576
+        },
+        {
+          "episode_id": "main-validation-e00019",
+          "condition": "short_history",
+          "delta_R_contribution": -0.002332107770636914
+        },
+        {
+          "episode_id": "main-validation-e00081",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.002290156149854912
+        },
+        {
+          "episode_id": "main-validation-e00041",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0021467258656795046
+        },
+        {
+          "episode_id": "main-validation-e00095",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0019166645472636955
+        },
+        {
+          "episode_id": "main-validation-e00055",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0013643074932732215
+        },
+        {
+          "episode_id": "main-validation-e00090",
+          "condition": "stable",
+          "delta_R_contribution": -0.0013239115329672123
+        },
+        {
+          "episode_id": "main-validation-e00048",
+          "condition": "drift",
+          "delta_R_contribution": -0.0012772696275393546
+        },
+        {
+          "episode_id": "main-validation-e00033",
+          "condition": "short_history",
+          "delta_R_contribution": -0.00117743236336884
+        },
+        {
+          "episode_id": "main-validation-e00025",
+          "condition": "drift",
+          "delta_R_contribution": -0.0011253414505943487
+        },
+        {
+          "episode_id": "main-validation-e00059",
+          "condition": "stable",
+          "delta_R_contribution": -0.0010831359922809875
+        },
+        {
+          "episode_id": "main-validation-e00014",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0009927761397081588
+        },
+        {
+          "episode_id": "main-validation-e00017",
+          "condition": "stable",
+          "delta_R_contribution": -0.0008318632580443084
+        },
+        {
+          "episode_id": "main-validation-e00062",
+          "condition": "drift",
+          "delta_R_contribution": -0.0008014191038107631
+        },
+        {
+          "episode_id": "main-validation-e00094",
+          "condition": "stable",
+          "delta_R_contribution": -0.0007806615593128558
+        },
+        {
+          "episode_id": "main-validation-e00023",
+          "condition": "stable",
+          "delta_R_contribution": -0.0007354266326072786
+        },
+        {
+          "episode_id": "main-validation-e00035",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0007317543171596603
+        },
+        {
+          "episode_id": "main-validation-e00089",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0007256131024038637
+        },
+        {
+          "episode_id": "main-validation-e00085",
+          "condition": "drift",
+          "delta_R_contribution": -0.0006082416153486792
+        },
+        {
+          "episode_id": "main-validation-e00039",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0005806348520961164
+        },
+        {
+          "episode_id": "main-validation-e00066",
+          "condition": "stable",
+          "delta_R_contribution": -0.0005232384206747443
+        },
+        {
+          "episode_id": "main-validation-e00030",
+          "condition": "short_history",
+          "delta_R_contribution": -0.00032886233496439126
+        },
+        {
+          "episode_id": "main-validation-e00013",
+          "condition": "stable",
+          "delta_R_contribution": -7.906723677135114e-05
+        },
+        {
+          "episode_id": "main-validation-e00032",
+          "condition": "stable",
+          "delta_R_contribution": -5.684504121319399e-05
+        },
+        {
+          "episode_id": "main-validation-e00026",
+          "condition": "shared_change",
+          "delta_R_contribution": 2.5776229887868072e-05
+        },
+        {
+          "episode_id": "main-validation-e00042",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0003286408685993102
+        },
+        {
+          "episode_id": "main-validation-e00051",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.00040778670930053686
+        },
+        {
+          "episode_id": "main-validation-e00076",
+          "condition": "stable",
+          "delta_R_contribution": 0.0004215803563048191
+        },
+        {
+          "episode_id": "main-validation-e00006",
+          "condition": "drift",
+          "delta_R_contribution": 0.0005422894239247882
+        },
+        {
+          "episode_id": "main-validation-e00045",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0005432664446392543
+        },
+        {
+          "episode_id": "main-validation-e00072",
+          "condition": "drift",
+          "delta_R_contribution": 0.0005522712238745866
+        },
+        {
+          "episode_id": "main-validation-e00056",
+          "condition": "drift",
+          "delta_R_contribution": 0.0005742184420188215
+        },
+        {
+          "episode_id": "main-validation-e00020",
+          "condition": "drift",
+          "delta_R_contribution": 0.000702759647701701
+        },
+        {
+          "episode_id": "main-validation-e00067",
+          "condition": "stable",
+          "delta_R_contribution": 0.0008082334625760382
+        },
+        {
+          "episode_id": "main-validation-e00052",
+          "condition": "short_history",
+          "delta_R_contribution": 0.001011028457636272
+        },
+        {
+          "episode_id": "main-validation-e00015",
+          "condition": "short_history",
+          "delta_R_contribution": 0.001084430128618633
+        },
+        {
+          "episode_id": "main-validation-e00024",
+          "condition": "drift",
+          "delta_R_contribution": 0.001270753828104146
+        },
+        {
+          "episode_id": "main-validation-e00082",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0013830763381557612
+        },
+        {
+          "episode_id": "main-validation-e00011",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0016013561927727062
+        },
+        {
+          "episode_id": "main-validation-e00005",
+          "condition": "stable",
+          "delta_R_contribution": 0.0016892824143192465
+        },
+        {
+          "episode_id": "main-validation-e00003",
+          "condition": "drift",
+          "delta_R_contribution": 0.00232977445347588
+        },
+        {
+          "episode_id": "main-validation-e00002",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0023748959330624868
+        },
+        {
+          "episode_id": "main-validation-e00000",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0023876666899004515
+        },
+        {
+          "episode_id": "main-validation-e00080",
+          "condition": "drift",
+          "delta_R_contribution": 0.003271134631476457
+        }
+      ]
+    },
+    "pair02_minus_equal3": {
+      "full_delta_R": -0.005068266863812404,
+      "top1": {
+        "episodes": [
+          "main-validation-e00042"
+        ],
+        "gross_share": 0.11990123941812689,
+        "net_share": 0.401125624015682
+      },
+      "top3": {
+        "episodes": [
+          "main-validation-e00042",
+          "main-validation-e00082",
+          "main-validation-e00045"
+        ],
+        "gross_share": 0.323644005620192,
+        "net_share": 1.0827402981266239
+      },
+      "rows": [
+        {
+          "episode_id": "main-validation-e00042",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.002033011708424754
+        },
+        {
+          "episode_id": "main-validation-e00082",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0017917385547531548
+        },
+        {
+          "episode_id": "main-validation-e00045",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0016628665119316226
+        },
+        {
+          "episode_id": "main-validation-e00002",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0016367565520366207
+        },
+        {
+          "episode_id": "main-validation-e00080",
+          "condition": "drift",
+          "delta_R_contribution": -0.0011881055822882236
+        },
+        {
+          "episode_id": "main-validation-e00067",
+          "condition": "stable",
+          "delta_R_contribution": -0.0011789773379406005
+        },
+        {
+          "episode_id": "main-validation-e00003",
+          "condition": "drift",
+          "delta_R_contribution": -0.0011651411026045281
+        },
+        {
+          "episode_id": "main-validation-e00024",
+          "condition": "drift",
+          "delta_R_contribution": -0.0009393751782216435
+        },
+        {
+          "episode_id": "main-validation-e00005",
+          "condition": "stable",
+          "delta_R_contribution": -0.000778727701684293
+        },
+        {
+          "episode_id": "main-validation-e00000",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0007743119958463918
+        },
+        {
+          "episode_id": "main-validation-e00026",
+          "condition": "shared_change",
+          "delta_R_contribution": -0.0005840672335380019
+        },
+        {
+          "episode_id": "main-validation-e00011",
+          "condition": "short_history",
+          "delta_R_contribution": -0.000563285133223845
+        },
+        {
+          "episode_id": "main-validation-e00006",
+          "condition": "drift",
+          "delta_R_contribution": -0.0005158037276859379
+        },
+        {
+          "episode_id": "main-validation-e00015",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0003992629657378479
+        },
+        {
+          "episode_id": "main-validation-e00020",
+          "condition": "drift",
+          "delta_R_contribution": -0.00036633896104991095
+        },
+        {
+          "episode_id": "main-validation-e00076",
+          "condition": "stable",
+          "delta_R_contribution": -0.00035229478192641344
+        },
+        {
+          "episode_id": "main-validation-e00030",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0003428117122166154
+        },
+        {
+          "episode_id": "main-validation-e00052",
+          "condition": "short_history",
+          "delta_R_contribution": -0.0003355916389999912
+        },
+        {
+          "episode_id": "main-validation-e00041",
+          "condition": "short_history",
+          "delta_R_contribution": -0.00028274473999281
+        },
+        {
+          "episode_id": "main-validation-e00035",
+          "condition": "shared_change",
+          "delta_R_contribution": -6.450575562177326e-05
+        },
+        {
+          "episode_id": "main-validation-e00048",
+          "condition": "drift",
+          "delta_R_contribution": 1.8636278084022232e-05
+        },
+        {
+          "episode_id": "main-validation-e00019",
+          "condition": "short_history",
+          "delta_R_contribution": 3.791019424502202e-05
+        },
+        {
+          "episode_id": "main-validation-e00039",
+          "condition": "short_history",
+          "delta_R_contribution": 5.290603971323089e-05
+        },
+        {
+          "episode_id": "main-validation-e00034",
+          "condition": "shared_change",
+          "delta_R_contribution": 9.63096845722833e-05
+        },
+        {
+          "episode_id": "main-validation-e00085",
+          "condition": "drift",
+          "delta_R_contribution": 0.00010082210272782244
+        },
+        {
+          "episode_id": "main-validation-e00017",
+          "condition": "stable",
+          "delta_R_contribution": 0.00013644780362952771
+        },
+        {
+          "episode_id": "main-validation-e00066",
+          "condition": "stable",
+          "delta_R_contribution": 0.0001674273861118627
+        },
+        {
+          "episode_id": "main-validation-e00032",
+          "condition": "stable",
+          "delta_R_contribution": 0.00017459166382307966
+        },
+        {
+          "episode_id": "main-validation-e00056",
+          "condition": "drift",
+          "delta_R_contribution": 0.00018433207248991362
+        },
+        {
+          "episode_id": "main-validation-e00081",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0002021978538386818
+        },
+        {
+          "episode_id": "main-validation-e00059",
+          "condition": "stable",
+          "delta_R_contribution": 0.0002099926986345889
+        },
+        {
+          "episode_id": "main-validation-e00090",
+          "condition": "stable",
+          "delta_R_contribution": 0.0002734578528728096
+        },
+        {
+          "episode_id": "main-validation-e00072",
+          "condition": "drift",
+          "delta_R_contribution": 0.00030916477107662433
+        },
+        {
+          "episode_id": "main-validation-e00033",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0003585070466181021
+        },
+        {
+          "episode_id": "main-validation-e00055",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.00036808318379570793
+        },
+        {
+          "episode_id": "main-validation-e00091",
+          "condition": "drift",
+          "delta_R_contribution": 0.0003781424458734303
+        },
+        {
+          "episode_id": "main-validation-e00094",
+          "condition": "stable",
+          "delta_R_contribution": 0.000381897782457762
+        },
+        {
+          "episode_id": "main-validation-e00009",
+          "condition": "stable",
+          "delta_R_contribution": 0.00043617142119168516
+        },
+        {
+          "episode_id": "main-validation-e00023",
+          "condition": "stable",
+          "delta_R_contribution": 0.00047116212079007484
+        },
+        {
+          "episode_id": "main-validation-e00025",
+          "condition": "drift",
+          "delta_R_contribution": 0.0005273928275968444
+        },
+        {
+          "episode_id": "main-validation-e00013",
+          "condition": "stable",
+          "delta_R_contribution": 0.0005815637279688739
+        },
+        {
+          "episode_id": "main-validation-e00008",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0005875763920341616
+        },
+        {
+          "episode_id": "main-validation-e00014",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0005992854505275355
+        },
+        {
+          "episode_id": "main-validation-e00062",
+          "condition": "drift",
+          "delta_R_contribution": 0.0006918187517070494
+        },
+        {
+          "episode_id": "main-validation-e00095",
+          "condition": "short_history",
+          "delta_R_contribution": 0.0008074932054781998
+        },
+        {
+          "episode_id": "main-validation-e00051",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0010528879098768893
+        },
+        {
+          "episode_id": "main-validation-e00089",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0010656770541743116
+        },
+        {
+          "episode_id": "main-validation-e00074",
+          "condition": "shared_change",
+          "delta_R_contribution": 0.0016155962900024788
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "package": "fp64_cnn03_entry",
+  "release_claim": false,
+  "precision": "fp64",
+  "precision_change": "inference only; checkpoint bytes are the saved CNN03 seed 0 checkpoint",
+  "training": false,
+  "selection": "tune-selected seed 0 only; seeds 1 and 2 are not included",
+  "checkpoint_sha256": "ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f",
+  "config_sha256": "6169196bc0827286d5bcbd931980727e0442b1ffdef664cb7f7b319cad4eb4f5",
+  "checkpoint_path_copied_from": "experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt",
+  "canonical_source_sha256": {
+    "experiments/mlp_cnn_hpo/server_snapshot/source/base_cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+    "pinned_in": "experiments/mlp_cnn_hpo/review/PINNED.json"
+  },
+  "architecture": {"h": 128, "layers": 4, "kernel": 3, "W": 64, "drop": 0.3, "seed": 0},
+  "dtype_change": "model.double(); mask, tick, and arange use the embedding dtype; softmax is not cast to float32; Tensor.float is not patched",
+  "inputs": ["<split>/history.csv", "<split>/queries.csv"],
+  "default_split": "test",
+  "not_read": ["labels", "conditions", "signal column", "targets", "reference"],
+  "global_tensor_float_patch": false,
+  "reported_full_R": 0.3685,
+  "reported_points_60": 43.845081
+}

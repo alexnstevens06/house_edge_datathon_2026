@@ -1,0 +1,11 @@
+# Kit route only: organizers preprovision these pins, then run offline.
+# This package does not install packages and does not bundle wheels.
+#
+# Versions executed for the local CPU proof (CPython 3.12.3, not organizer 3.13):
+#   numpy==2.5.4
+#   torch==2.9.1+rocm6.4
+# The pin below is the version name that is viable to preprovision. The CPU wheel
+# torch==2.9.1 from the official CPU index was not installed here. Its numeric
+# distribution versus the ROCm build used for this proof is untested.
+numpy==2.5.4
+torch==2.9.1

@@ -1,0 +1,227 @@
+{
+ "confirm_scored": false,
+ "deadline": "2026-11-07T19:40:00-06:00",
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "new_information_claim": false,
+ "plan_sha256": "a8bc844b2734b531d231ca0d33579bcfb26be01e6c8f96a66c9e4068f042c3e8",
+ "ranking_rule": "lowest tune_R is better",
+ "screen_ranking": [
+  {
+   "family": "abrupt_changepoints",
+   "mix": 0.25,
+   "train_loss_mean": 1.139977858463923,
+   "tune_R": 1.0093277493540138
+  }
+ ],
+ "seed_spreads": [
+  {
+   "family": "abrupt_changepoints",
+   "mix": 0.25,
+   "note": "spread_max_minus_min is the range across the listed seeds. It is not a confidence interval.",
+   "seeds": [
+    0,
+    1
+   ],
+   "spread_max_minus_min": 0.024665586400571482,
+   "tune_R": [
+    0.9543575196834129,
+    0.9296919332828414
+   ]
+  },
+  {
+   "family": "abrupt_changepoints",
+   "mix": 0.5,
+   "note": "spread_max_minus_min is the range across the listed seeds. It is not a confidence interval.",
+   "seeds": [
+    0,
+    1
+   ],
+   "spread_max_minus_min": 0.022891449961155996,
+   "tune_R": [
+    0.97821256366357,
+    0.955321113702414
+   ]
+  },
+  {
+   "family": "real_only",
+   "mix": 0.0,
+   "note": "spread_max_minus_min is the range across the listed seeds. It is not a confidence interval.",
+   "seeds": [
+    0,
+    1
+   ],
+   "spread_max_minus_min": 0.03894528275366027,
+   "tune_R": [
+    0.9723068903840728,
+    0.9333616076304125
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "error": "Quarantine: directed_lagged_crossmachine generate.py sha256 bae961142cd9f678013918526ec9ba913e3225d61992f22168ef250afe30a0fe has no independently passed hash in INDEPENDENT_TEST_RESULTS.json; source settlement is not verification",
+   "family": "directed_lagged_crossmachine",
+   "sha256": "bae961142cd9f678013918526ec9ba913e3225d61992f22168ef250afe30a0fe"
+  },
+  {
+   "error": "ValueError: truth keys and record keys differ (records=8192 truth=8256 only_records=0 only_truth=64)",
+   "family": "hidden_regime_switching",
+   "sha256": "705bfad75ffe4bb56cdaba9c804f450d622ed9f143406d347613535c9ce75f63"
+  },
+  {
+   "error": "TimeoutError: not enough wall time for a 300-step trial",
+   "family": "real_only",
+   "phase": "promote",
+   "seed": 2
+  }
+ ],
+ "submission_export": false,
+ "test_loaded": false,
+ "trials": [
+  {
+   "calibration_ece_5bin": 0.04081222376165287,
+   "calibration_nll": 1.0918658670501167,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/screen/screen__real_only__mix000__seed0",
+   "elapsed_train_sec": 8.80256396200275,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "real_only",
+   "interrupted": false,
+   "mix": 0.0,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.1489286104838052,
+   "tune_R": 1.0053866589636473
+  },
+  {
+   "calibration_ece_5bin": 0.04530104304042956,
+   "calibration_nll": 1.0901964938860667,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/screen/screen__abrupt_changepoints__mix025__seed0",
+   "elapsed_train_sec": 10.161296412989032,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.25,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.139977858463923,
+   "tune_R": 1.0093277493540138
+  },
+  {
+   "calibration_ece_5bin": 0.036034976753095735,
+   "calibration_nll": 1.0951945768214875,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/screen/screen__abrupt_changepoints__mix050__seed0",
+   "elapsed_train_sec": 10.377394903014647,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.5,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.1341913312673568,
+   "tune_R": 1.0166853589603029
+  },
+  {
+   "calibration_ece_5bin": 0.09105376278360686,
+   "calibration_nll": 1.0585550186731252,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__real_only__mix000__seed0",
+   "elapsed_train_sec": 51.883162718004314,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "real_only",
+   "interrupted": false,
+   "mix": 0.0,
+   "phase": "promote",
+   "seed": 0,
+   "steps_completed": 300,
+   "train_loss_mean": 1.0642353190978369,
+   "tune_R": 0.9723068903840728
+  },
+  {
+   "calibration_ece_5bin": 0.06611456427102289,
+   "calibration_nll": 1.0624622088978966,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix025__seed0",
+   "elapsed_train_sec": 49.60940864001168,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.25,
+   "phase": "promote",
+   "seed": 0,
+   "steps_completed": 300,
+   "train_loss_mean": 1.0707517911990483,
+   "tune_R": 0.9543575196834129
+  },
+  {
+   "calibration_ece_5bin": 0.07915067711534603,
+   "calibration_nll": 1.0696897499077302,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix050__seed0",
+   "elapsed_train_sec": 53.994780601002276,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.5,
+   "phase": "promote",
+   "seed": 0,
+   "steps_completed": 300,
+   "train_loss_mean": 1.0714598224560419,
+   "tune_R": 0.97821256366357
+  },
+  {
+   "calibration_ece_5bin": 0.051154837555562424,
+   "calibration_nll": 1.049508361867263,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__real_only__mix000__seed1",
+   "elapsed_train_sec": 45.666121963004116,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "real_only",
+   "interrupted": false,
+   "mix": 0.0,
+   "phase": "promote",
+   "seed": 1,
+   "steps_completed": 300,
+   "train_loss_mean": 1.0623671233654022,
+   "tune_R": 0.9333616076304125
+  },
+  {
+   "calibration_ece_5bin": 0.04977785803688072,
+   "calibration_nll": 1.0537497424846751,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix025__seed1",
+   "elapsed_train_sec": 46.402073804987594,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.25,
+   "phase": "promote",
+   "seed": 1,
+   "steps_completed": 300,
+   "train_loss_mean": 1.0666606044769287,
+   "tune_R": 0.9296919332828414
+  },
+  {
+   "calibration_ece_5bin": 0.05494677554816005,
+   "calibration_nll": 1.0693175199298206,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility/research/promote/promote__abrupt_changepoints__mix050__seed1",
+   "elapsed_train_sec": 47.28660254200804,
+   "eval_error": null,
+   "exposures": 38400,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.5,
+   "phase": "promote",
+   "seed": 1,
+   "steps_completed": 300,
+   "train_loss_mean": 1.068936542669932,
+   "tune_R": 0.955321113702414
+  }
+ ]
+}

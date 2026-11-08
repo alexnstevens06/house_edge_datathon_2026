@@ -1,0 +1,23 @@
+{
+  "method": "Parse each probability as float, sum in declared column order, divide by that sum; compare by exact query ID. Final independent review also uses canonical kit normalization.",
+  "threshold": 1e-08,
+  "splits": {
+    "candidate_test_a.csv": {
+      "n_queries": 1536,
+      "same_id_order": true,
+      "max_raw_abs": 8.881784197001252e-16,
+      "max_float_then_sum_normalized_abs": 8.881784197001252e-16,
+      "server_sha256": "1f4f1a2c8176a8d2f70c099b5265f8432103fdaaf2fc8744bc60bfe376ef081c",
+      "tower_sha256": "a12fbe7a3e3a6c05e6fac9a2a6d7e877403f83862e2a08f630ba3777ba43d6e7"
+    },
+    "candidate_val.csv": {
+      "n_queries": 768,
+      "same_id_order": true,
+      "max_raw_abs": 5.551115123125783e-16,
+      "max_float_then_sum_normalized_abs": 5.551115123125783e-16,
+      "server_sha256": "e330a3e4f6ff8155cbce01025346f04e95146fbb0ff6608c74848db5809a5f2d",
+      "tower_sha256": "7f0f6c8662359ee49cd1ca6957e10c3ecc06bbde0b08cc9a0996eb28050fffab"
+    }
+  },
+  "tower_cold_repeat_bitwise": true
+}

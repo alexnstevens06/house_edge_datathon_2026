@@ -1,0 +1,27 @@
+{
+  "shared_paths": 166,
+  "different_bytes_paths": [
+    "experiments/cnn_experts/CONTRACT.md",
+    "experiments/cnn_experts/hard_signal/PLAN.md",
+    "experiments/cnn_experts/hard_signal/SPLIT_IDS.json",
+    "experiments/cnn_experts/hard_signal/STATUS.md",
+    "experiments/cnn_experts/hard_signal/source/hard_signal.py",
+    "experiments/cnn_experts/hard_signal/tests/test_hard_signal.py",
+    "experiments/cnn_experts/soft_moe/PLAN.md",
+    "experiments/cnn_experts/soft_moe/SPLIT_IDS.json",
+    "experiments/cnn_experts/soft_moe/STATUS.md",
+    "experiments/cnn_experts/soft_moe/source/soft_moe.py",
+    "experiments/cnn_experts/soft_moe/tests/test_soft_moe.py",
+    "experiments/cnn_runtime/FINAL_BLOCKER.md",
+    "experiments/cnn_runtime/fp64_cnn03_entry/README.md",
+    "experiments/cnn_runtime/fp64_cnn03_entry/provenance/provenance.json",
+    "experiments/linear/tests/test_linear.py",
+    "experiments/mlp_cnn_hpo/runs/trials.jsonl",
+    "experiments/signal_networks/runs/provenance.json",
+    "experiments/synthetic_machines/full_budget/source/full_compare.py",
+    "experiments/transformer_repair/source/src/house_edge/models.py",
+    "src/house_edge/train.py",
+    "tests/test_house_edge.py"
+  ],
+  "policy": "Preserve both host snapshots; no flattening, overwriting or recipe reconciliation."
+}

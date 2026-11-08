@@ -1,0 +1,114 @@
+{
+  "system": "shared",
+  "tune": {
+    "R": 0.9453163143375323,
+    "points_60": 30.8433130169027,
+    "points_80": 41.12441735587027,
+    "probability_error": {
+      "stable": 0.1854118682026543,
+      "short_history": 0.17400119692006077,
+      "drift": 0.19155752376724375,
+      "shared_change": 0.18225532715634277
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9306937819447364,
+      "short_history": 1.0240417638512294,
+      "drift": 0.9599337386499182,
+      "shared_change": 0.8665959729042452
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9847217713615888,
+    "points_60": 30.23093758821313,
+    "points_80": 40.307916784284174,
+    "probability_error": {
+      "stable": 0.19777292510261588,
+      "short_history": 0.18797508138190577,
+      "drift": 0.17799515176591205,
+      "shared_change": 0.18275249956346076
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.023231792281739,
+      "short_history": 1.0173640478321386,
+      "drift": 0.9882305822970511,
+      "shared_change": 0.9100606630354261
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9645025353411671,
+    "points_60": 30.54208326057469,
+    "points_80": 40.72277768076626,
+    "probability_error": {
+      "stable": 0.19159239665263506,
+      "short_history": 0.1809881391509833,
+      "drift": 0.18477633776657787,
+      "shared_change": 0.18250391335990176
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9762629952509846,
+      "short_history": 1.0205631069583123,
+      "drift": 0.9733578035384807,
+      "shared_change": 0.8878262356168909
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "window": 64,
+  "device": "cpu",
+  "finetune": {
+    "mode": "shared",
+    "signal": null,
+    "out_dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke/shared",
+    "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+    "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+    "epochs": 1,
+    "lr": 0.0001,
+    "batch_size": 16,
+    "seed": 0,
+    "train_examples": 8,
+    "steps": 1,
+    "best_epoch": 1,
+    "best_tune_R": 0.9706904310559322,
+    "tune_episodes_for_selection": 8,
+    "train_seconds": 0.47,
+    "wall_seconds": 0.6,
+    "device": "cpu",
+    "peak_vram_mb": 0.0
+  }
+}

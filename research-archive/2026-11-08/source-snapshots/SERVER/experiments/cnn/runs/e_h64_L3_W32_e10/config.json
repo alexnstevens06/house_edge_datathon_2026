@@ -1,0 +1,12 @@
+{
+ "h": 64,
+ "layers": 3,
+ "W": 32,
+ "drop": 0.1,
+ "epochs": 10,
+ "lr": 0.002,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 0,
+ "out": "experiments/cnn/runs/e_h64_L3_W32_e10"
+}

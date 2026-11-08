@@ -1,0 +1,89 @@
+{
+ "full": {
+  "R": 1.3066394570471171,
+  "points_60": 26.01186753165577,
+  "points_80": 34.6824900422077,
+  "probability_error": {
+   "stable": 0.2680593557918713,
+   "short_history": 0.25915984470911485,
+   "drift": 0.2477437432786529,
+   "shared_change": 0.2249348583198928
+  },
+  "reference_error": {
+   "stable": 0.19625080289290195,
+   "short_history": 0.1773414479878668,
+   "drift": 0.18983393064179913,
+   "shared_change": 0.20556264957983816
+  },
+  "loss_ratio_by_condition": {
+   "stable": 1.3659019572936817,
+   "short_history": 1.4613608248357475,
+   "drift": 1.3050551207630252,
+   "shared_change": 1.094239925296014
+  },
+  "episodes": {
+   "stable": 24,
+   "short_history": 24,
+   "drift": 24,
+   "shared_change": 24
+  }
+ },
+ "tune": {
+  "R": 1.3261869900792747,
+  "points_60": 25.793283281132638,
+  "points_80": 34.39104437484352,
+  "probability_error": {
+   "stable": 0.28145086677264514,
+   "short_history": 0.257219881424282,
+   "drift": 0.25869093174984287,
+   "shared_change": 0.22751917962564747
+  },
+  "reference_error": {
+   "stable": 0.1992189824404176,
+   "short_history": 0.16991611383668068,
+   "drift": 0.19955286084293322,
+   "shared_change": 0.21031176333020085
+  },
+  "loss_ratio_by_condition": {
+   "stable": 1.412771329945034,
+   "short_history": 1.5138051101587435,
+   "drift": 1.296352909485256,
+   "shared_change": 1.081818610728065
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ },
+ "confirm": {
+  "R": 1.2881675120653389,
+  "points_60": 26.22185643473409,
+  "points_80": 34.96247524631212,
+  "probability_error": {
+   "stable": 0.25466784481109744,
+   "short_history": 0.2610998079939478,
+   "drift": 0.2367965548074629,
+   "shared_change": 0.22235053701413812
+  },
+  "reference_error": {
+   "stable": 0.19328262334538623,
+   "short_history": 0.18476678213905293,
+   "drift": 0.18011500044066506,
+   "shared_change": 0.2008135358294755
+  },
+  "loss_ratio_by_condition": {
+   "stable": 1.3175930686537658,
+   "short_history": 1.4131317597848712,
+   "drift": 1.3146964674131643,
+   "shared_change": 1.1072487524095544
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ }
+}

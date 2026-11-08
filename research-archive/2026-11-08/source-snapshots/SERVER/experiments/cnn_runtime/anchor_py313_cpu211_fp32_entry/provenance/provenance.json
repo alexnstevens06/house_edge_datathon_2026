@@ -1,0 +1,39 @@
+{
+  "anchor": "g_nosignal",
+  "no_signal": true,
+  "excluded": "contaminated original g (reported R about 0.378) is not in this package",
+  "checkpoint_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+  "config_sha256": "c9022a4305be1c4124e6a116cd0cf3132fb5624a206f9b5571090ca3c4769d2f",
+  "reference_test_cpu_csv_sha256": "9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9",
+  "reference_validation_cpu_csv_sha256": "50efa7cb18f6c6a925b0259ac3177136789893dc16f82a2075cc3b4afe903c1d",
+  "reference_source_sha256": {
+    "experiments/cnn/source/cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+    "experiments/cnn/source/predict_cpu.py": "598bc7bad1c539d081b45f7bbb0ad532f133c073bd5a355c4c7d6761859b7175",
+    "src/house_edge/data.py": "5cde790750b3b69187f6b92c2da949ca6e11de8d750e6b8a4959131da89c5c7f",
+    "src/house_edge/scoring.py": "ee6cea92f103d8a987a4d8c7eb59e8e0df94c23b7829d0852185f9cbfe365f4a"
+  },
+  "reported_anchor_validation_R": 0.4031494025371707,
+  "architecture": {"h": 128, "layers": 4, "kernel": 3, "W": 64, "drop": 0.2, "seed": 0},
+  "eval": "torch.float32 CPU, softmax then float64 CSV renorm via repr, torch.set_num_threads(2), no autocast",
+  "model_change": false,
+  "ensemble": false,
+  "seed_selection": false,
+  "inputs": ["test/history.csv", "test/queries.csv"],
+  "not_read": ["labels", "conditions", "signal column", "train", "validation", "network"],
+  "checkpoint_writes": false,
+  "packaging_host_observed": {
+    "python": "3.12.3",
+    "torch": "2.9.1+rocm6.4",
+    "numpy": "2.5.4",
+    "cpu": "AMD Ryzen 7 3700X",
+    "note": "Local proof uses this host stack. It is not an organizer Python 3.13 proof."
+  },
+  "cpu_wheel_not_bundled": {
+    "name": "torch-2.9.1+cpu-cp313-cp313-manylinux_2_28_x86_64.whl",
+    "bytes": 184380800,
+    "sha256": "39b3dff6d8fba240ae0d1bede4ca11c2531ae3b47329206512d99e17907ff74b",
+    "downloaded": false,
+    "distribution_tested": false
+  },
+  "reference_staged_from": "experiments/cnn_runtime/reference"
+}

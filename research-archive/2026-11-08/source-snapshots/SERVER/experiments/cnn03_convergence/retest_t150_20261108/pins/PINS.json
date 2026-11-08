@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "beca226ba238e5c55f2a0087cd28142eccfa2035be71b8b2fdd37f620b326033",
+  "checkpoints": {
+    "curve_C_lr003_s0": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+    "curve_C_lr003_s1": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+    "curve_C_lr003_s2": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71"
+  },
+  "released_zip_sha256": "d04d96fd0e28c946f6704170326ee10b32d570e6ab63f5bc2855922cbfd5c991",
+  "released_test_csv_sha256": "1f4f1a2c8176a8d2f70c099b5265f8432103fdaaf2fc8744bc60bfe376ef081c",
+  "source_hashes_receipt_sha256": "106e1deda225ca8902e1c69f75cb7f093910253bcfd927d2ffd83a23025806eb",
+  "production_PINNED_sha256": "cdfcf1222835f5826796a95c20deff2a8c90435fda4df65a74338dc5410166cb",
+  "production_fp64_harness_sha256": "515c91bc176b3e10e65e314afadbb20d66a21b015f2c2c98c391759d549edae2",
+  "common_py_sha256": "7b53b7f7a77193bbc844de5fb28672d07081cfae29185d691790df1c89cd20ec",
+  "split_ids_sha256": "75ba8ee3202102b859a28aa3ade33dbf947ce82d0ecc11a2cbfc6f92925cd356",
+  "kit_scoring_sha256": "477c66c6c5449ca65f77ec4867a9b80934a52c892b045abe32e6471d2c8d4edd",
+  "kit_contest_sha256": "411c7586b26cbc579ac32489b5306a4e87942aac58738cdec0e7e8ce7d3cc442",
+  "house_edge_scoring_sha256": "ee6cea92f103d8a987a4d8c7eb59e8e0df94c23b7829d0852185f9cbfe365f4a",
+  "base_cnn_sha256": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+  "conv_train_sha256": "bd269f926a83d9b736c50cf4f0131fcd979c75a7630d4221e11bdf49828b2e14",
+  "queue1_sha256": "e40ecb1b86642f02853f72daf714f83553ecab15526cf916dc982cffb683495e",
+  "queue2_sha256": "699fc7593882d908953aa586716e7841ea7247feb918ccd2727bf9e0278863f8",
+  "verified_pair_npz_sha256": "eb3ad2f66ae1898a97a8aaf9c9f3c2a6a9e173a3de43e161fffc3c8f1341356c",
+  "prior_tune_R": {
+    "s0": 0.3101981645338761,
+    "s1": 0.3452074168357309,
+    "s2": 0.30980333573689856,
+    "equal3": 0.28975002607300254,
+    "pair02": 0.28468175920919014
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 15020261108,
+    "episodes_per_draw": 48,
+    "quantile_method": "linear",
+    "levels": [0.025, 0.975]
+  },
+  "reproduction_atol": 1e-12,
+  "tie_atol": 1e-12,
+  "scored_rows": ["s0", "s1", "s2", "equal3", "pair02"]
+}

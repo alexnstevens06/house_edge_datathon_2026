@@ -1,0 +1,47 @@
+{
+ "diagnostics": "diagnostics.json",
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "flagship_claim": false,
+ "one_step": {
+  "W": 32,
+  "batching": "host-staged microbatch; token-sum divided by labelled slots in the effective batch",
+  "case": "tiny",
+  "curve": [
+   {
+    "epoch": 1,
+    "train_loss": 1.6691090912761835,
+    "tune_R": 2.206093677042772
+   }
+  ],
+  "device": "cpu",
+  "drop": 0.3,
+  "effective_batch": 512,
+  "elapsed_sec": 0.8260857840068638,
+  "exposures": 512,
+  "h": 32,
+  "init_sha256": "a5350c4b0ce12c005db16c9fbe98d3688ae50e1ffe625e63680e7cd8254661c2",
+  "labelled_slots_in_steps": 3676,
+  "layers": 2,
+  "losses": [
+   1.6691090912761835
+  ],
+  "lr": 0.00197,
+  "microbatch": 512,
+  "mix": 0.0,
+  "nominal_vs_resident_512": "Same objective and OneCycle step count. Host staging plus a smaller microbatch changes only addition order if micro < 512.",
+  "oom_fallbacks": null,
+  "optimizer": "AdamW",
+  "peak_gpu_mb": 0.0,
+  "real_windows": 512,
+  "scheduler": "OneCycleLR",
+  "seed": 0,
+  "steps_completed": 1,
+  "steps_planned": 37,
+  "synth_windows": 0,
+  "tune_R": 2.206093677042772,
+  "wd": 0.00895
+ },
+ "smoke": true,
+ "submission_export": false
+}

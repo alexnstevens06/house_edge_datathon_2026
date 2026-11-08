@@ -1,0 +1,159 @@
+{
+  "cli": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 8 --ticks 96 --out out",
+    "stdout": "RESEARCH_ONLY family=stationary_categorical seed=0 records=6144 out=out"
+  },
+  "eligibility": {
+    "competition_fallback": "organizer_released_only",
+    "label": "RESEARCH_ONLY",
+    "real_only_fallback": true,
+    "reason": "Rules say use organizer-released data. No verified synthetic exception. This family is research-only until eligibility is resolved.",
+    "research_only": true,
+    "status": "unresolved"
+  },
+  "family": "stationary_categorical",
+  "hashes": {
+    "algorithm": "sha256",
+    "outputs": {
+      "out/manifest.json": "8def5b90aef636743b004a7e8ece2c31c08caa1eba9ab170ba0abc501242a803",
+      "out/records.jsonl": "2eb53d7f333f429143edd471865b09e0774f6de12d795bbc8e27b858424ee506",
+      "out/truth.jsonl": "49b106d325bd698f69beb1817a6c628c43f825fc3754c5d666d89f89bc190381"
+    },
+    "source": {
+      "README.md": "f8ac37dc09518081e2f799a01f2f5f4c5a9832d8a88b41edc15551e93630cd54",
+      "generate.py": "607a801ca1549373c6e596eba4c69a88efee07c36f64e0885980eebfbd750eaa",
+      "test_generator.py": "b8228732d4283c2dbcac3b70395ad33d67a210afb03d5835110d67c32a901cee"
+    }
+  },
+  "label": "RESEARCH_ONLY",
+  "n_records": 6144,
+  "n_truth": 6144,
+  "research_only": true,
+  "seed": 0,
+  "settings": {
+    "assumptions": [
+      "Payouts are i.i.d. given machine type, for every tick.",
+      "Type is assigned from the seed before tick 0 and never updates.",
+      "Machines are independent. Cross-machine outcomes are not inputs.",
+      "A tick is drawn from state at ticks < t, then committed for every machine.",
+      "Observation is MCAR with a constant probability, independent of payout value.",
+      "Unobserved payout is null. Missing is unknown, not payout 0.",
+      "Oracle truth is the type categorical, not a frequency estimate.",
+      "Observable-history probabilities are a uniform-Dirichlet posterior on own observed ticks < t.",
+      "Weights are invented toys, not fit on public or private contest logs.",
+      "Not eligible for competition training while synthetic use is unresolved."
+    ],
+    "family": "stationary_categorical",
+    "history_alpha": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "history_tick_range": [
+      0,
+      95
+    ],
+    "machine_type_to_index": {
+      "balanced": 0,
+      "jackpot": 1,
+      "steady": 2
+    },
+    "machine_types_ordered": [
+      "balanced",
+      "jackpot",
+      "steady"
+    ],
+    "max_records": 8192,
+    "missing_dense_symbol": -1,
+    "missing_symbol_index": 5,
+    "n_episodes": 8,
+    "n_machines": 8,
+    "n_ticks": 96,
+    "observation_mask": {
+      "0": "missing_unknown",
+      "1": "observed"
+    },
+    "observe_prob": 0.7,
+    "oracle_probabilities": {
+      "balanced": [
+        0.4,
+        0.25,
+        0.18,
+        0.12,
+        0.050000000000000044
+      ],
+      "jackpot": [
+        0.5,
+        0.15,
+        0.1,
+        0.1,
+        0.15000000000000002
+      ],
+      "steady": [
+        0.72,
+        0.18,
+        0.06,
+        0.03,
+        0.010000000000000009
+      ]
+    },
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts_ordered": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "prediction_cutoff": 96,
+    "probability_columns": [
+      "p_0",
+      "p_1",
+      "p_2",
+      "p_5",
+      "p_20"
+    ],
+    "seed": 0,
+    "signal_policy": "No historical signal is generated. A real query signal is an organizer field in {-1, 0, 1} at the prediction cutoff only. Oracle and observable-history probabilities ignore signal.",
+    "slot_index": "machine_id, integer in 0..n_machines-1, default 0..7",
+    "type_weights": {
+      "balanced": [
+        40,
+        25,
+        18,
+        12,
+        5
+      ],
+      "jackpot": [
+        50,
+        15,
+        10,
+        10,
+        15
+      ],
+      "steady": [
+        72,
+        18,
+        6,
+        3,
+        1
+      ]
+    }
+  },
+  "tests": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py -v",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/stationary_categorical",
+    "exit_code": 0,
+    "log": "test_cli_writes_hashed_research_only_manifest (test_generator.TestCLI.test_cli_writes_hashed_research_only_manifest) ... ok\ntest_future_and_contemporaneous_mutation_leave_prefix_unchanged (test_generator.TestHistoryCausalityAndGaps.test_future_and_contemporaneous_mutation_leave_prefix_unchanged) ... ok\ntest_gappy_missing_does_not_count_as_zero (test_generator.TestHistoryCausalityAndGaps.test_gappy_missing_does_not_count_as_zero) ... ok\ntest_latent_oracle_differs_from_observable_history (test_generator.TestHistoryCausalityAndGaps.test_latent_oracle_differs_from_observable_history) ... ok\ntest_missing_is_not_zero_and_both_exist (test_generator.TestHistoryCausalityAndGaps.test_missing_is_not_zero_and_both_exist) ... ok\ntest_same_prefix_matches_and_signal_is_ignored (test_generator.TestHistoryCausalityAndGaps.test_same_prefix_matches_and_signal_is_ignored) ... ok\ntest_oracle_does_not_read_history_or_signal (test_generator.TestKnownTruthInvariant.test_oracle_does_not_read_history_or_signal) ... ok\ntest_truth_is_constant_across_ticks_and_ignores_spins (test_generator.TestKnownTruthInvariant.test_truth_is_constant_across_ticks_and_ignores_spins) ... ok\ntest_generated_truth_matches_oracle_mapping (test_generator.TestMappingsAndSimplex.test_generated_truth_matches_oracle_mapping) ... ok\ntest_oracle_vectors_are_simplexes_and_type_specific (test_generator.TestMappingsAndSimplex.test_oracle_vectors_are_simplexes_and_type_specific) ... ok\ntest_payout_index_order_and_columns (test_generator.TestMappingsAndSimplex.test_payout_index_order_and_columns) ... ok\ntest_sample_index_respects_ordered_bins (test_generator.TestMappingsAndSimplex.test_sample_index_respects_ordered_bins) ... ok\ntest_default_size_is_within_cap (test_generator.TestReproducibility.test_default_size_is_within_cap) ... ok\ntest_different_seed_changes_panel (test_generator.TestReproducibility.test_different_seed_changes_panel) ... ok\ntest_same_seed_matches_including_independent_cells (test_generator.TestReproducibility.test_same_seed_matches_including_independent_cells) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.131s\n\nOK\n",
+    "result": "PASS",
+    "tests_run": 15
+  }
+}

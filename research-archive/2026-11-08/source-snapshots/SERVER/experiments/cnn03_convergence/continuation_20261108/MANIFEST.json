@@ -1,0 +1,59 @@
+{
+  "role": "immutable pin of read-only inputs for the 2026-11-08 continuation study",
+  "do_not_rewrite_after_training": true,
+  "production_fp64_harness_sha256": "515c91bc176b3e10e65e314afadbb20d66a21b015f2c2c98c391759d549edae2",
+  "production_harness_policy": "not modified, not monkeypatched, not a production verification claim",
+  "sources": {
+    "experiments/cnn03_convergence/source/base_cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+    "experiments/cnn03_convergence/source/conv_train.py": "bd269f926a83d9b736c50cf4f0131fcd979c75a7630d4221e11bdf49828b2e14",
+    "experiments/cnn03_convergence/source/train_canonical.py": "916c6ee1b6e405300ddadbc5650583b250db8baa83a5227fc2437c1b1a55e066",
+    "experiments/cnn_runtime/fresh_fp64_cnn03_1956/model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+    "experiments/cnn_runtime/fresh_fp64_anchor_1956/model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a"
+  },
+  "canonical_fp64_reference": "experiments/cnn_runtime/fresh_fp64_cnn03_1956/model.py",
+  "known_reference_csv": {
+    "path": "experiments/cnn_runtime/server_fp64_cnn03_val1958.csv",
+    "sha256": "ef71ee39f668be0ee3f6e20215390f3dd0ab5da6a14199406c590334947b6aa6"
+  },
+  "published_incumbent_tune_R_cpu_fp32": 0.33206398675779764,
+  "published_incumbent_source": "experiments/mlp_cnn_hpo/runs/final_cnn03_s0/metrics.json tune.R",
+  "incumbent_checkpoint": "experiments/mlp_cnn_hpo/runs/final_cnn03_s0/checkpoint.pt",
+  "checkpoints": {
+    "curve_C_lr003_s0": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s0/checkpoint.pt",
+      "sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+      "lr": 0.003,
+      "seed": 0
+    },
+    "curve_C_lr003_s1": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s1/checkpoint.pt",
+      "sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+      "lr": 0.003,
+      "seed": 1
+    },
+    "curve_C_lr003_s2": {
+      "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt",
+      "sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+      "lr": 0.003,
+      "seed": 2
+    },
+    "curve_control_s0": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s0/checkpoint.pt",
+      "sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b",
+      "lr": 0.00197,
+      "seed": 0
+    },
+    "curve_control_s1": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s1/checkpoint.pt",
+      "sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05",
+      "lr": 0.00197,
+      "seed": 1
+    },
+    "curve_control_s2": {
+      "path": "experiments/cnn03_convergence/runs/curve_control_s2/checkpoint.pt",
+      "sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9",
+      "lr": 0.00197,
+      "seed": 2
+    }
+  }
+}

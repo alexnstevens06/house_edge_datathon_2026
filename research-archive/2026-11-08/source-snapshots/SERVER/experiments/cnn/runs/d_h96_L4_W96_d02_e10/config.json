@@ -1,0 +1,12 @@
+{
+ "h": 96,
+ "layers": 4,
+ "W": 96,
+ "drop": 0.2,
+ "epochs": 10,
+ "lr": 0.002,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 0,
+ "out": "experiments/cnn/runs/d_h96_L4_W96_d02_e10"
+}

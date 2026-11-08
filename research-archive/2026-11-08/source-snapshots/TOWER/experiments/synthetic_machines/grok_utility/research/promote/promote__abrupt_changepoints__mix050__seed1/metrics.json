@@ -1,0 +1,70 @@
+{
+ "calibration": {
+  "bins": [
+   {
+    "hi": 0.2,
+    "lo": 0.0,
+    "n": 0
+   },
+   {
+    "acc": 0.3157894736842105,
+    "confidence": 0.3897304362372348,
+    "hi": 0.4,
+    "lo": 0.2,
+    "n": 19
+   },
+   {
+    "acc": 0.4293193717277487,
+    "confidence": 0.4824913866544893,
+    "hi": 0.6000000000000001,
+    "lo": 0.4,
+    "n": 191
+   },
+   {
+    "acc": 0.646551724137931,
+    "confidence": 0.6963793630230015,
+    "hi": 0.8,
+    "lo": 0.6000000000000001,
+    "n": 116
+   },
+   {
+    "acc": 0.9137931034482759,
+    "confidence": 0.8489858179256834,
+    "hi": 1.0,
+    "lo": 0.8,
+    "n": 58
+   }
+  ],
+  "ece_5bin": 0.05494677554816005,
+  "n": 384,
+  "nll": 1.0693175199298206,
+  "note": "Descriptive only. Not a confidence interval or a significance test."
+ },
+ "confirm_intersection": 0,
+ "elapsed_eval_sec": 0.030458232999080792,
+ "elapsed_train_sec": 47.28660254200804,
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "exposures": 38400,
+ "family": "abrupt_changepoints",
+ "interrupted": false,
+ "mix": 0.5,
+ "n_tune_queries": 384,
+ "new_information_claim": false,
+ "phase": "promote",
+ "seed": 1,
+ "steps_completed": 300,
+ "steps_planned": 300,
+ "submission_export": false,
+ "train_loss_first": 1.5557748079299927,
+ "train_loss_last": 1.0726909637451172,
+ "train_loss_mean": 1.068936542669932,
+ "tune_R": 0.955321113702414,
+ "tune_loss_ratio_by_condition": {
+  "drift": 0.9753936325695995,
+  "shared_change": 0.8104588917487194,
+  "short_history": 1.0181576522412177,
+  "stable": 1.0172742782501194
+ },
+ "tune_points_60": 30.68549691379826
+}

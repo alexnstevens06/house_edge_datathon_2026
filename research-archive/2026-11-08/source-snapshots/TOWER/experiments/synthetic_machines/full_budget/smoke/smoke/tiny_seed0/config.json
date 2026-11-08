@@ -1,0 +1,10 @@
+{
+ "case": "tiny",
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "epochs": 1,
+ "flagship_claim": false,
+ "microbatch": 512,
+ "seed": 0,
+ "submission_export": false
+}

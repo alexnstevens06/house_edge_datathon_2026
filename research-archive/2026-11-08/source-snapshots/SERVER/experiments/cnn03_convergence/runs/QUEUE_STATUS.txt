@@ -1,0 +1,16 @@
+01:58:19 start curve_control_s0
+01:59:32 end curve_control_s0 exit 0
+01:59:32 start curve_A_pct010_s0
+02:00:45 end curve_A_pct010_s0 exit 0
+02:00:45 start curve_C_lr003_s0
+02:01:59 end curve_C_lr003_s0 exit 0
+QUEUE1_DONE
+02:02:00 start curve_C_lr003_s1
+02:03:13 end curve_C_lr003_s1 exit 0
+02:03:13 start curve_control_s1
+02:04:26 end curve_control_s1 exit 0
+02:04:26 start curve_C_lr003_s2
+02:05:40 end curve_C_lr003_s2 exit 0
+02:05:40 start curve_control_s2
+02:06:53 end curve_control_s2 exit 0
+QUEUE2_DONE

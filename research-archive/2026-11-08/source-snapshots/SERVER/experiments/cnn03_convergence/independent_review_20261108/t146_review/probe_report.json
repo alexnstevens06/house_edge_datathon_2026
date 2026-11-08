@@ -1,0 +1,188 @@
+{
+ "python": "3.13.13",
+ "torch": "2.11.0+cpu",
+ "cuda_visible": "",
+ "reviewed_at_utc": "2026-11-08T07:44:59.896871+00:00",
+ "source_hashes": {
+  "COORDINATOR_PLAN.md": {
+   "sha256": "03d141087ac950e8026ebaeb6afcc4f0b83371508beee0961ecd993cc9f9e8f3",
+   "bytes": 3646,
+   "mtime_utc": "2026-11-08T07:32:52.850066+00:00"
+  },
+  "PLAN.md": {
+   "sha256": "74a4c9bf3acb6cf33dd9f9511435b1a58e7c906fb7b2057a45dcad8e18274d35",
+   "bytes": 2361,
+   "mtime_utc": "2026-11-08T07:38:13.165703+00:00"
+  },
+  "MANIFEST.json": {
+   "sha256": "5d1963aab728ec0d0afdcfb6434c5614f0199453de0d70ffd84d0cbf6dd4e463",
+   "bytes": 3850,
+   "mtime_utc": "2026-11-08T07:38:13.165703+00:00"
+  },
+  "source/contract.py": {
+   "sha256": "d908aefe6eab70cbedf70d0bf2b7fc2d2132cd5bafce7e3d844fc78cccaa3025",
+   "bytes": 8019,
+   "mtime_utc": "2026-11-08T07:38:13.165703+00:00"
+  },
+  "source/train_lowrate.py": {
+   "sha256": "fd0b50522d6c1dd53e8ae5c1cd129a3ab4815b94bccce98136b3629be6146f21",
+   "bytes": 10961,
+   "mtime_utc": "2026-11-08T07:39:08.324021+00:00"
+  },
+  "source/score_fp64.py": {
+   "sha256": "0300e848a50029c5b3441bda8418cfbca38bd7c37b47096bab9adc29de978fef",
+   "bytes": 6608,
+   "mtime_utc": "2026-11-08T07:39:08.324021+00:00"
+  },
+  "source/preflight_fp32.py": {
+   "sha256": "72249b98576d781a1f5d028805c95dbbf04c0997b1691557f6a67f6cddae2158",
+   "bytes": 1833,
+   "mtime_utc": "2026-11-08T07:39:08.324021+00:00"
+  },
+  "source/preflight_fp64.py": {
+   "sha256": "adb42b4c65545f6d2ac89062a49f87a22ff32ff59f702b7312dad22840008325",
+   "bytes": 2411,
+   "mtime_utc": "2026-11-08T07:39:08.324021+00:00"
+  }
+ },
+ "missing": [
+  "HANDOFF_READY",
+  "SPLIT_IDS.json",
+  "SOURCE_SHA256.txt",
+  "tests/test_lowrate.py"
+ ],
+ "ensemble_dir_exists": false,
+ "protocol_sha_matches_manifest": true,
+ "protected_match": {
+  "experiments/mlp_cnn_hpo/review/PINNED.json": true,
+  "experiments/cnn_runtime/fp64_harness.py": true,
+  "experiments/cnn03_convergence/candidate_lr003_s2_20261108/curve_C_lr003_s2_fp64_candidate.zip": true,
+  "experiments/cnn03_convergence/candidate_lr003_s2_20261108/refs/candidate_test_a.csv": true,
+  "experiments/cnn_runtime/cnn03_s0_fp64_first2025.zip": true,
+  "experiments/cnn_runtime/fp64_release_out2025/cnn03_test_a.csv": true
+ },
+ "trainer_calls": [
+  "Call(func=Attribute(value=Name(id='torch', ctx=Load()), attr='save', ctx=Load()), args=[Name(id='payload', ctx=Load()), Name(id='path', ctx=Load())])",
+  "Call(func=Attribute(value=Attribute(value=Name(id='torch', ctx=Load()), attr='optim', ctx=Load()), attr='AdamW', ctx=Load()), args=[Call(func=Attribute(value=Name(id='model', ctx=Load()), attr='parameters', ctx=Load()))], keywords=[keyword(",
+  "line 196: model(Starred(value=Name(id='batch', ctx=Load()), ctx=Load()))"
+ ],
+ "trainer_flags": {
+  "passes_star_batch": true,
+  "preflight_drops_label": true,
+  "canonical_trainer_unpacks_four": true,
+  "uses_parent_config_lr_for_adam": false,
+  "adamw_uses_host_lr": true,
+  "nvidia_smi_hard_fail": true,
+  "rocm_smi": false,
+  "loss_log_append": true,
+  "exclusive_create": false,
+  "one_cycle": false,
+  "autocast": true
+ },
+ "budget_math": {
+  "steps_per_epoch": 146,
+  "epochs": 5,
+  "total_steps": 730,
+  "four_job_steps": 2920,
+  "ceil_ok": true
+ },
+ "host_lr": {
+  "server": 2e-05,
+  "tower": 5e-05
+ },
+ "optimizer_lr_is_not_parent": true,
+ "guard_results": {
+  "clean_epoch1": [],
+  "wrong_hash": [
+   "hash mismatch"
+  ],
+  "parent_lr_as_train_lr": [
+   "train lr mismatch"
+  ],
+  "control_base_lr_as_train_lr": [
+   "train lr mismatch"
+  ],
+  "wrong_parent_sha": [
+   "parent hash mismatch"
+  ],
+  "extra_key": [
+   "architecture keys mismatch missing=[] extra=['extra.weight']"
+  ],
+  "bad_shape": [
+   "blocks.0.conv.weight shape (128, 128, 5) != (128, 128, 3)"
+  ],
+  "bad_dtype": [
+   "head.2.bias saved dtype torch.float16 is not float32"
+  ],
+  "nonfinite": [
+   "head.2.bias is not finite"
+  ],
+  "budget_epoch2": [
+   "epoch not in frozen save set"
+  ],
+  "budget_epoch1_steps": [
+   "step budget"
+  ],
+  "budget_epoch5": [],
+  "nontune_extra": [
+   "non-tune query id"
+  ],
+  "nontune_missing": [
+   "missing tune ids"
+  ],
+  "clean_tower_control_epoch5": [],
+  "server_rate_on_tower_label": [
+   "train lr mismatch"
+  ]
+ },
+ "guard_expect": {
+  "clean_epoch1_empty": true,
+  "clean_tower_control_empty": true,
+  "wrong_hash_caught": true,
+  "parent_lrs_caught": true,
+  "shape_dtype_finite_key_caught": true,
+  "budget_caught": true,
+  "nontune_caught": true,
+  "cross_host_rate_caught": true
+ },
+ "arms": {
+  "primary": "curve_C_lr003_s2",
+  "control": "curve_control_s2"
+ },
+ "save_epochs": [
+  1,
+  3,
+  5
+ ],
+ "forward_probe": {
+  "four_arg_dtype": "torch.float32",
+  "five_arg": "TypeError: CNN.forward() takes 5 positional arguments but 6 were given",
+  "masked_loss_finite": true,
+  "tensor_float_identity_unchanged": true,
+  "signal_module": true
+ },
+ "fp64_forward": {
+  "parent_keys": [
+   "config",
+   "state"
+  ],
+  "parent_lr": 0.003,
+  "parent_seed": 2,
+  "parent_has_kernel": false,
+  "params": 43,
+  "param_dtype": "torch.float64",
+  "logit_dtype": "torch.float64",
+  "softmax_dtype": "torch.float64",
+  "autocast": false,
+  "tensor_float_unchanged": true
+ },
+ "control_parent": {
+  "keys": [
+   "config",
+   "state"
+  ],
+  "lr": 0.00197,
+  "seed": 2,
+  "bs": 512
+ }
+}

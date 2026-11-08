@@ -1,0 +1,37 @@
+{
+  "family": "machine_type_hierarchical",
+  "status": "RESEARCH_ONLY",
+  "eligibility": "unresolved",
+  "research_only": true,
+  "real_only_fallback": true,
+  "eligibility_note": "Unresolved. Organizer rules say use organizer-released data. No verified synthetic exception. Do not replace real train, validation, or test with these rows.",
+  "source_hashes": {
+    "generate.py": "787c12028fa59e7c0ce2b65c2ea06cac89eb57a8b8dbd44ad0793d980f1dcb9e",
+    "test_generator.py": "f365bdd53039dfc058ef0993ca7ab426eeab8a6271e0c7a5d495a9c01c4fdb6d",
+    "README.md": "eefff50f897125ce9fb36de91b531f92e759901e96add2b6502526b1b357b4b1"
+  },
+  "tests": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest -v test_generator",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/machine_type_hierarchical",
+    "exit_code": 0,
+    "result": "OK",
+    "tests_run": 16,
+    "duration_seconds": 0.046
+  },
+  "sample_generation": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 2 --ticks 16 --out sample_out",
+    "exit_code": 0,
+    "seed": 0,
+    "n_episodes": 2,
+    "n_ticks": 16,
+    "n_machines": 8,
+    "n_records": 256,
+    "cutoff": 15,
+    "output_hashes": {
+      "records.jsonl": "8bf9a73321298c56b41d85f1ed9bafbdf56f8a2753c7b251e1ddbf2a55f67939",
+      "truth.jsonl": "35d91976679a7ab5759824b6f96567148ea9fcf823ba8ee50a3deda037e8c250",
+      "queries.jsonl": "5924e83088d5a9351a69c14e10e4d2f0cdc0eada1f63a65f6cf7ae6f4987a43c",
+      "manifest.json": "813c9f19771829771e3d0e798a1c1e0ef7be5e5d12630f649251a15b4a93f329"
+    }
+  }
+}

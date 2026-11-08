@@ -1,0 +1,213 @@
+{
+ "metrics": {
+  "seed": 0,
+  "tune_R_routed": 0.5009909376779845,
+  "tune_R_control": 0.46211193532631023,
+  "tune_routed": {
+   "R": 0.5009909376779845,
+   "points_60": 39.973592440750714,
+   "points_80": 53.29812325433428,
+   "probability_error": {
+    "stable": 0.0680260871138899,
+    "short_history": 0.08418196597072126,
+    "drift": 0.1322739224146535,
+    "shared_change": 0.10604251755351883
+   },
+   "reference_error": {
+    "stable": 0.1992189824404176,
+    "short_history": 0.16991611383668068,
+    "drift": 0.19955286084293322,
+    "shared_change": 0.21031176333020085
+   },
+   "loss_ratio_by_condition": {
+    "stable": 0.3414638820085086,
+    "short_history": 0.49543250531044375,
+    "drift": 0.6628515464820394,
+    "shared_change": 0.5042158169109463
+   },
+   "episodes": {
+    "stable": 12,
+    "short_history": 12,
+    "drift": 12,
+    "shared_change": 12
+   }
+  },
+  "tune_control": {
+   "R": 0.46211193532631023,
+   "points_60": 41.03652979661188,
+   "points_80": 54.715373062149176,
+   "probability_error": {
+    "stable": 0.059916721603503455,
+    "short_history": 0.07799341857647142,
+    "drift": 0.11847556974150965,
+    "shared_change": 0.10409867392440662
+   },
+   "reference_error": {
+    "stable": 0.1992189824404176,
+    "short_history": 0.16991611383668068,
+    "drift": 0.19955286084293322,
+    "shared_change": 0.21031176333020085
+   },
+   "loss_ratio_by_condition": {
+    "stable": 0.3007580947835799,
+    "short_history": 0.459011313379241,
+    "drift": 0.593705192905057,
+    "shared_change": 0.4949731402373631
+   },
+   "episodes": {
+    "stable": 12,
+    "short_history": 12,
+    "drift": 12,
+    "shared_change": 12
+   }
+  },
+  "incumbent_tune_R": 0.33206398675779764,
+  "incumbent_source": "experiments/mlp_cnn_hpo/runs/final_cnn03_s0/metrics.json tune.R",
+  "eval_dtype": "cpu_fp32_softmax_stored_float64",
+  "train_autocast": "cuda_bf16_weights_fp32_loss_fp32",
+  "beats_matched_control": false,
+  "beats_incumbent_tune": false,
+  "verdict": "negative",
+  "verdict_reason": "routed tune R did not beat both the matched control and CNN03 seed 0",
+  "negative_train_loss": false,
+  "signal_rows": {
+   "-1": 250,
+   "0": 267,
+   "1": 251
+  },
+  "route": {
+   "-1": "specialist",
+   "0": "specialist",
+   "1": "specialist"
+  },
+  "params": 367109,
+  "pretrain": {
+   "losses": [
+    1.22571339117306,
+    1.0735455293969134,
+    1.0574395054472732,
+    1.0385794667184094,
+    1.0243728526898621,
+    1.015328082202963,
+    1.005943388640318,
+    0.9759820084969978,
+    0.9373521695740418,
+    0.9102678057534045,
+    0.8932643536733282,
+    0.8811213808300816,
+    0.8702210816505329,
+    0.8610889677665339,
+    0.8520324429922402,
+    0.8458279482471872,
+    0.839501113810788,
+    0.8336936875843123,
+    0.8282972049951769,
+    0.8223035191079046,
+    0.8189898655592862,
+    0.8123914503973981,
+    0.8091553936507382,
+    0.805651388108164,
+    0.8037723536516356,
+    0.8016881354361206,
+    0.7992949646308105,
+    0.7968625366606339,
+    0.7974686667052499,
+    0.7974888068732484
+   ],
+   "steps": 1110,
+   "windows": 18471,
+   "labeled_slots": 130282,
+   "phase": "pretrain"
+  },
+  "control_finetune": {
+   "losses": [
+    0.8501314322153727,
+    0.831682284673055,
+    0.8000856240590414,
+    0.7423113187154134,
+    0.7012708187103271,
+    0.6519716183344523,
+    0.6160684823989868,
+    0.5858376026153564,
+    0.5809958775838217,
+    0.5790902376174927
+   ],
+   "steps": 10,
+   "windows": 96,
+   "labeled_slots": 768,
+   "phase": "control"
+  },
+  "specialists": {
+   "-1": {
+    "losses": [
+     0.7349210205078125,
+     0.7215523071289063,
+     0.660115234375,
+     0.5845299072265625,
+     0.53409814453125,
+     0.4548759765625,
+     0.40347943115234375,
+     0.39209991455078125,
+     0.3702650451660156,
+     0.34610565185546877
+    ],
+    "steps": 10,
+    "windows": 96,
+    "labeled_slots": 250,
+    "phase": "specialist_-1"
+   },
+   "0": {
+    "losses": [
+     0.7894089373756438,
+     0.7724796252304249,
+     0.7192947444844335,
+     0.6498241638869382,
+     0.5817713933937558,
+     0.5044751113720154,
+     0.47707858424954647,
+     0.4378209203370055,
+     0.42773471789413625,
+     0.4290580606639162
+    ],
+    "steps": 10,
+    "windows": 96,
+    "labeled_slots": 267,
+    "phase": "specialist_+0"
+   },
+   "1": {
+    "losses": [
+     1.0294759681975225,
+     0.9955234603577876,
+     0.9385400293357818,
+     0.8258715017858255,
+     0.751685214707576,
+     0.6853119747572212,
+     0.6340368506442978,
+     0.5694884038066484,
+     0.5744265370159986,
+     0.573332098850691
+    ],
+    "steps": 10,
+    "windows": 96,
+    "labeled_slots": 251,
+    "phase": "specialist_+1"
+   }
+  },
+  "row_exposure_note": "Optimizer steps and windows match across control and each specialist. Labeled-slot exposure does not: control uses every cutoff label; each specialist uses only its signal. That difference is the intervention.",
+  "not_cnn03_reproduction": "CNN03 trains 30 epochs on history windows plus the cutoff window in one loop, batch 512, memory fraction 0.25, and scores full/confirm/tune. This run holds cutoff rows out of pretrain, fine-tunes 10 epochs, microbatches 128 inside a 2GiB cap, and scores tune only.",
+  "seconds": 66.01495361328125,
+  "peak_gpu_mb": 818.029296875,
+  "pid": 3480208
+ },
+ "provenance": {
+  "hard_signal_py": "23147fc43ac7a9ad6defa9546f7dccfca07f9e9c50dbdeb74b38716246dc3465",
+  "run_seed_py": "9b86c3a5b47c32ae1bd611a40c32c5978ce535f32575eae95e5e64b734510af3",
+  "test_py": "79dff23e1dee83980d4deefdd8c9a9511ddcfeda029939fa9dbaa654f8601ab6",
+  "base_cnn_py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+  "train_py": "916c6ee1b6e405300ddadbc5650583b250db8baa83a5227fc2437c1b1a55e066",
+  "plan_md": "36017f2f667ae60095c75babb137a9a56f36acca1c008619b5cf3aa10e56dafe",
+  "split_ids": "57e04dc8963efcadd33285cdd08e8c886302233948e35ae8c0f3ea5fb4a645e1",
+  "addendum_md": "e2fa1688d10ebe8dfa942dda8210bb4a57b96f5ad3c528b43851416aedfc314a",
+  "seed": 0
+ }
+}

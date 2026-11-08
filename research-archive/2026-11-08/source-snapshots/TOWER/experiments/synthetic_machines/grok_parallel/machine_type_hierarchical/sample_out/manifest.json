@@ -1,0 +1,92 @@
+{
+  "family": "machine_type_hierarchical",
+  "status": "RESEARCH_ONLY",
+  "eligibility": "unresolved",
+  "research_only": true,
+  "real_only_fallback": true,
+  "eligibility_note": "Unresolved. Organizer rules say use organizer-released data. No verified synthetic exception. Do not replace real train, validation, or test with these rows.",
+  "seed": 0,
+  "settings": {
+    "seed": 0,
+    "n_episodes": 2,
+    "n_ticks": 16,
+    "n_machines": 8,
+    "cutoff": 15,
+    "max_records": 8192,
+    "missing_rate": 0.25,
+    "payouts": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ]
+  },
+  "assumptions": [
+    "Toy probabilities are explicit constants in generate.py, not estimates from organizer data.",
+    "Eligibility is RESEARCH_ONLY. Real-only fallback stays in force for scored training.",
+    "Machine type is TYPE_BY_SLOT[machine_id % 8], not a fitted assignment.",
+    "Episode house is drawn before ticks and does not depend on outcomes.",
+    "Type-level mixture is shared by machines of that type; each machine then gets its own logit tilt.",
+    "P(payout at t) uses only that machine's observed payouts with tick < t.",
+    "Unobserved payouts are unknown, not 0, and do not enter counts.",
+    "No contemporaneous cross-machine outcomes enter the state.",
+    "Missingness is MCAR with rate 0.25, independent of the payout.",
+    "The stored payout on an unobserved row is a latent bookkeeping draw. Mask it before any model input.",
+    "Query signal is null. Historical signals are not invented. Real signals exist only on organizer queries at cutoff.",
+    "Query cutoff is n_ticks - 1. One query per machine per episode.",
+    "Truth probabilities are latent-oracle. Observable-history probabilities drop the house and the machine tilt.",
+    "RNG is random.Random (MT19937) with a fixed stream mix. No clock and no hash randomization."
+  ],
+  "mappings": {
+    "payout_to_slot": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "5": 3,
+      "20": 4
+    },
+    "slot_to_payout": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 20
+    },
+    "machine_id_to_type_mod8": {
+      "0": "steady",
+      "1": "steady",
+      "2": "balanced",
+      "3": "balanced",
+      "4": "balanced",
+      "5": "jackpot",
+      "6": "jackpot",
+      "7": "jackpot"
+    },
+    "usable_input_mask": "same episode_id, same machine_id, tick < prediction tick, observed is true",
+    "query_cutoff": "n_ticks - 1",
+    "query_signal": "null. Not synthesized. Real signals are organizer query fields at cutoff only.",
+    "truth_probability_order": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "truth_probability_kind": "latent_oracle",
+    "observable_probability_kind": "observable_history"
+  },
+  "source_hashes": {
+    "generate.py": "787c12028fa59e7c0ce2b65c2ea06cac89eb57a8b8dbd44ad0793d980f1dcb9e",
+    "test_generator.py": "f365bdd53039dfc058ef0993ca7ab426eeab8a6271e0c7a5d495a9c01c4fdb6d",
+    "README.md": "eefff50f897125ce9fb36de91b531f92e759901e96add2b6502526b1b357b4b1"
+  },
+  "output_hashes": {
+    "records.jsonl": "8bf9a73321298c56b41d85f1ed9bafbdf56f8a2753c7b251e1ddbf2a55f67939",
+    "truth.jsonl": "35d91976679a7ab5759824b6f96567148ea9fcf823ba8ee50a3deda037e8c250",
+    "queries.jsonl": "5924e83088d5a9351a69c14e10e4d2f0cdc0eada1f63a65f6cf7ae6f4987a43c"
+  },
+  "n_records": 256,
+  "n_truth": 256,
+  "n_queries": 16
+}

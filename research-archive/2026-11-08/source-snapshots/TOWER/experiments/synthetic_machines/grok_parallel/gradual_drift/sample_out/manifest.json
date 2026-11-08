@@ -1,0 +1,77 @@
+{
+  "causal_policy": "tick t uses only spins at ticks < t; no contemporaneous cross-machine outcomes",
+  "eligibility": "RESEARCH_ONLY",
+  "family": "gradual_drift",
+  "mappings": {
+    "feature_mask": {
+      "0": "missing; omit the tick; do not impute payout 0 and do not multiply the payout by the mask",
+      "1": "observed; payout may be used as a feature from earlier ticks"
+    },
+    "machine_type_by_id": {
+      "0": "steady",
+      "1": "steady",
+      "2": "balanced",
+      "3": "balanced",
+      "4": "balanced",
+      "5": "jackpot",
+      "6": "jackpot",
+      "7": "jackpot"
+    },
+    "payout_slot_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "probability_kinds": {
+      "observable_probabilities": "observable_history",
+      "probabilities": "latent_oracle"
+    },
+    "probability_vector_slots": [
+      "p_0",
+      "p_1",
+      "p_2",
+      "p_5",
+      "p_20"
+    ],
+    "query_column_index": {
+      "cutoff": 5,
+      "episode_id": 1,
+      "machine_id": 2,
+      "machine_type": 3,
+      "query_id": 0,
+      "signal": 4
+    },
+    "slot_index_to_payout": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 20
+    }
+  },
+  "max_records": 8192,
+  "missing_policy": "omit unobserved ticks; do not impute payout 0",
+  "n_records": 64,
+  "organizer_rule": "Use organizer-released data. No verified synthetic exception. Do not replace real train, validation, or test with this output.",
+  "output_hashes": {
+    "queries.jsonl": "a3909cb78bb197dcb3569bbfcd309d804632d59ce5ceea7b06e9e71f8dc6e3c9",
+    "records.jsonl": "881708552e8acadcd9030797ad4a9a4102d77fd36e798daa855fd86ba596f503",
+    "truth.jsonl": "19c934f27ce67682a7b0c4334a5b2d0822808740f379a889501ebe9ebf772d2d"
+  },
+  "real_only_fallback": true,
+  "seed": 0,
+  "settings": {
+    "n_episodes": 1,
+    "n_machines": 4,
+    "n_ticks": 16,
+    "seed": 0
+  },
+  "signal_policy": "signal is null and exists only on the query at cutoff; no historical signal is invented",
+  "source_hashes": {
+    "README.md": "b58630f831916302732382c84caf4298934eb24314a9b96f645b7e302e5ce603",
+    "generate.py": "86e4df42a42bdb7bc17838af6a1466d45f661eedaae2fc0200e55ccfb329eec2",
+    "test_generator.py": "cefac7be71a4f1ce8f274f0eb2c16d3d888edaee36009fb5dc2f7081f066f0f0"
+  }
+}

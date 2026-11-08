@@ -1,0 +1,155 @@
+{
+ "config": {
+  "W": 32,
+  "batch_size": 128,
+  "device": "cpu",
+  "drop": 0.1,
+  "exposures_planned": 7680,
+  "family": "abrupt_changepoints",
+  "generation_seed": 0,
+  "grad_clip": 1.0,
+  "h": 32,
+  "index_plan": "real numpy Generator(trial seed), leading columns; synth numpy Generator(trial seed + 9176)",
+  "init_sha256": "fd97b60fd37cca9b1a386abb0b0c5367319424fa70ee551d5ceea14fa83b8565",
+  "kernel": 3,
+  "layers": 2,
+  "lr": 0.002,
+  "min_t": 16,
+  "mix": 0.25,
+  "n_real_per_batch": 96,
+  "n_synth_per_batch": 32,
+  "optimizer": "AdamW",
+  "phase": "screen",
+  "plan_sha256": "a8bc844b2734b531d231ca0d33579bcfb26be01e6c8f96a66c9e4068f042c3e8",
+  "scheduler": null,
+  "seed": 0,
+  "steps": 60,
+  "threads": 2,
+  "use_signal": false,
+  "wd": 0.05
+ },
+ "confirm_scored": false,
+ "data_files": [
+  {
+   "path": "kit/public/train/history.csv",
+   "sha256": "46a1e783a1b222dc2de33bc72259207e3d013135d1229af9669ffcd454116217"
+  },
+  {
+   "path": "kit/public/train/queries.csv",
+   "sha256": "96cbf59fe0b340981f3f2958dde3305162215ae911d0559d6f34764e74460846"
+  },
+  {
+   "path": "kit/public/train/labels.csv",
+   "sha256": "f6b3a2ca73888b91bb9a38d0ca52f449062ce70534bef9776ad4f53fc713b46a"
+  },
+  {
+   "path": "kit/public/validation/queries.csv",
+   "sha256": "168b7f6365a4f51084437c0071636b102ca3fb4bf0347b912778c51714fc48f2"
+  },
+  {
+   "path": "kit/public/validation/history.csv",
+   "sha256": "4b7ef4789750b7459eb085be3449ea8bd9dfd31441a928ad391a1376a44f8fe4"
+  },
+  {
+   "path": "kit/public/validation/targets.csv",
+   "sha256": "93b6e978f6818d2456dcb677fddb6ba243e864cef56e33a4bf94bde5ba4b51f3"
+  },
+  {
+   "path": "kit/public/validation/reference.csv",
+   "sha256": "bb396d9e4d20bf4004374f9ab781f41aaa8b730e61887c1969be534efeb1e6c6"
+  },
+  {
+   "path": "kit/public/validation/conditions.csv",
+   "sha256": "ebcca7597bbdfa532c5254b92903e66522a710502a6f70689c3de311f75c29b1"
+  },
+  {
+   "path": "runs/splits.json",
+   "sha256": "8f266f53f5da262c3141e57ea780668b552dc5608b63c2eaeee667cad79891cb"
+  }
+ ],
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "generator": {
+  "alignment": {
+   "future_mutation_ignored": true,
+   "missing_in_window": 161,
+   "past_mutation_visible": true,
+   "target": [
+    1,
+    1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   "target_matches_obs_t": true,
+   "tick": 16,
+   "zero_payout_in_window": 46
+  },
+  "family": "abrupt_changepoints",
+  "n_synth_windows": 896,
+  "path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/abrupt_changepoints/generate.py",
+  "prior_note": "Weights use TRAIN window counts only to rebalance synthetic label priors. They are not a claim of new information.",
+  "records_sha256": "523d5cea26f9b58bdedb45577168b6f88e94273d086314fe0f8ea90592c19a89",
+  "settings": {
+   "n_episodes": 8,
+   "n_machines": 8,
+   "n_ticks": 128,
+   "seed": 0
+  },
+  "sha256": "6f6e29c88e831c72084645d418bd51ba8173b20231e97d17bd70d27850bf2dde",
+  "truth_sha256": "c6aaddb62f804c83f2a3c27665b539a08d85329204a1ac1bee0a152abde1d5f4",
+  "unobserved_numeric_payouts_ignored": 1999
+ },
+ "metrics_summary": {
+  "elapsed_train_sec": 8.301508388016373,
+  "exposures": 7680,
+  "interrupted": false,
+  "steps_completed": 60,
+  "train_loss_mean": 1.139977858463923,
+  "tune_R": 1.0093277493540138
+ },
+ "n_real_windows": 18567,
+ "new_information_claim": false,
+ "outputs": [
+  {
+   "path": "research/screen/screen__abrupt_changepoints__mix025__seed0/config.json",
+   "sha256": "3fa28f3c5b1659972862fd6051c81149a4d1bd22b2c54b1b6b4d1e215765cbc5"
+  },
+  {
+   "path": "research/screen/screen__abrupt_changepoints__mix025__seed0/metrics.json",
+   "sha256": "5efeb8f48e99ae3f85a6527142f4dea86ce98ae10513858e90b98323815887bd"
+  },
+  {
+   "path": "research/screen/screen__abrupt_changepoints__mix025__seed0/log.txt",
+   "sha256": "723c3d6506571cf6b84b36fa2ca13c9019a1f8da727881da50cf8169a2427d88"
+  },
+  {
+   "path": "research/screen/screen__abrupt_changepoints__mix025__seed0/checkpoint.pt",
+   "sha256": "7b7908dc76bf6dedec91a0b9e0e0441541d55ad852d3be539e347a9a813717b8"
+  }
+ ],
+ "sources": [
+  {
+   "path": "source/base_cnn.py",
+   "sha256": "4d4c44aa748ad2dbaeb2c38d857bf4b3bd65e0ac4a034ec4668a2e8e72c6fd31"
+  },
+  {
+   "path": "source/runner.py",
+   "sha256": "d3f7a1bd51adc14073711a754efe2679f6bb297b1530ceab41ec486980434332"
+  },
+  {
+   "path": "source/call_generate.py",
+   "sha256": "57363dea9324c869d22c6e70e8f4e14bd636411ff798d9ad53955cdc1b1c1a7b"
+  },
+  {
+   "path": "PLAN.json",
+   "sha256": "a8bc844b2734b531d231ca0d33579bcfb26be01e6c8f96a66c9e4068f042c3e8"
+  }
+ ],
+ "submission_export": false,
+ "test_loaded": false,
+ "trial_id": "screen__abrupt_changepoints__mix025__seed0"
+}

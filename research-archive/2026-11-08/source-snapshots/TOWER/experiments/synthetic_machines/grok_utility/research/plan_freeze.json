@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN",
+  "eligibility": "RESEARCH_ONLY",
+  "eligibility_status": "unresolved",
+  "submission_export": false,
+  "new_information_claim": false,
+  "purpose": "Matched optimizer-step comparison of a copied no-signal CNN fit on real TRAIN only versus the same budget with a fixed fraction of sibling synthetic windows mixed into each batch. Public validation is scored on the tune split only.",
+  "owns": "experiments/synthetic_machines/grok_utility",
+  "reads_only": [
+    "experiments/cnn/source/cnn.py (copied to source/base_cnn.py)",
+    "experiments/mlp_cnn_hpo/source/train.py (tune-only score pattern; file not copied because it defines an MLP and a final export)",
+    "experiments/synthetic_machines/grok_parallel/<family>/generate.py",
+    "kit/public/train",
+    "kit/public/validation for tune queries and official tune score",
+    "runs/splits.json"
+  ],
+  "not_read": ["kit/public/test", "hidden splits", "confirm labels are not scored"],
+  "not_trained": ["MLP", "JEPA", "generator parameters", "anything fit on tune, confirm, or test"],
+  "device": {
+    "device": "cpu",
+    "threads_default": 2,
+    "hidden_devices": ["CUDA_VISIBLE_DEVICES", "HIP_VISIBLE_DEVICES", "ROCR_VISIBLE_DEVICES"]
+  },
+  "deadline_default": "2026-11-07T19:40:00",
+  "deadline_timezone": "America/Chicago",
+  "model": {
+    "class": "CNN copied from experiments/cnn/source/cnn.py",
+    "use_signal": false,
+    "h": 32,
+    "layers": 2,
+    "kernel": 3,
+    "W": 32,
+    "drop": 0.1,
+    "optimizer": "AdamW",
+    "lr": 0.002,
+    "wd": 0.05,
+    "scheduler": null,
+    "grad_clip": 1.0,
+    "reason_constant_lr": "The stated learning rate is the AdamW learning rate on every step. Step count is the budget, so a one-cycle schedule is not used."
+  },
+  "batch": {
+    "batch_size": 128,
+    "screen_steps": 60,
+    "screen_seeds": [0],
+    "promote_steps": 300,
+    "promote_seeds": [0, 1],
+    "mixes": [0.25, 0.5],
+    "exposure_definition": "A completed trial performs exactly `steps` AdamW updates. Each update consumes exactly `batch_size` windows. Trials with the same step count have the same number of window exposures. Epoch count is not the budget.",
+    "mix_definition": "n_synth = round(mix * batch_size), n_real = batch_size - n_synth. Real columns are the leading columns of the real-only index plan for that trial seed, drawn with numpy Generator(seed) as integers in [0, n_real_windows). Synthetic columns use numpy Generator(seed + 9176).",
+    "initialization": "For each trial seed, CNN weights are drawn once with torch.manual_seed(seed) and reloaded at the start of every trial with that seed. After the reload, torch.manual_seed(seed) resets the dropout stream. Dropout probability is 0.1."
+  },
+  "windows": {
+    "min_t": 16,
+    "stride": 1,
+    "W": 32,
+    "input": "Right-aligned payout-index window of ticks in [t-W, t). Positions with no observation are MISSING (-1), never payout 0. The same episode supplies all 8 machines. machine_id is slot 0..7 and is not re-sorted.",
+    "target": "Sampled payout index at tick t for slots with observed=true. Unobserved slots are masked out of the loss. Truth probability vectors are not targets.",
+    "signal": "Not read and not synthesized. CNN is constructed with use_signal=false.",
+    "payout_to_index": {"0": 0, "1": 1, "2": 2, "5": 3, "20": 4},
+    "missing": -1,
+    "type_to_index": {"balanced": 0, "jackpot": 1, "steady": 2}
+  },
+  "real_fit": "kit/public/train only, via the copied build_train. Train query outcomes at the cutoff are train labels. Validation rows are never concatenated into the fit tensors.",
+  "evaluation": {
+    "split": "runs/splits.json tune episode ids only",
+    "metric": "official score_predictions R (mean loss ratio versus the frozen reference; lower is better)",
+    "confirm": "loaded only to assert the scored episode set is disjoint from confirm; confirm R is not computed",
+    "test": "not loaded",
+    "predictions_csv": "not written"
+  },
+  "generators": {
+    "call": "generate(seed=0, n_episodes=8, n_ticks=128, n_machines=8)",
+    "record_cap_fallback": "If the family refuses that size, retry generate(seed=0, n_episodes=8, n_ticks=96, n_machines=8). Generation seed stays 0 for every trial seed so seed 1 is a second init and batch-order replicate on the same frozen panel.",
+    "max_families": 12,
+    "skip": "Missing generate.py at screen close, or a settled file that raises, is skipped. The stored error is the exception type and message plus the traceback. A changed source hash is retried. Half-written files are waited on until mtime is at least 2 seconds old.",
+    "provenance": "SHA256 of the generate.py that was executed, of records jsonl, and of truth jsonl. Sibling directories are not modified."
+  },
+  "label_prior_calibration": {
+    "enabled": true,
+    "scope": "synthetic labelled slots only",
+    "data": "Counts of (machine type, payout index) on the real TRAIN windows used for the fit, and the same counts on synthetic windows. Validation is not used.",
+    "alpha": 0.5,
+    "clip": [0.25, 4.0],
+    "formula": "Per type, p = (count + alpha) / sum(count + alpha). w = clip(p_train / p_synth, 0.25, 4). Then divide w by sum(p_synth * w) so the smoothed synthetic prior has mean weight 1. Types with no synthetic labels keep weight 1. Real slots keep weight 1.",
+    "meaning": "This only rebalances the synthetic class prior toward the public train type-conditional payout marginal. It does not claim new information and does not fit the generator."
+  },
+  "reporting": {
+    "per_trial": ["train_loss_mean", "tune_R", "elapsed_train_sec", "descriptive_nll", "descriptive_ece_5bin"],
+    "promote_seeds": "Report both seeds and spread = max(tune_R) - min(tune_R). That spread is not a confidence interval and is not a significance test.",
+    "ranking": "After the screen, freeze research/screen_ranking.json. Family rank is the lowest tune_R among its completed screen mixes, then lower train_loss_mean, then family name. Promote the top 2 families. Re-run both mixes at 300 steps for seeds 0 and 1, plus a real-only control on that same budget.",
+    "time": "Do not start a trial that cannot finish before the deadline given the observed seconds per step. The first real-only screen trial and the first available family's 25% and 50% mixes are started as soon as that family ingests, before the other families finish."
+  },
+  "artifacts": "Each trial directory holds config.json, metrics.json, log.txt, manifest.json, and checkpoint.pt. Checkpoints stay under this research directory. Every JSON states eligibility RESEARCH_ONLY and eligibility_status unresolved."
+}

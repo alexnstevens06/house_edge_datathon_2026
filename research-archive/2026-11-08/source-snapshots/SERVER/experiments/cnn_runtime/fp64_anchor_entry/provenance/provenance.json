@@ -1,0 +1,25 @@
+{
+  "package": "fp64_anchor_entry",
+  "release_claim": false,
+  "precision": "fp64",
+  "precision_change": "inference only; checkpoint bytes are the saved FP32 anchor",
+  "training": false,
+  "no_signal": true,
+  "checkpoint_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+  "config_sha256": "c9022a4305be1c4124e6a116cd0cf3132fb5624a206f9b5571090ca3c4769d2f",
+  "packaged_source_sha256": {
+    "model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+    "data.py": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+    "predict.py": "8d97923a4bf3a2f3f2df562a07571518b99489d6723db4bd3f6a02b247316f33"
+  },
+  "canonical_source_sha256": {
+    "experiments/cnn_runtime/entry/model.py": "18b783f7a5c28c7dbbbec95c6174418594765a406d11f09b9e29599f35c13f40",
+    "experiments/cnn_runtime/entry/data.py": "cbf99171c4dbddcacd5d168be629a8f04b1a6134421b0578e6067f21709c1b1a",
+    "reference experiments/cnn/source/cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5"
+  },
+  "dtype_change": "model.double(); mask, tick, and arange use the embedding dtype; softmax is not cast to float32; Tensor.float is not patched",
+  "inputs": ["<split>/history.csv", "<split>/queries.csv"],
+  "default_split": "test",
+  "not_read": ["labels", "conditions", "signal column", "targets", "reference"],
+  "global_tensor_float_patch": false
+}

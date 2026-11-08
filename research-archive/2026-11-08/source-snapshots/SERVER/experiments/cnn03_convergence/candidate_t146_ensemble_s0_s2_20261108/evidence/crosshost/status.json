@@ -1,0 +1,18 @@
+{
+  "finished": "2026-11-08T03:05:51.492619-06:00",
+  "exit_code": 0,
+  "elapsed_seconds": 268.2819355870015,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "gpu_visibility": "hidden",
+  "memory_budget_kib": 2097152,
+  "budget_stop": false,
+  "peaks": {
+    "rss_sum_kib": 1882640,
+    "rss_max_process_kib": 996048,
+    "pss_sum_kib": 1265096
+  },
+  "memory_note": "RSS sum double-counts shared library pages; PSS sum approximates aggregate physical footprint. Stop on any process RSS or aggregate PSS over 2GiB."
+}

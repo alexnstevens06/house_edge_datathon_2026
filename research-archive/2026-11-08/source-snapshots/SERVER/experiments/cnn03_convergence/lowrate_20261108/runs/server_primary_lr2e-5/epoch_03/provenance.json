@@ -1,0 +1,8 @@
+{
+ "not_a_pretraining_pin": true,
+ "written_before_metrics": true,
+ "sha256": "17d66a052d5ccdef50af14468c24a029f77fe3943bd7f991aafcf667c7faedb5",
+ "completed_epochs": 3,
+ "completed_steps": 438,
+ "path": "experiments/cnn03_convergence/lowrate_20261108/runs/server_primary_lr2e-5/epoch_03/checkpoint.pt"
+}

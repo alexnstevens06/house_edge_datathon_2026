@@ -1,0 +1,27 @@
+{
+  "start_time": "2026-11-07T17:14:05",
+  "end_time": "2026-11-07T17:14:38",
+  "wall_seconds": 33.67,
+  "command": [
+    "source/run_all.py",
+    "--smoke"
+  ],
+  "torch_version": "2.9.1+rocm6.4",
+  "numpy_version": "2.5.4",
+  "python_version": "3.12.3",
+  "device": "cpu",
+  "peak_vram_mb": 0.0,
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "kit_zip_sha256": "06b5246f5cc51db5db26e26aae3264bec7b085d756dd82e5a0577dcba8a44f8a",
+  "source_sha256": {
+    "source/run_all.py": "8dcfec5bb2b44b2411442bd340b0c30eaf4e3a57de735d5fcb39fca16cf058eb",
+    "source/signal_nets.py": "7d11d51ad55aceb16cab64aa7f43a32c1be3873c2d60855f169d177e2d56088c",
+    "tests/test_signal_nets.py": "b54808dd8f796725cc94dad5de8e648e8dabc9742c2ee29c538191510ca9a699"
+  },
+  "out_dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke",
+  "env": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "HIP_VISIBLE_DEVICES": "-1"
+  }
+}
