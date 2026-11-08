@@ -1,0 +1,12 @@
+{
+  "seed": 0,
+  "trained": false,
+  "tune_R": null,
+  "blocker": "hipErrorInvalidDeviceFunction",
+  "device_name": "AMD Radeon RX 6700 XT",
+  "gcnArchName": "gfx1031",
+  "torch": "2.9.1+rocm6.4",
+  "torch_arch_list_has_gfx1031": false,
+  "torch_arch_list_has_gfx1030": true,
+  "first_failing_op": "torch.zeros(1, device='cuda')"
+}

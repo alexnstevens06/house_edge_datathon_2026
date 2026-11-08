@@ -1,0 +1,90 @@
+{
+  "assumptions": [
+    "Invented toy probabilities. Not fit to train, validation, or test.",
+    "Own-machine order-1 latent Markov chain. No cross-machine dependence.",
+    "State at tick t is committed from ticks < t only. Same-tick payouts are not inputs.",
+    "Observation mask is an exogenous gap Markov chain (long gaps, short looks).",
+    "Mask coins do not depend on payout, so a gap is not evidence for payout 0.",
+    "Unobserved record['payout'] is the latent draw for audit, withheld from the observer.",
+    "Organizer query signal is not modeled and is not backfilled into history.",
+    "Machine types repeat the 8-slot pattern steady, steady, balanced x4, jackpot, jackpot."
+  ],
+  "do_not_train_by_default": true,
+  "eligibility": "RESEARCH_ONLY",
+  "family": "sparse_gappy",
+  "mappings": {
+    "machine_type_by_slot_mod_8": [
+      "steady",
+      "steady",
+      "balanced",
+      "balanced",
+      "balanced",
+      "balanced",
+      "jackpot",
+      "jackpot"
+    ],
+    "missing_index": -1,
+    "missing_means": "unknown, not payout 0",
+    "observable_history": "filter P(Y_t | revealed payouts at ticks < t only)",
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts_in_probability_order": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "probability_columns": [
+      "p_0",
+      "p_1",
+      "p_2",
+      "p_5",
+      "p_20"
+    ],
+    "query": {
+      "answer_key_fields": [
+        "latent_oracle_probabilities",
+        "observable_history_probabilities"
+      ],
+      "cutoff": "n_ticks (history ticks are 0..n_ticks-1 and satisfy tick < cutoff)",
+      "one_query_per_machine_per_episode": true,
+      "real_signal_values_on_organizer_data_only": [
+        -1,
+        0,
+        1
+      ],
+      "signal": "null; not synthesized; never written onto history records"
+    },
+    "slot_index": "machine_id is the integer slot 0..n_machines-1",
+    "truth": "latent-oracle P(Y_t | latent Y_{t-1}, type), including hidden Y_{t-1}"
+  },
+  "n_observable_history": 6144,
+  "n_queries": 64,
+  "n_records": 6144,
+  "n_truth": 6144,
+  "output_hashes": {
+    "observable_history.jsonl": "7ff03365350658152856463cf3e52b7a11b4522e5d400da62f14dfe4663b2a9d",
+    "queries.jsonl": "6463a6a781aed8e8d4577e40da8c39a47fb245fff2ffa82239f7000369a7823e",
+    "records.jsonl": "f7c285da6bd6258ea73ba402f1c3cd794dd3fae151b40c116db090cf1f62ff18",
+    "truth.jsonl": "e94d0440d16d8a759dc87d0f87ff8fd1ae5c28769b10f4ca871c38dfeff5e1b8"
+  },
+  "real_only_fallback": true,
+  "seed": 0,
+  "settings": {
+    "n_episodes": 8,
+    "n_machines": 8,
+    "n_ticks": 96
+  },
+  "source": "self-authored toy generator in this directory; not organizer-released data; not fit to any split",
+  "source_hashes": {
+    "README.md": "3c5b6f3a3dc594fc630f5407c8a77f1ccd6690fedbb3fd0e986179cd7a0d2ce6",
+    "generate.py": "6ea9fb789db6e7e90577c6a80101b659b9849f2898bc65ab132be33a32b32204",
+    "test_generator.py": "69d34a5553d4cf8dff362f50d3caa026902ca7137083a6eff3e0126a1ec59386"
+  }
+}

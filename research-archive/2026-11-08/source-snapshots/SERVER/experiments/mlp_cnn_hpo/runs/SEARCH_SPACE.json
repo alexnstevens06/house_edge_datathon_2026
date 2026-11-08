@@ -1,0 +1,82 @@
+[
+[
+"mlp00",
+"--model mlp --width 2048 --depth 2 --W 16 --drop 0.1 --lr 0.00222 --wd 0.21217"
+],
+[
+"mlp01",
+"--model mlp --width 256 --depth 4 --W 64 --drop 0.1 --lr 0.00014 --wd 0.00756"
+],
+[
+"mlp02",
+"--model mlp --width 256 --depth 2 --W 16 --drop 0.3 --lr 0.00091 --wd 0.01583"
+],
+[
+"mlp03",
+"--model mlp --width 2048 --depth 2 --W 16 --drop 0.1 --lr 0.00113 --wd 0.12417"
+],
+[
+"mlp04",
+"--model mlp --width 2048 --depth 2 --W 16 --drop 0.5 --lr 0.00063 --wd 0.01426"
+],
+[
+"mlp05",
+"--model mlp --width 256 --depth 4 --W 64 --drop 0.1 --lr 0.00025 --wd 0.0239"
+],
+[
+"mlp06",
+"--model mlp --width 1024 --depth 3 --W 32 --drop 0.3 --lr 0.00023 --wd 0.20532"
+],
+[
+"mlp07",
+"--model mlp --width 2048 --depth 4 --W 64 --drop 0.1 --lr 0.00246 --wd 0.0015"
+],
+[
+"mlp08",
+"--model mlp --width 1024 --depth 2 --W 64 --drop 0.3 --lr 0.00094 --wd 0.00259"
+],
+[
+"mlp09",
+"--model mlp --width 256 --depth 4 --W 32 --drop 0.1 --lr 0.00013 --wd 0.00341"
+],
+[
+"cnn00",
+"--model cnn --h 64 --layers 4 --W 32 --drop 0.3 --lr 0.00042 --wd 0.00408"
+],
+[
+"cnn01",
+"--model cnn --h 64 --layers 4 --W 64 --drop 0.3 --lr 0.00192 --wd 0.00226"
+],
+[
+"cnn02",
+"--model cnn --h 96 --layers 4 --W 32 --drop 0.2 --lr 0.00033 --wd 0.00592"
+],
+[
+"cnn03",
+"--model cnn --h 128 --layers 4 --W 64 --drop 0.3 --lr 0.00197 --wd 0.00895"
+],
+[
+"cnn04",
+"--model cnn --h 160 --layers 5 --W 32 --drop 0.2 --lr 0.00162 --wd 0.01093"
+],
+[
+"cnn05",
+"--model cnn --h 160 --layers 4 --W 64 --drop 0.1 --lr 0.0018 --wd 0.0068"
+],
+[
+"cnn06",
+"--model cnn --h 64 --layers 5 --W 32 --drop 0.2 --lr 0.00071 --wd 0.04301"
+],
+[
+"cnn07",
+"--model cnn --h 128 --layers 5 --W 32 --drop 0.2 --lr 0.00038 --wd 0.02513"
+],
+[
+"mlpA",
+"--model mlp --width 1024 --depth 3 --W 64 --drop 0.3 --lr 0.001 --wd 0.05"
+],
+[
+"cnnA",
+"--model cnn --h 128 --layers 4 --W 64 --drop 0.2 --lr 0.001 --wd 0.05"
+]
+]

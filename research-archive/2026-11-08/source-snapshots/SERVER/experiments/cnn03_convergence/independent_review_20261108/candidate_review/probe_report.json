@@ -1,0 +1,366 @@
+{
+ "python": "3.13.13",
+ "torch": "2.11.0+cpu",
+ "numpy": "2.5.4",
+ "executable": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/py313_verify_1936/env/bin/python",
+ "source_hashes_file_sha256": "96cc3ec167cd6959456ccc8b988c724b78bdd4417e06feebf448fef363b70647",
+ "source_hashes_checked": 27,
+ "protected": {
+  "experiments/cnn_runtime/cnn03_s0_fp64_first2025.zip": "61bbac853e53fc03ecfa9ca9dead96d282e1b51da19442ea8f9425a4a50f5599",
+  "experiments/cnn_runtime/fp64_release_out2025/cnn03_test_a.csv": "08ee9e0e02dc3e6800be3083cc0b920e79f012da2e3c1776b05ac0ccd8042b1d",
+  "experiments/cnn_runtime/first_submission_full2029/cnn03_test_a.csv": "08ee9e0e02dc3e6800be3083cc0b920e79f012da2e3c1776b05ac0ccd8042b1d",
+  "experiments/mlp_cnn_hpo/review/PINNED.json": "cdfcf1222835f5826796a95c20deff2a8c90435fda4df65a74338dc5410166cb",
+  "experiments/cnn_runtime/fp64_harness.py": "515c91bc176b3e10e65e314afadbb20d66a21b015f2c2c98c391759d549edae2",
+  "experiments/cnn_runtime/fp64_release_harness2025.py": "a077e8771abdab58e3d107eeb1da3ecc3ee80ccc2ee08ce72e49b7ab36d89f2c",
+  "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+  "experiments/cnn03_convergence/continuation_20261108/PLAN.md": "086187accf10068b38770a1db98b2583150fa7bb84ac96e46426d4847febfff6",
+  "experiments/cnn03_convergence/continuation_20261108/MANIFEST.json": "c71474bcbb6caede6bb629d7db163469788054da2d48dcd4a56c1bc482edcf8b"
+ },
+ "zip_members": [
+  "README.md",
+  "checkpoint.pt",
+  "config/config.json",
+  "data.py",
+  "model.py",
+  "predict.py",
+  "provenance/provenance.json",
+  "reproduce.json",
+  "requirements.txt"
+ ],
+ "zip_member_sha256": {
+  "README.md": "d079206135e04e884f1e990c0ec59ab2dc136ac06738ea2e88064809b193c010",
+  "checkpoint.pt": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+  "config/config.json": "a715bfe05eb00494065c7dfcc3ad6d71a3b2bc4ee6788006cf07ce86f3e43695",
+  "data.py": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+  "model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+  "predict.py": "9eaa178249d6859cd1a68a979f2a8d1dcb681416de86900e9bd01f5abe6c673d",
+  "provenance/provenance.json": "ace259cc02367192f9212ae9a2b39cb9acc5d799f7638f3d064ecfd6f726a4db",
+  "reproduce.json": "cb91250a431dc92a45ceda7bf66df8006a4ecbce2b8e393f52f7284fd22246a1",
+  "requirements.txt": "cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab"
+ },
+ "canonical_zip_compare": {
+  "model.py": {
+   "canonical": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+   "packed": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+   "equal": true
+  },
+  "data.py": {
+   "canonical": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+   "packed": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+   "equal": true
+  },
+  "requirements.txt": {
+   "canonical": "cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab",
+   "packed": "cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab",
+   "equal": true
+  },
+  "reproduce.json": {
+   "canonical": "cb91250a431dc92a45ceda7bf66df8006a4ecbce2b8e393f52f7284fd22246a1",
+   "packed": "cb91250a431dc92a45ceda7bf66df8006a4ecbce2b8e393f52f7284fd22246a1",
+   "equal": true
+  }
+ },
+ "predict_differs_from_canonical_zip": true,
+ "checkpoint": {
+  "weights_only": true,
+  "tensors": 43,
+  "seed": 2,
+  "lr": 0.003,
+  "eval_every": 2,
+  "kernel_field": false,
+  "conv_shape": [
+   128,
+   128,
+   3
+  ],
+  "provenance_keys": [
+   "architecture",
+   "automatic_clearance",
+   "checkpoint_bytes_rewritten",
+   "checkpoint_path_copied_from",
+   "checkpoint_sha256",
+   "config_schema",
+   "config_sha256",
+   "data_py_sha256",
+   "default_split",
+   "direct_cpu_wheel_not_bundled_sha256",
+   "dtype_change",
+   "global_tensor_float_patch",
+   "inference_dtype",
+   "inputs",
+   "known_study_tune_R",
+   "known_study_tune_rows",
+   "model_py_sha256",
+   "not_packaged",
+   "not_read",
+   "organizer_approval_claimed",
+   "package",
+   "precision",
+   "precision_change",
+   "production_replacement",
+   "release_claim",
+   "reproduce_json_sha256",
+   "requirements_copied_from_zip_sha256",
+   "saved_dtype",
+   "selection",
+   "study_pass_is_package_pass",
+   "tensor_count",
+   "training",
+   "weights_only_keys"
+  ]
+ },
+ "harness_diff_exit": 1,
+ "harness_diff_matches_recorded_file": true,
+ "candidate_full_runs_calls": [
+  "mkdir",
+  "kit_rows",
+  "kit_rows",
+  "print",
+  "official_check",
+  "structural_coverage",
+  "print",
+  "run_entry",
+  "print",
+  "read_bytes",
+  "read_bytes",
+  "max_abs",
+  "fail",
+  "len",
+  "fail",
+  "len",
+  "fail",
+  "strip",
+  "fail",
+  "is_file",
+  "sha256_file",
+  "len",
+  "len",
+  "stat"
+ ],
+ "release_full_runs_calls": [
+  "mkdir",
+  "kit_rows",
+  "print",
+  "official_check",
+  "official_check",
+  "official_r",
+  "run_entry",
+  "print",
+  "read_bytes",
+  "read_bytes",
+  "max_abs",
+  "fail",
+  "len",
+  "fail",
+  "strip",
+  "fail",
+  "is_file",
+  "sha256_file",
+  "len",
+  "stat"
+ ],
+ "candidate_main_calls": [
+  "ArgumentParser",
+  "add_argument",
+  "add_argument",
+  "add_argument",
+  "add_argument",
+  "parse_args",
+  "resolve",
+  "resolve",
+  "resolve",
+  "resolve",
+  "print",
+  "print",
+  "print",
+  "print",
+  "print",
+  "print",
+  "test_source_has_no_global_patch",
+  "test_window_and_missing",
+  "test_dtype_and_forecast_causality",
+  "test_query_order",
+  "test_refusals",
+  "full_runs",
+  "require_close",
+  "require_close",
+  "print",
+  "print",
+  "fail",
+  "sha256_file",
+  "sha256_file",
+  "sha256_file",
+  "sha256_file",
+  "sha256_file",
+  "split"
+ ],
+ "validation_metric_string_hits": [
+  {
+   "file": "QUALITY.md",
+   "needle": "VALIDATION_R "
+  },
+  {
+   "file": "HARNESS_DIFF.txt",
+   "needle": "VALIDATION_R "
+  },
+  {
+   "file": "fp64_candidate_harness.py",
+   "needle": "mean_loss_ratio="
+  },
+  {
+   "file": "fp64_candidate_harness.py",
+   "needle": "technical_points="
+  },
+  {
+   "file": "fp64_candidate_harness.py",
+   "needle": "VALIDATION_R "
+  },
+  {
+   "file": "HARNESS_SCOPE.md",
+   "needle": "VALIDATION_R "
+  }
+ ],
+ "mtimes_utc": {
+  "original_checkpoint": "2026-11-08T02:05:39.755179+00:00",
+  "corrected_tune_json": "2026-11-08T06:27:52.896645+00:00",
+  "candidate_zip": "2026-11-08T06:53:16.241258+00:00",
+  "candidate_predict_entry": "2026-11-08T06:53:00.133137+00:00",
+  "candidate_harness": "2026-11-08T06:54:36.292506+00:00",
+  "candidate_quality": "2026-11-08T06:58:34.214350+00:00",
+  "candidate_source_hashes": "2026-11-08T06:58:48.525003+00:00"
+ },
+ "docker_records": {
+  "cand-lr003-s2-a": {
+   "exit": 0,
+   "oom": false,
+   "image": "sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+   "network": "none",
+   "readonly": true,
+   "cap_drop": [
+    "ALL"
+   ],
+   "privileged": false,
+   "security": [
+    "no-new-privileges"
+   ],
+   "memory": 17179869184,
+   "memory_swap": 34359738368,
+   "nano_cpus": 2000000000,
+   "user": "1000:1000",
+   "tmpfs": {
+    "/output": "rw,size=32m,uid=1000,gid=1000",
+    "/tmp": "rw,size=128m,uid=1000,gid=1000"
+   },
+   "mount_modes": [
+    "ro",
+    "ro",
+    "ro"
+   ],
+   "started": "2026-11-08T06:55:08.577991109Z",
+   "finished": "2026-11-08T06:55:11.596110462Z",
+   "stderr": "wrote /output/submission.csv split=test queries=1536 infer_s=1.992170 total_s=2.707150 max_rss_kb=970376 device=cpu dtype=fp64 threads=2"
+  },
+  "cand-lr003-s2-b": {
+   "exit": 0,
+   "oom": false,
+   "image": "sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+   "network": "none",
+   "readonly": true,
+   "cap_drop": [
+    "ALL"
+   ],
+   "privileged": false,
+   "security": [
+    "no-new-privileges"
+   ],
+   "memory": 17179869184,
+   "memory_swap": 34359738368,
+   "nano_cpus": 2000000000,
+   "user": "1000:1000",
+   "tmpfs": {
+    "/output": "rw,size=32m,uid=1000,gid=1000",
+    "/tmp": "rw,size=128m,uid=1000,gid=1000"
+   },
+   "mount_modes": [
+    "ro",
+    "ro",
+    "ro"
+   ],
+   "started": "2026-11-08T06:55:11.806254734Z",
+   "finished": "2026-11-08T06:55:14.752422227Z",
+   "stderr": "wrote /output/submission.csv split=test queries=1536 infer_s=2.000286 total_s=2.710810 max_rss_kb=970956 device=cpu dtype=fp64 threads=2"
+  },
+  "cand-lr003-s2-val": {
+   "exit": 0,
+   "oom": false,
+   "image": "sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+   "network": "none",
+   "readonly": true,
+   "cap_drop": [
+    "ALL"
+   ],
+   "privileged": false,
+   "security": [
+    "no-new-privileges"
+   ],
+   "memory": 17179869184,
+   "memory_swap": 34359738368,
+   "nano_cpus": 2000000000,
+   "user": "1000:1000",
+   "tmpfs": {
+    "/output": "rw,size=32m,uid=1000,gid=1000",
+    "/tmp": "rw,size=128m,uid=1000,gid=1000"
+   },
+   "mount_modes": [
+    "ro",
+    "ro",
+    "ro"
+   ],
+   "started": "2026-11-08T06:55:14.91754811Z",
+   "finished": "2026-11-08T06:55:16.798332502Z",
+   "stderr": "wrote /output/submission.csv split=validation queries=768 infer_s=1.006305 total_s=1.631453 max_rss_kb=616284 device=cpu dtype=fp64 threads=2"
+  }
+ },
+ "docker_csv": {
+  "test_a.csv": {
+   "sha256": "9bae92ea78b4f865caac0847cd9ff01415c18db96df9d8ac888cbf5de1db75e6",
+   "bytes": 198127
+  },
+  "test_b.csv": {
+   "sha256": "9bae92ea78b4f865caac0847cd9ff01415c18db96df9d8ac888cbf5de1db75e6",
+   "bytes": 198127
+  },
+  "val.csv": {
+   "sha256": "ee6efe67ff13d5681128281a2cff25c68c0af959077ed7977298253df46fe2ae",
+   "bytes": 103442
+  }
+ },
+ "harness_step_exits": {
+  "source_patch": 0,
+  "window_missing": 0,
+  "dtype_causality": 0,
+  "query_order": 0,
+  "refusals": 0,
+  "full_runs": 0,
+  "compare_test": 0,
+  "compare_val": 0
+ },
+ "fresh_test_sha256": "9bae92ea78b4f865caac0847cd9ff01415c18db96df9d8ac888cbf5de1db75e6",
+ "fresh_test_bytes": 198127,
+ "tune": {
+  "study_tune_R": 0.30980333573689856,
+  "package_tune_R": 0.30980333573689856,
+  "stored_tune_R": 0.30980333573689856,
+  "expected_tune_R": 0.30980333573689856,
+  "n_tune_queries": 384,
+  "n_tune_episodes": 48,
+  "n_forward_queries": 768,
+  "package_n_tune_queries": 384,
+  "package_n_forward_queries": 768,
+  "loader_max_abs_raw": 0.0,
+  "loader_max_abs_after_one_renorm": 0.0,
+  "confirm_full_test_metrics": "not_computed"
+ },
+ "probe_max_rss_kb": 634164,
+ "failures": []
+}

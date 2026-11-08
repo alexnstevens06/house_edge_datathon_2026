@@ -1,0 +1,228 @@
+{
+  "recorded_CST": "2026-11-07T19:52:16.852407-06:00",
+  "venue": "server RTX5080 CPU2 allocator2.5GiB actualprocess observed1272MiB",
+  "eligibility": "RESEARCH_ONLY unresolved synthetic allowance; real-only fallback unchanged",
+  "cases": {
+    "tiny_seed0": {
+      "tune_R": 0.8410400241114718,
+      "losses": [
+        1.6204453418278466,
+        1.4473058266156467,
+        1.1799505516304756,
+        1.0993681035049492,
+        1.0747952028966854,
+        1.0648728258371885,
+        1.0552858321294136,
+        1.0464559374665645,
+        1.039662414761388,
+        1.0334209840862507,
+        1.0285907752229817,
+        1.0249987403233698,
+        1.0204241242693473,
+        1.0180532771340853,
+        1.0150915289350517,
+        1.0121924082591642,
+        1.0098051218373805,
+        1.008844832518814,
+        1.0065616919581455,
+        1.005473379919951,
+        1.0035026717053637,
+        1.0018992906245752,
+        1.000518733245023,
+        1.0001125770055523,
+        0.9986839367461905,
+        0.9980601467331435,
+        0.9975762492615798,
+        0.9968653200300184,
+        0.9968179189669513,
+        0.9967913499278955
+      ],
+      "curve": [
+        {
+          "epoch": 1,
+          "train_loss": 1.6204453418278466,
+          "tune_R": 1.9726951285735168
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.0993681035049492,
+          "tune_R": 1.0642793755889133
+        },
+        {
+          "epoch": 8,
+          "train_loss": 1.0464559374665645,
+          "tune_R": 0.9935323356392598
+        },
+        {
+          "epoch": 16,
+          "train_loss": 1.0121924082591642,
+          "tune_R": 0.8939239402813871
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.9967913499278955,
+          "tune_R": 0.8410400241114718
+        }
+      ],
+      "steps_completed": 1110,
+      "exposures": 557010,
+      "real_windows": 557010,
+      "synth_windows": 0,
+      "labelled_slots_in_steps": 3931500,
+      "elapsed_sec": 7.836249051033519,
+      "peak_gpu_mb": 252.95849609375,
+      "microbatch": 512,
+      "init_sha256": "a5350c4b0ce12c005db16c9fbe98d3688ae50e1ffe625e63680e7cd8254661c2"
+    },
+    "cnn03_seed0": {
+      "tune_R": 0.3291909269650826,
+      "losses": [
+        1.225918606184852,
+        1.0738430890684065,
+        1.058053403627374,
+        1.0384110549574388,
+        1.0229603995372425,
+        1.0124912017851166,
+        1.0016588042752186,
+        0.9669441096012362,
+        0.9270804687734711,
+        0.904466533629795,
+        0.8882874043300094,
+        0.8768698382741585,
+        0.8657916256089739,
+        0.8571831203799849,
+        0.8487937510682203,
+        0.8414089188670284,
+        0.834411560201526,
+        0.828486840538512,
+        0.8235437877577105,
+        0.8184452964020191,
+        0.8133358682858224,
+        0.8085772513813323,
+        0.8038878245416575,
+        0.800957960458483,
+        0.797957181470558,
+        0.7950308058815639,
+        0.7941690589133028,
+        0.7931299083797253,
+        0.792561456398871,
+        0.7921143844738799
+      ],
+      "curve": [
+        {
+          "epoch": 1,
+          "train_loss": 1.225918606184852,
+          "tune_R": 1.035445171186185
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.0384110549574388,
+          "tune_R": 1.0049123208072932
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.9669441096012362,
+          "tune_R": 0.586277195766894
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.8414089188670284,
+          "tune_R": 0.3697498334212656
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.7921143844738799,
+          "tune_R": 0.3291909269650826
+        }
+      ],
+      "steps_completed": 1110,
+      "exposures": 557010,
+      "real_windows": 557010,
+      "synth_windows": 0,
+      "labelled_slots_in_steps": 3931500,
+      "elapsed_sec": 64.43288003699854,
+      "peak_gpu_mb": 805.72119140625,
+      "microbatch": 128,
+      "init_sha256": "329c26e90d7864b0a0984b55917a67ed3469b9444e17329fb1be5994c39268db"
+    },
+    "mix_seed0": {
+      "tune_R": 0.3968037462541104,
+      "losses": [
+        1.2538360599627605,
+        1.1250586576531412,
+        1.1064376902053004,
+        1.089369108824028,
+        1.076167458186663,
+        1.065838612327121,
+        1.0526136772099948,
+        1.0405007719746908,
+        1.009252425708211,
+        0.971633878494827,
+        0.9414588931936341,
+        0.9135863238987832,
+        0.8817419127398932,
+        0.8520712144015861,
+        0.8240386595250156,
+        0.7996511162418523,
+        0.7797643124024526,
+        0.762727066093911,
+        0.750068758174886,
+        0.7365084025562137,
+        0.7287189883751909,
+        0.720228503011364,
+        0.713742544039824,
+        0.71026796189042,
+        0.7027296214487099,
+        0.6962143169138071,
+        0.6978112555314533,
+        0.6958817640153138,
+        0.6920542830052988,
+        0.6941228278350375
+      ],
+      "curve": [
+        {
+          "epoch": 1,
+          "train_loss": 1.2538360599627605,
+          "tune_R": 1.035940108800069
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.089369108824028,
+          "tune_R": 0.9720579013335866
+        },
+        {
+          "epoch": 8,
+          "train_loss": 1.0405007719746908,
+          "tune_R": 0.762691285352892
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.7996511162418523,
+          "tune_R": 0.4552488463822791
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.6941228278350375,
+          "tune_R": 0.3968037462541104
+        }
+      ],
+      "steps_completed": 1110,
+      "exposures": 557010,
+      "real_windows": 417750,
+      "synth_windows": 139260,
+      "labelled_slots_in_steps": 3792877,
+      "elapsed_sec": 64.13864162599202,
+      "peak_gpu_mb": 805.72119140625,
+      "microbatch": 128,
+      "init_sha256": "329c26e90d7864b0a0984b55917a67ed3469b9444e17329fb1be5994c39268db"
+    }
+  },
+  "delta_mix_minus_control_R": 0.06761281928902779,
+  "decision": "PRUNE quarter abrupt replacement after first completed FULL seed loss. No seeds1/2 launched. Does not establish all synthetic regimes useless.",
+  "checkpoint_policy": "Fixed final epoch30 weights; intermediate tune curves monitor only, no best-epoch selection.",
+  "precision": "CUDA BF16 autocast, FP32 CE and CPU FP32 tune; provisional pending existing validated final-FP64 evaluation.",
+  "exposure_policy": "25% synthetic replacement, not added data or extra optimizer steps; 8 episodes128ticks fixed self-authored generator seed0, no empirical parameter fitting.",
+  "canonical_reproduction_caveat": "same architecture/recipe/windows; CPU randperm and microbatch128 accumulation differ from canonical resident512 GPU shuffle; dropout RNG and summation order can differ, not bitwise replay.",
+  "incomplete_diagnostic": "32-real-window20step overfit CE1.68669 to1.00221, accuracy57.42%; not successful memorization or proof of no pipeline bug.",
+  "manual_gate": "source tuple-membership typo prevents automatic gate; explicitly inspected actual completed pair and pruned manually without changing model source."
+}

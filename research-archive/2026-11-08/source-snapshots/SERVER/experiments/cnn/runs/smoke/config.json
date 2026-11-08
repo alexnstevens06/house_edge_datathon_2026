@@ -1,0 +1,12 @@
+{
+ "h": 64,
+ "layers": 4,
+ "W": 64,
+ "drop": 0.1,
+ "epochs": 6,
+ "lr": 0.002,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 0,
+ "out": "experiments/cnn/runs/smoke"
+}

@@ -1,0 +1,11 @@
+{
+ "hard_signal_py": "23147fc43ac7a9ad6defa9546f7dccfca07f9e9c50dbdeb74b38716246dc3465",
+ "run_seed_py": "9b86c3a5b47c32ae1bd611a40c32c5978ce535f32575eae95e5e64b734510af3",
+ "test_py": "79dff23e1dee83980d4deefdd8c9a9511ddcfeda029939fa9dbaa654f8601ab6",
+ "base_cnn_py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+ "train_py": "916c6ee1b6e405300ddadbc5650583b250db8baa83a5227fc2437c1b1a55e066",
+ "plan_md": "36017f2f667ae60095c75babb137a9a56f36acca1c008619b5cf3aa10e56dafe",
+ "split_ids": "57e04dc8963efcadd33285cdd08e8c886302233948e35ae8c0f3ea5fb4a645e1",
+ "addendum_md": "e2fa1688d10ebe8dfa942dda8210bb4a57b96f5ad3c528b43851416aedfc314a",
+ "seed": 0
+}

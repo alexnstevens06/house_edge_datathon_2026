@@ -1,0 +1,129 @@
+{
+ "alignment": {
+  "future_mutation_ignored": true,
+  "missing_in_window": 161,
+  "past_mutation_visible": true,
+  "target": [
+   1,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   4
+  ],
+  "target_matches_obs_t": true,
+  "tick": 16,
+  "zero_payout_in_window": 46
+ },
+ "attempt_errors": [],
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "machine_id_mapping": "slot 0..7, not re-sorted",
+ "missing_code": -1,
+ "n_episodes": 8,
+ "n_missing": 1999,
+ "n_observed": 6193,
+ "n_records": 8192,
+ "n_truth": 8192,
+ "new_information_claim": false,
+ "payout_index_counts_observed": [
+  3318,
+  1288,
+  784,
+  493,
+  310
+ ],
+ "payout_to_index": {
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "20": 4,
+  "5": 3
+ },
+ "prior_note": "Weights use TRAIN window counts only to rebalance synthetic label priors. They are not a claim of new information.",
+ "prior_weight_table": [
+  [
+   1.4164216067616293,
+   0.6661120726595839,
+   1.0081181295768773,
+   0.5586650697184091,
+   0.24896994576299925
+  ],
+  [
+   1.1925780522782625,
+   0.3692109184978095,
+   0.7484493688171359,
+   1.2396408447904346,
+   0.4290166210699987
+  ],
+  [
+   0.749316299102219,
+   1.2470348667993154,
+   1.828847641273705,
+   1.044472120666983,
+   0.249450008456113
+  ]
+ ],
+ "settings": {
+  "n_episodes": 8,
+  "n_machines": 8,
+  "n_ticks": 128,
+  "seed": 0
+ },
+ "submission_export": false,
+ "synth_type_payout_counts": [
+  [
+   862,
+   445,
+   375,
+   256,
+   133
+  ],
+  [
+   1214,
+   238,
+   164,
+   123,
+   125
+  ],
+  [
+   847,
+   426,
+   142,
+   64,
+   18
+  ]
+ ],
+ "train_type_payout_counts": [
+  [
+   27481,
+   6675,
+   8515,
+   3223,
+   555
+  ],
+  [
+   29039,
+   1765,
+   2468,
+   3069,
+   1079
+  ],
+  [
+   20026,
+   16772,
+   8218,
+   2124,
+   41
+  ]
+ ],
+ "type_to_index": {
+  "balanced": 0,
+  "jackpot": 1,
+  "steady": 2
+ },
+ "unobserved_numeric_payouts_ignored": 1999,
+ "zero_payout_observed_count": 3318
+}

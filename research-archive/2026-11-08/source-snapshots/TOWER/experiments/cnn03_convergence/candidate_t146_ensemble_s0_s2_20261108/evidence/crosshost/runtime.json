@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.14.0+rocm10.1.0",
+  "hip": "7.16.26385",
+  "cuda_available": false,
+  "threads": 2,
+  "max_rss_kib": 1038168
+}

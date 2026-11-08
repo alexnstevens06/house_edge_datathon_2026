@@ -1,0 +1,6 @@
+{"eval": 0, "step": 37, "train_loss": 1.3887310865763072, "tune": 1.091613, "confirm": 1.170068, "full": 1.129635, "elapsed": 23.9}
+{"eval": 1, "step": 74, "train_loss": 1.0834626346021086, "tune": 0.989229, "confirm": 1.000542, "full": 0.994929, "elapsed": 42.3}
+{"eval": 2, "step": 111, "train_loss": 1.0570817476994283, "tune": 0.976245, "confirm": 0.948194, "full": 0.962752, "elapsed": 61.1}
+{"eval": 3, "step": 148, "train_loss": 1.0411903584325635, "tune": 0.965143, "confirm": 0.940518, "full": 0.953497, "elapsed": 80.0}
+{"eval": 4, "step": 185, "train_loss": 1.0329667458663117, "tune": 0.948843, "confirm": 0.930223, "full": 0.940186, "elapsed": 98.8}
+{"eval": 5, "step": 222, "train_loss": 1.0302682438412227, "tune": 0.955922, "confirm": 0.932818, "full": 0.945071, "elapsed": 110.7}

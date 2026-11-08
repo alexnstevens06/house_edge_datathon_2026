@@ -1,0 +1,32 @@
+{
+  "start_time": "2026-11-07T23:21:20",
+  "end_time": "2026-11-07T23:22:00",
+  "wall_seconds": 40.03,
+  "command": [
+    "source/run_all.py",
+    "--out",
+    "runs/v1",
+    "--epochs",
+    "30",
+    "--backbone",
+    "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt"
+  ],
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.5.4",
+  "python_version": "3.12.13",
+  "device": "cuda",
+  "peak_vram_mb": 80.9,
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "kit_zip_sha256": "06b5246f5cc51db5db26e26aae3264bec7b085d756dd82e5a0577dcba8a44f8a",
+  "source_sha256": {
+    "source/run_all.py": "8dcfec5bb2b44b2411442bd340b0c30eaf4e3a57de735d5fcb39fca16cf058eb",
+    "source/signal_nets.py": "5417a97a63c982e6e4c8961306ca7ca9267e982fdc6e508d7f2325a0bab7137e",
+    "tests/test_signal_nets.py": "b54808dd8f796725cc94dad5de8e648e8dabc9742c2ee29c538191510ca9a699"
+  },
+  "out_dir": "runs/v1",
+  "env": {
+    "CUDA_VISIBLE_DEVICES": null,
+    "HIP_VISIBLE_DEVICES": null
+  }
+}

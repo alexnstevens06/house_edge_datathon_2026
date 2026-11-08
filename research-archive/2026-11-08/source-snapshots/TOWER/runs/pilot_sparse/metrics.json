@@ -1,0 +1,124 @@
+{
+  "arch": "sparse",
+  "best_epoch": 1,
+  "tune_R": 1.1124045218964642,
+  "confirm_R": 1.1286748307831278,
+  "full_val_R": 1.1190763391319336,
+  "tune": {
+    "R": 1.1124045218964642,
+    "points_60": 28.40365061618666,
+    "points_80": 37.871534154915544,
+    "probability_error": {
+      "stable": 0.21036198575193402,
+      "short_history": 0.22348783249176948,
+      "drift": 0.23338270726702337,
+      "shared_change": 0.19114669748871146
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0559334415577042,
+      "short_history": 1.3152833327307654,
+      "drift": 1.1695282457048681,
+      "shared_change": 0.9088730675925188
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 1.1286748307831278,
+    "points_60": 28.186550210642707,
+    "points_80": 37.58206694752361,
+    "probability_error": {
+      "stable": 0.2202150312679502,
+      "short_history": 0.21207457494359913,
+      "drift": 0.21056189324661134,
+      "shared_change": 0.21256510440507562
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.1393421066850749,
+      "short_history": 1.1477960079642169,
+      "drift": 1.1690414053879778,
+      "shared_change": 1.0585198030952414
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 1.1190763391319336,
+    "points_60": 28.31422299046509,
+    "points_80": 37.75229732062012,
+    "probability_error": {
+      "stable": 0.21528850008011455,
+      "short_history": 0.21778120148402394,
+      "drift": 0.22197230125694747,
+      "shared_change": 0.20185590234369424
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0970069773299316,
+      "short_history": 1.2280332880721934,
+      "drift": 1.1692972931998695,
+      "shared_change": 0.9819677979257401
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "config": {
+    "arch": "sparse",
+    "seed": 0,
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_ff": 128,
+    "dropout": 0.1,
+    "window": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch_size": 64,
+    "t_start": 16,
+    "epochs": 1,
+    "pilot": true,
+    "params": 88133,
+    "train_examples": 1500,
+    "sliding_examples": 18471,
+    "query_examples": 96,
+    "tokens_per_example": 407.4,
+    "steps_total": 24,
+    "device": "cuda",
+    "torch_version": "2.9.1+rocm6.4",
+    "data_sha256_kit_zip": "06b5246f5cc51db5db26e26aae3264bec7b085d756dd82e5a0577dcba8a44f8a",
+    "train_seconds": 2.27,
+    "wall_seconds": 4.71,
+    "peak_vram_mb": 1887.9,
+    "throughput_examples_per_sec": 660.6,
+    "best_epoch": 1
+  }
+}

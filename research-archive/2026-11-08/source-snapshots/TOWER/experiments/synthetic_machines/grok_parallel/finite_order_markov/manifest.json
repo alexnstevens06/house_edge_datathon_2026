@@ -1,0 +1,47 @@
+{
+  "family": "finite_order_markov",
+  "eligibility": "RESEARCH_ONLY",
+  "synthetic_exception_verified": false,
+  "real_only_fallback": true,
+  "competition_data_policy": "Use organizer-released data. No verified synthetic exception. This tree is research-only; the competition fallback is real data.",
+  "order": 2,
+  "max_records": 8192,
+  "default_generate": {
+    "seed": 0,
+    "n_episodes": 8,
+    "n_ticks": 96,
+    "n_machines": 8,
+    "record_count": 6144
+  },
+  "probability_kinds": {
+    "probabilities": "latent_oracle",
+    "observable_probabilities": "observable_history"
+  },
+  "payouts": [0, 1, 2, 5, 20],
+  "payout_to_index": {"0": 0, "1": 1, "2": 2, "5": 3, "20": 4},
+  "missing_policy": "unobserved is unknown, not payout 0",
+  "signal_policy": "no synthetic signal; real signal exists only at the organizer prediction cutoff",
+  "source_hashes": {
+    "generate.py": "3683360edb6810ad583b00cb3d329e318b56465b34238041cd981be012ac30ac",
+    "test_generator.py": "de2b68a001a77460af0934be304c32d68166ba8d3f84f6d4cde6fe46e212c0df",
+    "README.md": "904925a0f7af2ebccd080df0f9b86a79cf69c86f4223fc64e8cebccf7c92d0e9"
+  },
+  "tests": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator -v",
+    "result": "OK",
+    "tests_run": 12,
+    "failures": 0,
+    "python": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python"
+  },
+  "sample_run": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 1 --ticks 16 --machines 8 --out sample_out",
+    "seed": 0,
+    "settings": {"n_episodes": 1, "n_ticks": 16, "n_machines": 8},
+    "record_count": 128,
+    "output_hashes": {
+      "records.jsonl": "2cc6c6f64ea2469605d09987be36bc6b18179e7a0c3eb167a70cea5f5ee77ad5",
+      "truth.jsonl": "9c27f7ab7fb0ff0a4f7a58c5ff4e73c3da69e588479e518e4a4af6e1e30606d4",
+      "manifest.json": "b2556da7ce68e325274274889c2f0d1497c7defeab7b65e7b40d7bee05bd1772"
+    }
+  }
+}

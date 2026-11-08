@@ -1,0 +1,9 @@
+RESULT experiments/cnn/runs/a_h64_L4_W64_e12 {'full': 0.5566, 'tune': 0.5417, 'confirm': 0.571} gpuMB 1607
+RESULT experiments/cnn/runs/c_h64_L5_W128_e10 {'full': 0.6336, 'tune': 0.5989, 'confirm': 0.6692} gpuMB 3843
+RESULT experiments/cnn/runs/d_h96_L4_W96_d02_e10 {'full': 0.5721, 'tune': 0.5275, 'confirm': 0.6165} gpuMB 3557
+RESULT experiments/cnn/runs/e_h64_L3_W32_e10 {'full': 0.8215, 'tune': 0.8126, 'confirm': 0.8303} gpuMB 651
+RESULT experiments/cnn/runs/f_h128_L4_W64_d02_e16 {'full': 0.4732, 'tune': 0.45, 'confirm': 0.496} gpuMB 3162
+SWEEP_DONE
+RESULT experiments/cnn/runs/g_h128_L4_W64_d02_e30 {'full': 0.3783, 'tune': 0.3675, 'confirm': 0.3874} gpuMB 3162
+RESULT experiments/cnn/runs/h_h128_L5_W64_d03_e30 {'full': 0.4148, 'tune': 0.4038, 'confirm': 0.424} gpuMB 3840
+SWEEP2_DONE

@@ -1,0 +1,18 @@
+{
+ "model": "cnn",
+ "h": 128,
+ "layers": 4,
+ "kernel": 3,
+ "width": 1024,
+ "depth": 3,
+ "W": 64,
+ "drop": 0.3,
+ "epochs": 8,
+ "lr": 0.00197,
+ "wd": 0.00895,
+ "bs": 512,
+ "seed": 0,
+ "phase": "tune",
+ "max_train_windows": 0,
+ "out": "experiments/mlp_cnn_hpo/runs/r1_cnn03"
+}

@@ -1,0 +1,1 @@
+Stopped owned plugin-disabled retry after about3min with modelbanner only; originalbuilder had10minno progress then900secondtimeout. No packageproduced. No other lanes touched. Parent must resolvepaidCLIstall or explicitlyauthorizealternateexisting-subscriptionruntimecode venue.

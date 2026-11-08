@@ -1,0 +1,20 @@
+{
+  "mode": "specialist",
+  "signal": 0,
+  "out_dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke/specialist_signal_+0",
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "epochs": 1,
+  "lr": 0.0001,
+  "batch_size": 16,
+  "seed": 0,
+  "train_examples": 8,
+  "steps": 1,
+  "best_epoch": 1,
+  "best_tune_R": 0.9717059753316248,
+  "tune_episodes_for_selection": 8,
+  "train_seconds": 0.44,
+  "wall_seconds": 0.56,
+  "device": "cpu",
+  "peak_vram_mb": 0.0
+}

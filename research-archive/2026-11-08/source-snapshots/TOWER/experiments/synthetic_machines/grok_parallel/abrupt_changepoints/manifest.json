@@ -1,0 +1,51 @@
+{
+  "family": "abrupt_changepoints",
+  "eligibility": "RESEARCH_ONLY",
+  "synthetic_exception_verified": false,
+  "real_only_fallback": true,
+  "rule": "Use organizer-released data. No verified synthetic exception (kit/RULES.md). Do not train a submission model on this output unless organizers allow it.",
+  "seed": 0,
+  "settings": {
+    "seed": 0,
+    "n_episodes": 2,
+    "n_ticks": 32,
+    "n_machines": 8,
+    "max_records": 8192
+  },
+  "n_records": 512,
+  "n_truth": 512,
+  "payout_order": [0, 1, 2, 5, 20],
+  "probability_columns": ["p_0", "p_1", "p_2", "p_5", "p_20"],
+  "missing_payout_index": null,
+  "missing_is_not_payout_zero": true,
+  "slot_equals_machine_id": true,
+  "signal_scope": "query_cutoff_only",
+  "sample_command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 2 --ticks 32 --machines 8 --out sample_out",
+  "sample_dir": "sample_out",
+  "source_hashes": {
+    "README.md": "eb3d9199e350f49d0b1701877adec2f7c16ae640ed46ff4fd3cc0b890374fb07",
+    "generate.py": "6f6e29c88e831c72084645d418bd51ba8173b20231e97d17bd70d27850bf2dde",
+    "test_generator.py": "42053f14f70e1b8d0ab9476e67f6d3361b0f48315a600fbb8760848b307133ba"
+  },
+  "output_hashes": {
+    "records.jsonl": "dde68e6838e5e51bc3416137e9d9e9eabe66800b1a4bdc637d7e5863557bd54c",
+    "truth.jsonl": "4cad265e3970563ea12996b7cbabf72deae8824489e3c9f3cce74ab4b3ce73b3",
+    "sample_out/manifest.json": "089aa369f5a978e67b7341f9352d5c66e26af9913801532ce8014accbb72e069"
+  },
+  "test": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/abrupt_changepoints",
+    "exit_code": 0,
+    "result": "Ran 10 tests in 0.596s OK",
+    "stdout": "{\"eligibility\": \"RESEARCH_ONLY\", \"n_records\": 96, \"out\": \"/tmp/tmpu7zg3f7x\", \"output_hashes\": {\"records.jsonl\": \"15834c03ee5a6a575b0e0f355153cfdfeeee5141fd29922309f8f786781d5bd7\", \"truth.jsonl\": \"ecb46d401b04f0b27cdd40dcf6746b219f42fb3dff6b6036ea951367816ebbfc\"}}",
+    "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.596s\n\nOK"
+  },
+  "interface_default_checked_in_tests": {
+    "seed": 0,
+    "n_episodes": 8,
+    "n_ticks": 96,
+    "n_machines": 8,
+    "n_records": 6144,
+    "written_to_disk": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "control": "aten_avx2",
+  "precision": "fp32",
+  "precision_change": false,
+  "process_env_set": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "CUDA_VISIBLE_DEVICES": "",
+    "HIP_VISIBLE_DEVICES": "",
+    "ROCR_VISIBLE_DEVICES": "",
+    "ATEN_CPU_CAPABILITY": "avx2"
+  },
+  "parent_environ_not_mutated_by_design": true,
+  "python": "3.13.13",
+  "torch": "2.11.0+cpu",
+  "numpy": "2.5.4",
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "cpu_capability": "AVX2",
+  "mkldnn_enabled_after_control": true,
+  "mkldnn_available": true,
+  "num_threads": 2,
+  "checkpoint_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+  "entry_sha256": {
+    "predict.py": "14627994eeadd6ff44d59f33754636ec90d4be84bd5715e8b373923db11717b2",
+    "model.py": "18b783f7a5c28c7dbbbec95c6174418594765a406d11f09b9e29599f35c13f40",
+    "data.py": "cbf99171c4dbddcacd5d168be629a8f04b1a6134421b0578e6067f21709c1b1a",
+    "reproduce.json": "cb91250a431dc92a45ceda7bf66df8006a4ecbce2b8e393f52f7284fd22246a1",
+    "requirements.txt": "8f61a4742845a4851622bd789343d069803bb12607d7391051b0d73e52c7f38b",
+    "checkpoint.pt": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+    "config/config.json": "c9022a4305be1c4124e6a116cd0cf3132fb5624a206f9b5571090ca3c4769d2f"
+  },
+  "csv": "experiments/cnn_runtime/stability/server_py313_cpu211/aten_avx2/submission.csv",
+  "csv_sha256": "9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9",
+  "csv_bytes": 197471,
+  "n_rows": 1536,
+  "reference_csv_sha256": "9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9",
+  "command": [
+    "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/py313_verify_1936/env/bin/python",
+    "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/diagnose.py",
+    "--control",
+    "aten_avx2",
+    "--data",
+    "kit/public",
+    "--out",
+    "experiments/cnn_runtime/stability/server_py313_cpu211/aten_avx2/submission.csv"
+  ],
+  "control_took_effect": true
+}

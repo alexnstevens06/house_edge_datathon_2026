@@ -1,0 +1,18 @@
+{
+  "experiment": "soft_moe",
+  "verdict": "blocked_before_training",
+  "promotion_applied": false,
+  "seeds_launched": [],
+  "tune_R": {},
+  "incumbent_tune_R": {
+    "0": 0.33206398675779764,
+    "1": 0.34654552298986674,
+    "2": 0.33342647148315785
+  },
+  "plan_sha256": "5a5b3cc22ea50f1a71e990bbb01a3b05b89bcb99cde0c634af7023eb8dc075c6",
+  "split_ids_sha256": "898951437a1af7bf19dc5972831af873dedb193355a6fb995bf56f714680668c",
+  "tests": {"pytest": "experiments/cnn_experts/soft_moe/tests/test_soft_moe.py", "passed": 9, "seconds": 3.34},
+  "train_labels_cover_all_queries": true,
+  "blocker": "harness refused ssh/rsync to server; no GPU training and no tune R",
+  "confirm": "not reported; model was not promoted and was not scored"
+}

@@ -1,0 +1,13 @@
+{
+ "h": 128,
+ "layers": 4,
+ "W": 64,
+ "drop": 0.2,
+ "epochs": 30,
+ "lr": 0.001,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 1,
+ "no_signal": true,
+ "out": "experiments/mlp_cnn_hpo/runs/anchor_cnn_s1"
+}

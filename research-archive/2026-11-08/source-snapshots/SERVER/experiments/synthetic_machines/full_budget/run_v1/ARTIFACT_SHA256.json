@@ -1,0 +1,19 @@
+{
+  "experiments/synthetic_machines/full_budget/run_v1/cnn03_seed0/metrics.json": "f30998864dca351f57888297c8b4c63358526e4f30281ac40b06e03b4f361adc",
+  "experiments/synthetic_machines/full_budget/run_v1/mix_seed0/metrics.json": "51ff488840df1ee638da8380e4361580c88511b2540fefa271f3a7ee3b84ca3c",
+  "experiments/synthetic_machines/full_budget/run_v1/tiny_seed0/metrics.json": "cbf48b4b457c01eda8f9b7c08ab719b13aab696482d6f007e0172c49f4853432",
+  "experiments/synthetic_machines/full_budget/run_v1/cnn03_seed0/checkpoint.pt": "5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c",
+  "experiments/synthetic_machines/full_budget/run_v1/mix_seed0/checkpoint.pt": "a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0",
+  "experiments/synthetic_machines/full_budget/run_v1/tiny_seed0/checkpoint.pt": "324e0a5723d30579c8470da1f15f389b64087fbacb41a32e4277a83c3f3677cf",
+  "experiments/synthetic_machines/full_budget/run_v1/diagnostics.json": "ce2934cccf9175f18aa7b889df14439f239a1e35455715d434358315c094391b",
+  "experiments/synthetic_machines/full_budget/run_v1/RESULTS_AND_PRUNE.json": "6c70544a484beae4ac627d8e84484b28977e0e4f37ae552df884f254903629a5",
+  "experiments/synthetic_machines/full_budget/source/full_compare.py": "294cde525e7fb4d20b61d0e00faec54d6b6ccdced47f3263cf02287fd449d656",
+  "experiments/synthetic_machines/full_budget/source/base_cnn.py": "f0e9469b579486de49f6ec43343d2159433d6be4786758095ebbfd0e052bfba4",
+  "experiments/synthetic_machines/full_budget/source/abrupt_generate.py": "6f6e29c88e831c72084645d418bd51ba8173b20231e97d17bd70d27850bf2dde",
+  "experiments/synthetic_machines/full_budget/run_v1/fp64_closure/REUSE_PROVENANCE.txt": "efcd0abe4cbe90d9c1ed877bcac4ceec4c9117e85365ccfee020416ec712d073",
+  "experiments/synthetic_machines/full_budget/run_v1/fp64_closure/FP32_FP64_RESULTS.json": "d485b8d3d00fffc1e9c1c515935720bcc2f4a2f48e9885586849910709f2dac8",
+  "experiments/synthetic_machines/full_budget/run_v1/INITIALIZATION_RECHECK.json": "8c94d4e71c50afc99e97d045dc2e2e77dfedb4c81430c867bc0f5b4837ab15e8",
+  "experiments/synthetic_machines/full_budget/run_v1/INDEPENDENT_REVIEW_FROZEN_V1.md": "72d8aca20163e214c89704673bbad320c7ff08ea61c22dae95afbddebc3ae89a",
+  "experiments/synthetic_machines/full_budget/run_v1/VERIFICATION_CLOSURE.json": "615e647359827bac6ce5320698341d835a5e6ad640ba596e42ac095691307de3",
+  "experiments/synthetic_machines/full_budget/run_v1/GATE_FIX_VERIFIED_SOURCE.tar.gz": "cb5abdeb30e8d426988bc29447e9c7f41667f89458c59860e04430d9037982a1"
+}

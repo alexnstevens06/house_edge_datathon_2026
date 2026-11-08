@@ -1,0 +1,59 @@
+{
+  "out_dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/smoke",
+  "device": "cpu",
+  "epochs": 1,
+  "smoke": true,
+  "seed": 0,
+  "lr": 0.0001,
+  "batch_size": 16,
+  "window": 64,
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/signal_networks/runs/backbone/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "systems": {
+    "backbone_nosignal": {
+      "system": "backbone_nosignal",
+      "tune_R": 0.9444000484399773,
+      "confirm_R": 0.986441849042341,
+      "full_val_R": 0.9649437765396933
+    },
+    "shared": {
+      "system": "shared",
+      "tune_R": 0.9453163143375323,
+      "confirm_R": 0.9847217713615888,
+      "full_val_R": 0.9645025353411671
+    },
+    "specialist_signal_-1": {
+      "system": "specialist_signal_-1",
+      "tune_R": 0.946552513430387,
+      "confirm_R": 0.9882319446802649,
+      "full_val_R": 0.9669025181609945
+    },
+    "specialist_signal_+0": {
+      "system": "specialist_signal_+0",
+      "tune_R": 0.9457427083659956,
+      "confirm_R": 0.9843983690931366,
+      "full_val_R": 0.9645101268326732
+    },
+    "specialist_signal_+1": {
+      "system": "specialist_signal_+1",
+      "tune_R": 0.942925372411807,
+      "confirm_R": 0.9841063236587552,
+      "full_val_R": 0.9630785117239753
+    },
+    "specialists_routed": {
+      "system": "specialists_routed",
+      "tune_R": 0.9457058734153749,
+      "confirm_R": 0.9860409276586323,
+      "full_val_R": 0.9653784784428083
+    }
+  },
+  "wall_seconds": 33.67,
+  "peak_vram_mb": 0.0,
+  "label_counts": "label_counts.json",
+  "finetune": {
+    "shared": 1,
+    "specialist_signal_-1": 1,
+    "specialist_signal_+0": 1,
+    "specialist_signal_+1": 1
+  }
+}

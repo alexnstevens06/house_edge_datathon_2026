@@ -1,0 +1,17 @@
+{
+ "host": "server",
+ "arm": "primary",
+ "losses": [
+  0.7729105595151166,
+  0.7723808070373771,
+  0.7723546840425852,
+  0.7724525305067464,
+  0.7733898335938283
+ ],
+ "pid": 716396,
+ "device": "NVIDIA GeForce RTX 5080",
+ "train_seconds": 29.404855009983294,
+ "peak_gpu_mb": 1145.7861328125,
+ "total_steps": 730,
+ "exit_ready": true
+}

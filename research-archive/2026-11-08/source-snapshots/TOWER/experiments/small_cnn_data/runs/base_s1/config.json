@@ -1,0 +1,13 @@
+{
+ "regime": "base",
+ "h": 32,
+ "layers": 3,
+ "W": 64,
+ "drop": 0.1,
+ "epochs": 6,
+ "lr": 0.002,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 1,
+ "out": "experiments/small_cnn_data/runs/base_s1"
+}

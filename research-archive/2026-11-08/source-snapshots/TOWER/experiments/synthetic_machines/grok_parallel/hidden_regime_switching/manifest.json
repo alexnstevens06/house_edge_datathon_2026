@@ -1,0 +1,47 @@
+{
+  "family": "hidden_regime_switching",
+  "eligibility": "RESEARCH_ONLY",
+  "real_only_fallback": true,
+  "eligibility_note": "Organizer instructions require organizer-released data. No synthetic exception is verified. Preserve a real-only training path.",
+  "assumptions": [
+    "Invented toy probabilities with denominator 16. No real-data fit.",
+    "probabilities are the latent-oracle emission of the true regime.",
+    "observable_probabilities are the filter mixture from ticks < t.",
+    "Missing ticks use TRANS_MISS. Observed payout 0 uses TRANS_OBS[0].",
+    "No contemporaneous cross-machine coupling.",
+    "History records have no signal. Queries are cutoff-only with signal null."
+  ],
+  "settings_default": {
+    "seed": 0,
+    "n_episodes": 8,
+    "n_ticks": 96,
+    "n_machines": 8,
+    "max_records": 8192
+  },
+  "mappings": {
+    "payouts": [0, 1, 2, 5, 20],
+    "payout_to_idx": {"0": 0, "1": 1, "2": 2, "5": 3, "20": 4},
+    "machine_types": ["balanced", "jackpot", "steady"],
+    "type_to_idx": {"balanced": 0, "jackpot": 1, "steady": 2},
+    "regime_names": ["dull", "normal", "hot"],
+    "missing_grid_value": -1,
+    "dense_symbol": "0 missing, 1..5 = payout_index + 1",
+    "sparse_symbol": "0..4 payout_index; missing omitted",
+    "obs_mask": "1 observed, 0 missing",
+    "slot": "machine_id",
+    "query_index": "slot order; query_id suffix :s{slot}",
+    "signal": "null on cutoff queries only; absent from history"
+  },
+  "test_run": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/hidden_regime_switching",
+    "result": "PASS",
+    "tests_ran": 9,
+    "summary": "Ran 9 tests in 0.164s OK",
+    "source_hashes": {
+      "generate.py": "705bfad75ffe4bb56cdaba9c804f450d622ed9f143406d347613535c9ce75f63",
+      "test_generator.py": "6c4aeb2a891a0b1550e31143f7a8fcb7a622fcf80ef2c30ba8eb4b60968599ee",
+      "README.md": "c46844d4bd757ae7be45e9a580627debce5a03aed77b257a864549a53edfb180"
+    }
+  }
+}

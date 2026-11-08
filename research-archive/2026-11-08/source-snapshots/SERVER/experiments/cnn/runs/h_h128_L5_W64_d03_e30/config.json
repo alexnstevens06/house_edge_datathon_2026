@@ -1,0 +1,12 @@
+{
+ "h": 128,
+ "layers": 5,
+ "W": 64,
+ "drop": 0.3,
+ "epochs": 30,
+ "lr": 0.001,
+ "wd": 0.05,
+ "bs": 512,
+ "seed": 0,
+ "out": "experiments/cnn/runs/h_h128_L5_W64_d03_e30"
+}

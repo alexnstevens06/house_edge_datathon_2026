@@ -1,0 +1,6 @@
+final_cnn03_s0 params 367109 ckptKB 1448 cpu2_s 0.73 repeat_identical True matches_saved True 1db90800c6a457a7
+final_cnn03_s1 params 367109 ckptKB 1448 cpu2_s 0.72 repeat_identical True matches_saved True 1d25335fe28790c6
+final_cnn03_s2 params 367109 ckptKB 1448 cpu2_s 0.69 repeat_identical True matches_saved True 78569062a8cf1701
+final_mlp02_s0 params 280360 ckptKB 1099 cpu2_s 0.01 repeat_identical True matches_saved True 49075b45988b257f
+final_mlp02_s1 params 280360 ckptKB 1099 cpu2_s 0.01 repeat_identical True matches_saved True 8d553be60f3c986d
+final_mlp02_s2 params 280360 ckptKB 1099 cpu2_s 0.01 repeat_identical True matches_saved True 1b80e168c87188ec

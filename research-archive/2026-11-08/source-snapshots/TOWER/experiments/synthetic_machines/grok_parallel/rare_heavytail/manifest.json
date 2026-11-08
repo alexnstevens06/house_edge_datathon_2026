@@ -1,0 +1,123 @@
+{
+  "assumptions": [
+    "Toy probabilities are explicit integer weights over 1000. They were not fit on contest data.",
+    "machine_id is the slot index. Types are steady, steady, balanced, balanced, balanced, jackpot, jackpot, jackpot.",
+    "Latent-oracle probabilities condition on the machine's own latent payouts at ticks strictly before t, including hidden spins.",
+    "Observable-history probabilities skip hidden spins. A hidden spin is unknown. It is not entered as payout 0.",
+    "State updates synchronously: every machine's tick-t distribution is fixed before any tick-t payout is sampled.",
+    "Dependence is own-machine and limited to the previous 8 latent payouts. Contemporaneous cross-machine outcomes are not inputs.",
+    "The observation mask is an invented logging process. It is independent of the payout value.",
+    "Synthetic query signal is null. This family does not invent historical signals or organizer cutoff signals.",
+    "Eligibility is unresolved. Real-only contest training remains the fallback."
+  ],
+  "default_settings": {
+    "cutoff": 96,
+    "lag": 8,
+    "max_records": 8192,
+    "n_episodes": 8,
+    "n_machines": 8,
+    "n_ticks": 96,
+    "seed": 0
+  },
+  "eligibility": "unresolved",
+  "family": "rare_heavytail",
+  "mappings": {
+    "dense_symbol": {
+      "missing_unknown": 0,
+      "payout_0": 1,
+      "payout_1": 2,
+      "payout_2": 3,
+      "payout_20": 5,
+      "payout_5": 4
+    },
+    "index_to_payout": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 20
+    },
+    "mask": {
+      "missing_unknown": 0,
+      "observed": 1
+    },
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts_ordered": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "probability_order": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "query_cutoff": "n_ticks; history ticks are 0..n_ticks-1 and are strictly earlier than cutoff",
+    "query_signal": "null; real organizer signals stay on real prediction-cutoff queries",
+    "slot_index": "machine_id is the slot index in 0..n_machines-1",
+    "sparse_symbol": {
+      "missing_unknown": "absent row; unknown has no sparse symbol",
+      "observed_payout_index": "0..4",
+      "pad_symbol_if_a_batcher_needs_one": 5
+    },
+    "truth_probability_kind": "latent_oracle"
+  },
+  "probability_kind": "latent_oracle",
+  "real_only_fallback": true,
+  "research_only": true,
+  "schema_version": 1,
+  "source_hashes": {
+    "README.md": "26268fe3c2edd5e63fb5891276fa95f92a8160fc30041425311f9593aeb44090",
+    "generate.py": "859918026a7a7bbd5218261725fc2f21335e723c6e86433a08f627e3dcb333c9",
+    "test_generator.py": "8c65728aa89c16ce136087b4b50f26f353d215fa51abc78eb9cdb036843f0c64"
+  },
+  "status": "RESEARCH_ONLY",
+  "test_record": {
+    "cli_check": {
+      "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python generate.py --seed 0 --episodes 2 --ticks 8 --out <dir>",
+      "n_episodes": 2,
+      "n_machines": 8,
+      "n_records": 128,
+      "n_ticks": 8,
+      "output_hashes": {
+        "queries.jsonl": "192a1346723226f94be9d510b45935c4073727566a293da324b96a8e05e726ae",
+        "records.jsonl": "8c3663867684e00635cb6f73dc543129306b45c1b05f34f0e731d0c5f9c5e34d",
+        "truth.jsonl": "215e87d2201db2c7d9ddbb603372c331d1542141264b7622c3928fe06a8fb45d"
+      },
+      "seed": 0,
+      "status": "RESEARCH_ONLY"
+    },
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator -v",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/rare_heavytail",
+    "errors": 0,
+    "failures": 0,
+    "result": "PASS",
+    "source_hashes": {
+      "README.md": "26268fe3c2edd5e63fb5891276fa95f92a8160fc30041425311f9593aeb44090",
+      "generate.py": "859918026a7a7bbd5218261725fc2f21335e723c6e86433a08f627e3dcb333c9",
+      "test_generator.py": "8c65728aa89c16ce136087b4b50f26f353d215fa51abc78eb9cdb036843f0c64"
+    },
+    "tests_run": 22
+  },
+  "training_source_policy": {
+    "contest_training_data": "organizer_released_real_only",
+    "eligibility": "unresolved",
+    "family": "rare_heavytail",
+    "real_only_fallback": true,
+    "reason": "Rules say use organizer-released data. No verified synthetic exception. Keep the real-only fallback until organizers allow this family.",
+    "research_only": true,
+    "status": "RESEARCH_ONLY",
+    "synthetic_rows_allowed_in_contest_training": false
+  },
+  "use_for_contest_training": false
+}

@@ -1,0 +1,18 @@
+{
+ "model": "cnn",
+ "h": 32,
+ "layers": 2,
+ "kernel": 3,
+ "width": 1024,
+ "depth": 3,
+ "W": 32,
+ "drop": 0.1,
+ "epochs": 8,
+ "lr": 0.002,
+ "wd": 0.05,
+ "bs": 128,
+ "seed": 0,
+ "phase": "tune",
+ "max_train_windows": 2048,
+ "out": "experiments/synthetic_machines/runs/control_cpu_seed0"
+}

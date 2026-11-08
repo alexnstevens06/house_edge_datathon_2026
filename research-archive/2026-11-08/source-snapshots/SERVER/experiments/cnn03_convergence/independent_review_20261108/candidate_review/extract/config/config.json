@@ -1,0 +1,14 @@
+{
+ "lr": 0.003,
+ "wd": 0.00895,
+ "bs": 512,
+ "epochs": 30,
+ "drop": 0.3,
+ "h": 128,
+ "layers": 4,
+ "W": 64,
+ "seed": 2,
+ "pct_start": 0.3,
+ "eval_every": 2,
+ "out": "experiments/cnn03_convergence/runs/curve_C_lr003_s2"
+}

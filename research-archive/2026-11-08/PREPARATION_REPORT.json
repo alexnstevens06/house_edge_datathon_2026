@@ -1,0 +1,52 @@
+{
+  "verified_at_cst": "2026-11-08 08:52:48 AM CST",
+  "authorized_by": "pt153u",
+  "repo": "https://github.com/alexnstevens06/house_edge_datathon_2026",
+  "repo_visibility": "public",
+  "observed_upstream_main": "330776489c1e03ecb51da75fea8d87d24929d106",
+  "source_snapshots": {
+    "SERVER": {
+      "files": 575,
+      "bytes": 2286076,
+      "excluded_records": 738
+    },
+    "TOWER": {
+      "files": 493,
+      "bytes": 2655705,
+      "excluded_records": 726
+    }
+  },
+  "shared_source_paths": 166,
+  "different_host_source_paths": 21,
+  "model_physical_paths": 206,
+  "model_unique_binary_artifacts": 117,
+  "model_kind_counts": {
+    "trained_checkpoint_or_fit": 109,
+    "negative_test_fixture": 6,
+    "saved_initialization": 2
+  },
+  "selected_original_model_bytes": 489766221,
+  "stored_model_bytes": 254787385,
+  "model_source_os_uid_counts": {
+    "SERVER": {
+      "1000": 130
+    },
+    "TOWER": {
+      "1000": 76
+    }
+  },
+  "verification": "PASS: source manifests, every stored model and original decompressed hash, exact final CSV/ZIP and independent review SHA; source exclusion/key-pattern checks",
+  "limitations": "Bounded sanitization is not an exhaustive secret audit. No organizer redistribution license assumed for kit/data; they are excluded. Distinct hashes are not independent trainings; missing historical weights cannot be recovered. Current dependency provisioning remains unresolved.",
+  "actions_not_taken": [
+    "git add",
+    "git commit",
+    "git push",
+    "force push",
+    "repository creation",
+    "visibility change",
+    "official submission",
+    "training",
+    "installs",
+    "new service or spending"
+  ]
+}

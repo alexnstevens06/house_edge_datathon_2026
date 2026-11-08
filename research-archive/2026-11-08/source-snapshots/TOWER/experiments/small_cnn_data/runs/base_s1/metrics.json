@@ -1,0 +1,34 @@
+{
+ "regime": "base",
+ "params": 18885,
+ "steps": 222,
+ "epochs": 6,
+ "best_eval": 5,
+ "tune_R": 0.9778874348137001,
+ "confirm_R": 0.9699202505543639,
+ "full_R": 0.974220207091836,
+ "loss_ratio_by_condition": {
+  "stable": 0.9735091567304432,
+  "short_history": 1.018725453636027,
+  "drift": 1.031668785962181,
+  "shared_change": 0.8729774320386929
+ },
+ "probability_error_by_condition": {
+  "stable": 0.1910519536319414,
+  "short_history": 0.1806622470499095,
+  "drift": 0.19584574075965377,
+  "shared_change": 0.17945155395327683
+ },
+ "points_60": 30.391746464992465,
+ "final_train_loss": 1.0439923840600092,
+ "train_seconds": 114.2,
+ "peak_gpu_mb": 708.8,
+ "windows_total": 18567,
+ "windows_used": 18567,
+ "windows_dropped_min_obs": 0,
+ "labelled_slots": 131050,
+ "missing_slots_masked": 17486,
+ "query_cutoff_windows": 96,
+ "seed": 1,
+ "device": "cuda"
+}

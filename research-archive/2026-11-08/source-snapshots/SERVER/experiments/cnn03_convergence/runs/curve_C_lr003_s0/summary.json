@@ -1,0 +1,28 @@
+{
+ "args": {
+  "lr": 0.003,
+  "wd": 0.00895,
+  "bs": 512,
+  "epochs": 30,
+  "drop": 0.3,
+  "h": 128,
+  "layers": 4,
+  "W": 64,
+  "seed": 0,
+  "pct_start": 0.3,
+  "eval_every": 2,
+  "out": "experiments/cnn03_convergence/runs/curve_C_lr003_s0"
+ },
+ "n_train_windows": 18567,
+ "steps_per_epoch": 37,
+ "total_steps": 1110,
+ "final_tune_R": 0.31022932089244687,
+ "first_tune_R_le_0.345": {
+  "epoch": 15,
+  "steps": 592,
+  "train_seconds": 38.19118109927513
+ },
+ "train_seconds": 71.35124284622725,
+ "eval_seconds": 0.19180649402551353,
+ "peak_gpu_mb": 3164.8955078125
+}

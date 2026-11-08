@@ -1,0 +1,94 @@
+{
+  "system": "backbone_nosignal",
+  "tune": {
+    "R": 0.9443284946183536,
+    "points_60": 30.858983019624585,
+    "points_80": 41.14531069283278,
+    "probability_error": {
+      "stable": 0.18532424801815114,
+      "short_history": 0.1737419260542632,
+      "drift": 0.19125893599833235,
+      "shared_change": 0.1821524214709739
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9302539634925497,
+      "short_history": 1.022515888170911,
+      "drift": 0.9584374545693486,
+      "shared_change": 0.8661066722406048
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9859756807698008,
+    "points_60": 30.211850316688114,
+    "points_80": 40.282467088917485,
+    "probability_error": {
+      "stable": 0.19707763742951323,
+      "short_history": 0.18967889787868042,
+      "drift": 0.17868342494193587,
+      "shared_change": 0.1818629266157029
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0196345331951828,
+      "short_history": 1.0265854916276602,
+      "drift": 0.99205188076936,
+      "shared_change": 0.9056308174870003
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9646751478956359,
+    "points_60": 30.53939989227533,
+    "points_80": 40.719199856367105,
+    "probability_error": {
+      "stable": 0.19120094272383217,
+      "short_history": 0.18171041196647184,
+      "drift": 0.18497118047013414,
+      "shared_change": 0.1820076740433384
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9742683337105857,
+      "short_history": 1.0246358875952335,
+      "drift": 0.9743841885629994,
+      "shared_change": 0.8854121817137248
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "window": 64,
+  "device": "cuda"
+}

@@ -1,0 +1,114 @@
+{
+  "system": "specialist_signal_-1",
+  "tune": {
+    "R": 0.9574062289296004,
+    "points_60": 30.65280937253927,
+    "points_80": 40.87041249671903,
+    "probability_error": {
+      "stable": 0.1921274500071238,
+      "short_history": 0.1768232977276222,
+      "drift": 0.194218183308299,
+      "shared_change": 0.1790392850078921
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.964403329710738,
+      "short_history": 1.0406505524107064,
+      "drift": 0.9732668451251464,
+      "shared_change": 0.8513041884718104
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9996292393701647,
+    "points_60": 30.005562440614522,
+    "points_80": 40.00741658748603,
+    "probability_error": {
+      "stable": 0.19937008443715845,
+      "short_history": 0.19374162509640294,
+      "drift": 0.18157760080450144,
+      "shared_change": 0.1828060962022807
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0314951286691418,
+      "short_history": 1.0485738986924373,
+      "drift": 1.0081203695431142,
+      "shared_change": 0.9103275605759655
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9780388610045397,
+    "points_60": 30.333074431879066,
+    "points_80": 40.44409924250542,
+    "probability_error": {
+      "stable": 0.1957487672221411,
+      "short_history": 0.18528246141201257,
+      "drift": 0.1878978920564002,
+      "shared_change": 0.1809226906050864
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9974418669204894,
+      "short_history": 1.0447781018720963,
+      "drift": 0.9898014091640337,
+      "shared_change": 0.8801340660615395
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "window": 64,
+  "device": "cuda",
+  "finetune": {
+    "mode": "specialist",
+    "signal": -1,
+    "out_dir": "runs/v1/specialist_signal_-1",
+    "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+    "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+    "epochs": 30,
+    "lr": 0.0001,
+    "batch_size": 16,
+    "seed": 0,
+    "train_examples": 96,
+    "steps": 180,
+    "best_epoch": 3,
+    "best_tune_R": 0.9421697059218452,
+    "tune_episodes_for_selection": 48,
+    "train_seconds": 7.09,
+    "wall_seconds": 8.99,
+    "device": "cuda",
+    "peak_vram_mb": 80.0
+  }
+}

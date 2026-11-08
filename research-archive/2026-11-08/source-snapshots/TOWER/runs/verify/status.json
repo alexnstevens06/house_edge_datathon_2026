@@ -1,0 +1,21 @@
+{
+  "state": "done",
+  "finished_at": "2026-11-07T16:58:00-06:00",
+  "issues": [
+    "Reproduction tolerance: identical GPU re-runs differ from saved CSVs by up to 1.5e-7 per probability (attention kernel nondeterminism), above the announced 1e-8 organizer tolerance; CPU-vs-GPU diffs are ~3-4e-5. Submitted CSV must be regenerated on the target runtime with the exact reproduce command.",
+    "Torch packaging on the competition runtime (Python 3.13 stdlib + requirements.txt) is UNVERIFIED; only the local .venv (torch 2.9.1+rocm6.4) was tested. CPU-only prediction is fast (1.6-2.7 s for the full test split, 2 threads) if CPU torch is available.",
+    "runs/dense contains an aborted 5-epoch duplicate of the v2 dense config (killed shell); superseded by runs/v2_dense and left untouched per no-overwrite rule.",
+    "By TUNE-only selection the preferred pair is dense v1 (TUNE 0.9456 vs v2 0.9503) and sparse v2 (0.9425 vs v1 0.9433); headline kept as the matched v2 pair per instructions, v1 kept as ablation.",
+    "All transformers trail the pooled_recent baseline (0.9464) on full validation; best transformer is sparse v2 at 0.9629."
+  ],
+  "tests": "15/15 pass (runs/verify/tests.txt)",
+  "checkers": "all VALID; validation points: sparse v2 30.5667, dense v2 30.4538, dense v1 30.5321, sparse v1 30.5174, pooled_recent 30.8259, recent 30.7432, shrinkage64 30.5401, pooled 30.0000",
+  "artifacts": {
+    "summary": "runs/SUMMARY.md",
+    "final_models": ["runs/v2_dense", "runs/v2_sparse"],
+    "ablations": ["runs/archive_dense_v1", "runs/archive_sparse_v1"],
+    "baselines": "runs/baselines",
+    "splits": "runs/splits.json",
+    "verify_logs": "runs/verify/{tests.txt,provenance.txt,cpu_smoke.txt,code_hashes.txt,checker_*.txt,cpu_test_*.csv,*_validation_regen.csv}"
+  }
+}

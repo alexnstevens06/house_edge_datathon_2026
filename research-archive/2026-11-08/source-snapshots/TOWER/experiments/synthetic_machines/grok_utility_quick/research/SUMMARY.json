@@ -1,0 +1,84 @@
+{
+ "confirm_scored": false,
+ "deadline": "2026-11-07T19:33:30-06:00",
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "new_information_claim": false,
+ "plan_sha256": "a8bc844b2734b531d231ca0d33579bcfb26be01e6c8f96a66c9e4068f042c3e8",
+ "ranking_rule": "lowest tune_R is better",
+ "screen_ranking": [
+  {
+   "family": "abrupt_changepoints",
+   "mix": 0.25,
+   "train_loss_mean": 1.139977858463923,
+   "tune_R": 1.0093277493540138
+  }
+ ],
+ "seed_spreads": [],
+ "skipped": [
+  {
+   "error": "TimeoutError: not enough wall time for a 300-step trial",
+   "family": "real_only",
+   "phase": "promote",
+   "seed": 0
+  },
+  {
+   "error": "TimeoutError: not enough wall time for a 300-step trial",
+   "family": "real_only",
+   "phase": "promote",
+   "seed": 1
+  }
+ ],
+ "submission_export": false,
+ "test_loaded": false,
+ "trials": [
+  {
+   "calibration_ece_5bin": 0.04081222376165287,
+   "calibration_nll": 1.0918658670501167,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility_quick/research/screen/screen__real_only__mix000__seed0",
+   "elapsed_train_sec": 7.5479332100076135,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "real_only",
+   "interrupted": false,
+   "mix": 0.0,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.1489286104838052,
+   "tune_R": 1.0053866589636473
+  },
+  {
+   "calibration_ece_5bin": 0.04530104304042956,
+   "calibration_nll": 1.0901964938860667,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility_quick/research/screen/screen__abrupt_changepoints__mix025__seed0",
+   "elapsed_train_sec": 8.301508388016373,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.25,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.139977858463923,
+   "tune_R": 1.0093277493540138
+  },
+  {
+   "calibration_ece_5bin": 0.036034976753095735,
+   "calibration_nll": 1.0951945768214875,
+   "dir": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_utility_quick/research/screen/screen__abrupt_changepoints__mix050__seed0",
+   "elapsed_train_sec": 9.823056736990111,
+   "eval_error": null,
+   "exposures": 7680,
+   "family": "abrupt_changepoints",
+   "interrupted": false,
+   "mix": 0.5,
+   "phase": "screen",
+   "seed": 0,
+   "steps_completed": 60,
+   "train_loss_mean": 1.1341913312673568,
+   "tune_R": 1.0166853589603029
+  }
+ ]
+}

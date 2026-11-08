@@ -1,0 +1,104 @@
+{
+  "system": "specialists_routed",
+  "tune": {
+    "R": 0.9416264559559461,
+    "points_60": 30.901927513374048,
+    "points_80": 41.202570017832066,
+    "probability_error": {
+      "stable": 0.18354637420542563,
+      "short_history": 0.17241145330660768,
+      "drift": 0.1911948976287842,
+      "shared_change": 0.18347047634218142
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9213297445705038,
+      "short_history": 1.0146857141067,
+      "drift": 0.9581165452660309,
+      "shared_change": 0.8723738198805496
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9853260030618928,
+    "points_60": 30.221736836904512,
+    "points_80": 40.295649115872685,
+    "probability_error": {
+      "stable": 0.1980342796457103,
+      "short_history": 0.1869631213549172,
+      "drift": 0.17862611585301771,
+      "shared_change": 0.18336268735983183
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0245839807949684,
+      "short_history": 1.0118870891749976,
+      "drift": 0.9917337002248304,
+      "shared_change": 0.9130992420527748
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9629336273938348,
+    "points_60": 30.566494537903118,
+    "points_80": 40.75532605053749,
+    "probability_error": {
+      "stable": 0.19079032692556797,
+      "short_history": 0.17968728733076245,
+      "drift": 0.18491050674090095,
+      "shared_change": 0.18341658185100662
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9721760324704818,
+      "short_history": 1.013227812051338,
+      "drift": 0.9740645737869261,
+      "shared_change": 0.8922660912665933
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "window": 64,
+  "device": "cuda",
+  "route_counts_val": {
+    "specialist_signal_+0": 259,
+    "specialist_signal_-1": 247,
+    "specialist_signal_+1": 262
+  },
+  "specialists": {
+    "specialist_signal_-1": "runs/v1/specialist_signal_-1/best.pt",
+    "specialist_signal_+0": "runs/v1/specialist_signal_+0/best.pt",
+    "specialist_signal_+1": "runs/v1/specialist_signal_+1/best.pt"
+  }
+}

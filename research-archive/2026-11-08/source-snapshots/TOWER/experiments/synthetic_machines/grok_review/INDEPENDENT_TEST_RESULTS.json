@@ -1,0 +1,123 @@
+[
+  {
+    "family": "abrupt_changepoints",
+    "exit": 0,
+    "tests": 10,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/abrupt_changepoints_independent_tests.log",
+    "sha256": {
+      "generate.py": "6f6e29c88e831c72084645d418bd51ba8173b20231e97d17bd70d27850bf2dde",
+      "test_generator.py": "42053f14f70e1b8d0ab9476e67f6d3361b0f48315a600fbb8760848b307133ba",
+      "manifest.json": "086d895a3dbaced38a28c781f93e5a9d6038a660a87290949f65c37f6b4c6c1b"
+    }
+  },
+  {
+    "family": "finite_order_markov",
+    "exit": 0,
+    "tests": 12,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/finite_order_markov_independent_tests.log",
+    "sha256": {
+      "generate.py": "3683360edb6810ad583b00cb3d329e318b56465b34238041cd981be012ac30ac",
+      "test_generator.py": "de2b68a001a77460af0934be304c32d68166ba8d3f84f6d4cde6fe46e212c0df",
+      "manifest.json": "a48ab55c27b9cd2532a8835d81f08f194425b0e4f2541339e4836f2525b041fe"
+    }
+  },
+  {
+    "family": "gradual_drift",
+    "exit": 0,
+    "tests": 9,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/gradual_drift_independent_tests.log",
+    "sha256": {
+      "generate.py": "86e4df42a42bdb7bc17838af6a1466d45f661eedaae2fc0200e55ccfb329eec2",
+      "test_generator.py": "cefac7be71a4f1ce8f274f0eb2c16d3d888edaee36009fb5dc2f7081f066f0f0",
+      "manifest.json": "93a0a3bc7ce7f0d180434ad144e5b68108c5c1f1aed21d2a615d3df4a4eb1620"
+    }
+  },
+  {
+    "family": "hidden_regime_switching",
+    "exit": 0,
+    "tests": 9,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/hidden_regime_switching_independent_tests.log",
+    "sha256": {
+      "generate.py": "705bfad75ffe4bb56cdaba9c804f450d622ed9f143406d347613535c9ce75f63",
+      "test_generator.py": "6c4aeb2a891a0b1550e31143f7a8fcb7a622fcf80ef2c30ba8eb4b60968599ee",
+      "manifest.json": "6b246c25a7c85a8535de655f7d5e5781124bebffdbd6c4a4caf5f8116be651b0"
+    }
+  },
+  {
+    "family": "long_lag_dependence",
+    "exit": 0,
+    "tests": 7,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/long_lag_dependence_independent_tests.log",
+    "sha256": {
+      "generate.py": "dc924859645bfcf8ec12703115d98fe1f4744ed770e83ce38b62b2f61f952821",
+      "test_generator.py": "86136d20afcc35935a48e72b6086e70b99c0eb6bb7c92e7564cceffa79af6ccc",
+      "manifest.json": "a64c09124cd0696485637b226a5bf949f9ff875a135abd23297e32ae3cf7703e"
+    }
+  },
+  {
+    "family": "machine_type_hierarchical",
+    "exit": 0,
+    "tests": 16,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/machine_type_hierarchical_independent_tests.log",
+    "sha256": {
+      "generate.py": "787c12028fa59e7c0ce2b65c2ea06cac89eb57a8b8dbd44ad0793d980f1dcb9e",
+      "test_generator.py": "f365bdd53039dfc058ef0993ca7ab426eeab8a6271e0c7a5d495a9c01c4fdb6d",
+      "manifest.json": "6bb6896ab8af258b6822199e3995507a4fa925d1b10930c0b1c14fc57e868e9e"
+    }
+  },
+  {
+    "family": "periodic",
+    "exit": 0,
+    "tests": 10,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/periodic_independent_tests.log",
+    "sha256": {
+      "generate.py": "20be07cd82f857d37772ff6d010368f9baad35dcd8214ddebbec5d7a85710ef6",
+      "test_generator.py": "79efcb8fc15226a1340ff042f1a004a6c49e39cd3b93970f9af2bd77d0a718b5",
+      "manifest.json": "5f2fbacf4f4e9a6e98e2ae51c60683af61848afd5687e4f6394a4ecb6ba5517c"
+    }
+  },
+  {
+    "family": "rare_heavytail",
+    "exit": 0,
+    "tests": 22,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/rare_heavytail_independent_tests.log",
+    "sha256": {
+      "generate.py": "859918026a7a7bbd5218261725fc2f21335e723c6e86433a08f627e3dcb333c9",
+      "test_generator.py": "8c65728aa89c16ce136087b4b50f26f353d215fa51abc78eb9cdb036843f0c64",
+      "manifest.json": "7de57398be6a66418902552cbdfe01750ce42844e414f927bebe33f718aead20"
+    }
+  },
+  {
+    "family": "shared_latent_crossmachine",
+    "exit": 0,
+    "tests": 18,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/shared_latent_crossmachine_independent_tests.log",
+    "sha256": {
+      "generate.py": "2e35812b0c74f58327debbbe478b546d560ec87d1a0d4eefc0fe6c9f16372f3c",
+      "test_generator.py": "141ad7b0d595141991fe4e79297535fe5dc1b031be7be223953b611254ff671a",
+      "manifest.json": "f4a4628f99f4c884929b392e87ce4fa616f54b3fc8a54edb17552e8ba94fa731"
+    }
+  },
+  {
+    "family": "sparse_gappy",
+    "exit": 0,
+    "tests": 15,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/sparse_gappy_independent_tests.log",
+    "sha256": {
+      "generate.py": "6ea9fb789db6e7e90577c6a80101b659b9849f2898bc65ab132be33a32b32204",
+      "test_generator.py": "69d34a5553d4cf8dff362f50d3caa026902ca7137083a6eff3e0126a1ec59386",
+      "manifest.json": "24362b31b690fd33c7ec08e4251afcf13c1a3682d8e8d5c7cb202d1c2a07ba94"
+    }
+  },
+  {
+    "family": "stationary_categorical",
+    "exit": 0,
+    "tests": 15,
+    "log": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_review/stationary_categorical_independent_tests.log",
+    "sha256": {
+      "generate.py": "607a801ca1549373c6e596eba4c69a88efee07c36f64e0885980eebfbd750eaa",
+      "test_generator.py": "b8228732d4283c2dbcac3b70395ad33d67a210afb03d5835110d67c32a901cee",
+      "manifest.json": "70fa8690e2b5c8070df8d19cf41170b843cefb920ff75c1bfafb3bd45079656d"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+"cnnR0": "--model cnn --h 96 --layers 3 --W 96 --drop 0.2 --lr 0.00087 --wd 0.03971",
+"cnnR1": "--model cnn --h 160 --layers 5 --W 32 --drop 0.3 --lr 0.00091 --wd 0.01277",
+"cnnR2": "--model cnn --h 96 --layers 4 --W 96 --drop 0.2 --lr 0.00068 --wd 0.03444",
+"cnnR3": "--model cnn --h 96 --layers 3 --W 64 --drop 0.2 --lr 0.00088 --wd 0.00401",
+"cnnR4": "--model cnn --h 160 --layers 4 --W 64 --drop 0.3 --lr 0.00035 --wd 0.02197",
+"cnnR5": "--model cnn --h 64 --layers 4 --W 64 --drop 0.2 --lr 0.0022 --wd 0.00523"
+}

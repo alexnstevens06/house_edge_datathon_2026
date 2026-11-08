@@ -1,0 +1,61 @@
+{
+  "family": "shared_latent_crossmachine",
+  "status": "RESEARCH_ONLY",
+  "research_only": true,
+  "real_only_fallback": true,
+  "eligibility": "unresolved",
+  "organizer_rule": "Use organizer-released data. No verified synthetic exception.",
+  "fitted_to_real_data": false,
+  "do_not_train_or_submit": true,
+  "description": "Toy shared latent in {cold, neutral, hot}. The latent steps from observed payout indices at earlier ticks only. Odd slots load the flipped latent. Missing is unknown, not payout 0. Oracle probabilities condition on the true latent. Observable probabilities are a uniform-prior filter of ticks < t.",
+  "interface": {
+    "function": "generate(seed=0, n_episodes=8, n_ticks=96, n_machines=8)",
+    "default_records": 6144,
+    "max_records": 8192,
+    "cli": "generate.py --seed --episodes --ticks --out",
+    "outputs": ["records.jsonl", "truth.jsonl", "queries.jsonl", "manifest.json"]
+  },
+  "mappings": {
+    "payouts": [0, 1, 2, 5, 20],
+    "payout_to_index": {"0": 0, "1": 1, "2": 2, "5": 3, "20": 4},
+    "index_to_payout": {"0": 0, "1": 1, "2": 2, "3": 5, "4": 20},
+    "missing": null,
+    "missing_is_not_payout_index_0": true,
+    "machine_types": ["steady", "balanced", "jackpot"],
+    "type_by_slot_mod_8": ["steady", "steady", "balanced", "balanced", "balanced", "jackpot", "jackpot", "jackpot"],
+    "slot_equals_machine_id": true,
+    "loading_sign": "even machine_id +1 uses latent z; odd machine_id -1 uses 2-z",
+    "history_ticks": "0 .. cutoff-1",
+    "query_cutoff": "n_ticks; cutoff spin is not a history row",
+    "signal": "null on synthetic queries; no per-tick signal; organizer signal belongs only at a real prediction cutoff",
+    "probability_order": [0, 1, 2, 5, 20],
+    "probability_kinds": {
+      "probabilities": "latent_oracle",
+      "observable_probabilities": "observable_history"
+    }
+  },
+  "settings": {
+    "observe_percent": 75,
+    "latent_values": [0, 1, 2],
+    "initial_belief": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "emission_weights_cold_neutral_hot": {
+      "steady": [[74, 14, 7, 4, 1], [50, 28, 12, 7, 3], [30, 30, 20, 14, 6]],
+      "balanced": [[55, 20, 12, 9, 4], [36, 28, 18, 12, 6], [18, 22, 24, 22, 14]],
+      "jackpot": [[62, 16, 10, 8, 4], [40, 22, 16, 12, 10], [20, 16, 18, 22, 24]]
+    }
+  },
+  "test": {
+    "command": "/home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py -v",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/shared_latent_crossmachine",
+    "python": "3.12.3",
+    "exit_code": 0,
+    "result": "Ran 18 tests, OK",
+    "transcript": "test_run.txt"
+  },
+  "sha256": {
+    "generate.py": "2e35812b0c74f58327debbbe478b546d560ec87d1a0d4eefc0fe6c9f16372f3c",
+    "test_generator.py": "141ad7b0d595141991fe4e79297535fe5dc1b031be7be223953b611254ff671a",
+    "README.md": "c6c352c5f544b38b8bde1d2289682710fb10558a52121c4d5e0f4ffd7b1c6888",
+    "test_run.txt": "ec9ae17c6e2d5540e24a4e6d388b55891d8e5cef216a4279815bd029ed2b91f2"
+  }
+}

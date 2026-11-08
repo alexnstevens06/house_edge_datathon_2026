@@ -1,0 +1,95 @@
+{
+  "qualified_for_upload": false,
+  "no_submission_done": true,
+  "as_of": "2026-11-07 20:02 CST",
+  "current_provisional_zip": "/workspace/house-edge-research/cnn-runtime/anchor_py313_cpu211_fp32.zip",
+  "zip_sha256": "9d9e20b231dd08a9cd4d728e1526a43c7ab4df59d336c8002fa7961c0d518c2f",
+  "zip_bytes": 1375494,
+  "server_and_tower_relative_zip": "experiments/cnn_runtime/anchor_py313_cpu211_fp32.zip",
+  "actual_python313_cpu_offline_sandbox": {
+    "python": "3.13.13",
+    "torch": "2.11.0+cpu",
+    "cpu": 2,
+    "network": "none",
+    "root_submission_data": "read-only",
+    "ram_gib": 16,
+    "tmp_mib": 128,
+    "output_mib": 32,
+    "seconds": 1.471241,
+    "max_rss_kib": 610848,
+    "query_count": 1536,
+    "inference_exit": 0,
+    "csv_sha256": "9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9"
+  },
+  "pending": [
+    "Grok final dependency metadata update BLOCKED by headless permission: NOT retried or bypassed. Existing FP64 requirements has torch==2.11.0+cpu but CPU wheel URL only in comment, no index/direct requirement; needs correctly approved exact lock replacement before packaging is portable.",
+    "Independent final FP64 review still active; main harness used feature-level future causality, reviewer adding whole-model cutoff check.",
+    "Kit preprovisioning versus liveguide stdlib/offered-env/bundled-wheel runtime contract ambiguity remains unresolved."
+  ],
+  "active_coding": {
+    "tower_tmux": "he-cnn-runtime-fp64",
+    "session": "01a1b8b7-1ddf-7713-9b63-79f296cf6d26",
+    "log": "experiments/cnn_runtime/grok-fp64-integrate.log",
+    "prompt": "experiments/cnn_runtime/GROK_FP64_INTEGRATE_TASK.md",
+    "target_status": "experiments/cnn_runtime/FP64_INTEGRATION_STATUS.md",
+    "cpu_threads": 2,
+    "timeout_seconds": 720
+  },
+  "tower_python313": "own scoped wheel install stopped after prolonged stall; torch import still unavailable; server Python3.13 verified",
+  "independent_review": "/workspace/house-edge-research/cnn-runtime/INDEPENDENT_REVIEW.md",
+  "review_scope": "old FP32 entry, explicitly BLOCKED; corrected pin ZIP and final FP64 path not reviewed",
+  "fp64_fresh_zip_actual_sandbox": {
+    "anchor": {
+      "zip": "experiments/cnn_runtime/fp64_anchor_snapshot1955.zip",
+      "zip_sha256": "771ba29562c077cca8a64b2b11acd108cdfc0a765b51183e6e29aaaa16059c70",
+      "zip_bytes": 1375332,
+      "csv": "experiments/cnn_runtime/server_fp64_anchor_sandbox1956.csv",
+      "csv_sha256": "af29d6402f5daad1c8b72d5f05bee52f335105e1a1c50fb1e2ebaf127e79c6f2",
+      "official_checker": "PASS1536"
+    },
+    "cnn03": {
+      "zip": "experiments/cnn_runtime/fp64_cnn03_snapshot1955.zip",
+      "zip_sha256": "4a7c6edc595bb95930d5afbe4406b2799933d18b2b034ded132352cc47cd23b6",
+      "zip_bytes": 1376564,
+      "csv": "experiments/cnn_runtime/server_fp64_cnn03_sandbox1956.csv",
+      "csv_sha256": "08ee9e0e02dc3e6800be3083cc0b920e79f012da2e3c1776b05ac0ccd8042b1d",
+      "official_checker": "PASS1536"
+    },
+    "sandbox": "Actual final entry from fresh official ZIP, Python3.13.13 Torch2.11CPU, networknone readonly root/code/data2CPU16GiB tmp128MiB output32MiB, no global Tensor.float patch. Both modelrc0. Crosshost exactZIPcompare, repeats/R and independent final review still pending."
+  },
+  "final_fp64_crosshost_exact_same_zips": {
+    "anchor_test_max_normalized_abs": 6.66133814775e-16,
+    "anchor_validation_max_normalized_abs": 6.10622663544e-16,
+    "cnn03_test_max_normalized_abs": 9.99200722163e-16,
+    "cnn03_validation_max_normalized_abs": 4.99600361081e-16,
+    "threshold": 1e-08,
+    "passes_all": true,
+    "server_and_tower_repeats_bitwise_each_host": true,
+    "core_python_sources_identical_to_Grok_tested_final": true,
+    "tower_seconds_first_test": {
+      "anchor": 9.149661,
+      "cnn03": 9.195059
+    },
+    "server_seconds_test": {
+      "anchor": 2.627659,
+      "cnn03": 2.628271
+    },
+    "server_peak_rss_kib": {
+      "anchor": 978952,
+      "cnn03": 978412
+    },
+    "tower_peak_rss_kib": 1321092
+  },
+  "final_fp64_official_validation": {
+    "anchor": {
+      "R": 0.40314938082908086,
+      "points_out_of_60": 42.760949632139464
+    },
+    "cnn03_tune_selected_seed0": {
+      "R": 0.36845453658648775,
+      "points_out_of_60": 43.84508099893893
+    }
+  },
+  "blocked_proposed_exact_dependency_replacement_file": "/workspace/house-edge-research/cnn-runtime/server-py313-results-1940/requirements_py313_cpu211_frozen.txt",
+  "blocked_replacement_sha256": "cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab"
+}

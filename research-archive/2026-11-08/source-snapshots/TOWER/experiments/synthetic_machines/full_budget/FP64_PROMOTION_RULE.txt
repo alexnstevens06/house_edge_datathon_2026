@@ -1,0 +1,1 @@
+t63/t64 update19:45CST: keep normalFP16/BF16/FP32training, no budgetchanges. Parentreview/packager implements finalFP64 inference/Rverification. Any CPUfp32fullcomparison results here remainprovisional forpromotion until finalFP64samecheckpoint/Rchecked. Saveweightsandprovenance; neverclaimflagshipfromCPUfp32alone. Need actualfullcontrol/mixtrainingASAP; no newgeneratorfanout.

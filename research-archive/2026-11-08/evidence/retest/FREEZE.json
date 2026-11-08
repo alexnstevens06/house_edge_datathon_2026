@@ -1,0 +1,27 @@
+{
+ "frozen_before_scores": true,
+ "protocol_sha256": "beca226ba238e5c55f2a0087cd28142eccfa2035be71b8b2fdd37f620b326033",
+ "files": {
+  "PROTOCOL.md": "beca226ba238e5c55f2a0087cd28142eccfa2035be71b8b2fdd37f620b326033",
+  "pins/PINS.json": "98f87c076f0f7c797c51c5a1b771a4ceabe08745637d23514d64644d357150eb",
+  "source/analysis.py": "736dec92e2b6ad42dd9d44bb8819c75a4dd494871270ac866d62b954c4d4ec1a",
+  "source/measure.py": "eb98d1d98040414c78b25d83fb51c2c79f853c6be9bbc84cae6b90d1a72120c0",
+  "tests/test_analysis.py": "68b87b275d1987a1e5cad9a4a7edcf75ffd08f5b9d9ff9ea64d63bb6c9513736"
+ },
+ "tests": "tests/test_analysis.py printed ANALYSIS_TESTS_OK before any score",
+ "generator": "numpy.random.default_rng because numpy 2.5.4 has no numpy.default_rng",
+ "scored_rows": [
+  "s0",
+  "s1",
+  "s2",
+  "equal3",
+  "pair02"
+ ],
+ "bootstrap": {
+  "replicates": 10000,
+  "seed": 15020261108,
+  "unit": "episode",
+  "quantile": "linear"
+ },
+ "pre_score_fix": "First launch exited in mkdir because outputs/ already held the log. No forward and no score. exist_ok=True was applied and this freeze was rewritten before the scoring run."
+}

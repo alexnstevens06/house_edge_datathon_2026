@@ -1,0 +1,314 @@
+{
+  "models": {
+    "cnn03_seed0": {
+      "saved_fp32_R": 0.3291909269650826,
+      "fresh_fp32_R": 0.3291909269650826,
+      "fp64_R": 0.3291908982662027,
+      "delta_fp64_minus_fp32": -2.869887993917075e-08,
+      "max_probability_delta": 2.9760436293102543e-07,
+      "checkpoint_sha256": "5054d913a37da102b21b009912b42507c786bb6f7af01a9d5a6ae7febc064f5c",
+      "parameter_dtypes": [
+        "torch.float64"
+      ],
+      "raw_query_dtypes": [
+        "torch.int8",
+        "torch.int64",
+        "torch.int64",
+        "torch.int64"
+      ],
+      "module_io": {
+        "typ": {
+          "input": "torch.int64",
+          "output": "torch.float64"
+        },
+        "pay": {
+          "input": "torch.int64",
+          "output": "torch.float64"
+        },
+        "mask": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "tick": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.0": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        }
+      },
+      "softmax_dtype": "float64",
+      "prediction_sha256": "c6d19e4f62d4231a31364424cf3ddaae43cf811af7247c8c0b067a6103044568"
+    },
+    "mix_seed0": {
+      "saved_fp32_R": 0.3968037462541104,
+      "fresh_fp32_R": 0.3968037462541104,
+      "fp64_R": 0.3968037357360654,
+      "delta_fp64_minus_fp32": -1.051804499052622e-08,
+      "max_probability_delta": 4.244415370280308e-07,
+      "checkpoint_sha256": "a3f592baf577835d124fccacf12f302af50511e8c40008267aad172f00cf37b0",
+      "parameter_dtypes": [
+        "torch.float64"
+      ],
+      "raw_query_dtypes": [
+        "torch.int8",
+        "torch.int64",
+        "torch.int64",
+        "torch.int64"
+      ],
+      "module_io": {
+        "typ": {
+          "input": "torch.int64",
+          "output": "torch.float64"
+        },
+        "pay": {
+          "input": "torch.int64",
+          "output": "torch.float64"
+        },
+        "mask": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "tick": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.0": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.conv": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.dr": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.n1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.mix": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3.n2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "blocks.3": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.0": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.1": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head.2": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        },
+        "head": {
+          "input": "torch.float64",
+          "output": "torch.float64"
+        }
+      },
+      "softmax_dtype": "float64",
+      "prediction_sha256": "b25555b9194d0a6e8cbda0bfefb6e293ff9f118957ceaf7206efc13e7382a744"
+    }
+  },
+  "runtime_model_source": "experiments/cnn_runtime/fresh_fp64_cnn03_1956/model.py",
+  "runtime_model_sha256": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+  "trained_runner_sha256": "294cde525e7fb4d20b61d0e00faec54d6b6ccdced47f3263cf02287fd449d656",
+  "tune_episodes": 48,
+  "query_tensor_hashes": [
+    "23b01c19f8b4253849c6efbaf2d6d4ecc90a56063c856ec842fe2cdf761439ea",
+    "318f69a183ef6fa71ded39071ee1ed8435e2c9bbde78296e87ee866ecc4180ee",
+    "2ff4daba77d44dd7abdd71eedd34d2438c1811d0031112c023493c95453d3c7d",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293"
+  ],
+  "global_Tensor_float_unchanged": true,
+  "no_training": true
+}

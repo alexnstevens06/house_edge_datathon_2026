@@ -1,0 +1,18 @@
+{
+ "model": "mlp",
+ "h": 64,
+ "layers": 4,
+ "kernel": 3,
+ "width": 256,
+ "depth": 2,
+ "W": 16,
+ "drop": 0.3,
+ "epochs": 30,
+ "lr": 0.00091,
+ "wd": 0.01583,
+ "bs": 512,
+ "seed": 0,
+ "phase": "final",
+ "max_train_windows": 0,
+ "out": "experiments/mlp_cnn_hpo/runs/final_mlp02_s0"
+}

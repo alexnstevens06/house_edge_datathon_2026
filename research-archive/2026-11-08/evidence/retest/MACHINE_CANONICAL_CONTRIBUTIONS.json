@@ -1,0 +1,3461 @@
+{
+  "warning": "384 descriptive nested-machine/query rows, NOT384 independent units. All resampling remains whole48episode paired bootstrap. Contributions use fixed full-sample condition denominators and sum to canonical episode contributions within1e-12. No new model scores or pair selection.",
+  "rows": [
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00040662828432758553,
+      "equal3_minus_s2": -0.0004878297831303859,
+      "pair02_minus_equal3": 8.120149880280037e-05
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.802252020357551e-08,
+      "equal3_minus_s2": -7.047999942507474e-08,
+      "pair02_minus_equal3": 2.4574792214992404e-09
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.002178009052080935,
+      "equal3_minus_s2": 0.002933134768222961,
+      "pair02_minus_equal3": -0.0007551257161420263
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.5619526017575045e-05,
+      "equal3_minus_s2": -4.552999624440939e-05,
+      "pair02_minus_equal3": 1.9910470226834342e-05
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.2867361591465878e-06,
+      "equal3_minus_s2": -1.18121850584789e-06,
+      "pair02_minus_equal3": -1.0551765329869797e-07
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.5241624961652223e-08,
+      "equal3_minus_s2": -9.841154591863871e-09,
+      "pair02_minus_equal3": 3.5082779553516096e-08
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00016855852056135156,
+      "equal3_minus_s2": -4.2179075857361466e-05,
+      "pair02_minus_equal3": -0.00012637944470399008
+    },
+    {
+      "episode_id": "main-validation-e00000",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00000-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.748148993402536e-05,
+      "equal3_minus_s2": 3.133231656951211e-05,
+      "pair02_minus_equal3": 6.149173364513244e-06
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006103764586009585,
+      "equal3_minus_s2": 0.0017504367621154193,
+      "pair02_minus_equal3": -0.0023608132207163777
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0007632116358589141,
+      "equal3_minus_s2": -0.0007226200715281684,
+      "pair02_minus_equal3": -4.059156433074572e-05
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.6077473735875248e-06,
+      "equal3_minus_s2": 2.410225704067883e-06,
+      "pair02_minus_equal3": -8.024783304803578e-07
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.188766476020253e-05,
+      "equal3_minus_s2": 5.2245359373352005e-05,
+      "pair02_minus_equal3": 9.642305386850528e-06
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.2229931646458588e-05,
+      "equal3_minus_s2": -5.293554147422914e-06,
+      "pair02_minus_equal3": 2.7523485793881505e-05
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0085144696315369e-08,
+      "equal3_minus_s2": 2.784426666142033e-07,
+      "pair02_minus_equal3": -2.885278113105187e-07
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0020052900033387076,
+      "equal3_minus_s2": 0.0012725815370129947,
+      "pair02_minus_equal3": 0.0007327084663257132
+    },
+    {
+      "episode_id": "main-validation-e00002",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00002-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.0722213511478567e-05,
+      "equal3_minus_s2": 2.485723186563071e-05,
+      "pair02_minus_equal3": -4.135018354152141e-06
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00012704684795772914,
+      "equal3_minus_s2": 9.422947936684363e-05,
+      "pair02_minus_equal3": 3.281736859088551e-05
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.605791475900363e-05,
+      "equal3_minus_s2": 0.00011631800124375322,
+      "pair02_minus_equal3": -4.026008648474959e-05
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.304892691873405e-06,
+      "equal3_minus_s2": -1.5444747881116326e-05,
+      "pair02_minus_equal3": 8.139855189242922e-06
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.632521502683138e-07,
+      "equal3_minus_s2": -1.6372563489008783e-07,
+      "pair02_minus_equal3": 1.1269777851584017e-06
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00020793292504786809,
+      "equal3_minus_s2": 0.0005739461151899844,
+      "pair02_minus_equal3": -0.00036601319014211624
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.024544818645495e-06,
+      "equal3_minus_s2": 2.500795684169355e-06,
+      "pair02_minus_equal3": -1.4762508655238604e-06
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0004776752200837213,
+      "equal3_minus_s2": -0.0005037621351195732,
+      "pair02_minus_equal3": 2.6086915035851917e-05
+    },
+    {
+      "episode_id": "main-validation-e00003",
+      "condition": "drift",
+      "machine_id": "main-validation-e00003-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0012365879789134316,
+      "equal3_minus_s2": 0.002062150670626709,
+      "pair02_minus_equal3": -0.0008255626917132776
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.095001592395015e-07,
+      "equal3_minus_s2": -8.132617566955549e-07,
+      "pair02_minus_equal3": 2.0376159745605335e-07
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.4981679864337526e-05,
+      "equal3_minus_s2": -1.8102745504287657e-05,
+      "pair02_minus_equal3": -6.878934360049869e-06
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.160616472622316e-05,
+      "equal3_minus_s2": 3.524641530177474e-05,
+      "pair02_minus_equal3": 1.635974942444842e-05
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.188201003799783e-08,
+      "equal3_minus_s2": -4.6845362392325554e-07,
+      "pair02_minus_equal3": 3.7657161388525766e-07
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.8053374044622715e-07,
+      "equal3_minus_s2": -2.2312878115555698e-07,
+      "pair02_minus_equal3": 4.2595040709329826e-08
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.6935137966258735e-06,
+      "equal3_minus_s2": -1.0137142080778615e-05,
+      "pair02_minus_equal3": 8.443628284152742e-06
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0009008045901663129,
+      "equal3_minus_s2": 0.0014503349706643724,
+      "pair02_minus_equal3": -0.0005495303804980596
+    },
+    {
+      "episode_id": "main-validation-e00005",
+      "condition": "stable",
+      "machine_id": "main-validation-e00005-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.4298932686895274e-05,
+      "equal3_minus_s2": 0.0002334457600999401,
+      "pair02_minus_equal3": -0.0002477446927868354
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0004589544417317453,
+      "equal3_minus_s2": 0.0010057164541936372,
+      "pair02_minus_equal3": -0.0005467620124618919
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002735137378977064,
+      "equal3_minus_s2": -0.00033724242472354975,
+      "pair02_minus_equal3": 6.372868682584339e-05
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.864375771028109e-05,
+      "equal3_minus_s2": -7.233590024009488e-05,
+      "pair02_minus_equal3": -6.3078574701862095e-06
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -5.18512933600966e-05,
+      "equal3_minus_s2": -8.840814747143098e-05,
+      "pair02_minus_equal3": 3.6556854111334386e-05
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.3391017231606934e-05,
+      "equal3_minus_s2": 0.00011520883903394298,
+      "pair02_minus_equal3": -0.0001585998562655499
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002713505344541367,
+      "equal3_minus_s2": -0.00031619550526494595,
+      "pair02_minus_equal3": 4.484497081080919e-05
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.7954023950913359e-06,
+      "equal3_minus_s2": -0.00018068936004614328,
+      "pair02_minus_equal3": 0.00017889395765105195
+    },
+    {
+      "episode_id": "main-validation-e00006",
+      "condition": "drift",
+      "machine_id": "main-validation-e00006-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002880769975560242,
+      "equal3_minus_s2": 0.0004162354684433727,
+      "pair02_minus_equal3": -0.00012815847088734852
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.716503552857523e-05,
+      "equal3_minus_s2": 0.0001300332809440873,
+      "pair02_minus_equal3": -0.00010286824541551204
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0527939986941308e-07,
+      "equal3_minus_s2": -3.522392108720159e-08,
+      "pair02_minus_equal3": -7.00554787822115e-08
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.809000868193443e-06,
+      "equal3_minus_s2": -8.127141287044522e-06,
+      "pair02_minus_equal3": -6.81859581148922e-07
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.4890965371481448e-05,
+      "equal3_minus_s2": -1.5124585651451313e-06,
+      "pair02_minus_equal3": 2.6403423936626578e-05
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00290938923391681,
+      "equal3_minus_s2": -0.0033083138950660298,
+      "pair02_minus_equal3": 0.00039892466114921967
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0011769926655546032,
+      "equal3_minus_s2": -0.0013672599761326688,
+      "pair02_minus_equal3": 0.00019026731057806588
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.7706976951314794e-08,
+      "equal3_minus_s2": 5.55388597316922e-09,
+      "pair02_minus_equal3": 5.2153090978145574e-08
+    },
+    {
+      "episode_id": "main-validation-e00008",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00008-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00015466794545926097,
+      "equal3_minus_s2": 7.911894170454621e-05,
+      "pair02_minus_equal3": 7.554900375471476e-05
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.000541477652030171,
+      "equal3_minus_s2": 0.0003228277365310919,
+      "pair02_minus_equal3": 0.00021864991549907915
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005272798991887816,
+      "equal3_minus_s2": -0.0006673165575053642,
+      "pair02_minus_equal3": 0.00014003665831658263
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00013350331078415951,
+      "equal3_minus_s2": 0.00023501983664245342,
+      "pair02_minus_equal3": -0.00010151652585829389
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005149769454700429,
+      "equal3_minus_s2": -0.000601112675591074,
+      "pair02_minus_equal3": 8.613573012103113e-05
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.5875497263628857e-06,
+      "equal3_minus_s2": 4.190574579358868e-06,
+      "pair02_minus_equal3": -2.6030248529959827e-06
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.004113328924276245,
+      "equal3_minus_s2": -0.004187316993341812,
+      "pair02_minus_equal3": 7.398806906556753e-05
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.4006441896472306e-05,
+      "equal3_minus_s2": 1.0406553231780826e-05,
+      "pair02_minus_equal3": -2.4412995128253132e-05
+    },
+    {
+      "episode_id": "main-validation-e00009",
+      "condition": "stable",
+      "machine_id": "main-validation-e00009-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00011107806315206207,
+      "equal3_minus_s2": 6.518446912309452e-05,
+      "pair02_minus_equal3": 4.5893594028967545e-05
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0010393988771076855,
+      "equal3_minus_s2": -0.0012284416382836395,
+      "pair02_minus_equal3": 0.00018904276117595413
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.475448692775019e-05,
+      "equal3_minus_s2": -6.938496189192654e-06,
+      "pair02_minus_equal3": 6.169298311694284e-05
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0009021334152741295,
+      "equal3_minus_s2": 0.0008268995764586477,
+      "pair02_minus_equal3": 7.523383881548179e-05
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00011742256356797258,
+      "equal3_minus_s2": 0.0001670984900993129,
+      "pair02_minus_equal3": -4.967592653134031e-05
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0010515047880491296,
+      "equal3_minus_s2": 0.0021637266076002205,
+      "pair02_minus_equal3": -0.0011122218195510907
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.992369064644035e-06,
+      "equal3_minus_s2": -5.214351005806243e-06,
+      "pair02_minus_equal3": 2.219819411622074e-07
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00012433771573010962,
+      "equal3_minus_s2": 2.3086538627641684e-05,
+      "pair02_minus_equal3": 0.00010125117710246793
+    },
+    {
+      "episode_id": "main-validation-e00011",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00011-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0001676906638279004,
+      "equal3_minus_s2": -0.00033886053453447746,
+      "pair02_minus_equal3": 0.00017116987070657708
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.1644043943140064e-05,
+      "equal3_minus_s2": -1.756899898078131e-05,
+      "pair02_minus_equal3": -2.407504496235875e-05
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005291857547809396,
+      "equal3_minus_s2": -0.0006116246150644652,
+      "pair02_minus_equal3": 8.243886028352557e-05
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.388697531839567e-05,
+      "equal3_minus_s2": -7.865314953341527e-05,
+      "pair02_minus_equal3": -5.233825784980411e-06
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002995320567455143,
+      "equal3_minus_s2": 5.789805092710437e-05,
+      "pair02_minus_equal3": 0.00024163400581840992
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0004330472817085316,
+      "equal3_minus_s2": 0.0002563975054413516,
+      "pair02_minus_equal3": 0.00017664977626717998
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.804610573805728e-05,
+      "equal3_minus_s2": 6.910432605287023e-05,
+      "pair02_minus_equal3": -5.105822031481295e-05
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00040635260946381596,
+      "equal3_minus_s2": 0.00024530663979056226,
+      "pair02_minus_equal3": 0.00016104596967325373
+    },
+    {
+      "episode_id": "main-validation-e00013",
+      "condition": "stable",
+      "machine_id": "main-validation-e00013-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.3521158407871544e-07,
+      "equal3_minus_s2": 7.300459542198964e-08,
+      "pair02_minus_equal3": 1.622069886567258e-07
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002796737187559397,
+      "equal3_minus_s2": 0.00010966347420715925,
+      "pair02_minus_equal3": 0.00017001024454878048
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.4520727381877876e-05,
+      "equal3_minus_s2": -0.00016014262433759047,
+      "pair02_minus_equal3": 0.0001456218969557126
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.7352871650642785e-08,
+      "equal3_minus_s2": -2.9061241252732587e-08,
+      "pair02_minus_equal3": 1.7083696020898024e-09
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005254098923764507,
+      "equal3_minus_s2": -0.0007029627462978833,
+      "pair02_minus_equal3": 0.00017755285392143246
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.9833926684324713e-06,
+      "equal3_minus_s2": -1.2653334725065181e-05,
+      "pair02_minus_equal3": 1.066994205663271e-05
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00026158523298351946,
+      "equal3_minus_s2": 0.00020153945696359642,
+      "pair02_minus_equal3": 6.004577601992307e-05
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00039292524283627965,
+      "equal3_minus_s2": -0.00043004988959701904,
+      "pair02_minus_equal3": 3.712464676073935e-05
+    },
+    {
+      "episode_id": "main-validation-e00014",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00014-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.16967214608919e-07,
+      "equal3_minus_s2": 1.8585853198966529e-06,
+      "pair02_minus_equal3": -1.741618105287734e-06
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.579664413692275e-06,
+      "equal3_minus_s2": 0.0002766653465847066,
+      "pair02_minus_equal3": -0.0002802450109983989
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00019572255819952982,
+      "equal3_minus_s2": 0.0004243606333429917,
+      "pair02_minus_equal3": -0.00022863807514346182
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00034197334230071216,
+      "equal3_minus_s2": 0.00027080760595891957,
+      "pair02_minus_equal3": 7.116573634179262e-05
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.4695347045609526e-07,
+      "equal3_minus_s2": 2.2272791638740814e-07,
+      "pair02_minus_equal3": -7.577444593131286e-08
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00013129479749064902,
+      "equal3_minus_s2": 0.00020563013124885022,
+      "pair02_minus_equal3": -7.433533375820121e-05
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.473591879102854e-05,
+      "equal3_minus_s2": 0.0002896056065757535,
+      "pair02_minus_equal3": -0.000234869687784725
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.521129791834722e-05,
+      "equal3_minus_s2": -0.0003830262521331097,
+      "pair02_minus_equal3": 0.0003478149542147625
+    },
+    {
+      "episode_id": "main-validation-e00015",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00015-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 8.45549604487775e-08,
+      "equal3_minus_s2": 1.6432912413351065e-07,
+      "pair02_minus_equal3": -7.977416368473313e-08
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.981723172458096e-06,
+      "equal3_minus_s2": -3.3542300000190493e-06,
+      "pair02_minus_equal3": 8.335953172477144e-06
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00022256888292970423,
+      "equal3_minus_s2": 0.0005348821214054666,
+      "pair02_minus_equal3": -0.0003123132384757624
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.1516177661195476e-05,
+      "equal3_minus_s2": 2.85320520873014e-05,
+      "pair02_minus_equal3": -1.701587442610592e-05
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.995597087111972e-05,
+      "equal3_minus_s2": -4.281538477882484e-05,
+      "pair02_minus_equal3": -7.140586092294878e-06
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0007542631659436694,
+      "equal3_minus_s2": -0.001030740878570652,
+      "pair02_minus_equal3": 0.00027647771262698267
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.526044000532729e-05,
+      "equal3_minus_s2": -3.4901208783239973e-06,
+      "pair02_minus_equal3": 2.8750560883651285e-05
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00014514010278526745,
+      "equal3_minus_s2": -0.00028947607832059474,
+      "pair02_minus_equal3": 0.0001443359755353273
+    },
+    {
+      "episode_id": "main-validation-e00017",
+      "condition": "stable",
+      "machine_id": "main-validation-e00017-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.038343858340924e-05,
+      "equal3_minus_s2": -2.540073898866218e-05,
+      "pair02_minus_equal3": 1.5017300405252937e-05
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.0536774049646923e-06,
+      "equal3_minus_s2": -2.2701092278762003e-06,
+      "pair02_minus_equal3": 2.1643182291150749e-07
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00023783554461204471,
+      "equal3_minus_s2": -0.00038284060980284067,
+      "pair02_minus_equal3": 0.00014500506519079598
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00022446460211264415,
+      "equal3_minus_s2": 0.00037345061169276816,
+      "pair02_minus_equal3": -0.000148986009580124
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.2570327964028283e-05,
+      "equal3_minus_s2": -1.2061246377204784e-05,
+      "pair02_minus_equal3": -5.090815868234991e-07
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0014807503736524155,
+      "equal3_minus_s2": -0.0013361747727646213,
+      "pair02_minus_equal3": -0.0001445756008877941
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0008089114381520818,
+      "equal3_minus_s2": -0.0009598217750076596,
+      "pair02_minus_equal3": 0.0001509103368555778
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.345153367139606e-08,
+      "equal3_minus_s2": 1.295870735906923e-07,
+      "pair02_minus_equal3": -6.613553991929625e-08
+    },
+    {
+      "episode_id": "main-validation-e00019",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00019-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.339573174732697e-05,
+      "equal3_minus_s2": -1.2519456223070398e-05,
+      "pair02_minus_equal3": 3.591518797039737e-05
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00014284117127921244,
+      "equal3_minus_s2": 1.5517379119147203e-05,
+      "pair02_minus_equal3": 0.00012732379216006523
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.1221120063019899e-06,
+      "equal3_minus_s2": -3.943919695190652e-06,
+      "pair02_minus_equal3": 2.8218076888886623e-06
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -5.633338487539164e-07,
+      "equal3_minus_s2": -7.019663987738972e-06,
+      "pair02_minus_equal3": 6.4563301389850555e-06
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.868706270230599e-06,
+      "equal3_minus_s2": -2.187096841514555e-06,
+      "pair02_minus_equal3": 6.055803111745154e-06
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.6601016884202786e-05,
+      "equal3_minus_s2": -0.00011233458214073718,
+      "pair02_minus_equal3": 6.57335652565344e-05
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.021431239655044e-06,
+      "equal3_minus_s2": 2.8249198708349886e-07,
+      "pair02_minus_equal3": 1.7389392525715455e-06
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00023627501475768375,
+      "equal3_minus_s2": 0.0005329265475150699,
+      "pair02_minus_equal3": -0.00029665153275738616
+    },
+    {
+      "episode_id": "main-validation-e00020",
+      "condition": "drift",
+      "machine_id": "main-validation-e00020-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.9917415573287777e-07,
+      "equal3_minus_s2": 0.00027951849174558173,
+      "pair02_minus_equal3": -0.0002798176659013146
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.3671193651740765e-05,
+      "equal3_minus_s2": -8.717082082540703e-06,
+      "pair02_minus_equal3": -2.4954111569200065e-05
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.78943162150217e-05,
+      "equal3_minus_s2": -3.691956081764399e-06,
+      "pair02_minus_equal3": 8.15862722967861e-05
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -5.4177353567578765e-05,
+      "equal3_minus_s2": -6.519637141726912e-05,
+      "pair02_minus_equal3": 1.1019017849690353e-05
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.211206861167109e-06,
+      "equal3_minus_s2": 3.4579937072105617e-06,
+      "pair02_minus_equal3": -2.4678684604345284e-07
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.1095329319020382e-05,
+      "equal3_minus_s2": -7.203390714008077e-06,
+      "pair02_minus_equal3": -3.891938605012305e-06
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.260502555555675e-06,
+      "equal3_minus_s2": 3.372977178121191e-06,
+      "pair02_minus_equal3": 1.8875253774344838e-06
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002616333819856261,
+      "equal3_minus_s2": -0.0006704480156989068,
+      "pair02_minus_equal3": 0.0004088146337132807
+    },
+    {
+      "episode_id": "main-validation-e00023",
+      "condition": "stable",
+      "machine_id": "main-validation-e00023-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.946721075017566e-06,
+      "equal3_minus_s2": 1.2999212501878758e-05,
+      "pair02_minus_equal3": -3.052491426861191e-06
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006874349013531011,
+      "equal3_minus_s2": -0.0012536104645705522,
+      "pair02_minus_equal3": 0.0005661755632174512
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.8381356720840017e-05,
+      "equal3_minus_s2": -3.387216728541049e-05,
+      "pair02_minus_equal3": 5.225352400625051e-05
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00015500859646747086,
+      "equal3_minus_s2": 8.987614518491635e-05,
+      "pair02_minus_equal3": 6.51324512825545e-05
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.400175704858739e-08,
+      "equal3_minus_s2": 7.336942614928962e-08,
+      "pair02_minus_equal3": -3.936766910070224e-08
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.4244943971149036e-05,
+      "equal3_minus_s2": 6.98616779522033e-05,
+      "pair02_minus_equal3": -0.00010410662192335234
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.000675951177782642,
+      "equal3_minus_s2": 0.001972427368662076,
+      "pair02_minus_equal3": -0.001296476190879434
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.727135089293083e-06,
+      "equal3_minus_s2": 0.00011989538439805064,
+      "pair02_minus_equal3": -0.00012362251948734373
+    },
+    {
+      "episode_id": "main-validation-e00024",
+      "condition": "drift",
+      "machine_id": "main-validation-e00024-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00020741049756804386,
+      "equal3_minus_s2": 0.0003061025143367127,
+      "pair02_minus_equal3": -9.869201676866879e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0001166109201688055,
+      "equal3_minus_s2": 3.270900549130979e-05,
+      "pair02_minus_equal3": 8.390191467749571e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0001305968827819385,
+      "equal3_minus_s2": 0.00018029131229901422,
+      "pair02_minus_equal3": -4.969442951707573e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0013645261049056595,
+      "equal3_minus_s2": -0.0015319450728792086,
+      "pair02_minus_equal3": 0.00016741896797354918
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.904401693947827e-06,
+      "equal3_minus_s2": -4.577883589989995e-05,
+      "pair02_minus_equal3": 3.6874434205952124e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.8379815501885796e-06,
+      "equal3_minus_s2": -1.4148787984204714e-05,
+      "pair02_minus_equal3": 1.6986769534393293e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.0961959127188989e-06,
+      "equal3_minus_s2": 6.195666822674414e-05,
+      "pair02_minus_equal3": -6.086047231402525e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00025663231991303906,
+      "equal3_minus_s2": -0.0002698018111915042,
+      "pair02_minus_equal3": 1.316949127846513e-05
+    },
+    {
+      "episode_id": "main-validation-e00025",
+      "condition": "drift",
+      "machine_id": "main-validation-e00025-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0007809722231014912,
+      "equal3_minus_s2": 0.0004613760713434013,
+      "pair02_minus_equal3": 0.0003195961517580899
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0008186647948108004,
+      "equal3_minus_s2": -0.00044543991597354875,
+      "pair02_minus_equal3": -0.00037322487883725163
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.149294706625768e-07,
+      "equal3_minus_s2": 2.830831913559883e-07,
+      "pair02_minus_equal3": 3.318462793065885e-07
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.593640042772223e-05,
+      "equal3_minus_s2": 4.9627720555992935e-05,
+      "pair02_minus_equal3": -3.691320128270699e-06
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.6196890104829686e-07,
+      "equal3_minus_s2": 6.58911938074242e-08,
+      "pair02_minus_equal3": 9.607770724087267e-08
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0005709591494822949,
+      "equal3_minus_s2": 0.0011005294620101056,
+      "pair02_minus_equal3": -0.0005295703125278107
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003479871640298014,
+      "equal3_minus_s2": -0.000682169442718473,
+      "pair02_minus_equal3": 0.0003341822786886716
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.376945336716185e-08,
+      "equal3_minus_s2": -2.0987964720568823e-07,
+      "pair02_minus_equal3": 2.536491005728501e-07
+    },
+    {
+      "episode_id": "main-validation-e00026",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00026-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.355262544628173e-06,
+      "equal3_minus_s2": 3.0893112758330833e-06,
+      "pair02_minus_equal3": -1.2444573820461257e-05
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00043435204399462185,
+      "equal3_minus_s2": -0.0005957953549678628,
+      "pair02_minus_equal3": 0.00016144331097324097
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0984013089966541e-06,
+      "equal3_minus_s2": -6.402083012193017e-07,
+      "pair02_minus_equal3": -4.581930077773526e-07
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.5793054032760174e-05,
+      "equal3_minus_s2": 0.0004258239305667227,
+      "pair02_minus_equal3": -0.0003900308765339625
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.1557789375957955e-05,
+      "equal3_minus_s2": 2.959107654810921e-05,
+      "pair02_minus_equal3": -1.8033287172151254e-05
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.514023433514337e-08,
+      "equal3_minus_s2": 1.0032347524108356e-07,
+      "pair02_minus_equal3": -5.183240905940175e-09
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00016194229572731095,
+      "equal3_minus_s2": -0.00018184876041679398,
+      "pair02_minus_equal3": 1.9906464689483018e-05
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00012050927952545986,
+      "equal3_minus_s2": -4.303869576245884e-06,
+      "pair02_minus_equal3": -0.00011620540994921397
+    },
+    {
+      "episode_id": "main-validation-e00030",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00030-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.2180102676707272e-06,
+      "equal3_minus_s2": -1.7894722923424534e-06,
+      "pair02_minus_equal3": 5.714620246717262e-07
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.861779236364465e-05,
+      "equal3_minus_s2": -1.822270575366286e-05,
+      "pair02_minus_equal3": -2.039508660998179e-05
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.897924501557807e-07,
+      "equal3_minus_s2": -3.1222960521572e-07,
+      "pair02_minus_equal3": 2.2437155059939344e-08
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0004628117952780388,
+      "equal3_minus_s2": 0.000368061427744031,
+      "pair02_minus_equal3": 9.475036753400774e-05
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.152084413738828e-06,
+      "equal3_minus_s2": -1.1055362478767925e-05,
+      "pair02_minus_equal3": 4.903278065029096e-06
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00038231148498097246,
+      "equal3_minus_s2": -0.00037427335884283647,
+      "pair02_minus_equal3": -8.038126138135939e-06
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.436471304791769e-06,
+      "equal3_minus_s2": -8.41614528697104e-06,
+      "pair02_minus_equal3": 1.0852616591762808e-05
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00010214697410953329,
+      "equal3_minus_s2": -4.726160008108007e-05,
+      "pair02_minus_equal3": -5.4885374028453216e-05
+    },
+    {
+      "episode_id": "main-validation-e00032",
+      "condition": "stable",
+      "machine_id": "main-validation-e00032-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0001820164843451,
+      "equal3_minus_s2": 3.463493309130913e-05,
+      "pair02_minus_equal3": 0.00014738155125379088
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.140868090600424e-06,
+      "equal3_minus_s2": 5.126964937841798e-07,
+      "pair02_minus_equal3": 8.628171596816244e-06
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.43458603283759e-07,
+      "equal3_minus_s2": 3.8650964238869136e-07,
+      "pair02_minus_equal3": -1.4305103910493236e-07
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.594722873102002e-06,
+      "equal3_minus_s2": 1.0115928326467773e-05,
+      "pair02_minus_equal3": -7.5212054533657694e-06
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.4186769689539601e-05,
+      "equal3_minus_s2": -7.428834815634812e-05,
+      "pair02_minus_equal3": 6.010157846680852e-05
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.558642516109254e-05,
+      "equal3_minus_s2": 3.248481346443436e-05,
+      "pair02_minus_equal3": -1.689838830334182e-05
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00017903678352277806,
+      "equal3_minus_s2": -0.0001944021878038818,
+      "pair02_minus_equal3": 1.5365404281103772e-05
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005766702890010733,
+      "equal3_minus_s2": -0.0008582696705485087,
+      "pair02_minus_equal3": 0.00028159938154743536
+    },
+    {
+      "episode_id": "main-validation-e00033",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00033-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.659694926542553e-05,
+      "equal3_minus_s2": -9.397210478717603e-05,
+      "pair02_minus_equal3": 1.7375155521750513e-05
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.670624391284718e-07,
+      "equal3_minus_s2": 2.2561017124522242e-07,
+      "pair02_minus_equal3": -5.854773211675065e-08
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.3735266400061864e-05,
+      "equal3_minus_s2": 1.06717417901669e-05,
+      "pair02_minus_equal3": -2.4407008190228764e-05
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003537811743854497,
+      "equal3_minus_s2": -0.00048071353144016007,
+      "pair02_minus_equal3": 0.00012693235705471033
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0017199418479749507,
+      "equal3_minus_s2": -0.001703766031763391,
+      "pair02_minus_equal3": -1.6175816211559532e-05
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0707609922079296e-05,
+      "equal3_minus_s2": -2.797799120653917e-05,
+      "pair02_minus_equal3": 1.7270381284459872e-05
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.015628857457054e-06,
+      "equal3_minus_s2": 8.968158653120822e-06,
+      "pair02_minus_equal3": -1.9525297956637686e-06
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.089015965341746e-06,
+      "equal3_minus_s2": -4.399080752454052e-06,
+      "pair02_minus_equal3": 3.100647871123057e-07
+    },
+    {
+      "episode_id": "main-validation-e00034",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00034-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00020754937396687693,
+      "equal3_minus_s2": -0.00020194015734244662,
+      "pair02_minus_equal3": -5.609216624430307e-06
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00014514030242086917,
+      "equal3_minus_s2": -0.00014670392201466303,
+      "pair02_minus_equal3": 1.5636195937938564e-06
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.289638772845212e-05,
+      "equal3_minus_s2": -7.624598248263919e-06,
+      "pair02_minus_equal3": 4.0520985976716036e-05
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.941507335955131e-06,
+      "equal3_minus_s2": -2.561019969929333e-06,
+      "pair02_minus_equal3": -3.804873660257983e-07
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 8.48093448818704e-05,
+      "equal3_minus_s2": 0.00028780659283513953,
+      "pair02_minus_equal3": -0.00020299724795326912
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.0644654192214118e-05,
+      "equal3_minus_s2": -0.0001757854206363257,
+      "pair02_minus_equal3": 0.00018643007482853984
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.5572436668694136e-06,
+      "equal3_minus_s2": 4.0765123613407406e-05,
+      "pair02_minus_equal3": -3.420787994653799e-05
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00015548578260747353,
+      "equal3_minus_s2": -2.5950077729524546e-06,
+      "pair02_minus_equal3": -0.00015289077483452107
+    },
+    {
+      "episode_id": "main-validation-e00035",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00035-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006276001108865418,
+      "equal3_minus_s2": -0.0007250560649660727,
+      "pair02_minus_equal3": 9.745595407953099e-05
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0001912795855290233,
+      "equal3_minus_s2": -0.000415161137583266,
+      "pair02_minus_equal3": 0.00022388155205424267
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0003083267321314277,
+      "equal3_minus_s2": 0.0005216610042750644,
+      "pair02_minus_equal3": -0.00021333427214363673
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003361818944152033,
+      "equal3_minus_s2": -0.00022633074456738904,
+      "pair02_minus_equal3": -0.00010985114984781428
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.970990294224036e-05,
+      "equal3_minus_s2": -0.0003919799219655634,
+      "pair02_minus_equal3": 0.00047168982490780376
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00054756014465019,
+      "equal3_minus_s2": -0.0001650910628374622,
+      "pair02_minus_equal3": -0.0003824690818127279
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.915385950996274e-05,
+      "equal3_minus_s2": -6.0093318603764873e-05,
+      "pair02_minus_equal3": 0.0001092471781137276
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00011004367101214215,
+      "equal3_minus_s2": 0.0001561343743236072,
+      "pair02_minus_equal3": -4.609070331146507e-05
+    },
+    {
+      "episode_id": "main-validation-e00039",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00039-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.864661575806279e-08,
+      "equal3_minus_s2": 2.2595486265726672e-07,
+      "pair02_minus_equal3": -1.6730824689920393e-07
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.818441549244587e-08,
+      "equal3_minus_s2": 9.136369769477567e-08,
+      "pair02_minus_equal3": -1.3179282202329791e-08
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006520316752325661,
+      "equal3_minus_s2": -0.0001342478029097904,
+      "pair02_minus_equal3": -0.0005177838723227757
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.679147433479914e-05,
+      "equal3_minus_s2": 0.00018984295248316075,
+      "pair02_minus_equal3": -9.30514781483616e-05
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005615875965216317,
+      "equal3_minus_s2": -0.0008842487938174369,
+      "pair02_minus_equal3": 0.00032266119729580526
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.015867311969491e-06,
+      "equal3_minus_s2": 3.377078057739826e-05,
+      "pair02_minus_equal3": -2.8754913265428772e-05
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005582757531499191,
+      "equal3_minus_s2": -0.0004812220295084018,
+      "pair02_minus_equal3": -7.705372364151728e-05
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0007319925266954312,
+      "equal3_minus_s2": -0.0007826605509440247,
+      "pair02_minus_equal3": 5.0668024248593574e-05
+    },
+    {
+      "episode_id": "main-validation-e00041",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00041-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.7468580135027872e-05,
+      "equal3_minus_s2": -8.805178525810446e-05,
+      "pair02_minus_equal3": 6.058320512307657e-05
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002463113910694021,
+      "equal3_minus_s2": -0.0002169203819311132,
+      "pair02_minus_equal3": -2.9391009138288915e-05
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0016072134817416439,
+      "equal3_minus_s2": 0.0018677293571905237,
+      "pair02_minus_equal3": -0.00026051587544887996
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.003907265446891503,
+      "equal3_minus_s2": -0.002784788248297351,
+      "pair02_minus_equal3": -0.0011224771985941522
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.392807952767164e-08,
+      "equal3_minus_s2": -1.384164079375669e-08,
+      "pair02_minus_equal3": 1.0776972032142833e-07
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0007367325771568668,
+      "equal3_minus_s2": 0.001254364831022086,
+      "pair02_minus_equal3": -0.0005176322538652192
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0330386291981349e-08,
+      "equal3_minus_s2": -8.436444801563856e-09,
+      "pair02_minus_equal3": -1.8939414904174934e-09
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.2089004593368468e-08,
+      "equal3_minus_s2": 1.3740214705791306e-08,
+      "pair02_minus_equal3": 8.348789887577163e-09
+    },
+    {
+      "episode_id": "main-validation-e00042",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00042-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0001051542525391214,
+      "equal3_minus_s2": 0.000208263848486054,
+      "pair02_minus_equal3": -0.00010310959594693258
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.70366211228057e-05,
+      "equal3_minus_s2": 9.77990910315372e-05,
+      "pair02_minus_equal3": -3.07624699087315e-05
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.2131058829499017e-06,
+      "equal3_minus_s2": 7.49088585392621e-07,
+      "pair02_minus_equal3": 4.640172975572808e-07
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.1237016743480825e-06,
+      "equal3_minus_s2": -2.683029712008659e-06,
+      "pair02_minus_equal3": 1.5593280376605762e-06
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0008740691392159394,
+      "equal3_minus_s2": -0.0011579610805575564,
+      "pair02_minus_equal3": 0.0002838919413416169
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003088719313266394,
+      "equal3_minus_s2": -0.000397412144303325,
+      "pair02_minus_equal3": 8.854021297668563e-05
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.301434496832369e-07,
+      "equal3_minus_s2": 0.002017527894695842,
+      "pair02_minus_equal3": -0.0020167977512461585
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.473202299394502e-06,
+      "equal3_minus_s2": -1.4689208135123604e-05,
+      "pair02_minus_equal3": 1.0216005835729102e-05
+    },
+    {
+      "episode_id": "main-validation-e00045",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00045-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.196323148495206e-08,
+      "equal3_minus_s2": -6.416696550266986e-08,
+      "pair02_minus_equal3": 2.2203734017717804e-08
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.2056556538748646e-06,
+      "equal3_minus_s2": 2.6248597134393335e-06,
+      "pair02_minus_equal3": -4.1920405956446916e-07
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.031070967074668e-06,
+      "equal3_minus_s2": -3.097756283905833e-06,
+      "pair02_minus_equal3": -3.933314683168836e-06
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.5854587844157067e-05,
+      "equal3_minus_s2": -1.679170405292322e-05,
+      "pair02_minus_equal3": 9.37116208766153e-07
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00016845009222047128,
+      "equal3_minus_s2": -0.00043949897532462,
+      "pair02_minus_equal3": 0.0002710488831041487
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00010480911645408514,
+      "equal3_minus_s2": 0.00014246996280831817,
+      "pair02_minus_equal3": -3.7660846354233044e-05
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0008234123473202725,
+      "equal3_minus_s2": -0.0007142937051238881,
+      "pair02_minus_equal3": -0.00010911864219638446
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0004863810638173078,
+      "equal3_minus_s2": -0.00016927574376068082,
+      "pair02_minus_equal3": -0.00031710532005662696
+    },
+    {
+      "episode_id": "main-validation-e00048",
+      "condition": "drift",
+      "machine_id": "main-validation-e00048-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00013548104060598856,
+      "equal3_minus_s2": -7.940656551509579e-05,
+      "pair02_minus_equal3": 0.00021488760612108434
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.9419776206685016e-08,
+      "equal3_minus_s2": 2.6753307034577026e-09,
+      "pair02_minus_equal3": 4.6744445503227314e-08
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.5050297325886623e-06,
+      "equal3_minus_s2": 1.0310698639430644e-05,
+      "pair02_minus_equal3": -8.805668906841983e-06
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.028125118356613e-05,
+      "equal3_minus_s2": 7.34678196457232e-05,
+      "pair02_minus_equal3": -0.00013374907082928933
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.545779082383481e-05,
+      "equal3_minus_s2": 8.266245993848708e-06,
+      "pair02_minus_equal3": -4.372403681768352e-05
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.56911425689415e-05,
+      "equal3_minus_s2": 9.319180553434772e-06,
+      "pair02_minus_equal3": 8.637196201550673e-05
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0010356678359973144,
+      "equal3_minus_s2": -0.0005168815449847736,
+      "pair02_minus_equal3": -0.0005187862910125409
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0011692751361240183,
+      "equal3_minus_s2": -0.0005479771175026462,
+      "pair02_minus_equal3": 0.0017172522536266647
+    },
+    {
+      "episode_id": "main-validation-e00051",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00051-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0013255607689803854,
+      "equal3_minus_s2": 0.0013712787516248159,
+      "pair02_minus_equal3": -4.571798264443037e-05
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00023721946459199746,
+      "equal3_minus_s2": 0.0001238422656406584,
+      "pair02_minus_equal3": 0.00011337719895133905
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.1506027907620286e-05,
+      "equal3_minus_s2": -1.8629071750934987e-05,
+      "pair02_minus_equal3": 7.123043843314701e-06
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.0268437634765745e-06,
+      "equal3_minus_s2": -4.529081296256597e-07,
+      "pair02_minus_equal3": -5.739356338509149e-07
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.467073439957393e-08,
+      "equal3_minus_s2": -1.3833963492227487e-09,
+      "pair02_minus_equal3": -3.328733805035118e-08
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002949747243613293,
+      "equal3_minus_s2": 0.000514236182483962,
+      "pair02_minus_equal3": -0.0002192614581226327
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00016001130125173674,
+      "equal3_minus_s2": 0.0003345450547212746,
+      "pair02_minus_equal3": -0.00017453375346953784
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.0440704879576e-07,
+      "equal3_minus_s2": -4.744630023762006e-07,
+      "pair02_minus_equal3": -1.299440464195594e-07
+    },
+    {
+      "episode_id": "main-validation-e00052",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00052-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.596722114490675e-06,
+      "equal3_minus_s2": 5.796278106966298e-05,
+      "pair02_minus_equal3": -6.155950318415366e-05
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.8748998163337977e-06,
+      "equal3_minus_s2": 1.2797017298344922e-06,
+      "pair02_minus_equal3": 5.951980864993055e-07
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.048846075477462e-07,
+      "equal3_minus_s2": -6.287105592101236e-07,
+      "pair02_minus_equal3": -1.761740483376228e-07
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.2652044691454163e-07,
+      "equal3_minus_s2": 1.1102728051019534e-07,
+      "pair02_minus_equal3": 1.1549316640434629e-07
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.192712779160812e-06,
+      "equal3_minus_s2": 1.685278022153844e-06,
+      "pair02_minus_equal3": 2.507434757006968e-06
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00095313024833807,
+      "equal3_minus_s2": -0.0013365268807594192,
+      "pair02_minus_equal3": 0.00038339663242134927
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.791201550939e-08,
+      "equal3_minus_s2": -9.133492054166541e-08,
+      "pair02_minus_equal3": 3.422905032275417e-09
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.6530860447778061e-07,
+      "equal3_minus_s2": -9.723966221943372e-09,
+      "pair02_minus_equal3": 1.75032570699724e-07
+    },
+    {
+      "episode_id": "main-validation-e00055",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00055-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.866070616327316e-05,
+      "equal3_minus_s2": -3.0126850100326863e-05,
+      "pair02_minus_equal3": -1.85338560629463e-05
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.558178936722036e-05,
+      "equal3_minus_s2": -8.658947276222517e-05,
+      "pair02_minus_equal3": 2.1007683395004808e-05
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005727323581946114,
+      "equal3_minus_s2": -0.0005528861626179865,
+      "pair02_minus_equal3": -1.9846195576624956e-05
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.8740664722724702e-08,
+      "equal3_minus_s2": -2.889648912616507e-09,
+      "pair02_minus_equal3": -1.5851015810108193e-08
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.5724893227951666e-07,
+      "equal3_minus_s2": 3.002343822361259e-07,
+      "pair02_minus_equal3": -1.4298544995660925e-07
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.211393769047181e-05,
+      "equal3_minus_s2": 1.998533142362991e-05,
+      "pair02_minus_equal3": 1.2128606266841896e-05
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.343096599988502e-05,
+      "equal3_minus_s2": -0.00017826511741013046,
+      "pair02_minus_equal3": 0.00010483415141024545
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.001723523149931735,
+      "equal3_minus_s2": 0.0015462567149414682,
+      "pair02_minus_equal3": 0.00017726643499026647
+    },
+    {
+      "episode_id": "main-validation-e00056",
+      "condition": "drift",
+      "machine_id": "main-validation-e00056-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002854799678193119,
+      "equal3_minus_s2": -0.00017458019628925818,
+      "pair02_minus_equal3": -0.0001108997715300537
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.513075734889232e-05,
+      "equal3_minus_s2": -2.4156805211173228e-05,
+      "pair02_minus_equal3": -5.097395213771909e-05
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.948443996119121e-07,
+      "equal3_minus_s2": 1.0068184880391995e-08,
+      "pair02_minus_equal3": -3.0491258449230407e-07
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003388623289112746,
+      "equal3_minus_s2": -0.00048577853423505,
+      "pair02_minus_equal3": 0.00014691620532377537
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.000448267531433856,
+      "equal3_minus_s2": -0.0006061173795538228,
+      "pair02_minus_equal3": 0.0001578498481199669
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.6813231678220417e-05,
+      "equal3_minus_s2": -2.3030410449178905e-05,
+      "pair02_minus_equal3": -3.782821229041512e-06
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.0630917820824276e-05,
+      "equal3_minus_s2": 5.2839322204511566e-05,
+      "pair02_minus_equal3": -2.2208404383687294e-05
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.2434210169471434e-05,
+      "equal3_minus_s2": -5.134478507294926e-06,
+      "pair02_minus_equal3": 3.756868867676636e-05
+    },
+    {
+      "episode_id": "main-validation-e00059",
+      "condition": "stable",
+      "machine_id": "main-validation-e00059-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.683972786483934e-05,
+      "equal3_minus_s2": 8.23222528614033e-06,
+      "pair02_minus_equal3": -5.5071953150979674e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.1358977310295498e-05,
+      "equal3_minus_s2": 4.1203122178862396e-05,
+      "pair02_minus_equal3": -1.98441448685669e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00012410800396051738,
+      "equal3_minus_s2": 1.9629704149119402e-05,
+      "pair02_minus_equal3": 0.00010447829981139798
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00012846946286193946,
+      "equal3_minus_s2": 3.950638684240932e-05,
+      "pair02_minus_equal3": 8.896307601953014e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00018566543438827316,
+      "equal3_minus_s2": -0.00023538890822081426,
+      "pair02_minus_equal3": 4.972347383254112e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00023501709959890886,
+      "equal3_minus_s2": -0.0001869606862297378,
+      "pair02_minus_equal3": -4.805641336917106e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.380228423486968e-05,
+      "equal3_minus_s2": -2.4718643515307508e-05,
+      "pair02_minus_equal3": 7.852092775017719e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00010541658282967395,
+      "equal3_minus_s2": 6.953712675537774e-05,
+      "pair02_minus_equal3": 3.5879456074296215e-05
+    },
+    {
+      "episode_id": "main-validation-e00062",
+      "condition": "drift",
+      "machine_id": "main-validation-e00062-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00012207312931382773,
+      "equal3_minus_s2": -0.0005242272057706727,
+      "pair02_minus_equal3": 0.000402154076456845
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.426029719321102e-07,
+      "equal3_minus_s2": 8.839578562677599e-07,
+      "pair02_minus_equal3": -1.4135488433564968e-07
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00020005453949576636,
+      "equal3_minus_s2": -0.00031533687185880893,
+      "pair02_minus_equal3": 0.00011528233236304259
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00011577750932546379,
+      "equal3_minus_s2": -0.0001308015114780085,
+      "pair02_minus_equal3": 1.5024002152544685e-05
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.530222235584062e-05,
+      "equal3_minus_s2": 2.0781619128810987e-06,
+      "pair02_minus_equal3": 3.3224060442959515e-05
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.002370869169202e-06,
+      "equal3_minus_s2": 7.692591077777229e-06,
+      "pair02_minus_equal3": -1.0694961946946431e-05
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.193094538289549e-05,
+      "equal3_minus_s2": -9.095663756724648e-06,
+      "pair02_minus_equal3": -2.283528162617084e-05
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.041424233875217e-05,
+      "equal3_minus_s2": -7.815361246498279e-05,
+      "pair02_minus_equal3": 3.773937012623063e-05
+    },
+    {
+      "episode_id": "main-validation-e00066",
+      "condition": "stable",
+      "machine_id": "main-validation-e00066-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.76252478607133e-07,
+      "equal3_minus_s2": -5.054719631455367e-07,
+      "pair02_minus_equal3": -1.707805154615963e-07
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.7500649449869098e-07,
+      "equal3_minus_s2": -9.136605367889826e-07,
+      "pair02_minus_equal3": 7.386540422902917e-07
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 3.295963256202083e-05,
+      "equal3_minus_s2": -2.8377283065440387e-05,
+      "pair02_minus_equal3": 6.133691562746122e-05
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 8.567708320373527e-06,
+      "equal3_minus_s2": -2.1882816537108688e-05,
+      "pair02_minus_equal3": 3.045052485748221e-05
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.105343251847005e-05,
+      "equal3_minus_s2": 0.00012054545197559836,
+      "pair02_minus_equal3": -2.9492019457128313e-05
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00023080511728890314,
+      "equal3_minus_s2": -0.000146747332152637,
+      "pair02_minus_equal3": -8.405778513626615e-05
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00017957489603361167,
+      "equal3_minus_s2": 0.0010353717579059613,
+      "pair02_minus_equal3": -0.001214946653939573
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.258015469309637e-05,
+      "equal3_minus_s2": -0.00014961167038300523,
+      "pair02_minus_equal3": 5.703151568990887e-05
+    },
+    {
+      "episode_id": "main-validation-e00067",
+      "condition": "stable",
+      "machine_id": "main-validation-e00067-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.8947425531697735e-07,
+      "equal3_minus_s2": -1.5098463054116832e-07,
+      "pair02_minus_equal3": -3.848962477580902e-08
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.7415303942522205e-06,
+      "equal3_minus_s2": -3.815329288644593e-06,
+      "pair02_minus_equal3": 2.073798894392372e-06
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0005923738436339241,
+      "equal3_minus_s2": 0.0004589252169651201,
+      "pair02_minus_equal3": 0.00013344862666880405
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.9675542122648767e-05,
+      "equal3_minus_s2": 5.313105064598464e-05,
+      "pair02_minus_equal3": -2.3455508523335872e-05
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.90454575700728e-05,
+      "equal3_minus_s2": -7.037422045871537e-05,
+      "pair02_minus_equal3": -2.867123711135742e-05
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.5064987692153756e-08,
+      "equal3_minus_s2": -2.0583199575766676e-08,
+      "pair02_minus_equal3": -1.4481788116387079e-08
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0003596067095869497,
+      "equal3_minus_s2": 0.0002641076260194624,
+      "pair02_minus_equal3": 9.54990835674873e-05
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.5800237489744546e-05,
+      "equal3_minus_s2": 1.1086749362388966e-05,
+      "pair02_minus_equal3": 4.713488127355581e-06
+    },
+    {
+      "episode_id": "main-validation-e00072",
+      "condition": "drift",
+      "machine_id": "main-validation-e00072-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.519828493003921e-05,
+      "equal3_minus_s2": -0.000160769286171434,
+      "pair02_minus_equal3": 0.00012557100124139479
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.122394941767011e-05,
+      "equal3_minus_s2": 2.4963171717963015e-05,
+      "pair02_minus_equal3": 2.6260777699707102e-05
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.345980314438163e-06,
+      "equal3_minus_s2": -1.5333947405385768e-05,
+      "pair02_minus_equal3": 1.1987967090947605e-05
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00012764966106535314,
+      "equal3_minus_s2": -0.000421608662585441,
+      "pair02_minus_equal3": 0.0005492583236507942
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.273474520489956e-06,
+      "equal3_minus_s2": 7.524631136543091e-06,
+      "pair02_minus_equal3": -3.2511566160531357e-06
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0005493995705291724,
+      "equal3_minus_s2": -0.0015894337084198771,
+      "pair02_minus_equal3": 0.0010400341378907047
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.1085748826943617e-08,
+      "equal3_minus_s2": 4.2723224200212996e-08,
+      "pair02_minus_equal3": -5.380897302715661e-08
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0009580726086680136,
+      "equal3_minus_s2": -0.0010229689166814115,
+      "pair02_minus_equal3": 6.48963080133979e-05
+    },
+    {
+      "episode_id": "main-validation-e00074",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00074-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00021328741890962036,
+      "equal3_minus_s2": -0.00013975116015562801,
+      "pair02_minus_equal3": -7.353625875399235e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.48164317985734e-05,
+      "equal3_minus_s2": -1.8632811509119635e-05,
+      "pair02_minus_equal3": -1.618362028945376e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00041941430033108965,
+      "equal3_minus_s2": 0.0003702036839011064,
+      "pair02_minus_equal3": 4.9210616429983235e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.7048401293617255e-06,
+      "equal3_minus_s2": 2.372506722824853e-05,
+      "pair02_minus_equal3": -2.642990735761025e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.920195209647687e-06,
+      "equal3_minus_s2": 0.000392741481137993,
+      "pair02_minus_equal3": -0.00040066167634764067
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.088053482584379e-07,
+      "equal3_minus_s2": -2.264275698992154e-07,
+      "pair02_minus_equal3": -8.237777835922245e-08
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003751238939241752,
+      "equal3_minus_s2": -0.00039577238391424617,
+      "pair02_minus_equal3": 2.0648489990071012e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.589650122144695e-05,
+      "equal3_minus_s2": 0.00014222001021206064,
+      "pair02_minus_equal3": -6.632350899061369e-05
+    },
+    {
+      "episode_id": "main-validation-e00076",
+      "condition": "stable",
+      "machine_id": "main-validation-e00076-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -5.15106076411451e-06,
+      "equal3_minus_s2": -9.267826318132424e-05,
+      "pair02_minus_equal3": 8.752720241720972e-05
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 9.361546158063525e-05,
+      "equal3_minus_s2": 6.272308796780759e-05,
+      "pair02_minus_equal3": 3.089237361282766e-05
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0014069016807294833,
+      "equal3_minus_s2": -0.001681339716806734,
+      "pair02_minus_equal3": 0.0002744380360772507
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0037851306299229942,
+      "equal3_minus_s2": 0.005212323639422322,
+      "pair02_minus_equal3": -0.0014271930094993267
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00024141954124137527,
+      "equal3_minus_s2": -0.0002982209766134325,
+      "pair02_minus_equal3": 0.0005396405178548077
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003347862570205668,
+      "equal3_minus_s2": 0.00039342110303298224,
+      "pair02_minus_equal3": -0.000728207360053549
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.8219439455685013e-05,
+      "equal3_minus_s2": -2.585942175532355e-05,
+      "pair02_minus_equal3": 7.639982299638537e-06
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.9240098642447578e-05,
+      "equal3_minus_s2": -3.279251910329113e-05,
+      "pair02_minus_equal3": 3.552420460843554e-06
+    },
+    {
+      "episode_id": "main-validation-e00080",
+      "condition": "drift",
+      "machine_id": "main-validation-e00080-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00024798910770858814,
+      "equal3_minus_s2": -0.000359120564667872,
+      "pair02_minus_equal3": 0.00011113145695928393
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0005172931529745275,
+      "equal3_minus_s2": 0.0010461955986575424,
+      "pair02_minus_equal3": -0.0005289024456830148
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002779292623495666,
+      "equal3_minus_s2": -0.0003519708408051575,
+      "pair02_minus_equal3": 7.404157845559089e-05
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.808702302813509e-05,
+      "equal3_minus_s2": 2.4015962379772305e-05,
+      "pair02_minus_equal3": -5.928939351637215e-06
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00016205117750293466,
+      "equal3_minus_s2": -0.00037626603038899513,
+      "pair02_minus_equal3": 0.0002142148528860605
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00174922654823581,
+      "equal3_minus_s2": -0.0019346890957518024,
+      "pair02_minus_equal3": 0.00018546254751599257
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00024182817953334788,
+      "equal3_minus_s2": -0.00042452208192467693,
+      "pair02_minus_equal3": 0.00018269390239132905
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.336375055400501e-05,
+      "equal3_minus_s2": -6.360682627277705e-05,
+      "pair02_minus_equal3": -2.975692428122796e-05
+    },
+    {
+      "episode_id": "main-validation-e00081",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00081-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.89395538432287e-05,
+      "equal3_minus_s2": -0.00020931283574881745,
+      "pair02_minus_equal3": 0.00011037328190558877
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 4.7589247165193667e-07,
+      "equal3_minus_s2": 4.4593741383007833e-07,
+      "pair02_minus_equal3": 2.995505782185833e-08
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": 7.871726202952148e-06,
+      "equal3_minus_s2": 1.369592614128075e-05,
+      "pair02_minus_equal3": -5.824199938328603e-06
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00014957262195429278,
+      "equal3_minus_s2": 0.00032785378653698774,
+      "pair02_minus_equal3": -0.00017828116458269496
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.57161015037813e-07,
+      "equal3_minus_s2": 6.187396759983823e-07,
+      "pair02_minus_equal3": -6.157866096056923e-08
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -8.573762907012181e-07,
+      "equal3_minus_s2": 1.1283933959804905e-05,
+      "pair02_minus_equal3": -1.2141310250506122e-05
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00030351091810155864,
+      "equal3_minus_s2": -0.0003821303668576673,
+      "pair02_minus_equal3": 7.861944875610868e-05
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -9.216361530849532e-05,
+      "equal3_minus_s2": -0.0006737773874446494,
+      "pair02_minus_equal3": 0.0005816137721361541
+    },
+    {
+      "episode_id": "main-validation-e00082",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00082-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00017060770854057203,
+      "equal3_minus_s2": 0.002085085768730176,
+      "pair02_minus_equal3": -0.0022556934772707477
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.4222216728387295e-07,
+      "equal3_minus_s2": -4.555696091740883e-07,
+      "pair02_minus_equal3": 1.33474418902153e-08
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0001941953206891943,
+      "equal3_minus_s2": -0.00018230461339936672,
+      "pair02_minus_equal3": -1.1890707289827561e-05
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.523704708455793e-06,
+      "equal3_minus_s2": -4.996541627106316e-06,
+      "pair02_minus_equal3": -2.527163081349476e-06
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.5390286701630384e-07,
+      "equal3_minus_s2": 5.115637951201963e-07,
+      "pair02_minus_equal3": -2.576609281038925e-07
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.0029847855706123e-06,
+      "equal3_minus_s2": -1.0286199023349824e-05,
+      "pair02_minus_equal3": 7.283214237779212e-06
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00010397894638039767,
+      "equal3_minus_s2": -0.00028042338444089673,
+      "pair02_minus_equal3": 0.00017644443806049906
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -7.568144465473661e-08,
+      "equal3_minus_s2": -1.9385389950688653e-07,
+      "pair02_minus_equal3": 1.1817245485214993e-07
+    },
+    {
+      "episode_id": "main-validation-e00085",
+      "condition": "drift",
+      "machine_id": "main-validation-e00085-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0001984545553123158,
+      "equal3_minus_s2": -0.00013009301714439863,
+      "pair02_minus_equal3": -6.836153816791719e-05
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.694793964404999e-05,
+      "equal3_minus_s2": -0.00017745410545425713,
+      "pair02_minus_equal3": 0.00023440204509830712
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00012149500213221223,
+      "equal3_minus_s2": -6.285089647907217e-05,
+      "pair02_minus_equal3": -5.864410565314005e-05
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 5.511873041105391e-05,
+      "equal3_minus_s2": -5.9676429108960295e-05,
+      "pair02_minus_equal3": 0.0001147951595200142
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002874410068812244,
+      "equal3_minus_s2": -0.0006382195116540013,
+      "pair02_minus_equal3": 0.00035077850477277685
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": 6.823577229464902e-05,
+      "equal3_minus_s2": -7.899237037321515e-06,
+      "pair02_minus_equal3": 7.613500933197053e-05
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002549176571240456,
+      "equal3_minus_s2": -0.00023653208400149705,
+      "pair02_minus_equal3": -1.8385573122548613e-05
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -2.2096031811449372e-05,
+      "equal3_minus_s2": -5.162174517863997e-05,
+      "pair02_minus_equal3": 2.95257133671906e-05
+    },
+    {
+      "episode_id": "main-validation-e00089",
+      "condition": "shared_change",
+      "machine_id": "main-validation-e00089-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0008457112073696264,
+      "equal3_minus_s2": 0.0005086409065098856,
+      "pair02_minus_equal3": 0.00033707030085974084
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.4095252077617653e-05,
+      "equal3_minus_s2": -0.00014149389732117152,
+      "pair02_minus_equal3": 0.00012739864524355388
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.5418404228141813e-07,
+      "equal3_minus_s2": -8.04204563691108e-06,
+      "pair02_minus_equal3": 7.687861594629661e-06
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.5450665260808383e-07,
+      "equal3_minus_s2": -5.514102721728161e-07,
+      "pair02_minus_equal3": 9.690361956473236e-08
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 1.760254872213217e-05,
+      "equal3_minus_s2": 8.725049176078785e-05,
+      "pair02_minus_equal3": -6.964794303865568e-05
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.001168850519013146,
+      "equal3_minus_s2": -0.0014211522286479684,
+      "pair02_minus_equal3": 0.00025230170963482223
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00011412272997429351,
+      "equal3_minus_s2": 0.00017555783465452124,
+      "pair02_minus_equal3": -6.143510468022773e-05
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.256638269939145e-06,
+      "equal3_minus_s2": -1.4747794714044028e-05,
+      "pair02_minus_equal3": 1.7004432983983172e-05
+    },
+    {
+      "episode_id": "main-validation-e00090",
+      "condition": "stable",
+      "machine_id": "main-validation-e00090-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.81135275113966e-07,
+      "equal3_minus_s2": -7.324827902533756e-07,
+      "pair02_minus_equal3": 5.1347515139409585e-08
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.4032310769674746e-05,
+      "equal3_minus_s2": -2.1523916542421796e-05,
+      "pair02_minus_equal3": -1.250839422725295e-05
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -3.662221323311012e-07,
+      "equal3_minus_s2": -2.0503649375994438e-07,
+      "pair02_minus_equal3": -1.611856385711568e-07
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": -6.269159385204739e-08,
+      "equal3_minus_s2": -1.1377956550770668e-07,
+      "pair02_minus_equal3": 5.108797165565929e-08
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0002180423076714647,
+      "equal3_minus_s2": -0.0003545837681667405,
+      "pair02_minus_equal3": 0.00013654146049527584
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006802620516700499,
+      "equal3_minus_s2": -0.0009858264118999685,
+      "pair02_minus_equal3": 0.00030556436022991857
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0032748337436545732,
+      "equal3_minus_s2": -0.003351349300907791,
+      "pair02_minus_equal3": 7.651555725321767e-05
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0005552620527490605,
+      "equal3_minus_s2": 0.0008000124284258527,
+      "pair02_minus_equal3": -0.0002447503756767923
+    },
+    {
+      "episode_id": "main-validation-e00091",
+      "condition": "drift",
+      "machine_id": "main-validation-e00091-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0006698902862277491,
+      "equal3_minus_s2": -0.0007867802216937282,
+      "pair02_minus_equal3": 0.00011688993546597917
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00029186253651651014,
+      "equal3_minus_s2": -0.0004088245810419867,
+      "pair02_minus_equal3": 0.00011696204452547652
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -4.338615024973622e-05,
+      "equal3_minus_s2": 0.00011931738361260236,
+      "pair02_minus_equal3": -0.00016270353386233858
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00019468558557336253,
+      "equal3_minus_s2": 8.72451016521067e-05,
+      "pair02_minus_equal3": 0.00010744048392125582
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0003270745595930312,
+      "equal3_minus_s2": 0.00026147311357268513,
+      "pair02_minus_equal3": 6.560144602034609e-05
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -1.3348048399989657e-06,
+      "equal3_minus_s2": -1.1009893241470796e-06,
+      "pair02_minus_equal3": -2.3381551585188623e-07
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0009434150082498803,
+      "equal3_minus_s2": -0.001107088818068577,
+      "pair02_minus_equal3": 0.0001636738098186966
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.1013778863364517e-05,
+      "equal3_minus_s2": 1.6696713824406425e-05,
+      "pair02_minus_equal3": 4.317065038958092e-06
+    },
+    {
+      "episode_id": "main-validation-e00094",
+      "condition": "stable",
+      "machine_id": "main-validation-e00094-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0003384607989712733,
+      "equal3_minus_s2": 0.00025162051646005423,
+      "pair02_minus_equal3": 8.68402825112191e-05
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m000",
+      "n_queries": 1,
+      "pair02_minus_s2": 8.846343318711873e-05,
+      "equal3_minus_s2": 0.00012239273479999977,
+      "pair02_minus_equal3": -3.392930161288105e-05
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m001",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0003273270719915983,
+      "equal3_minus_s2": -0.00047084083710905583,
+      "pair02_minus_equal3": 0.00014351376511745746
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m002",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002669032500177172,
+      "equal3_minus_s2": -0.00013596206991898935,
+      "pair02_minus_equal3": 0.00040286531993670655
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m003",
+      "n_queries": 1,
+      "pair02_minus_s2": 2.730288004586723e-05,
+      "equal3_minus_s2": 8.06139673993505e-06,
+      "pair02_minus_equal3": 1.9241483305932182e-05
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m004",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.00036661104622483166,
+      "equal3_minus_s2": -1.045334665585932e-06,
+      "pair02_minus_equal3": -0.0003655657115592457
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m005",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.00023884326177757927,
+      "equal3_minus_s2": 7.667528507440705e-06,
+      "pair02_minus_equal3": 0.0002311757332701386
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m006",
+      "n_queries": 1,
+      "pair02_minus_s2": -0.0012972825040308419,
+      "equal3_minus_s2": -0.0015680101897408967,
+      "pair02_minus_equal3": 0.00027072768571005483
+    },
+    {
+      "episode_id": "main-validation-e00095",
+      "condition": "short_history",
+      "machine_id": "main-validation-e00095-m007",
+      "n_queries": 1,
+      "pair02_minus_s2": 0.0002605364554334936,
+      "equal3_minus_s2": 0.00012107222412345665,
+      "pair02_minus_equal3": 0.00013946423131003694
+    }
+  ]
+}

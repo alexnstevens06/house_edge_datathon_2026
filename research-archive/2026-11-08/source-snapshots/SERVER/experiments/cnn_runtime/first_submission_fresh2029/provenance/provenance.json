@@ -1,0 +1,43 @@
+{
+  "package": "fp64_cnn03_entry",
+  "release_claim": false,
+  "precision": "fp64",
+  "precision_change": "inference only; checkpoint bytes are the saved CNN03 seed 0 checkpoint",
+  "training": false,
+  "selection": "tune-selected seed 0 only; seeds 1 and 2 are not included",
+  "checkpoint_sha256": "ce831b9b41653ae533ba05a64bb79ead340279fb93697caa5ab85c40bcc9203f",
+  "config_sha256": "6169196bc0827286d5bcbd931980727e0442b1ffdef664cb7f7b319cad4eb4f5",
+  "checkpoint_path_copied_from": "experiments/mlp_cnn_hpo/server_snapshot/runs/final_cnn03_s0/checkpoint.pt",
+  "packaged_source_sha256": {
+    "model.py": "7e63ccf7ad5b1177071d931aca13713390a5bdcc667f69652f6f97aa7e6c527a",
+    "data.py": "af23684b5348c53dafc0e3870706da7ed3dc64c852537371ac7c0ee97d916133",
+    "predict.py": "a2aa00a32b0af42445014fbe8980cfbbb2afc5644a474c10d48bdf43fc31e6c2"
+  },
+  "canonical_source_sha256": {
+    "experiments/mlp_cnn_hpo/server_snapshot/source/base_cnn.py": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+    "pinned_in": "experiments/mlp_cnn_hpo/review/PINNED.json"
+  },
+  "architecture": {"h": 128, "layers": 4, "kernel": 3, "W": 64, "drop": 0.3, "seed": 0},
+  "dtype_change": "model.double(); mask, tick, and arange use the embedding dtype; softmax is not cast to float32; Tensor.float is not patched",
+  "inputs": ["<split>/history.csv", "<split>/queries.csv"],
+  "default_split": "test",
+  "not_read": ["labels", "conditions", "signal column", "targets", "reference"],
+  "global_tensor_float_patch": false,
+  "reported_full_R": 0.36845453658648775,
+  "reported_points_60": 43.84508099893893,
+  "requirements_sha256": "cf701c4d2f312e39a8883c114ed354106fbb7b7d0cd5968f99cc6bd8746a0cab",
+  "requirements_package_count": 11,
+  "software": {
+    "python": "3.13.13",
+    "interpreter": "experiments/cnn_runtime/py313_verify_1936/env/bin/python",
+    "torch": "2.11.0+cpu",
+    "numpy": "2.5.4",
+    "packages_checked": 11
+  },
+  "cpu_wheel_filename": "torch-2.11.0+cpu-cp313-cp313-manylinux_2_28_x86_64.whl",
+  "cpu_wheel_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl",
+  "cpu_wheel_sha256": "45025d7752dbc6b4c784c03afaee9c5f19730ce084b2e43fc9a2fe1677d9ff86",
+  "cpu_wheel_bundled": false,
+  "organizer_approval_claimed": false,
+  "dependency_note": "requirements.txt is the verified 11-package lock. That lock is present. This record does not claim full organizer approval."
+}

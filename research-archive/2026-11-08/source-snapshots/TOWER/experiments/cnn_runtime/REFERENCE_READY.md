@@ -1,0 +1,1 @@
+Clean server reference NOW staged under experiments/cnn_runtime/reference/{experiments/cnn/{source,runs/g_nosignal},src}. Checkpoint SHA25643dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80. USE THIS exact source/data preprocessing, not potentially stale tower CNN source.

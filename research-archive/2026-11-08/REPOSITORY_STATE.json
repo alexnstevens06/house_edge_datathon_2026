@@ -1,0 +1,19 @@
+{
+  "observed_at_cst": "2026-11-08 08:52:48 AM CST",
+  "url": "https://github.com/alexnstevens06/house_edge_datathon_2026",
+  "visibility": "public",
+  "default_branch": "main",
+  "observed_main_commit": "330776489c1e03ecb51da75fea8d87d24929d106",
+  "upstream_tree": [
+    {
+      "path": "README.md",
+      "bytes": 27,
+      "git_blob_sha": "e2b49965688436b0c404152d052c909837dc4c99"
+    }
+  ],
+  "server_is_git_checkout": false,
+  "tower_local_branch": "main",
+  "tower_local_head": "unborn",
+  "tower_cached_tracking": "origin/main [gone]",
+  "policy": "Observe live GitHub again before publication. Preserve existing README and commits. No visibility change, force-push, repository creation or direct local push performed."
+}

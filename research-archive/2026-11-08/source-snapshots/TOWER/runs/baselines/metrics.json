@@ -1,0 +1,240 @@
+{
+  "global": {
+    "tune_R": 1.1992489955591483,
+    "confirm_R": 1.2942788474657085,
+    "full_val_R": 1.244627039982763,
+    "full_val": {
+      "R": 1.244627039982763,
+      "points_60": 26.730498622372806,
+      "points_80": 35.640664829830406,
+      "probability_error": {
+        "stable": 0.24547414905151296,
+        "short_history": 0.22259626310548827,
+        "drift": 0.24165850598166025,
+        "shared_change": 0.2465735084470869
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 1.2508185721180116,
+        "short_history": 1.2551846487726754,
+        "drift": 1.272999537883719,
+        "shared_change": 1.1995054011566464
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "context": {
+    "tune_R": 1.0053519959130142,
+    "confirm_R": 1.0377295126708113,
+    "full_val_R": 1.0212101698174603,
+    "full_val": {
+      "R": 1.0212101698174603,
+      "points_60": 29.685186081078704,
+      "points_80": 39.58024810810494,
+      "probability_error": {
+        "stable": 0.1943432816595629,
+        "short_history": 0.19152161603723505,
+        "drift": 0.19546365421875034,
+        "shared_change": 0.20246785316366447
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 0.9902801863471611,
+        "short_history": 1.0799596947597858,
+        "drift": 1.029656044933158,
+        "shared_change": 0.9849447532297364
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "empirical": {
+    "tune_R": 1.0073875214821437,
+    "confirm_R": 1.0035960023683597,
+    "full_val_R": 1.0054768320419782,
+    "full_val": {
+      "R": 1.0054768320419782,
+      "points_60": 29.918071872666786,
+      "points_80": 39.890762496889046,
+      "probability_error": {
+        "stable": 0.19770966229911355,
+        "short_history": 0.17855376882824706,
+        "drift": 0.19028414634433743,
+        "shared_change": 0.2066451358992045
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 1.0074336480906412,
+        "short_history": 1.006836082901856,
+        "drift": 1.002371629249925,
+        "shared_change": 1.0052659679254907
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "recent": {
+    "tune_R": 0.956699874497438,
+    "confirm_R": 0.9472526223603227,
+    "full_val_R": 0.9516516757807046,
+    "full_val": {
+      "R": 0.9516516757807046,
+      "points_60": 30.743190880103462,
+      "points_80": 40.990921173471285,
+      "probability_error": {
+        "stable": 0.19348648520003772,
+        "short_history": 0.18050623650557948,
+        "drift": 0.178127484973947,
+        "shared_change": 0.17771166043406383
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 0.9859143623765312,
+        "short_history": 1.0178457351827261,
+        "drift": 0.9383332282681266,
+        "shared_change": 0.8645133772954345
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "pooled": {
+    "tune_R": 1.0,
+    "confirm_R": 1.0,
+    "full_val_R": 1.0,
+    "full_val": {
+      "R": 1.0,
+      "points_60": 30.0,
+      "points_80": 40.0,
+      "probability_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 1.0,
+        "short_history": 1.0,
+        "drift": 1.0,
+        "shared_change": 1.0
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "pooled_recent": {
+    "tune_R": 0.9455283402712207,
+    "confirm_R": 0.9476036186189525,
+    "full_val_R": 0.9464181192654775,
+    "full_val": {
+      "R": 0.9464181192654775,
+      "points_60": 30.82585360572079,
+      "points_80": 41.101138140961055,
+      "probability_error": {
+        "stable": 0.18805283288234495,
+        "short_history": 0.17744096219824834,
+        "drift": 0.17965986713382584,
+        "shared_change": 0.18099355585373475
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 0.9582270753051094,
+        "short_history": 1.0005611446816898,
+        "drift": 0.9464054530526953,
+        "shared_change": 0.8804788040224153
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  },
+  "shrinkage64": {
+    "tune_R": 0.9529689936309564,
+    "confirm_R": 0.9774429310305404,
+    "full_val_R": 0.9646314575586784,
+    "full_val": {
+      "R": 0.9646314575586784,
+      "points_60": 30.54007904085897,
+      "points_80": 40.72010538781196,
+      "probability_error": {
+        "stable": 0.1932912147776937,
+        "short_history": 0.1804294510771803,
+        "drift": 0.18404353224378658,
+        "shared_change": 0.18227161192483268
+      },
+      "reference_error": {
+        "stable": 0.19625080289290195,
+        "short_history": 0.1773414479878668,
+        "drift": 0.18983393064179913,
+        "shared_change": 0.20556264957983816
+      },
+      "loss_ratio_by_condition": {
+        "stable": 0.9849193579257693,
+        "short_history": 1.0174127544595484,
+        "drift": 0.9694975583214439,
+        "shared_change": 0.886696159527952
+      },
+      "episodes": {
+        "stable": 24,
+        "short_history": 24,
+        "drift": 24,
+        "shared_change": 24
+      }
+    }
+  }
+}

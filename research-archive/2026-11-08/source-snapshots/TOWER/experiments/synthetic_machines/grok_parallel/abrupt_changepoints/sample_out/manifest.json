@@ -1,0 +1,61 @@
+{
+  "assumptions": [
+    "One exogenous changepoint per machine. No gradual blend between regimes.",
+    "Even slots start in regime 0 and odd slots start in regime 1, so the two steady slots (and other same-type pairs) begin in opposite regimes.",
+    "The episode anchor is shared. Machine offsets are -8,-4,0,0,4,8 ticks.",
+    "Anchor and offset ignore outcomes and do not depend on n_ticks.",
+    "P(observe) and the structural gap (tick + 3*slot) % 11 == 0 are exogenous. A missing row still has a latent payout in the log; features must ignore it.",
+    "The query signal is exogenous at the cutoff only. It is not a history feature.",
+    "No parameter was fit on organizer train, validation, or test files."
+  ],
+  "eligibility": "RESEARCH_ONLY",
+  "family": "abrupt_changepoints",
+  "missing_is_not_payout_zero": true,
+  "missing_payout_index": null,
+  "n_queries": 16,
+  "n_records": 512,
+  "n_truth": 512,
+  "output_hashes": {
+    "records.jsonl": "dde68e6838e5e51bc3416137e9d9e9eabe66800b1a4bdc637d7e5863557bd54c",
+    "truth.jsonl": "4cad265e3970563ea12996b7cbabf72deae8824489e3c9f3cce74ab4b3ce73b3"
+  },
+  "payout_order": [
+    0,
+    1,
+    2,
+    5,
+    20
+  ],
+  "payout_to_index": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "20": 4,
+    "5": 3
+  },
+  "probability_columns": [
+    "p_0",
+    "p_1",
+    "p_2",
+    "p_5",
+    "p_20"
+  ],
+  "real_only_fallback": true,
+  "rule": "Use organizer-released data. No verified synthetic exception.",
+  "seed": 0,
+  "settings": {
+    "max_records": 8192,
+    "n_episodes": 2,
+    "n_machines": 8,
+    "n_ticks": 32,
+    "seed": 0
+  },
+  "signal_scope": "query_cutoff_only",
+  "slot_equals_machine_id": true,
+  "source_hashes": {
+    "README.md": "eb3d9199e350f49d0b1701877adec2f7c16ae640ed46ff4fd3cc0b890374fb07",
+    "generate.py": "6f6e29c88e831c72084645d418bd51ba8173b20231e97d17bd70d27850bf2dde",
+    "test_generator.py": "42053f14f70e1b8d0ab9476e67f6d3361b0f48315a600fbb8760848b307133ba"
+  },
+  "synthetic_exception_verified": false
+}

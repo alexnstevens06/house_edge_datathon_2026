@@ -1,0 +1,18 @@
+# Alex t146 bounded study protocol (frozen before new evaluation)
+
+Authorization: pt146u, Nov8 2026 01:27 CST; no scope questions needed. Three streams only; no uploads/submissions/spend/permission/shared-system changes. Current best candidate ZIPdcb8.../CSV9bae... and original fallback ZIP61bb.../CSV08ee... immutable.
+
+## Evaluations
+CPU float64 canonical architecture/forward/softmax, float-then-sum row normalization and kit tolerance normalization, exact frozen TUNE384query/48episode IDs. No confirm/full/test metric selection. Freeze checkpoint/source/data/split hashes and negative guards before metrics. No significance claim.
+
+## Ensemble and blend matrix
+Existing original LR.003 seeds0/1/2 only, unchanged six-parent pins. Two probability-mean ensembles: equal3seed and equal0+2 (latter explicitly tune-informed). Compare original single best seed2 R .30980333573689856. No weight optimization. Blend only original LR.003 seed2 with the existing closed hard-signal shared-control predictor, weights0,.025,.05,.1,.2; exact weight0 identity/simplex tests. No blend of new fine-tunes or ensembles in this study.
+
+## Genuinely lower-rate fine-tune matrix
+Original seed2 LR.003 parent and its original seed2 control, weights-only warm starts disclosed, architecture unchanged. Two fixed LRs2e-5/5e-5, 5 epochs each, common FP32 training batch128/drop.3/AdamW wd.00895/gradclip1, same eligible TRAIN construction (18567windows/epoch), fixed continuation RNG20261108 shared across paired arms. No OneCycle/high-LR ramp. Four jobs total, no extra original seeds or extension. Checkpoint at epochs1/3/5, save states/RNG/provenance before any scoring. TRAIN loss each epoch; TUNE only at frozen points; no adaptive stop/extension based on metrics. Each job budget5epochs*ceil(18567/128)=730steps; all four2920steps total. Preserve original checkpoints.
+SERVER RTX5080 prioritized rate2e-5 pair. TOWER RX6700XT native gfx1031 handles rate5e-5 pair using the SAME frozen portable training source/config. Platform is confounded with rate: do not claim causal LR superiority; paired primary/control share host/precision/RNG/budget. Two jobs/device only if memory-safe and no other users, max2CPUthreads/2GiBhostRAM perjob, boundedGPUmemory; no CPUtraining fallback or fakeutilization. If native operation/memory/input-source compatibility fails, stop assigned jobs rather than expanding matrix or changing recipe after metrics.
+
+## Selection and release
+Global eligible candidates: currentbest unchanged; two predeclared original ensembles; five originalseed2/shared-control blend weights; saved checkpoints from four predeclared low-LR jobs at epochs1/3/5 (both primary/control eligible, origin disclosed). Choose lowest canonical CPUFP64TUNE R only, require at least1e-6 improvement to package versus currentbest. Tie within1e-6 favors currentbest, then singlemodel overensemble/blend; otherwise deterministic lowerLR/earlierepoch/fewercomponents/smallerblendweight order. Multiple tune comparisons acknowledged, no noise-significance or hidden-test claim. No extra combinations/rates/seeds/tranches.
+If improved, separately package only winner with all component pins if ensemble/blend; keep existingbest immutable. Independent actual exactfreshZIP/Python3.13Torch2.11CPU/offline network-none2CPU<=2GiB/coldrepeat/all1536IDs/finite-simplex/queryorder/causality/missingzero/float64/refusals/crosshostnormalized1e-8/PASS before delivery. No officialvalidationchecker metrics. Dependency contract unresolved, noorganizeracceptance or automaticcanonicalreplacement.
+Aim finalpackage before07:00CST; absolute deadline10:30CST Nov8. No endlessqueue.

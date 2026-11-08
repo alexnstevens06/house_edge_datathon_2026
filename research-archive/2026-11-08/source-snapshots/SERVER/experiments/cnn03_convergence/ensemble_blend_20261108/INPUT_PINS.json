@@ -1,0 +1,38 @@
+{
+  "curve_C_lr003_s0": {
+    "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s0/checkpoint.pt",
+    "sha256": "d5d714649a93e1e552ccf5419cb01adee311c082af1063f80d8b42f6d8dfe3cb",
+    "lr": 0.003,
+    "seed": 0
+  },
+  "curve_C_lr003_s1": {
+    "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s1/checkpoint.pt",
+    "sha256": "8a528179ad626fd3dede0989d047991449808b0feca9032cbda6729ceb07ce74",
+    "lr": 0.003,
+    "seed": 1
+  },
+  "curve_C_lr003_s2": {
+    "path": "experiments/cnn03_convergence/runs/curve_C_lr003_s2/checkpoint.pt",
+    "sha256": "bcef4104371484eedabce1ab1aca5fc340dcf0e4e2c4e6b2c946f0a1789e1f71",
+    "lr": 0.003,
+    "seed": 2
+  },
+  "curve_control_s0": {
+    "path": "experiments/cnn03_convergence/runs/curve_control_s0/checkpoint.pt",
+    "sha256": "30e4152896710be79b7f842118c4d36bf525f3c2a13205fd7c78abefb534c32b",
+    "lr": 0.00197,
+    "seed": 0
+  },
+  "curve_control_s1": {
+    "path": "experiments/cnn03_convergence/runs/curve_control_s1/checkpoint.pt",
+    "sha256": "dbe84aafea436b6a05462dc436bb1d39868f85e2e684d4b0efa9b7b9a485ca05",
+    "lr": 0.00197,
+    "seed": 1
+  },
+  "curve_control_s2": {
+    "path": "experiments/cnn03_convergence/runs/curve_control_s2/checkpoint.pt",
+    "sha256": "47694373a79521910aedce432a000a9f21ea57c4e3d921ce0d78ecfdc1b869f9",
+    "lr": 0.00197,
+    "seed": 2
+  }
+}

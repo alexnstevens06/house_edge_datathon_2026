@@ -1,0 +1,91 @@
+{
+ "full": {
+  "R": 0.5565778112243538,
+  "points_60": 38.54609745002464,
+  "points_80": 51.394796600032855,
+  "probability_error": {
+   "stable": 0.08139216320256122,
+   "short_history": 0.11654125226822104,
+   "drift": 0.11981487605397768,
+   "shared_change": 0.10756314167152335
+  },
+  "reference_error": {
+   "stable": 0.19625080289290195,
+   "short_history": 0.1773414479878668,
+   "drift": 0.18983393064179913,
+   "shared_change": 0.20556264957983816
+  },
+  "loss_ratio_by_condition": {
+   "stable": 0.4147354405830308,
+   "short_history": 0.6571574417064332,
+   "drift": 0.6311562724793305,
+   "shared_change": 0.5232620901286207
+  },
+  "episodes": {
+   "stable": 24,
+   "short_history": 24,
+   "drift": 24,
+   "shared_change": 24
+  }
+ },
+ "tune": {
+  "R": 0.5417332226648193,
+  "points_60": 38.917238804968214,
+  "points_80": 51.889651739957614,
+  "probability_error": {
+   "stable": 0.08978355667301612,
+   "short_history": 0.09957480507219751,
+   "drift": 0.11239370448445907,
+   "shared_change": 0.11924763701211048
+  },
+  "reference_error": {
+   "stable": 0.1992189824404176,
+   "short_history": 0.16991611383668068,
+   "drift": 0.19955286084293322,
+   "shared_change": 0.21031176333020085
+  },
+  "loss_ratio_by_condition": {
+   "stable": 0.4506777194280097,
+   "short_history": 0.5860233195299326,
+   "drift": 0.5632277282805954,
+   "shared_change": 0.5670041234207391
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ },
+ "confirm": {
+  "R": 0.5710325299469722,
+  "points_60": 38.19144343371757,
+  "points_80": 50.921924578290096,
+  "probability_error": {
+   "stable": 0.07300076973210633,
+   "short_history": 0.13350769946424457,
+   "drift": 0.12723604762349633,
+   "shared_change": 0.09587864633093622
+  },
+  "reference_error": {
+   "stable": 0.19328262334538623,
+   "short_history": 0.18476678213905293,
+   "drift": 0.18011500044066506,
+   "shared_change": 0.2008135358294755
+  },
+  "loss_ratio_by_condition": {
+   "stable": 0.37768925353241745,
+   "short_history": 0.7225741441108636,
+   "drift": 0.7064156084290795,
+   "shared_change": 0.4774511137155283
+  },
+  "episodes": {
+   "stable": 12,
+   "short_history": 12,
+   "drift": 12,
+   "shared_change": 12
+  }
+ },
+ "train_seconds": 20.382814168930054,
+ "peak_gpu_mb": 1606.65185546875
+}

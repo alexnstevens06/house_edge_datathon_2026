@@ -1,0 +1,92 @@
+{
+ "W": 64,
+ "batching": "host-staged microbatch; token-sum divided by labelled slots in the effective batch",
+ "case": "cnn03",
+ "curve": [
+  {
+   "epoch": 1,
+   "train_loss": 1.225918606184852,
+   "tune_R": 1.035445171186185
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.0384110549574388,
+   "tune_R": 1.0049123208072932
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.9669441096012362,
+   "tune_R": 0.586277195766894
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.8414089188670284,
+   "tune_R": 0.3697498334212656
+  },
+  {
+   "epoch": 30,
+   "train_loss": 0.7921143844738799,
+   "tune_R": 0.3291909269650826
+  }
+ ],
+ "device": "cuda",
+ "drop": 0.3,
+ "effective_batch": 512,
+ "elapsed_sec": 64.43288003699854,
+ "eligibility": "RESEARCH_ONLY",
+ "eligibility_status": "unresolved",
+ "exposures": 557010,
+ "flagship_claim": false,
+ "h": 128,
+ "init_sha256": "329c26e90d7864b0a0984b55917a67ed3469b9444e17329fb1be5994c39268db",
+ "labelled_slots_in_steps": 3931500,
+ "layers": 4,
+ "losses": [
+  1.225918606184852,
+  1.0738430890684065,
+  1.058053403627374,
+  1.0384110549574388,
+  1.0229603995372425,
+  1.0124912017851166,
+  1.0016588042752186,
+  0.9669441096012362,
+  0.9270804687734711,
+  0.904466533629795,
+  0.8882874043300094,
+  0.8768698382741585,
+  0.8657916256089739,
+  0.8571831203799849,
+  0.8487937510682203,
+  0.8414089188670284,
+  0.834411560201526,
+  0.828486840538512,
+  0.8235437877577105,
+  0.8184452964020191,
+  0.8133358682858224,
+  0.8085772513813323,
+  0.8038878245416575,
+  0.800957960458483,
+  0.797957181470558,
+  0.7950308058815639,
+  0.7941690589133028,
+  0.7931299083797253,
+  0.792561456398871,
+  0.7921143844738799
+ ],
+ "lr": 0.00197,
+ "microbatch": 128,
+ "mix": 0.0,
+ "nominal_vs_resident_512": "Same objective and OneCycle step count. Host staging plus a smaller microbatch changes only addition order if micro < 512.",
+ "oom_fallbacks": "OOM at microbatch 512; retrying smaller",
+ "optimizer": "AdamW",
+ "peak_gpu_mb": 805.72119140625,
+ "real_windows": 557010,
+ "scheduler": "OneCycleLR",
+ "seed": 0,
+ "steps_completed": 1110,
+ "steps_planned": 1110,
+ "submission_export": false,
+ "synth_windows": 0,
+ "tune_R": 0.3291909269650826,
+ "wd": 0.00895
+}

@@ -1,0 +1,110 @@
+{
+  "assumptions": [
+    "Catalog weights are explicit invented integers over 40, not fit to train, validation, or test.",
+    "steady and jackpot laws repeat every 4 phases; balanced uses 8 distinct phases.",
+    "Phase uses only that machine's earlier latent payouts (oracle) or earlier observed payouts (history).",
+    "A missing cell is unknown: payout_index is -1 and the observable filter applies no payout kick.",
+    "KICK of payout 0 is 3, so imputing 0 is a different update from a gap.",
+    "Cutoff equals n_ticks. signal is null. No historical query signal is synthesized.",
+    "machine_type_index follows balanced=0, jackpot=1, steady=2.",
+    "slot_index equals machine_id in 0..7."
+  ],
+  "eligibility": "RESEARCH_ONLY",
+  "eligibility_note": "kit/RULES.md says use organizer-released data. Test answers and private organizer files are off limits. No verified synthetic exception was found. Preserve the real-only fallback. Do not use this family for scoring, model selection, or eligible training.",
+  "family": "periodic",
+  "mappings": {
+    "clock_step": 1,
+    "cutoff": "n_ticks; history ticks are strictly less than cutoff",
+    "kick_by_payout_index": [
+      3,
+      0,
+      1,
+      2,
+      5
+    ],
+    "machine_type_by_slot": [
+      "steady",
+      "steady",
+      "balanced",
+      "balanced",
+      "balanced",
+      "jackpot",
+      "jackpot",
+      "jackpot"
+    ],
+    "machine_type_to_index": {
+      "balanced": 0,
+      "jackpot": 1,
+      "steady": 2
+    },
+    "missing": -1,
+    "observe_yes_no": {
+      "balanced": [
+        2,
+        1
+      ],
+      "jackpot": [
+        1,
+        1
+      ],
+      "steady": [
+        3,
+        1
+      ]
+    },
+    "payout_to_index": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "20": 4,
+      "5": 3
+    },
+    "payouts": [
+      0,
+      1,
+      2,
+      5,
+      20
+    ],
+    "period": 8,
+    "query_signal": null
+  },
+  "n_records": 6144,
+  "n_truth": 6144,
+  "output_hashes": {
+    "records.jsonl": "33dd24b5d3b4fea7957058eb5b51f4b491af502026387ee1d40ae66ff5e2037c",
+    "truth.jsonl": "ed2ea13815e867bfd492f91d7e957230fb9268fdbe2013657c824b2af052d2a7"
+  },
+  "real_only_fallback": true,
+  "research_only": true,
+  "seed": 0,
+  "settings": {
+    "clock_step": 1,
+    "cutoff": 96,
+    "family": "periodic",
+    "max_records": 8192,
+    "n_episodes": 8,
+    "n_machines": 8,
+    "n_records": 6144,
+    "n_ticks": 96,
+    "period": 8,
+    "probability_kind_observable": "observable_history",
+    "probability_kind_truth": "latent_oracle",
+    "seed": 0,
+    "weight_total": 40
+  },
+  "source_hashes": {
+    "README.md": "27b591907fef3893b849320c9f3214593a045fa8c9a58a3905f4a1adbd6b1f35",
+    "generate.py": "20be07cd82f857d37772ff6d010368f9baad35dcd8214ddebbec5d7a85710ef6",
+    "test_generator.py": "79efcb8fc15226a1340ff042f1a004a6c49e39cd3b93970f9af2bd77d0a718b5"
+  },
+  "test": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /home/alexn/Documents/code/datathon_2026/house-edge/.venv/bin/python -m unittest test_generator.py -v",
+    "cwd": "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/synthetic_machines/grok_parallel/periodic",
+    "exit_code": 0,
+    "log_file": "test_generator.log",
+    "log_sha256": "0622ff8abb17fd4b1178ac87f84ce524e9b2136130501953ef0eb12550fdfcf2",
+    "result": "PASS",
+    "tests_run": 10
+  }
+}

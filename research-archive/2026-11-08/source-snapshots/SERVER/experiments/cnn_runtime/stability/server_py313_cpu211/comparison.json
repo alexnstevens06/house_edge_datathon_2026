@@ -1,0 +1,160 @@
+{
+  "host_role": "tower_only",
+  "precision": "fp32",
+  "precision_change": false,
+  "tolerance_max_abs_after_row_normalization": 1e-08,
+  "relative_error_used_as_tolerance": false,
+  "checkpoint_sha256": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+  "reference_csv_sha256": "9ea67f812b80de18f03b1f6d8f0aeb6d5b91d8ce5c935dc83ba588e04b6be4e9",
+  "entry_sha256": {
+    "predict.py": "14627994eeadd6ff44d59f33754636ec90d4be84bd5715e8b373923db11717b2",
+    "model.py": "18b783f7a5c28c7dbbbec95c6174418594765a406d11f09b9e29599f35c13f40",
+    "data.py": "cbf99171c4dbddcacd5d168be629a8f04b1a6134421b0578e6067f21709c1b1a",
+    "reproduce.json": "cb91250a431dc92a45ceda7bf66df8006a4ecbce2b8e393f52f7284fd22246a1",
+    "requirements.txt": "8f61a4742845a4851622bd789343d069803bb12607d7391051b0d73e52c7f38b",
+    "checkpoint.pt": "43dc7050a98dd23ef5b622350e956af3ea53573dcc43fb74945e154cab6bff80",
+    "config/config.json": "c9022a4305be1c4124e6a116cd0cf3132fb5624a206f9b5571090ca3c4769d2f"
+  },
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "controls": [
+    "baseline",
+    "aten_avx2",
+    "onednn_avx2",
+    "mkldnn_off"
+  ],
+  "failures": [],
+  "pairs": [
+    {
+      "bitwise": true,
+      "max_abs_after_row_normalization": 0.0,
+      "cells_not_bitwise": 0,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": true,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "reference",
+      "right": "baseline"
+    },
+    {
+      "bitwise": true,
+      "max_abs_after_row_normalization": 0.0,
+      "cells_not_bitwise": 0,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": true,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "reference",
+      "right": "aten_avx2"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.742622056712719e-07,
+      "cells_not_bitwise": 7477,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "reference",
+      "right": "onednn_avx2"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.983054855938306e-07,
+      "cells_not_bitwise": 7361,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "reference",
+      "right": "mkldnn_off"
+    },
+    {
+      "bitwise": true,
+      "max_abs_after_row_normalization": 0.0,
+      "cells_not_bitwise": 0,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": true,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "baseline",
+      "right": "aten_avx2"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.742622056712719e-07,
+      "cells_not_bitwise": 7477,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "baseline",
+      "right": "onednn_avx2"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.983054855938306e-07,
+      "cells_not_bitwise": 7361,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "baseline",
+      "right": "mkldnn_off"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.742622056712719e-07,
+      "cells_not_bitwise": 7477,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "aten_avx2",
+      "right": "onednn_avx2"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 3.983054855938306e-07,
+      "cells_not_bitwise": 7361,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "aten_avx2",
+      "right": "mkldnn_off"
+    },
+    {
+      "bitwise": false,
+      "max_abs_after_row_normalization": 4.1929410249386123e-07,
+      "cells_not_bitwise": 7406,
+      "nonfinite_rows": 0,
+      "max_simplex_abs_err": 1.1102230246251565e-16,
+      "within_1e-8": false,
+      "metric": "max_abs_after_row_normalization",
+      "relative_error_used_as_tolerance": false,
+      "left": "onednn_avx2",
+      "right": "mkldnn_off"
+    }
+  ],
+  "fp32_all_compared_pairs_within_1e-8": false,
+  "not_cross_host_proof": true,
+  "entry_default_unchanged": true,
+  "command": [
+    "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/py313_verify_1936/env/bin/python",
+    "/home/alexn/Documents/code/datathon_2026/house-edge/experiments/cnn_runtime/stability/diagnose.py",
+    "--run-all",
+    "--data",
+    "kit/public",
+    "--out-dir",
+    "experiments/cnn_runtime/stability/server_py313_cpu211"
+  ]
+}

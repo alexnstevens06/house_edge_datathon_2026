@@ -1,0 +1,59 @@
+{
+  "out_dir": "runs/v1",
+  "device": "cuda",
+  "epochs": 30,
+  "smoke": false,
+  "seed": 0,
+  "lr": 0.0001,
+  "batch_size": 16,
+  "window": 64,
+  "backbone_path": "/home/alexn/Documents/code/datathon_2026/house-edge/runs/server_bf16_sparse/best.pt",
+  "backbone_sha256": "b429d6430f462564a511bc0505cf1cb9fca66b409dd075fa5167dd74fb3e6091",
+  "systems": {
+    "backbone_nosignal": {
+      "system": "backbone_nosignal",
+      "tune_R": 0.9443284946183536,
+      "confirm_R": 0.9859756807698008,
+      "full_val_R": 0.9646751478956359
+    },
+    "shared": {
+      "system": "shared",
+      "tune_R": 0.9441168009514629,
+      "confirm_R": 0.9775467021383482,
+      "full_val_R": 0.9603713582075055
+    },
+    "specialist_signal_-1": {
+      "system": "specialist_signal_-1",
+      "tune_R": 0.9574062289296004,
+      "confirm_R": 0.9996292393701647,
+      "full_val_R": 0.9780388610045397
+    },
+    "specialist_signal_+0": {
+      "system": "specialist_signal_+0",
+      "tune_R": 0.9494509942426818,
+      "confirm_R": 0.9813522093997404,
+      "full_val_R": 0.9648449479714684
+    },
+    "specialist_signal_+1": {
+      "system": "specialist_signal_+1",
+      "tune_R": 0.9391687205162483,
+      "confirm_R": 0.9780283778194964,
+      "full_val_R": 0.9581567430993484
+    },
+    "specialists_routed": {
+      "system": "specialists_routed",
+      "tune_R": 0.9416264559559461,
+      "confirm_R": 0.9853260030618928,
+      "full_val_R": 0.9629336273938348
+    }
+  },
+  "wall_seconds": 40.03,
+  "peak_vram_mb": 80.9,
+  "label_counts": "label_counts.json",
+  "finetune": {
+    "shared": 1,
+    "specialist_signal_-1": 3,
+    "specialist_signal_+0": 1,
+    "specialist_signal_+1": 1
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "arch": "dense",
+  "best_epoch": 10,
+  "tune_R": 0.9503179931627399,
+  "confirm_R": 0.9907753575355105,
+  "full_val_R": 0.9701960493345059,
+  "tune": {
+    "R": 0.9503179931627399,
+    "points_60": 30.764213943748114,
+    "points_80": 41.01895192499748,
+    "probability_error": {
+      "stable": 0.194853511800507,
+      "short_history": 0.17367480902724872,
+      "drift": 0.1922957658040038,
+      "shared_change": 0.17612154627630242
+    },
+    "reference_error": {
+      "stable": 0.1992189824404176,
+      "short_history": 0.16991611383668068,
+      "drift": 0.19955286084293322,
+      "shared_change": 0.21031176333020085
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9780870749040381,
+      "short_history": 1.0221208872172112,
+      "drift": 0.9636332197480173,
+      "shared_change": 0.8374307907816932
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "confirm": {
+    "R": 0.9907753575355105,
+    "points_60": 30.139010799429062,
+    "points_80": 40.18534773257208,
+    "probability_error": {
+      "stable": 0.19459259119359962,
+      "short_history": 0.19485328778556776,
+      "drift": 0.18257198836011293,
+      "shared_change": 0.17834094850916368
+    },
+    "reference_error": {
+      "stable": 0.19328262334538623,
+      "short_history": 0.18476678213905293,
+      "drift": 0.18011500044066506,
+      "shared_change": 0.2008135358294755
+    },
+    "loss_ratio_by_condition": {
+      "stable": 1.0067774734507433,
+      "short_history": 1.0545904709155127,
+      "drift": 1.013641217630051,
+      "shared_change": 0.8880922681457348
+    },
+    "episodes": {
+      "stable": 12,
+      "short_history": 12,
+      "drift": 12,
+      "shared_change": 12
+    }
+  },
+  "full_val": {
+    "R": 0.9701960493345059,
+    "points_60": 30.453822105808626,
+    "points_80": 40.60509614107817,
+    "probability_error": {
+      "stable": 0.1947230510654978,
+      "short_history": 0.18426405011284122,
+      "drift": 0.18743388277767623,
+      "shared_change": 0.17723124992606454
+    },
+    "reference_error": {
+      "stable": 0.19625080289290195,
+      "short_history": 0.1773414479878668,
+      "drift": 0.18983393064179913,
+      "shared_change": 0.20556264957983816
+    },
+    "loss_ratio_by_condition": {
+      "stable": 0.9922153091611153,
+      "short_history": 1.0390354437922942,
+      "drift": 0.9873571186351738,
+      "shared_change": 0.86217632574944
+    },
+    "episodes": {
+      "stable": 24,
+      "short_history": 24,
+      "drift": 24,
+      "shared_change": 24
+    }
+  },
+  "config": {
+    "arch": "dense",
+    "seed": 0,
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_ff": 256,
+    "dropout": 0.1,
+    "window": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch_size": 64,
+    "t_start": 16,
+    "epochs": 28,
+    "scheduler": "cosine",
+    "pilot": false,
+    "params": 121157,
+    "train_examples": 18567,
+    "sliding_examples": 18471,
+    "query_examples": 96,
+    "tokens_per_example": 475.38,
+    "steps_total": 8148,
+    "device": "cuda",
+    "torch_version": "2.9.1+rocm6.4",
+    "data_sha256_kit_zip": "06b5246f5cc51db5db26e26aae3264bec7b085d756dd82e5a0577dcba8a44f8a",
+    "train_seconds": 529.94,
+    "wall_seconds": 533.25,
+    "peak_vram_mb": 1924.9,
+    "throughput_examples_per_sec": 981.0,
+    "best_epoch": 10
+  }
+}

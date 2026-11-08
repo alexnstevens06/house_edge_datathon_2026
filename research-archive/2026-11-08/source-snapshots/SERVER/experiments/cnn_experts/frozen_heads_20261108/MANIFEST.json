@@ -1,0 +1,18 @@
+{
+  "idea": "frozen_history_trunk_tiny_signal_heads",
+  "seed": 0,
+  "frozen_before_metrics": true,
+  "plan_sha256": "67e0d041bb9182321f3ff45fd3f3f446528eb72c1a3311df6bdea4c028a1763a",
+  "split_ids_sha256": "555cc15ab64d766c90a9465cc1001f9a83b6639d29a8133a9dcd2d0e2cdb7c51",
+  "frozen_heads_py_sha256": "82fa16f446cbdee78ca8b477227790b20b96fe4cfff05efcaec378311c4925aa",
+  "run_seed_py_sha256": "5fcc90d6c05837733183d16ece68ceb7799010f594d06384f995278489d80977",
+  "test_py_sha256": "b6320a02ea51e4b890115058490bfdc9e0506de23d43c3d98a009c29166bf9fa",
+  "base_cnn_py_sha256": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+  "trunk_checkpoint": "experiments/cnn_experts/hard_signal/runs/s0/pretrain/checkpoint.pt",
+  "trunk_sha256": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760",
+  "trunk_provenance": "history-only pretrain, t < cutoff, 30 epochs, 1110 steps, 367109 params, no signal embedding",
+  "head": "Linear(5,5) identity init, 30 params, Adam lr 0.001 wd 0, 10 epochs, 10 steps",
+  "eval": "cpu float64 softmax, row renormalized, tune split only",
+  "tests": "8 passed in 2.43s at 2026-11-08 00:04:58 CST",
+  "gpu_note": "SERVER RTX 5080 only. Tower was not accessed. Memory fraction capped at 1GiB."
+}

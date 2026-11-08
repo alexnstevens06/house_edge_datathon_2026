@@ -1,0 +1,29 @@
+{
+  "study": "frozen_feature_heads_20261108",
+  "seed": 0,
+  "trained": false,
+  "tune_R": null,
+  "plan_sha256": "4bf04d32a65c1cc8d56342c6feb48d80e81e32a772fabeb91d63483f21f1ace4",
+  "trunk_sha256": "e482eeaa021d1b4b1a8e8fcf80b0cf0be820a755e2f3213b16c9a57fd42c8760",
+  "base_cnn_sha256": "b4bbd9af456e5edfbd2f3123a0001e1da45f50f676ed98f336ee134e6cc778d5",
+  "splits_sha256": "8f266f53f5da262c3141e57ea780668b552dc5608b63c2eaeee667cad79891cb",
+  "source_sha256": {
+    "frozen_heads.py": "1f2cf7ecbeee7b14dcc6b5957a585614ac350cd6be87ffa9738eaed148487dad",
+    "train.py": "d2fa036d12ddd9d11d49014d0a5ec55110ca920ab8cfea6b38d2a86d2434d560",
+    "test_frozen_heads.py": "bb77ff0b8e3479e1d4713ed0d748bb1da86f151fc0c37ea99fe58ceb3a76c633"
+  },
+  "schedule": {
+    "epochs": 10,
+    "lr": 0.001,
+    "wd": 0.0,
+    "steps": 10,
+    "optimizer": "AdamW",
+    "head_params": 645
+  },
+  "torch": "2.9.1+rocm6.4",
+  "hip": "6.4.43484-123eb5128",
+  "device_name": "AMD Radeon RX 6700 XT",
+  "gcnArchName": "gfx1031",
+  "torch_arch_list": ["gfx900", "gfx906", "gfx908", "gfx90a", "gfx942", "gfx1030", "gfx1100", "gfx1101", "gfx1102", "gfx1200", "gfx1201"],
+  "blocker": "hipErrorInvalidDeviceFunction on torch.zeros(device='cuda'); gfx1031 not in the wheel arch list"
+}
